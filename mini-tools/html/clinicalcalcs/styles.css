@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(177, 211, 241);
+}
+
+.jumbotron {
+    background-color: rgb(65, 65, 65);
+    color: whitesmoke;
+    font-family: Cambria;
+}
+
+h1, h3, h4 {
+    text-align: center;
+}
+
+p {
+    padding-left: 1em;
+    font-weight: bold;
+}
+
+#bmibutton, #crclbutton, #sidefxbutton {
+    background-color: blue;
+    color: yellow;
+    font-weight: bold;
+}
+
+input {
+    background-color: rgb(248, 248, 231);
+}
+
+.border {
+    font-weight: bold;
+}
+
+#bmicalculator {
+    background-color: rgba(115, 255, 220, 0.3);
+}
+
+#crclcalculator {
+    background-color: rgba(5, 245, 253, 0.3);
+}
+
+#sideeffects {
+    background-color: rgba(136, 189, 250, 0.3);
+}
+
+#vaccineinfo {
+    background-color: rgba(0, 78, 196, 0.301);
+}
+
+#vaccinetable {
+    background-color: rgba(0, 32, 216, 0.192);
+}
+
+#vaccinehead {
+    text-align: center;
+}

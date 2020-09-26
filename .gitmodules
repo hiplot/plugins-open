@@ -1,0 +1,99 @@
+[submodule "app-html/sra-explorer"]
+	path = app-html/sra-explorer
+	url = https://github.com/ewels/sra-explorer
+[submodule "app-html/sample-size-calculators"]
+	path = app-html/sample-size-calculators
+	url = https://github.com/SealedEnvelope/sample_size_calculators.js
+[submodule "app-html/clinicalcalcs"]
+	path = app-html/clinicalcalcs
+	url = https://github.com/bca-scimed/Clinicalcalcs
+[submodule "app-html/complexity-score"]
+	path = app-html/complexity-score
+	url = https://github.com/foolswood/complexity_score
+[submodule "app-html/curb-65-calculator"]
+	path = app-html/curb-65-calculator
+	url = https://github.com/BlueXen0n/CURB-65-Calculator
+[submodule "app-html/turndown"]
+	path = app-html/turndown
+	url = https://github.com/domchristie/turndown
+[submodule "app-html/toml-to-go"]
+	path = app-html/toml-to-go
+	url = https://github.com/xuri/toml-to-go
+[submodule "app-html/clipboard2markdown"]
+	path = app-html/clipboard2markdown
+	url = https://github.com/euangoddard/clipboard2markdown
+[submodule "shiny/is-cellr"]
+	path = shiny/is-cellr
+	url = https://github.com/immcore/iS-CellR
+[submodule "shiny/clust-vis-shiny"]
+	path = shiny/clust-vis-shiny
+	url = https://github.com/taunometsalu/ClustVis
+[submodule "shiny/shiny-cnv"]
+	path = shiny/shiny-cnv
+	url = https://github.com/gzhmat/ShinyCNV
+[submodule "shiny/pca-explorer"]
+	path = shiny/pca-explorer
+	url = https://github.com/benmarwick/Interactive_PCA_Explorer
+[submodule "shiny/genmap-comparator"]
+	path = shiny/genmap-comparator
+	url = https://github.com/holtzy/GenMap-Comparator
+[submodule "shiny/mach-learn"]
+	path = shiny/mach-learn
+	url = https://github.com/davesteps/machLearn
+[submodule "shiny/robvis"]
+	path = shiny/robvis
+	url = https://github.com/mcguinlu/robvisapp
+[submodule "shiny/dose-predict-shiny"]
+	path = shiny/dose-predict-shiny
+	url = https://github.com/malekokour1/DosePredict
+[submodule "shiny/v-sva"]
+	path = shiny/v-sva
+	url = https://github.com/nlawlor/V-SVA
+[submodule "shiny/cellector-shiny"]
+	path = shiny/cellector-shiny
+	url = https://github.com/francescojm/CELLector_App
+[submodule "shiny/chromosome-shiny"]
+	path = shiny/chromosome-shiny
+	url = https://github.com/venyao/shinyChromosome
+[submodule "shiny/tcga-tsne-survival-shiny"]
+	path = shiny/tcga-tsne-survival-shiny
+	url = https://github.com/RavulaPitt/Sequential-TSNE_RShiny
+[submodule "shiny/bmdx-shiny"]
+	path = shiny/bmdx-shiny
+	url = https://github.com/Greco-Lab/BMDx
+[submodule "shiny/dscore-app"]
+	path = shiny/dscore-app
+	url = https://github.com/OttaviaE/DscoreApp
+[submodule "shiny/human-microbiome-analysis-paper"]
+	path = shiny/human-microbiome-analysis-paper
+	url = https://github.com/microgenomics/HumanMicrobiomeAnalysis
+[submodule "shiny/shiny-aim"]
+	path = shiny/shiny-aim
+	url = https://github.com/whussain2/ShinyAIM
+[submodule "shiny/intervene-shiny"]
+	path = shiny/intervene-shiny
+	url = https://github.com/asntech/intervene-shiny
+[submodule "mini-tools/html/clinicalcalcs"]
+	path = mini-tools/html/clinicalcalcs
+	url = https://github.com/bca-scimed/Clinicalcalcs
+[submodule "mini-tools/html/clipboard2markdown"]
+	path = mini-tools/html/clipboard2markdown
+	url = https://github.com/euangoddard/clipboard2markdown
+[submodule "mini-tools/html/complexity-score"]
+	path = mini-tools/html/complexity-score
+	url = https://github.com/foolswood/complexity_score
+[submodule "mini-tools/html/curb-65-calculator"]
+	path = mini-tools/html/curb-65-calculator
+	url = https://github.com/BlueXen0n/CURB-65-Calculator
+[submodule "mini-tools/html/sample-size-calculators"]
+	path = mini-tools/html/sample-size-calculators
+	url = https://github.com/SealedEnvelope/sample_size_calculators.js
+[submodule "mini-tools/html/sra-explorer"]
+	path = mini-tools/html/sra-explorer
+	url = https://github.com/ewels/sra-explorer
+[submodule "mini-tools/html/toml-to-go"]
+	path = mini-tools/html/toml-to-go
+	url = https://github.com/xuri/toml-to-go
+[submodule "mini-tools/html/turndown"]
+	path = mini-tools/html/turndown
+	url = https://github.com/domchristie/turndown

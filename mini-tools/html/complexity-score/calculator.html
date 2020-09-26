@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>HCCP Calculator</title>
+        <style>
+            select {
+                width: 100%;
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>HCCP Calculator</h2>
+        <div id="f"></div>
+        <br/>
+        <button id="clear" type="reset">Clear</button>
+        <button id="calc" type="submit">Calculate</button>
+        <h1 id="score">-</h1>
+    </body>
+    <script>
+        var qs = {
+            "Respiratory": {
+                "None of these": 0,
+                "Frequent or increasing lower respiratory infections": 1,
+                "PICU admission for lower respiratory infection": 2,
+                "Requirement for long term oxygen or non-invasive ventilation at home": 3,
+                "Tracheostomy and/or 24 hour ventilation": 4
+            },
+            "Feeding": {
+                "None of these": 0,
+                "Gastrostomy/long term NG feeding (>6 months)": 1,
+                "Jejunostomy or severe uncontrolled reflux despite maximum treatment": 2,
+                "Losing weight or unable to administer essential medication due to feeding difficulties": 3,
+                "Pain/distress associated with feeding, causing progressive feed reduction or requirement for total parenteral nutrition": 4
+            },
+            "Locomotor": {
+                "None of these": 0,
+                "Whole body movement disorder/quadriplegia/myopathy": 1,
+                "Fixed scoliosis/GMFCS Level V": 2,
+                "GMFCS Level V equivalent with dystonia/no voluntary movement": 3,
+                "Difficulty with maintaining comfort in seating e.g. inoperable progressive scoliosis, intractable dystonic pain, pressure sores etc.": 4
+            },
+            "Seizures": {
+                "None of these": 0,
+                "Epilepsy requiring medication": 1,
+                "Poor seizure control despite at least three regular medications": 2,
+                "Frequent use of rescue medication (most days)": 3,
+                "Episodes of status epilepticus requiring intensive treatment (IV infusions/PICU) or for which these are seen as futile": 4
+            },
+            "Other interventions": {
+                "None of these": 0,
+                "Stoma/Insulin or clotting factor dependent": 1,
+                "Indwelling central access/long term urinary catheterisation/VP shunt/awaiting cardiac or neurosurgery": 2,
+                "Organ transplant/Dialysis/Intra-ventricular medication": 3,
+                "VP shunt requiring frequent revision": 4
+            }
+        }
+        var f = document.getElementById("f");
+        var selects = [];
+        for (let [q, opts] of Object.entries(qs)) {
+            var label_text = document.createTextNode(q);
+            var label = document.createElement("label");
+            label.appendChild(label_text);
+            var select = document.createElement("select");
+            var unsel = document.createElement("option");
+            unsel.setAttribute("disabled", true);
+            unsel.setAttribute("selected", true);
+            unsel.setAttribute("value", "");
+            unsel.innerText = "-- Choose --";
+            select.appendChild(unsel);
+            for (let [desc, val] of Object.entries(opts)) {
+                var opt = document.createElement("option");
+                opt.setAttribute("value", val);
+                opt.innerText = desc;
+                select.appendChild(opt);
+            }
+            selects.push(select);
+            f.appendChild(label);
+            f.appendChild(select);
+            f.appendChild(document.createElement("br"));
+        }
+        var score_box = document.getElementById("score");
+        function reset_selects() {
+            for (let select of selects) {
+                select.value = "";
+            }
+            score_box.innerText = "-";
+        }
+        var clear_btn = document.getElementById("clear");
+        clear_btn.addEventListener("click", reset_selects);
+        function calc_score() {
+            var score = 0;
+            for (let select of selects) {
+                console.log(select.value);
+                if (select.value === "") {
+                    score = "Unfilled fields";
+                    break;
+                } else {
+                    score += Number(select.value);
+                }
+            }
+            score_box.innerText = score;
+        }
+        var calc_btn = document.getElementById("calc");
+        calc_btn.addEventListener("click", calc_score);
+    </script>
+</html>

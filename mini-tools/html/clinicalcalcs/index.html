@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+
+    <!-- Jumbotron below -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Clinical and Medical Calculations</h1>
+            <h3 class="lead">Some examples below</h3>
+        </div>
+    </div>
+      <!-- end of jumbotron -->
+
+  </head>
+
+  <body>
+   <div class="container">
+       <div class="row">
+
+        <!-- BMI calculator below -->
+           <div id="bmicalculator" class="col-sm-6 border border-dark">
+                <h1>BMI Calculator</h1>
+                <br>
+                <h3>Input weight and height to receive BMI</h3>
+                <br>
+                <p>Weight (kg): <input id="weightinput" type="text"/></p>
+                <br>
+                <p>Height (cm): <input id="heightinput" type="text"/></p>
+                <br>
+                <p><input id="bmibutton" type="button" value="Calculate BMI" onclick="BMI()" />
+                </p>
+                <p id="bmiresult">Your result: </p>  
+                <br>
+                <p>A note about BMI: it can be used to predict potential health problems, but is not diagnostic.
+                  BMI does have limitations and may not be appropriate for all patients, such as athletes (weight lifters) or pregnant patients.
+                </p>
+           </div>
+
+<!-- CrCl calculator below, will need 4 inputs (gender, weight, age, sCr -->
+          <div id="crclcalculator" class="col-sm-6 border border-dark">
+            <h1>Creatinine Clearance Calculator</h1>
+            <br>
+            <h3>Input data for creatinine clearance (CrCl)</h3>
+            <br>
+            <p>Age (years): <input id="ageinput" type="text" /></p>
+            <br>
+            <p>Gender (M/F): <input id="genderinput" type="text" /></p>
+            <br>
+            <p>Weight (kg): <input id="weightinput2" type="text" /></p>
+            <br>
+            <p>Serum creatinine (mg/dL): <input id="sCrinput" type="text" /></p>
+            <br>
+            <p><input id="crclbutton" type="button" value="Calculate CrCl" onclick="CrCl()" />
+            </p>
+            <p id="finalCrCl">Your Creatinine Clearance (CrCl): </p>
+            <br>
+            <p>A note about creatinine clearance: it is only an estimation of renal function, and may not be
+              appropriate for all patients. There is a more accurate way to determine renal function, a 24-hr urine collection (for those with the resources and determination).
+            </p>
+          </div>
+
+<!-- end of row div below -->
+      </div>
+<br>
+<!-- start of new row div -->
+<div class="row">
+
+  <!-- new column below, drug side effects output based on drug name input -->
+  <!-- only works for sertraline right now, can be expanded to include other drugs -->
+  <div id="sideeffects" class="col-sm-6 border border-dark">
+    <h1>Drug Side Effects</h1>
+    <br>
+    <h3>Input generic drug name below</h3>
+    <h4>(just sertraline for now)</h4>
+    <br>
+    <p>Drug name (generic): <input id="userDrug" type="text" /></p>
+    <br>
+    <p><input id="sidefxbutton" type="button" value="Side effects" onclick="drugSE()" /></p>
+    <br>
+    <p id="drugname">Side effects of </p>
+  </div>
+
+<!-- new column below -->
+<div class="col-sm-6 border border-dark">
+  <h1>Antibiotic Dosing calculator</h1>
+  <h3>(coming soon)</h3>
+</div>
+
+</div>
+<br>
+<!-- start of new row div -->
+<div class="row">
+
+  <!-- new column below, vaccine information table -->
+  <div id="vaccineinfo" class="col-sm-12 border border-dark">
+    <h1>Vaccine Information</h1>
+    <h4 id="vaccinehead">Below is selected information for some common vaccines and the diseases they protect against</h4>
+    <br>
+    <table id="vaccinetable" class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Vaccine name</th>
+          <th scope="col">Protects against</th>
+          <th scope="col">Other info</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">DTaP</th>
+          <td>Diphtheria, Tetanus, Pertussis</td>
+          <td>DTaP is only for children younger than 7 years old</td>
+        </tr>
+        <tr>
+          <th scope="row">Hib</th>
+          <td><i>Haemophilus influenzae</i> type b</td>
+          <td>Hib vaccine usually requires 3 to 4 doses</td>
+        </tr>
+        <tr>
+          <th scope="row">MMR</th>
+          <td>Measles, Mumps, and
+            Rubella</td>
+          <td>MMR vaccinations will protect most people for life</td>
+        </tr>
+        <tr>
+          <th scope="row">HPV</th>
+          <td>Human Papillomavirus</td>
+          <td>Most HPV infections self-resolve within 2 years</td>
+        </tr>
+        <tr>
+          <th scope="row">Influenza</th>
+          <td>Flu</td>
+          <td>Thousands of people die from flu in the US each year</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+  </div>
+</div>
+<br>
+
+<!-- start of new row div -->
+<div class="row">
+
+  <!-- new column below, hypertension drug selector -->
+  <div class="col-sm-12 border border-dark">
+    <h1>Hypertension Drug Selector</h1>
+    <br>
+    <h3>There are generally four different drug classes to choose from when starting antihypertensive treatment</h3>
+    <br>
+   <p>Intro about picking between four classes of drugs</p>
+   <p>Then have a choice selector algorithm</p>
+
+
+  </div>
+</div>
+<br>
+
+<!-- Opioid dose calculator below -->
+<div class="row">
+  <div class="col-sm-12 border border-dark">
+    <h1>Opioid dose calculator</h1>
+    <h5>It should come as no surprise that higher doses of opioids are
+      also associated with a higher risk of overdose and death. Calculating
+      the total daily dose of opioids can identify patients that are at a higher risk of overdose and death -- 
+      and they can be monitored more closely, prescribed naloxone, or have their dose reduced.
+    </h5>
+  </div>
+</div>
+<br>
+
+
+  <!-- end of container div below -->
+   </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
