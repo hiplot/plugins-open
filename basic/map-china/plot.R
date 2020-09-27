@@ -14,8 +14,8 @@
 # All rights reserved.                                #
 #######################################################
 
-pacman::p_load(maptools)
-pacman::p_load(maps)
+require(maptools)
+require(maps)
 
 ############# Section 1 ##########################
 # input options, data and configuration section
@@ -34,7 +34,6 @@ pacman::p_load(maps)
   # read in data file
   usr_cnames <- colnames(data)
   colnames(data) <- c("name", "value")
-
   # read in map data
   china_map <- rgdal::readOGR(sprintf("%s/china.shp", script_dir))
 

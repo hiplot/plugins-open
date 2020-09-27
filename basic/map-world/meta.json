@@ -1,0 +1,22 @@
+{
+  "name": {
+    "zh_cn": "世界地图",
+    "en": "World Map"
+  },
+  "intro": {
+    "zh_cn": "用于展示世界地图.",
+    "en": "Display the map of the world."
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/88-JCtX60-tuya.jpg",
+  "href": "/basic/map-world",
+  "tag": [
+    "vue",
+    "map"
+  ],
+  "meta": {
+    "score": 2,
+    "author": "Hiplot Team",
+    "releaseDate": "2019-04-12",
+    "updateDate": "2019-06-06"
+  }
+}

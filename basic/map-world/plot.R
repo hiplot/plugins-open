@@ -14,7 +14,7 @@
 # All rights reserved.                                #
 #######################################################
 
-pacman::p_load(maptools)
+require(maptools)
 
 ############# Section 1 ##########################
 # input options, data and configuration section

@@ -1,0 +1,22 @@
+{
+  "name": {
+    "zh_cn": "中国地图",
+    "en": "China Map"
+  },
+  "intro": {
+    "zh_cn": "用于展示中国地图.",
+    "en": "Display the map of China."
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/86-JCtjXV-tuya.jpg",
+  "href": "/basic/map-china",
+  "tag": [
+    "vue",
+    "map"
+  ],
+  "meta": {
+    "score": 2,
+    "author": "Hiplot Team",
+    "releaseDate": "2019-04-12",
+    "updateDate": "2019-06-06"
+  }
+}

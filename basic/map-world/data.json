@@ -1,0 +1,31 @@
+{
+  "module": "basic",
+  "tool": "map-world",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["png", "pdf"],
+        "size": {
+          "width": 4,
+          "height": 2.5
+        },
+        "theme": "theme_bw",
+        "title": ""
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Test World Map Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "Country\tValue\nAaland Islands\t40\nAfghanistan\t92\nAlbania\t91\nAlgeria\t55\nAmerican Samoa\t76\nAndorra\t26\nAngola\t71\nAnguilla\t83\nAntarctica\t66\nAntigua and Barbuda\t30\nArgentina\t70\nArmenia\t22\nAruba\t50\nAustralia\t50\nAustria\t33\nAzerbaijan\t35\nBahamas\t87\nBahrain\t8\nBangladesh\t46\nBarbados\t84\nBelarus\t65\nBelgium\t94\nBelize\t30\nBenin\t45\nBermuda\t31\nBhutan\t95\nBolivia\t72\nBosnia and Herzegovina\t73\nBotswana\t8\nBouvet Island\t31\nBrazil\t56\nBritish Indian Ocean Territory\t45\nBritish Virgin Islands\t18\nBrunei Darussalam\t93\nBulgaria\t21\nBurkina Faso\t58\nBurma\t72\nBurundi\t26\nCambodia\t68\nCameroon\t89\nCanada\t7\nCape Verde\t2\nCayman Islands\t74\nCentral African Republic\t77\nChad\t45\nChile\t67\nChina\t10\nChristmas Island\t34\nCocos (Keeling) Islands\t71\nColombia\t30\nComoros\t7\nCongo\t60\nCook Islands\t49\nCosta Rica\t70\nCote d'Ivoire\t73\nCroatia\t81\nCuba\t49\nCyprus\t12\nCzech Republic\t49\nDemocratic Republic of the Congo\t24\nDenmark\t82\nDjibouti\t42\nDominica\t81\nDominican Republic\t71\nEcuador\t1\nEgypt\t95\nEl Salvador\t45\nEquatorial Guinea\t13\nEritrea\t68\nEstonia\t34\nEthiopia\t5\nFalkland Islands (Malvinas)\t34\nFaroe Islands\t31\nFiji\t42\nFinland\t36\nFrance\t80\nFrench Guiana\t26\nFrench Polynesia\t23\nFrench Southern and Antarctic Lands\t18\nGabon\t1\nGambia\t100\nGeorgia\t70\nGermany\t9\nGhana\t44\nGibraltar\t8\nGreece\t22\nGreenland\t49\nGrenada\t19\nGuadeloupe\t71\nGuam\t32\nGuatemala\t83\nGuernsey\t1\nGuinea\t67\nGuinea-Bissau\t60\nGuyana\t44\nHaiti\t45\nHeard Island and McDonald Islands\t16\nHoly See (Vatican City)\t15\nHonduras\t85\nHong Kong\t90\nHungary\t17\nIceland\t82\nIndia\t73\nIndonesia\t74\nIran (Islamic Republic of)\t77\nIraq\t100\nIreland\t71\nIsle of Man\t77\nIsrael\t31\nItaly\t8\nJamaica\t100\nJapan\t49\nJersey\t46\nJordan\t81\nKazakhstan\t40\nKenya\t5\nKiribati\t40\nKorea Democratic People's Republic of\t42\nKorea Republic of\t8\nKuwait\t77\nKyrgyzstan\t88\nLao People's Democratic Republic\t20\nLatvia\t86\nLebanon\t44\nLesotho\t64\nLiberia\t36\nLibyan Arab Jamahiriya\t43\nLiechtenstein\t95\nLithuania\t79\nLuxembourg\t82\nMacau\t28\nMadagascar\t4\nMalawi\t87\nMalaysia\t10\nMaldives\t54\nMali\t48\nMalta\t56\nMarshall Islands\t97\nMartinique\t12\nMauritania\t41\nMauritius\t76\nMayotte\t5\nMexico\t79\nMicronesia Federated States of\t25\nMonaco\t11\nMongolia\t41\nMontenegro\t90\nMontserrat\t61\nMorocco\t88\nMozambique\t68\nNamibia\t24\nNauru\t55\nNepal\t92\nNetherlands\t67\nNetherlands Antilles\t22\nNew Caledonia\t47\nNew Zealand\t72\nNicaragua\t90\nNiger\t90\nNigeria\t87\nNiue\t49\nNorfolk Island\t72\nNorthern Mariana Islands\t99\nNorway\t48\nOman\t79\nPakistan\t44\nPalau\t33\nPalestine\t96\nPanama\t70\nPapua New Guinea\t92\nParaguay\t61\nPeru\t86\nPhilippines\t99\nPitcairn Islands\t8\nPoland\t85\nPortugal\t74\nPuerto Rico\t47\nQatar\t56\nRepublic of Moldova\t47\nReunion\t14\nRomania\t81\nRussia\t3\nRwanda\t51\nSaint Barthelemy\t46\nSaint Helena\t57\nSaint Kitts and Nevis\t28\nSaint Lucia\t92\nSaint Martin\t31\nSaint Pierre and Miquelon\t61\nSaint Vincent and the Grenadines\t28\nSamoa\t73\nSan Marino\t45\nSao Tome and Principe\t49\nSaudi Arabia\t51\nSenegal\t75\nSerbia\t62\nSeychelles\t76\nSierra Leone\t85\nSingapore\t75\nSlovakia\t20\nSlovenia\t24\nSolomon Islands\t32\nSomalia\t27\nSouth Africa\t49\nSouth Georgia South Sandwich Islands\t36\nSpain\t79\nSri Lanka\t45\nSudan\t52\nSuriname\t64\nSvalbard\t58\nSwaziland\t2\nSweden\t93\nSwitzerland\t93\nSyrian Arab Republic\t49\nTajikistan\t34\nThailand\t8\nThe former Yugoslav Republic of Macedonia\t15\nTimor-Leste\t85\nTogo\t64\nTokelau\t62\nTonga\t6\nTrinidad and Tobago\t80\nTunisia\t47\nTurkey\t53\nTurkmenistan\t59\nTurks and Caicos Islands\t100\nTuvalu\t18\nUganda\t2\nUkraine\t52\nUnited Arab Emirates\t68\nUnited Kingdom\t13\nUnited Republic of Tanzania\t27\nUnited States\t11\nUnited States Minor Outlying Islands\t76\nUnited States Virgin Islands\t19\nUruguay\t38\nUzbekistan\t62\nVanuatu\t83\nVenezuela\t31\nViet Nam\t62\nWallis and Futuna Islands\t85\nWestern Sahara\t21\nYemen\t61\nZambia\t75\nZimbabwe\t80"
+    }
+  }
+}

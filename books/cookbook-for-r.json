@@ -1,0 +1,21 @@
+{
+  "name": {
+    "zh_cn": "R 参考手册 (中文)",
+    "en": "Cookbook-for-R (Chinese)"
+  },
+  "intro": {
+    "zh_cn": "R 语言入门书籍",
+    "en": "Learning R Language."
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/10-aAjfSJ-tuya.jpg",
+  "href": "/books/cookbook-for-r",
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team",
+    "email": "your_email@gmail.com",
+    "issues": "https://github.com/user/repo",
+    "citation": "your citation",
+    "releaseDate": "2020-07-28",
+    "updateDate": "2020-07-28"
+  }
+}
