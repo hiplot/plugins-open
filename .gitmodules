@@ -10,3 +10,6 @@
 [submodule "mini-tools/html/turndown"]
 	path = mini-tools/html/turndown
 	url = https://github.com/domchristie/turndown
+[submodule "mini-tools/html/online-encode-decode"]
+	path = mini-tools/html/online-encode-decode
+	url = https://github.com/emn178/online-tools
