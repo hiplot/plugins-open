@@ -70,6 +70,7 @@ require(maptools)
   ## set theme
   theme <- conf$general$theme
   p <- choose_ggplot_theme(p, theme)
+  p <- set_complex_general_theme(p, conf)
 }
 
 ############# Section 3 #############

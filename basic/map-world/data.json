@@ -8,7 +8,7 @@
       },
       "general": {
         "cmd": "",
-        "imageExportType": ["png", "pdf"],
+        "imageExportType": ["jpeg", "pdf"],
         "size": {
           "width": 4,
           "height": 2.5
@@ -21,7 +21,7 @@
   "exampleData": {
     "config": {
       "general": {
-        "title": "Test World Map Plot"
+        "title": "World Map Plot"
       }
     },
     "textarea": {

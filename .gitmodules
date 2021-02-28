@@ -13,3 +13,15 @@
 [submodule "mini-tools/html/online-encode-decode"]
 	path = mini-tools/html/online-encode-decode
 	url = https://github.com/emn178/online-tools
+[submodule "mini-tools/html/word-tree"]
+	path = mini-tools/html/word-tree
+	url = https://github.com/fotisz/WordTree
+[submodule "mini-tools/html/json-to-go"]
+	path = mini-tools/html/json-to-go
+	url = https://github.com/mholt/json-to-go
+[submodule "mini-tools/html-pkg/lite-mol"]
+	path = mini-tools/html-pkg/lite-mol
+	url = https://github.com/dsehnal/LiteMol
+[submodule "mini-tools/html-pkg/quiver"]
+	path = mini-tools/html-pkg/quiver
+	url = https://github.com/varkor/quiver
