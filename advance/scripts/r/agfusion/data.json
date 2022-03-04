@@ -1,0 +1,32 @@
+{
+  "module": "advance",
+  "tool": "agfusion",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 4,
+          "height": 4
+        },
+        "cliMode": true
+      },
+      "extra": {
+        "refgenefile": "hg38",
+        "wt": false
+      }
+    }
+  },
+  "exampleData": {
+    "textarea": {
+      "datTable": "gene5\tgene3\tbreakpoint5\tbreakpoint3\nFGFR2\tCCDC6\t121487991\t59807078"
+    }
+  }
+}

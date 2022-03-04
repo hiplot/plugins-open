@@ -85,6 +85,6 @@ require(maps)
 #          output section
 #####################################
 {
-  export_single(p, opt, conf)
+  export_single(p)
   source(sprintf("%s/../foot.R", script_dir))
 }

@@ -70,13 +70,13 @@ require(maptools)
   ## set theme
   theme <- conf$general$theme
   p <- choose_ggplot_theme(p, theme)
-  p <- set_complex_general_theme(p, conf)
+  p <- set_complex_general_theme(p)
 }
 
 ############# Section 3 #############
 #          output section
 #####################################
 {
-  export_single(p, opt, conf)
+  export_single(p)
   source(sprintf("%s/../foot.R", script_dir))
 }

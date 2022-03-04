@@ -1,0 +1,36 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "refgenefile": {
+      "type": "select",
+      "label": {
+        "en": "Reference Genome Version",
+        "zh_cn": "参考基因版本"
+      },
+      "items": [
+        "hg19",
+        "hg38"
+      ],
+      "class": "col-12"
+    },
+    "wt": {
+      "type": "switch",
+      "label": {
+        "en": "Output WT Gene",
+        "zh_cn": "输出野生型基因"
+      },
+      "class": "col-12"
+    }
+  }
+}
