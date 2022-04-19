@@ -1,8 +1,8 @@
 #######################################################
-# Fusion Circlize.                                    #
+# AGFusion.                                           #
 #-----------------------------------------------------#
 # Author: Jianfeng Li                                 #
-# Email: lee_jianfeng@hiplot.org                      #
+# Email: lee_jianfeng@openbiox.org                      #
 # Website: https://hiplot.com.cn                      #
 #                                                     #
 # Date: 2020-08-13                                    #
