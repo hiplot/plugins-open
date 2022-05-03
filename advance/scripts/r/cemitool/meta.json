@@ -1,0 +1,30 @@
+{
+  "name": {
+    "zh_cn": "CEMitool",
+    "en": "CEMitool"
+  },
+  "alias": ["Module-Net"],
+  "intro": {
+    "zh_cn": "基因共表达模块分析",
+    "en": "Co-expression modules analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/111-YD8MCt-tuya.jpg",
+  "href": "/advance/cemitool",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "expression",
+    "geneset"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Helder I. Nakaya & Hiplot Team | Jianfeng",
+    "issues": "https://github.com/csbl-usp/CEMiTool",
+    "citation": "Russo, P.S.T., Ferreira, G.R., Cardozo, L.E. et al. CEMiTool: a Bioconductor package for performing comprehensive modular co-expression analyses. BMC Bioinformatics 19, 56 (2018). https://doi.org/10.1186/s12859-018-2053-1",
+    "releaseDate": "2020-03-06",
+    "updateDate": "2020-07-06"
+  }
+}
