@@ -3,20 +3,27 @@
     "zh_cn": "中国地图",
     "en": "China Map"
   },
+  "alias": ["China-Map"],
   "intro": {
-    "zh_cn": "用于展示中国地图.",
-    "en": "Display the map of China."
+    "zh_cn": "用于展示中国地图",
+    "en": "Display the map of China"
   },
-  "src": "https://s1.imagehub.cc/images/2020/08/31/86-JCtjXV-tuya.jpg",
+  "src": "https://s1.imagehub.cc/images/2021/03/18/map-china-0.e3o39gp66ep-1-tuya.jpg",
   "href": "/basic/map-china",
   "tag": [
     "vue",
     "map"
   ],
+  "usergroup": [
+    1,
+    2
+  ],
   "meta": {
-    "score": 2,
+    "score": 4,
     "author": "Hiplot Team | Jack Wang",
+    "citation": "Shape file download from https://github.com/dongli/china-shapefiles",
     "releaseDate": "2019-04-12",
-    "updateDate": "2019-06-06"
+    "updateDate": "2020-11-26",
+    "version": "v0.1.1"
   }
 }

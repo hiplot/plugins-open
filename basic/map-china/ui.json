@@ -5,5 +5,11 @@
       "required": true,
       "label": "messages.common.dataTable"
     }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true,
+      "ppt": false
+    }
   }
 }

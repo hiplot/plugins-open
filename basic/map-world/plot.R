@@ -1,8 +1,9 @@
 #######################################################
 # World Map.                                          #
 #-----------------------------------------------------#
-# Author: < Mingjie Wang >                            #
+# Author: < Mingjie Wang > from < Ke Yan Mao >        #
 # Affiliation: Shanghai Hiplot Team                   #
+# Email: customer_service1501@tengyunbio.com          #
 # Website: https://hiplot.com.cn                      #
 #                                                     #
 # Date: 2020-04-10                                    #
@@ -14,63 +15,48 @@
 # All rights reserved.                                #
 #######################################################
 
-require(maptools)
+pkgs <- c("ggplot2", "data.table")
+pacman::p_load(pkgs, character.only = TRUE)
 
 ############# Section 1 ##########################
 # input options, data and configuration section
 ##################################################
 {
-  initial_options <- commandArgs(trailingOnly = FALSE)
-  file_arg_name <- "--file="
-  script_name <- sub(
-    file_arg_name, "",
-    initial_options[grep(file_arg_name, initial_options)]
-  )
-  script_dir <- dirname(script_name)
-  source(sprintf("%s/../lib.R", script_dir))
-  source(sprintf("%s/../head.R", script_dir))
-
-  # modify data and add Taiwan to China
-  # Taiwan always belong to China
-  tw <- data[data$Country == "China", ]
-  tw$Country[1] <- "Taiwan"
-  data <- rbind(data, tw)
-  rownames(data) <- NULL
-
-  # start plot
-  # this lets us use the contry name vs 3-letter ISO
-  data(wrld_simpl)
-  wrld_simpl@data$id <- wrld_simpl@data$NAME
-  wrld <- fortify(wrld_simpl, region = "id")
-  wrld <- subset(wrld, id != "Antarctica") # we don't rly need Antarctica
-  # define your own color panel
+  data[,2] <- as.numeric(data[,2])
+  data <- data.table(data)
+  dt_world <- readRDS(file.path(script_dir, "map-world/world.rds"))
+  colnames(data)[1] <- "region"
+  setkey(data, region)
+  setkey(dt_world, ENG_NAME)
+  data2 <- data[dt_world]
+  data <- as.data.frame(data)
+  data2 <- as.data.frame(data2)
+  data2$group <- as.numeric(data2$group)
+  data2[,colnames(data)[2]] <- as.numeric(data2[,colnames(data)[2]])
+  data2 <- subset(data2, region != "Antarctica")
 }
 
 ############# Section 2 #############
 #           plot section
 #####################################
 {
-  p <- ggplot() +
-    geom_map(
-      data = wrld, map = wrld,
-      aes(map_id = id, x = long, y = lat),
-      fill = "white", color = "#7f7f7f", size = 0.25
-    ) +
-    geom_map(
-      data = data, map = wrld,
-      aes(map_id = Country, fill = Value),
-      color = "white", size = 0.25
-    ) +
-    scale_fill_gradientn(colours = colorpanel(75,
-      low = "darkgreen",
-      mid = "yellow",
-      high = "red"
-    )) +
+  if (is.null(conf$general$paletteCont)) {
+    conf$general$paletteCont <- "RdYlBu"
+  }
+  colors <- get_hiplot_color(conf$general$paletteCont)
+  p <- ggplot(data2) +
+    geom_polygon(aes(x = long, y = lat, group = group, fill = data2[,colnames(data)[2]]),
+                alpha = 0.9, size = 0.5)+
+    geom_path(aes(x = long, y = lat, group = group), 
+             color = "black", size = 0.2) +
+    scale_fill_gradientn(colours = colors,
+    na.value = "grey10",
+    limits = c(0, max(data2[,colnames(data)[2]]) * 1.2)) +
     ggtitle(conf$general$title)
   ## set theme
   theme <- conf$general$theme
   p <- choose_ggplot_theme(p, theme)
-  p <- set_complex_general_theme(p)
+  p <- set_complex_general_theme(p) + labs(fill = colnames(data)[2])
 }
 
 ############# Section 3 #############
@@ -78,5 +64,5 @@ require(maptools)
 #####################################
 {
   export_single(p)
-  source(sprintf("%s/../foot.R", script_dir))
 }
+

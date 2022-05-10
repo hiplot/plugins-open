@@ -1,1 +1,0 @@
-../../developer/basic/foot.R

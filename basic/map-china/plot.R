@@ -1,8 +1,9 @@
 #######################################################
 # China Map.                                          #
 #-----------------------------------------------------#
-# Author: < Mingjie Wang >                            #
+# Author: < Mingjie Wang > from < Ke Yan Mao >        #
 # Affiliation: Shanghai Hiplot Team                   #
+# Email: customer_service1501@tengyunbio.com          #
 # Website: https://hiplot.com.cn                      #
 #                                                     #
 # Date: 2020-04-10                                    #
@@ -14,49 +15,21 @@
 # All rights reserved.                                #
 #######################################################
 
-require(maptools)
-require(maps)
+pkgs <- c("ggplot2", "data.table")
+pacman::p_load(pkgs, character.only = TRUE)
 
 ############# Section 1 ##########################
 # input options, data and configuration section
 ##################################################
 {
-  initial_options <- commandArgs(trailingOnly = FALSE)
-  file_arg_name <- "--file="
-  script_name <- sub(
-    file_arg_name, "",
-    initial_options[grep(file_arg_name, initial_options)]
-  )
-  script_dir <- dirname(script_name)
-  source(sprintf("%s/../lib.R", script_dir))
-  source(sprintf("%s/../head.R", script_dir))
-
   # read in data file
   usr_cnames <- colnames(data)
   colnames(data) <- c("name", "value")
-  # read in map data
-  china_map <- rgdal::readOGR(sprintf("%s/china.shp", script_dir))
 
-  # extract province information from shap file
-  china_province <- setDT(china_map@data)
-  setnames(china_province, "NAME", "province")
-
-  # transform to UTF-8 coding format
-  china_province[, province := iconv(province, from = "GBK", to = "UTF-8")]
-  # create id to join province back to lat and long, id = 0 ~ 924
-  china_province[, id := .I - 1]
-  # there are more shapes for one province due to small islands
-  china_province[, province := as.factor(province)]
-  dt_china <- setDT(fortify(china_map))
-  dt_china[, id := as.numeric(id)]
-  setkey(china_province, id)
-  setkey(dt_china, id)
-  dt_china <- china_province[dt_china]
-
-  # set input data
+  dt_china <- readRDS(file.path(script_dir, "map-china/china.rds"))
   data <- data.table(data)
   setkey(data, name)
-  setkey(dt_china, province)
+  setkey(dt_china, FCNAME)
   china_map_pop <- data[dt_china]
 }
 
@@ -64,6 +37,10 @@ require(maps)
 #           plot section
 #####################################
 {
+  if (is.null(conf$general$paletteCont)) {
+    conf$general$paletteCont <- "RdYlBu"
+  }
+  colors <- get_hiplot_color(conf$general$paletteCont)
   p <- ggplot(
     china_map_pop,
     aes(x = long, y = lat, group = group, fill = value)
@@ -71,10 +48,9 @@ require(maps)
     labs(fill = usr_cnames[2]) +
     geom_polygon() +
     geom_path() +
-    scale_fill_gradientn(colours = colorpanel(75,
-      low = "darkgreen",
-      mid = "yellow", high = "red"
-    ), na.value = "grey10") +
+    scale_fill_gradientn(colours = colors,
+    na.value = "grey10",
+    limits = c(0, max(china_map_pop$value) * 1.2)) +
     ggtitle(conf$general$title)
   ## set theme
   theme <- conf$general$theme
@@ -86,5 +62,4 @@ require(maps)
 #####################################
 {
   export_single(p)
-  source(sprintf("%s/../foot.R", script_dir))
 }

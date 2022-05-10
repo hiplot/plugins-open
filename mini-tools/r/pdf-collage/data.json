@@ -1,0 +1,46 @@
+{
+  "module": "mini-tools",
+  "tool": "pdf-collage",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "pdfs": {
+          "value": [],
+          "link": []
+        }
+      },
+      "general": {
+        "cmds": "",
+        "taskname": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "cliMode": true
+      },
+      "extra": {
+        "mode": "combine-grid",
+        "paper_size": "A4",
+        "fig_per_page": 4,
+        "landscape": true,
+        "dimensions_w": 29.7,
+        "dimensions_h": 21
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "pdfs": {
+          "value": [
+            "/public/demo/pdf-collage/bubble.pdf",
+            "/public/demo/pdf-collage/go-bar.pdf",
+            "/public/demo/pdf-collage/barplot.pdf",
+            "/public/demo/pdf-collage/diverging-scale.pdf"],
+          "link": []
+        }
+      }
+    }
+  }
+}

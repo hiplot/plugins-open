@@ -10,11 +10,14 @@
         "cmd": "",
         "imageExportType": ["jpeg", "pdf"],
         "size": {
-          "width": 4,
-          "height": 3
+          "width": 8,
+          "height": 6
         },
-        "theme": "theme_bw",
-        "title": ""
+        "theme": "theme_minimal",
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "font": "Arial",
+        "plumber": false
       }
     }
   },

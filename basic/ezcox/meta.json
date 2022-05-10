@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Cox 模型森林图",
+    "en": "Cox Models Forest"
+  },
+  "alias": ["Cox-Model"],
+  "intro": {
+    "zh_cn": "用于生存数据分析",
+    "en": "Used for survival data analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/18-aLsT6U-tuya.jpg",
+  "href": "/basic/ezcox",
+  "tag": ["vue", "model", "survival"],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Shixiang Wang",
+    "email": "wangshx@shanghaitech.edu.cn",
+    "issues": "https://github.com/ShixiangWang/ezcox",
+    "releaseDate": "2020-08-11",
+    "updateDate": "2021-02-04",
+    "citation": "Wang, Shixiang, et al. \"The predictive power of tumor\nmutational burden in lung cancer immunotherapy response is influenced\nby patients' sex.\" International journal of cancer (2019)."
+  }
+}
