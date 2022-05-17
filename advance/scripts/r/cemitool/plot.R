@@ -3,7 +3,7 @@
 #-----------------------------------------------------#
 # Author: Jianfeng Li                                 #
 # Email: lee_jianfeng@hiplot.org                      #
-# Website: https://hiplot.com.cn                      #
+# Website: hiplot-academic.com                      #
 #                                                     #
 # Date: 2020-08-13                                    #
 # Version: 0.1                                        #
