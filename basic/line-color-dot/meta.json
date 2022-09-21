@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "线图（颜色点）",
+    "en": "Line (Color Dot)"
+  },
+  "alias": ["Line-ColorDot"],
+  "intro": {
+    "zh_cn": "展示变量间关系",
+    "en": "Display the variables"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/01/pdf-collage-0.zson370zii7-1-1.jpg",
+  "href": "/basic/line-color-dot",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2022-04-01",
+    "updateDate": "2022-04-01",
+    "citation": "Shenoy, A. R. (2021) grafify: an R package for easy graphs, ANOVAs and post-hoc comparisons. Zenodo. http://doi.org/10.5281/zenodo.5136508",
+    "version": "v0.1.0"
+  }
+}

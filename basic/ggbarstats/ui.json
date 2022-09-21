@@ -1,0 +1,34 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [{"label": "X"}, {"label": "Y"}, {"label": "Group", "required": false}]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "paired": {
+      "type": "switch",
+      "label": "messages.common.paried",
+      "class": "col-12"
+    },
+    "ncol": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "图片列数",
+        "en": "Ncol"
+      },
+      "class": "col-12",
+      "min": 1,
+      "if_func": "this.params.config.dataArg.datTable[2].value"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Term"
+      },
+      {
+        "label": "Count"
+      },
+      {
+        "label": "Type"
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "topnum": {
+      "type": "slider",
+      "label": "messages.basic.bubble.topnum",
+      "max": 9999,
+      "class": "col-12"
+    },
+    "coord_flip": {
+      "type": "switch",
+      "label": {
+        "en": "Coord Flip",
+        "zh_cn": "反转坐标轴"
+      }
+    }
+  }
+}

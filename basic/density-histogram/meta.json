@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "密度图-直方图",
+    "en": "Density-Histogram"
+  },
+  "alias": ["Density-Histogram"],
+  "intro": {
+    "zh_cn": "展示数据分布",
+    "en": "Display data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/02/density-histogram-0.9vhe06q0uk-1.jpg",
+  "href": "/basic/density-histogram",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2022-04-02",
+    "updateDate": "2022-04-02",
+    "citation": "Shenoy, A. R. (2021) grafify: an R package for easy graphs, ANOVAs and post-hoc comparisons. Zenodo. http://doi.org/10.5281/zenodo.5136508",
+    "version": "v0.1.0"
+  }
+}

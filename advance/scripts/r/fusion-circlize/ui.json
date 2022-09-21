@@ -16,7 +16,8 @@
         "required": false
       },
       {
-        "label": "Link Color"
+        "label": "Link Color",
+        "individual": true
       },
       {
         "label": "Label Color"

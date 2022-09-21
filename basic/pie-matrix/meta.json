@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "饼图矩阵",
+    "en": "Pie Matrix"
+  },
+  "alias": ["Stats-PieMatrix"],
+  "intro": {
+    "zh_cn": "展示数据占比",
+    "en": "Display data percent"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/03/27/pie-matrix-0.5h09ecqqpq9-1-tuya13ec9757f1ae3e54.jpg",
+  "href": "/basic/pie-matrix",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2022-03-27",
+    "updateDate": "2022-03-27",
+    "version": "v0.1.0"
+  }
+}

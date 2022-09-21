@@ -1,0 +1,107 @@
+{
+  "module": "basic",
+  "tool": "point-sd",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 6,
+          "height": 4
+        },
+        "theme": "default",
+        "palette": "grafify",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "transformY": "",
+        "ybreaks": []
+      },
+      "extra": {
+        "yintercept": "median",
+        "point_size": 5,
+        "point_thick": 0.5
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "Doubling_time"
+            },
+            {
+              "value": "Student"
+            },
+            {
+              "value": ""
+            }
+          ]
+        },
+        "general": {
+          "title": "Point-SD"
+        }
+      },
+      "textarea": {
+        "datTable": "Experiment\tStudent\tDoubling_time\tfacet\nExp1\tA\t17.36765255\tF1\nExp1\tB\t18.04118772\tF1\nExp1\tC\t18.70120484\tF1\nExp1\tD\t20.06761596\tF1\nExp1\tE\t20.19806909\tF2\nExp1\tF\t22.11907857\tF2\nExp1\tG\t22.64576693\tF2\nExp1\tH\t22.05544067\tF2\nExp1\tI\t20.58526975\tF2\nExp1\tJ\t21.69688231\tF2\nExp2\tA\t22.03291526\tF1\nExp2\tB\t22.42117195\tF1\nExp2\tC\t20.16421296\tF1\nExp2\tD\t14.91919347\tF1\nExp2\tE\t18.47705967\tF2\nExp2\tF\t19.36348152\tF2\nExp2\tG\t18.39242966\tF2\nExp2\tH\t16.41508176\tF2\nExp2\tI\t20.13046102\tF2\nExp2\tJ\t21.08589933\tF2\nExp3\tA\t20.48513787\tF1\nExp3\tB\t18.30935344\tF1\nExp3\tC\t19.24152172\tF1\nExp3\tD\t21.38061093\tF1\nExp3\tE\t19.3248693\tF2\nExp3\tF\t20.62809197\tF2\nExp3\tG\t20.31287118\tF2\nExp3\tH\t18.9901684\tF2\nExp3\tI\t21.20245087\tF2\nExp3\tJ\t20.737506\tF2\nExp1\tA\t17.36765255\tF2\nExp1\tB\t18.04118772\tF2\nExp1\tC\t18.70120484\tF2\nExp1\tD\t20.06761596\tF2\nExp1\tE\t20.19806909\tF1\nExp1\tF\t22.11907857\tF1\nExp1\tG\t22.64576693\tF1\nExp1\tH\t22.05544067\tF1\nExp1\tI\t20.58526975\tF1\nExp1\tJ\t21.69688231\tF1\nExp2\tA\t22.03291526\tF2\nExp2\tB\t22.42117195\tF2\nExp2\tC\t20.16421296\tF2\nExp2\tD\t14.91919347\tF2\nExp2\tE\t18.47705967\tF1\nExp2\tF\t19.36348152\tF1\nExp2\tG\t18.39242966\tF1\nExp2\tH\t16.41508176\tF1\nExp2\tI\t20.13046102\tF1\nExp2\tJ\t21.08589933\tF1\nExp3\tA\t20.48513787\tF2\nExp3\tB\t18.30935344\tF2\nExp3\tC\t19.24152172\tF2\nExp3\tD\t21.38061093\tF2\nExp3\tE\t19.3248693\tF1\nExp3\tF\t20.62809197\tF1\nExp3\tG\t20.31287118\tF1\nExp3\tH\t18.9901684\tF1\nExp3\tI\t21.20245087\tF1\nExp3\tJ\t20.737506\tF1\n"
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "Doubling_time"
+            },
+            {
+              "value": "Student"
+            },
+            {
+              "value": "facet"
+            }
+          ]
+        },
+        "general": {
+          "title": "Point-SD with facet",
+          "size": {
+            "width": 10,
+            "height": 5,
+            "alpha": 0.8
+          }
+        }
+      }
+    }
+  ]
+}

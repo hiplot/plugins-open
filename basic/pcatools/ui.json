@@ -24,7 +24,7 @@
           "en": "Biplot Color By",
           "zh_cn": "双标图颜色列"
         },
-        "individual": true,
+        "independent": true,
         "class": "col-12 col-md-6"
       },
       {
@@ -32,7 +32,7 @@
           "en": "Biplot Shape By",
           "zh_cn": "双标图形状列"
         },
-        "individual": true,
+        "independent": true,
         "class": "col-12 col-md-6",
         "required": false
       },
@@ -41,7 +41,7 @@
           "en": "Eigencorplot Phenotype",
           "zh_cn": "关联热图表型列"
         },
-        "individual": true,
+        "independent": true,
         "class": "col-12",
         "multiple": true,
         "required": false

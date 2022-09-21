@@ -34,7 +34,7 @@
         },
         "blackItems": ["time", "status"],
         "required": false,
-        "individual": true
+        "independent": true
       }
     ]
   },
