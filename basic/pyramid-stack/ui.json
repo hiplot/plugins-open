@@ -1,0 +1,18 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "stack": {
+      "type": "switch",
+      "label": {
+        "en": "Stack",
+        "zh_cn": "堆叠"
+      }
+    }
+  }
+}

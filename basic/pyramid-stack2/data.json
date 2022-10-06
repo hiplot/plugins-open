@@ -1,0 +1,34 @@
+{
+  "module": "basic",
+  "tool": "pyramid-stack2",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 9,
+          "height": 7
+        },
+        "theme": "default",
+        "palette": "npg",
+        "title": "",
+        "xlab": "",
+        "xbreaks": []
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Porridge temperature by age and sex of bear",
+        "xlab": "Value",
+        "xbreaks": [0, 10, 20, 30]
+      }
+    },
+    "textarea": {
+      "datTable": "Month\tYear\tClass1\tClass2\tClass3\tClass4\n1\t2019\t8\t6\t8\t6\n2\t2019\t4\t2\t4\t2\n3\t2019\t4\t4.5\t1\t4.5\n4\t2019\t6\t8\t1\t9\n5\t2019\t8\t6\t8\t6\n6\t2019\t4\t2\t4\t2\n7\t2019\t4\t4.5\t1\t4.5\n8\t2019\t6\t8\t1\t9\n9\t2019\t8\t6\t8\t6\n10\t2019\t4\t2\t4\t2\n11\t2019\t4\t4.5\t1\t4.5\n12\t2019\t6\t8\t1\t9\n1\t2020\t6\t9\t6\t9\n2\t2020\t7\t2.8\t2.8\t7\n3\t2020\t6\t4.5\t9\t12\n4\t2020\t1\t6\t9\t7\n5\t2020\t6\t9\t6\t9\n6\t2020\t7\t2.8\t2.8\t7\n7\t2020\t6\t4.5\t9\t12\n8\t2020\t1\t6\t9\t7\n9\t2020\t6\t9\t6\t9\n10\t2020\t7\t2.8\t2.8\t7\n11\t2020\t6\t4.5\t9\t12\n12\t2020\t1\t6\t9\t7\n"
+    }
+  }
+}
