@@ -1,4 +1,4 @@
-## [热图](/basic/heatmap)
+## [Cola](/advance/cola)
 
 - 简介
 
