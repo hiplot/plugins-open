@@ -1,0 +1,74 @@
+{
+  "data": {
+    "1-queryData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "Pubmed Query",
+        "zh_cn": "Pubmed 检索词"
+      }
+    },
+    "2-keywordsData": {
+      "type": "hiplot-textarea",
+      "required": false,
+      "label": {
+        "en": "Keywords List",
+        "zh_cn": "关键词列表"
+      }
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "query_mode": {
+      "type": "select",
+      "items": ["and", "or"],
+      "label": "messages.common.mode",
+      "class": "col-12 col-md-6"
+    },
+    "proxy": {
+      "type": "text-field",
+      "label": "messages.common.proxy",
+      "class": "col-12 col-md-6"
+    },
+    "from": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "起始值",
+        "en": "From"
+      },
+      "class": "col-12 col-md-6",
+      "min": 1,
+      "max": 9999
+    },
+    "size": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "抓取记录数",
+        "en": "Fetch Limit"
+      },
+      "class": "col-12 col-md-6",
+      "min": 1,
+      "max": 2000
+    },
+    "extract_url": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "提取 URL",
+        "en": "Extract URL"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "keep_abs": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "保留摘要",
+        "en": "Keep Abstract"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

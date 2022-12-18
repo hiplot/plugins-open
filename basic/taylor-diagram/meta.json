@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "泰勒图",
+    "en": "Taylor Diagram"
+  },
+  "alias": ["Taylor-Diagram"],
+  "intro": {
+    "zh_cn": "标准差、均方根误差和相关系数可视化",
+    "en": "Visualization of SD, RMS error and coefficient"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/17/taylor-diagram-0.am8mr7xxmi-1.jpg",
+  "href": "/basic/taylor-diagram",
+  "tag": [
+    "vue",
+    "correlation",
+    "distribution",
+    "model"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "citation": "https://davidcarslaw.github.io/openair",
+    "releaseDate": "2022-04-17",
+    "updateDate": "2022-04-17"
+  }
+}

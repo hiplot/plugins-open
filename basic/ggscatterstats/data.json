@@ -36,7 +36,7 @@
   "exampleData": {
     "config": {
       "dataArg": {
-        "datTable": [{ "value": "rating" }, { "value": "length" }, { "value": "genre" }]
+        "datTable": [{ "value": "rating" }, { "value": "budget" }, { "value": "genre" }]
       },
       "general": {
         "title": ""

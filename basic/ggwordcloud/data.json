@@ -1,0 +1,56 @@
+{
+  "module": "basic",
+  "tool": "ggwordcloud",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "data": {
+        "inmask": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 7,
+          "height": 7
+        },
+        "title": "",
+        "palette": "aaas",
+        "theme": "theme_minimal",
+        "font": "Arial"
+      },
+      "extra": {
+        "gradient": true,
+        "glow": "#8B0000",
+        "ghigh": "#FF0000"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "inmask": {
+          "value": [
+            "public/demo/ggwordcloud/hearth.png"
+          ],
+          "link": ""
+        }
+      },
+      "general": {
+        "title": ""
+      }
+    },
+    "textarea": {
+      "datTable": "word\tfreq\noil\t85\nsaid\t73\nprices\t48\nopec\t42\nmln\t31\nthe\t26\nlast\t24\nbpd\t23\ndlrs\t23\ncrude\t21\nmarket\t20\nreuter\t20\nsaudi\t18\nwill\t18\none\t17\nbarrel\t15\nkuwait\t14\nnew\t14\nofficial\t14\npct\t14\nprice\t13\nbarrels\t11\ngovernment\t11\nproduction\t11\nsheikh\t11\nindustry\t10\nmeeting\t10\nminister\t10\nworld\t10\nalso\t9\nbillion\t9\nfutures\t9\nmonth\t9\noutput\t9\npetroleum\t9\nquota\t9\nsources\t9\naccord\t8\nanalysts\t8\nbut\t8\ngroup\t8\ngulf\t8\njanuary\t8\nmarkets\t8\nreport\t8\ntoday\t8\ndecember\t7\ndemand\t7\neconomic\t7\neconomy\t7\nenergy\t7\nhelp\t7\ninternational\t7\nmay\t7\nnazer\t7\nnymex\t7\nposted\t7\npresent\t7\nthey\t7\ntraders\t7\n158\t6\nability\t6\nagreement\t6\nali\t6\napril\t6\narabia\t6\nbudget\t6\nemergency\t6\nexchange\t6\nhold\t6\nimports\t6\nmembers\t6\nrecent\t6\nriyals\t6\nsays\t6\nsell\t6\nyears\t6\nabdulaziz\t5\nagency\t5\narab\t5\nceiling\t5\ncompany\t5\ncontract\t5\ndaily\t5\nemirates\t5\nexpected\t5\nexpenditure\t5\nexports\t5\ngrowth\t5\nnow\t5\nopecs\t5\nplans\t5\nqatar\t5\nquoted\t5\nresearch\t5\nreserve\t5\nreserves\t5\nstates\t5\nstudy\t5\nunited\t5\nway\t5\nweek\t5\nwest\t5\nyear\t5\n150\t4\naccording\t4\nadded\t4\namong\t4\nasked\t4\nbrings\t4\nbuyers\t4\ncan\t4\nchange\t4\ncorp\t4\ncut\t4\nday\t4\ndevelopment\t4\neffective\t4\nexploration\t4\nfall\t4\nfebruary\t4\nfell\t4\nfree\t4\nhigher\t4\nincrease\t4\nlevels\t4\nmeet\t4\nmust\t4\nnever\t4\nper\t4\npolicy\t4\npower\t4\nproblem\t4\nproducing\t4\nprotect\t4\npumping\t4\nreduced\t4\nrevenue\t4\nrevenues\t4\nrise\t4\nsaying\t4\nset\t4\nsince\t4\nspa\t4\nstrategic\t4\ntexas\t4\nthis\t4\ntotal\t4\ntransaction\t4\nweak\t4\nyesterday\t4\n"
+    }
+  }
+}

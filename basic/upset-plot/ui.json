@@ -1,0 +1,124 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "setsLabel": {
+      "type": "text-field",
+      "required": true,
+      "class": "col-12 col-md-6",
+      "label": {
+        "en": "Sets Bar Label",
+        "zh_cn": "集合柱状图标签"
+      }
+    },
+    "combLabel": {
+      "type": "text-field",
+      "required": true,
+      "class": "col-12 col-md-6",
+      "label": {
+        "en": "Comb Bar Label",
+        "zh_cn": "组合柱状图标签"
+      }
+    },
+    "type": {
+      "type": "autocomplete",
+      "required": true,
+      "label": {
+        "en": "Data Types",
+        "zh_cn": "数据类型"
+      },
+      "items": ["list", "binary"],
+      "class_func": "this.params.config.extra.type === 'list'?'col-12 col-md-6':'col-12'"
+    },
+    "mode": {
+      "type": "autocomplete",
+      "required": true,
+      "label": {
+        "en": "Mode",
+        "zh_cn": "模式"
+      },
+      "items": ["distinct", "intersect", "union"],
+      "class": "col-12 col-md-6",
+      "if_func": "this.params.config.extra.type === 'list'"
+    },
+    "reorderSets": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Reorder Sets",
+        "zh_cn": "集合重排序"
+      },
+      "items": ["asc", "desc", "none"],
+      "class": "col-12 col-md-6"
+    },
+    "reorderComb": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Reorder Comb",
+        "zh_cn": "组合重排序"
+      },
+      "items": ["degree-asc", "degree-desc", "asc", "desc"],
+      "class": "col-12 col-md-6"
+    },
+    "ptSize": {
+      "type": "slider",
+      "label": {
+        "en": "Point Size",
+        "zh_cn": "点大小"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "lwd": {
+      "type": "slider",
+      "label": {
+        "en": "Line Width",
+        "zh_cn": "集合线宽"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "setBarColor": {
+      "type": "color-picker",
+      "label": {
+        "en": "Sets Bar",
+        "zh_cn": "集合柱状图"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "comBarColor": {
+      "type": "color-picker",
+      "label": {
+        "en": "Comb Bar",
+        "zh_cn": "组合柱状图"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "comColor": {
+      "type": "color-picker",
+      "label": {
+        "en": "Point Lines",
+        "zh_cn": "点线"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "bgColor": {
+      "type": "color-picker",
+      "label": {
+        "en": "Background Rectangles",
+        "zh_cn": "背景矩形"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "bgPtColor": {
+      "type": "color-picker",
+      "label": {
+        "en": "Unselected Points",
+        "zh_cn": "未选中点"
+      },
+      "class": "col-12 col-md-6"
+    }
+  }
+}

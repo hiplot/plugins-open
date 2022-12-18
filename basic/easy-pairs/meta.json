@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "简易配对图",
+    "en": "Easy Pairs"
+  },
+  "alias": ["Easy-Pairs"],
+  "intro": {
+    "zh_cn": "展示数据相关性和分布",
+    "en": "Display the correlation and distribution of data"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/easy-pairs-0.s9wbuhtll2n-1-tuya.jpg",
+  "href": "/basic/easy-pairs",
+  "tag": [
+    "vue",
+    "correlation",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.99,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-11-05",
+    "updateDate": "2021-11-05"
+  }
+}

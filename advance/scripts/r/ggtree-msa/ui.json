@@ -1,0 +1,95 @@
+{
+  "data": {
+    "0-tree": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "en": "Tree File",
+        "zh_cn": "进化树文件"
+      },
+      "icon": "mdi-file",
+      "exts": ["txt", "nwk", "tree", "nex", "tre", "rst", "mlc", "log", "H3",
+          "nhx", "phy", "jplace", "jtree"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "1-msa": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "en": "Multiple Sequence Alignments",
+        "zh_cn": "多重序列比对结果"
+      },
+      "icon": "mdi-file",
+      "exts": ["fa", "fasta"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "extra": {
+    "tree_read_func": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Function Parsing Tree",
+        "zh_cn": "树解析函数"
+      },
+      "items": ["tree", "raxml", "r8s", "phyloxml", "phylip.tree",
+      "phylip.seq", "phylip", "paml_rst", "nhx", "nexus", "newick",
+      "mrbayes", "mega_tabular", "mega", "jtree", "jplace", "iqtree",
+      "hyphy.seq", "hyphy", "fasta", "codeml_mlc", "codeml", "beast",
+      "astral"],
+      "required": true,
+      "class": "col-12"
+    },
+    "circular": {
+      "type": "switch",
+      "label": {
+        "en": "Circular Layout",
+        "zh_cn": "圈型布局"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "align": {
+      "type": "switch",
+      "label": {
+        "en": "Align Tree & MSA",
+        "zh_cn": "对齐树和多重比对序列"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "tree_label_size": {
+      "type": "slider",
+      "label": {
+        "en": "Tree Label Size",
+        "zh_cn": "树标签大小"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "tree_offset": {
+      "type": "slider",
+      "label": {
+        "en": "Tree Offset",
+        "zh_cn": "树偏移"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "msa_offset": {
+      "type": "slider",
+      "label": {
+        "en": "MSA Offset",
+        "zh_cn": "多重比对序列偏移"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "msa_width": {
+      "type": "slider",
+      "label": {
+        "en": "MSA Width",
+        "zh_cn": "多重比对序列宽度"
+      },
+      "class": "col-12 col-md-6"
+    }
+  }
+}

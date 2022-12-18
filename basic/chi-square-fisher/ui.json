@@ -1,0 +1,33 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "by": {
+      "type": "select",
+      "label": {
+        "en": "Loop Method",
+        "zh_cn": "循环方法"
+      },
+      "items": ["row", "col"]
+    },
+    "addMean": {
+      "type": "switch",
+      "label": {
+        "en": "Add Mean",
+        "zh_cn": "添加均值"
+      }
+    },
+    "addMedian": {
+      "type": "switch",
+      "label": {
+        "en": "Add Median",
+        "zh_cn": "添加中位数"
+      }
+    }
+  }
+}

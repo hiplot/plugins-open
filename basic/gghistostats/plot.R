@@ -3,14 +3,15 @@
 #-----------------------------------------------------#
 # Author: Jianfeng Li                                 #
 # Email: lee_jianfeng@hiplot.org                      #
-# Website: hiplot-academic.com                      #
+# Website: hiplot.org                                 #
 #                                                     #
 # Date: 2021-01-28                                    #
 # Version: 0.1                                        #
 #######################################################
 #                    CAUTION                          #
 #-----------------------------------------------------#
-# Copyright (C) 2020 by Hiplot Team                   #
+# Copyright (C) 2022 by "National Center for          #
+# Translational Medicine·Shanghai                     #
 # All rights reserved.                                #
 #######################################################
 pkgs <- "ggstatsplot"

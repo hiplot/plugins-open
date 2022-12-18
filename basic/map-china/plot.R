@@ -4,7 +4,7 @@
 # Author: < Mingjie Wang > from < Ke Yan Mao >        #
 # Affiliation: Shanghai Hiplot Team                   #
 # Email: customer_service1501@tengyunbio.com          #
-# Website: hiplot-academic.com                      #
+# Website: hiplot.org                                 #
 #                                                     #
 # Date: 2020-04-10                                    #
 # Version: 0.1                                        #

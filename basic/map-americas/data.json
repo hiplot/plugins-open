@@ -1,0 +1,38 @@
+{
+  "module": "basic",
+  "tool": "map-americas",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 28,
+          "height": 30
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Americas Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "region\tvalue\nAruba (Netherlands)\t48\nAntigua and Barbuda\t749\nArgentina\t667\nAnguilla (UK)\t14\nBarbados\t83\nBermuda (UK)\t109\nBahamas\t365\nBelize\t832\nBolivia\t100\nBrazil\t813\nCanada\t366\nChile\t51\nCayman Islands (UK)\t252\nColombia\t707\nCosta Rica\t981\nCuba\t69\nDominica\t84\nDominican Republic\t281\nEcuador\t938\nEl Salvador\t567\nFrench Guiana (France)\t913\nFalkland Islands (UK)\t238\nGrenada\t402\nGreenland (Denmark)\t29\nGuadeloupe (France)\t832\nGuatemala\t959\nGuyana\t785\nHaiti\t777\nHonduras\t264\nJamaica\t432\nMartinique (France)\t172\nMontserrat (UK)\t945\nMexico\t150\nSuriname\t560\nNicaragua\t252\nParaguay\t424\nPeru\t519\nPanama\t328\nPuerto Rico (US)\t248\nSt. Pierre and Miquelon (France)\t567\nSt. Kitts and Nevis\t866\nSt. Lucia\t682\nSouth Georgia and the South Sandwich Is (UK)\t445\nTrinidad and Tobago\t821\nTurks and Caicos Islands (UK)\t766\nUruguay\t209\nSt. Vincent and the Grenadines\t346\nVenezuela\t396\nBritish Virgin Islands(UK)\t569\nAmerican Virgin Islands (US)\t589\nCuracao (Netherlands)\t395\nBonaire (Netherlands)\t278\nUnited States\t351\n"
+    }
+  }
+}

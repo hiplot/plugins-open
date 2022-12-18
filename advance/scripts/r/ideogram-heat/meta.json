@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "染色体热图",
+    "en": "Ideogram-Heat"
+  },
+  "alias": ["Ideogram-Heat"],
+  "intro": {
+    "zh_cn": "染色体可视化",
+    "en": "Visualization of chromsomes"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/ideogram-heat-0.98yvsiiqddt-1-tuya39ba2f1e9319ae2a.jpg",
+  "href": "/advance/ideogram-heat",
+  "tag": [
+    "vue",
+    "Chromsomes"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-11-26",
+    "updateDate": "2021-11-26",
+    "version": "v0.1.0"
+  }
+}

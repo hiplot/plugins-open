@@ -1,0 +1,196 @@
+{
+  "module": "basic",
+  "tool": "network-igraph",
+  "maxPlex": 1,
+  "params": {
+    "textarea": {
+      "1-nodes": "",
+      "2-edges": ""
+    },
+    "config": {
+      "data": {
+        "1-nodes": {
+          "value": "",
+          "link": ""
+        },
+        "2-edges": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "dataArg": {
+        "1-nodes": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ],
+        "2-edges": [
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "palette": "nejm",
+        "palette2": "nejm",
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "layout": "layout_as_star",
+        "line_type": "solid",
+        "node_shape": "circle",
+        "show_text": true,
+        "transform_size": "",
+        "transform_width": "",
+        "arrow": false,
+        "arrow_size": 0.5,
+        "arrow_width": 0.5,
+        "label_dist": 3.5
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "data": {
+          "1-nodes": {
+            "value": "public/demo/network-igraph/nodes.txt",
+            "link": ""
+          },
+          "2-edges": {
+            "value": "public/demo/network-igraph/edges.txt",
+            "link": ""
+          }
+        },
+        "dataArg": {
+          "1-nodes": [
+            {
+              "value": "media"
+            },
+            {
+              "value": "type.label"
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            }
+          ],
+          "2-edges": [
+            {
+              "value": "weight"
+            }
+          ]
+        },
+        "general": {
+          "title": "Network1",
+          "palette": "custom",
+          "paletteCustom": "#7f7f7f,#ff6347,#ffd700"
+        },
+        "extra": {
+          "layout": "layout_as_star",
+          "transform_size": "*3",
+          "transform_width": "/6",
+          "label_dist": 3.1
+        }
+      },
+      "textarea": {
+        "1-nodes": "id\tmedia\tmedia.type\ttype.label\taudience.size\ns01\tNY Times\t1\tNewspaper\t20\ns02\tWashington Post\t1\tNewspaper\t25\ns03\tWall Street Journal\t1\tNewspaper\t30\ns04\tUSA Today\t1\tNewspaper\t32\ns05\tLA Times\t1\tNewspaper\t20\ns06\tNew York Post\t1\tNewspaper\t50\ns07\tCNN\t2\tTV\t56\ns08\tMSNBC\t2\tTV\t34\ns09\tFOX News\t2\tTV\t60\ns10\tABC\t2\tTV\t23\ns11\tBBC\t2\tTV\t34\ns12\tYahoo News\t3\tOnline\t33\ns13\tGoogle News\t3\tOnline\t23\ns14\tReuters.com\t3\tOnline\t12\ns15\tNYTimes.com\t3\tOnline\t24\ns16\tWashingtonPost.com\t3\tOnline\t28\ns17\tAOL.com\t3\tOnline\t33\n",
+        "2-edges": "from\tto\ttype\tweight\ns01\ts02\thyperlink\t22\ns01\ts03\thyperlink\t22\ns01\ts04\thyperlink\t21\ns01\ts15\tmention\t20\ns02\ts01\thyperlink\t23\ns02\ts03\thyperlink\t21\ns02\ts09\thyperlink\t1\ns02\ts10\thyperlink\t5\ns03\ts01\thyperlink\t21\ns03\ts04\thyperlink\t22\ns03\ts05\thyperlink\t1\ns03\ts08\thyperlink\t4\ns03\ts10\tmention\t2\ns03\ts11\thyperlink\t1\ns03\ts12\thyperlink\t1\ns04\ts03\thyperlink\t23\ns04\ts06\tmention\t1\ns04\ts11\tmention\t22\ns04\ts12\thyperlink\t3\ns04\ts17\tmention\t2\ns05\ts01\tmention\t1\ns05\ts02\thyperlink\t21\ns05\ts09\thyperlink\t2\ns05\ts15\tmention\t21\ns06\ts06\thyperlink\t1\ns06\ts16\thyperlink\t21\ns06\ts17\tmention\t21\ns07\ts03\tmention\t1\ns07\ts08\tmention\t22\ns07\ts10\thyperlink\t21\ns07\ts14\tmention\t4\ns08\ts03\thyperlink\t2\ns08\ts07\tmention\t21\ns08\ts09\tmention\t23\ns09\ts10\tmention\t21\ns10\ts03\thyperlink\t2\ns12\ts06\tmention\t2\ns12\ts13\thyperlink\t22\ns12\ts14\tmention\t22\ns13\ts12\thyperlink\t21\ns13\ts17\tmention\t1\ns14\ts11\tmention\t1\ns14\ts13\tmention\t21\ns15\ts01\thyperlink\t22\ns15\ts04\thyperlink\t1\ns15\ts06\thyperlink\t4\ns16\ts06\thyperlink\t23\ns16\ts17\tmention\t21\ns17\ts04\thyperlink\t4\n"
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "1-nodes": [
+            {
+              "value": "media"
+            },
+            {
+              "value": "type.label"
+            },
+            {
+              "value": "audience.size"
+            },
+            {
+              "value": "type.label"
+            }
+          ],
+          "2-edges": [
+            {
+              "value": "weight"
+            }
+          ]
+        },
+        "general": {
+          "title": "Network2",
+          "palette": "nejm",
+          "palette2": "custom",
+          "paletteCustom2": "#cacaca,#cacaca,#cacaca"
+        },
+        "extra": {
+          "layout": "layout_in_circle",
+          "transform_size": "*0.7",
+          "transform_width": "/6"
+        }
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "1-nodes": [
+            {
+              "value": "media"
+            },
+            {
+              "value": "type.label"
+            },
+            {
+              "value": "audience.size"
+            },
+            {
+              "value": "type.label"
+            }
+          ],
+          "2-edges": [
+            {
+              "value": "weight"
+            }
+          ]
+        },
+        "general": {
+          "title": "Network3",
+          "palette": "custom",
+          "paletteCustom": "#7f7f7f,#ff6347,#ffd700",
+          "palette2": "custom",
+          "paletteCustom2": "#41B3C2,#D1372C,#C9D8C5"
+        },
+        "extra": {
+          "layout": "layout_in_circle",
+          "transform_size": "*0.7",
+          "transform_width": "/6"
+        }
+      }
+    }
+  ]
+}

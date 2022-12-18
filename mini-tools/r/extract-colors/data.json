@@ -1,0 +1,43 @@
+{
+  "module": "mini-tools",
+  "tool": "extract-colors",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "images": {
+          "value": [],
+          "link": []
+        }
+      },
+      "general": {
+        "cmds": "",
+        "taskname": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "cliMode": true,
+        "size": {
+          "width": 14,
+          "height": 7
+        }
+      },
+      "extra": {
+        "num_col": 10
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "images": {
+          "value": [
+            "/public/demo/extract-colors/network-igraph.jpg",
+            "/public/demo/extract-colors/likert-demo.jpg"],
+          "link": []
+        }
+      }
+    }
+  }
+}

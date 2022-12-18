@@ -1,0 +1,31 @@
+{
+  "name": {
+    "zh_cn": "GO/KEGG 富集分析",
+    "en": "GO/KEGG Analysis"
+  },
+  "alias": ["GO-KEGG"],
+  "intro": {
+    "zh_cn": "GO/KEGG 富集分析 (clusterProfiler)",
+    "en": "GO/KEGG analysis by clusterProfiler"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/19-ar5RHJ-tuya.jpg",
+  "href": "/advance/clusterprofiler-go-kegg",
+  "tag": [
+    "vue",
+    "expression"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Guangchuang YU & Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "issues": "https://github.com/hiplot/gold/issues",
+    "citation": "Yu G, Wang L, Han Y and He Q*. clusterProfiler: an R package for comparing biological themes among gene clusters. OMICS: A Journal of Integrative Biology. 2012, 16(5):284-287.",
+    "releaseDate": "2020-06-22",
+    "updateDate": "2022-04-15",
+    "version": "v0.2.0"
+  }
+}

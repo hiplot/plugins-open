@@ -17,10 +17,11 @@
       },
       {
         "label": "Link Color",
-        "individual": true
+        "independent": true
       },
       {
-        "label": "Label Color"
+        "label": "Label Color",
+        "independent": true
       }
     ]
   },

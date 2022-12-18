@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "颜色提取工具",
+    "en": "Extract Colors"
+  },
+  "alias": ["Extract-Colors"],
+  "intro": {
+    "zh_cn": "色板生成",
+    "en": "Palette generator"
+  },
+  "usergroup": [
+    1,
+    2
+  ],
+  "src": "https://s1.imagehub.cc/images/2022/04/15/extract-colors-0.q4vgxujc68-1-tuyaece1621a9137685a.jpg",
+  "href": "/mini-tools/extract-colors",
+  "tag": [
+    "vue",
+    "image"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "version": "v0.1.0",
+    "releaseDate": "2021-11-14",
+    "updateDate": "2020-11-14"
+  }
+}

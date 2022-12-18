@@ -1,0 +1,261 @@
+{
+  "data": {
+    "1-mafData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "zh_cn": "MAF 突变文件",
+        "en": "Maf File"
+      },
+      "exts": [
+        "maf",
+        "maf.gz",
+        "txt",
+        "csv"
+      ]
+    },
+    "2-metaData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "Sample Data",
+        "zh_cn": "样本信息"
+      }
+    },
+    "3-colorData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "Color Data",
+        "zh_cn": "颜色数据"
+      }
+    }
+  },
+  "dataArg": {
+    "1-mafData": [{
+      "label": {
+        "en": "Gene Class",
+        "zh_cn": "基因分类"
+      },
+      "required":false
+    },
+    {
+      "label": {
+        "en": "Gene Symbol Column",
+        "zh_cn": "基因列"
+      },
+      "required":true
+    },
+    {
+      "label": {
+        "en": "Classification Column",
+        "zh_cn": "类型列"
+      },
+      "required":true
+    }],
+    "2-metaData": [{
+      "label": {
+        "en": "Sample Class",
+        "zh_cn": "样本分类"
+      },
+      "required":false
+    }]
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "gene_class_order": {
+      "type": "combobox",
+      "label": {
+        "en": "Gene Class Order",
+        "zh_cn": "基因因子顺序"
+      },
+      "multiple": true,
+      "clearable": true,
+      "items_func": "this.selectCols('1-mafData', 0)",
+      "class": "col-12 col-md-6"
+    },
+    "sample_class_order": {
+      "type": "combobox",
+      "label": {
+        "en": "Sample Class Order",
+        "zh_cn": "样本因子顺序"
+      },
+      "multiple": true,
+      "clearable": true,
+      "items_func": "this.selectCols('2-metaData', 0)",
+      "class": "col-12 col-md-6"
+    },
+    "symbol_side": {
+      "type": "select",
+      "label": {
+        "en": "Gene Symbol Side",
+        "zh_cn": "基因名标注"
+      },
+      "items": [
+        "left",
+        "right"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "right_annotation": {
+      "type": "select",
+      "label": {
+        "en": "Right Annotation",
+        "zh_cn": "右侧注释"
+      },
+      "items": [
+        "barplot", "none"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "top_annotation": {
+      "type": "select",
+      "label": {
+        "en": "Top Annotation",
+        "zh_cn": "顶部注释"
+      },
+      "items": [
+        "barplot", "none"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "omit_classification": {
+      "type": "combobox",
+      "label": {
+        "en": "Omit Classification",
+        "zh_cn": "排除类别"
+      },
+      "multiple": true,
+      "clearable": true,
+      "items": ["3'Flank", "3'UTR", "5'Flank", "5'UTR", "Frame_Shift_Del", "Frame_Shift_Ins", "IGR", "In_Frame_Del", "In_Frame_Ins", "Intron", "Missense_Mutation", "Nonsense_Mutation", "RNA", "Silent", "Splice_Region", "Splice_Site", "Targeted_Region"],
+      "class": "col-12"
+    },
+    "order_mode": {
+      "type": "select",
+      "label": {
+        "en": "Order Mode",
+        "zh_cn": "排序模式"
+      },
+      "items": ["freq_first_simple", "freq_first", "pathway_first_simple", "pathway_first", "raw"],
+      "class": "col-12 col-md-6"
+    },
+    "white_genes": {
+      "type": "combobox",
+      "label": {
+        "en": "White Genes",
+        "zh_cn": "白名单基因"
+      },
+      "multiple": true,
+      "clearable": true,
+      "items_func": "this.selectCols('1-mafData', 1)",
+      "class": "col-12 col-md-6"
+    },
+    "legend_max_width": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "图例最大宽度",
+        "en": "Legend Max Width"
+      },
+      "class": "col-12 col-md-6",
+      "max": 100,
+      "min": 1,
+      "step": 0.5
+    },
+    "fontsizePct": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "百分比字体大小",
+        "en": "Font Size (Percent)"
+      },
+      "class": "col-12 col-md-6",
+      "max": 100,
+      "min": 1,
+      "step": 0.1
+    },
+    "legend_row_gap": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "图例行间距",
+        "en": "Legend Row Gap"
+      },
+      "class": "col-12 col-md-6",
+      "max": 100,
+      "min": 0.1,
+      "step": 0.1
+    },
+    "legend_column_gap": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "图例列间距",
+        "en": "Legend Column Gap"
+      },
+      "class": "col-12 col-md-6",
+      "max": 100,
+      "min": 0.1,
+      "step": 0.1
+    },
+    "min_mut_num": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "突变阈值",
+        "en": "Threshold of Mutant Genes"
+      },
+      "class": "col-12",
+      "max": 9999,
+      "min": 1
+    },
+    "show_pct": {
+      "type": "switch",
+      "label": {
+        "en": "Show Percent",
+        "zh_cn": "展示百分比"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "border": {
+      "type": "switch",
+      "label": {
+        "en": "Border",
+        "zh_cn": "描边"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "merge_multi_hit": {
+      "type": "switch",
+      "label": {
+        "en": "Merge Multiple",
+        "zh_cn": "合并多突变"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "merge_multi_hit_count": {
+      "type": "switch",
+      "label": {
+        "en": "Merge Multiple (Count)",
+        "zh_cn": "合并多突变 (区分数目)"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "add_pathway_row": {
+      "type": "switch",
+      "label": {
+        "en": "Add Pathway Row",
+        "zh_cn": "添加通路行"
+      },
+      "class": "col-12 col-md-4",
+      "if_func": "this.params.config.dataArg['1-mafData'][0].value"
+    },
+    "draw_pie_matrix": {
+      "type": "switch",
+      "label": {
+        "en": "Draw Pie Matrix",
+        "zh_cn": "绘制突变比例图"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

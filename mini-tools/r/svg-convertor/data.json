@@ -1,0 +1,33 @@
+{
+  "module": "mini-tools",
+  "tool": "svg-convertor",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "infile": {
+          "value": [],
+          "link": []
+        }
+      },
+      "general": {
+        "cmds": "",
+        "taskname": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "cliMode": true
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "infile": {
+          "value": [
+            "/public/demo/svg-convertor/tall-nature-genetics.svg"
+          ],
+          "link": []
+        }
+      }
+    }
+  }
+}

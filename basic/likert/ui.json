@@ -1,0 +1,31 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "type": {
+      "type": "select",
+      "label": "messages.common.type",
+      "items": [
+        "bar",
+        "density",
+        "heat"
+      ],
+      "class": "col-12",
+      "required": true
+    },
+    "facet": {
+      "type": "switch",
+      "label": {
+        "en": "Facet",
+        "zh_cn": "分面"
+      },
+      "class": "col-12 col-md-4",
+      "if_func": "this.params.config.extra.type === 'density'"
+    }
+  }
+}

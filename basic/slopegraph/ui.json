@@ -1,0 +1,31 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": {
+          "en": "Times",
+          "zh_cn": "时间"
+        }
+      },
+      {
+        "label": {
+          "en": "Measurement",
+          "zh_cn": "数值"
+        }
+      },
+      {
+        "label": {
+          "en": "Group",
+          "zh_cn": "分组信息"
+        }
+      }
+    ]
+  }
+}

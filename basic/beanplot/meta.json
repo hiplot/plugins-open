@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "豆荚图",
+    "en": "Beanplot"
+  },
+  "alias": ["Base-Beanplot"],
+  "intro": {
+    "zh_cn": "展示组间差异",
+    "en": "Display differences between groups"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/beanplot-0.lglw6k1vo3s-1c78c1aef51021078.jpg",
+  "href": "/basic/beanplot",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.9,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-05-12",
+    "updateDate": "2021-05-12"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "module": "basic",
+  "tool": "slopegraph",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+        "datTable": [{ "value": "" }, { "value": "" }, { "value": "" }]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 7,
+          "height": 5
+        },
+        "xlab": "",
+        "theme": "theme_minimal",
+        "palette": "aaas",
+        "title": "",
+        "font": "Arial"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "datTable": [{ "value": "year" }, { "value": "lifeExp" }, { "value": "country" }]
+      },
+      "general": {
+        "title": "Slope Graph",
+        "xlab": "Life Expectancy (years)"
+      }
+    },
+    "textarea": {
+      "datTable": "country\tcontinent\tyear\tlifeExp\tpop\tgdpPercap\nCosta Rica\tAmericas\t1992\t76\t3173216\t6160.416317\nCosta Rica\tAmericas\t1997\t77\t3518107\t6677.045314\nCosta Rica\tAmericas\t2002\t78\t3834934\t7723.447195\nCosta Rica\tAmericas\t2007\t79\t4133884\t9645.06142\nEl Salvador\tAmericas\t1992\t67\t5274649\t4444.2317\nEl Salvador\tAmericas\t1997\t70\t5783439\t5154.825496\nEl Salvador\tAmericas\t2002\t71\t6353681\t5351.568666\nEl Salvador\tAmericas\t2007\t72\t6939688\t5728.353514\nGuatemala\tAmericas\t1992\t63\t8486949\t4439.45084\nGuatemala\tAmericas\t1997\t66\t9803875\t4684.313807\nGuatemala\tAmericas\t2002\t69\t11178650\t4858.347495\nGuatemala\tAmericas\t2007\t70\t12572928\t5186.050003\nHonduras\tAmericas\t1992\t66\t5077347\t3081.694603\nHonduras\tAmericas\t1997\t68\t5867957\t3160.454906\nHonduras\tAmericas\t2002\t69\t6677328\t3099.72866\nHonduras\tAmericas\t2007\t70\t7483763\t3548.330846\nNicaragua\tAmericas\t1992\t66\t4017939\t2170.151724\nNicaragua\tAmericas\t1997\t68\t4609572\t2253.023004\nNicaragua\tAmericas\t2002\t71\t5146848\t2474.548819\nNicaragua\tAmericas\t2007\t73\t5675356\t2749.320965\nPanama\tAmericas\t1992\t72\t2484997\t6618.74305\nPanama\tAmericas\t1997\t74\t2734531\t7113.692252\nPanama\tAmericas\t2002\t75\t2990875\t7356.031934\nPanama\tAmericas\t2007\t76\t3242173\t9809.185636"
+    }
+  }
+}

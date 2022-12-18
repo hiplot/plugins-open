@@ -1,0 +1,67 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [{ "label": "messages.basic.treeheatr.target_lab"}]
+  },
+  "extra": {
+    "show": {
+      "type": "select",
+      "label": "messages.basic.treeheatr.show",
+      "items": [
+        "heat-tree",
+        "heat-only",
+        "tree-only"
+      ],
+      "class": "col-12"
+    },
+    "heat_rel_height": {
+      "type": "slider",
+      "label": "messages.basic.treeheatr.heat_rel_height",
+      "class": "col-12 col-md-6",
+      "step": 0.01,
+      "max": 1
+    },
+    "panel_space": {
+      "type": "slider",
+      "label": "messages.basic.treeheatr.panel_space",
+      "class": "col-12 col-md-6",
+      "min": 0.001,
+      "step": 0.001,
+      "max": 0.01
+    },
+    "lev_fac": {
+      "type": "slider",
+      "label": "messages.basic.treeheatr.lev_fac",
+      "class": "col-12",
+      "min": 1,
+      "step": 0.05,
+      "max": 1.5
+    },
+    "clust_target": {
+      "type": "switch",
+      "label": "messages.basic.treeheatr.clust_target",
+      "class": "col-12 col-md-4"
+    },
+    "clust_samps": {
+      "type": "switch",
+      "label": "messages.basic.treeheatr.clust_samps",
+      "class": "col-12 col-md-4"
+    },
+    "legend_cont": {
+      "type": "switch",
+      "label": "messages.basic.treeheatr.legend_cont",
+      "class": "col-12 col-md-4"
+    },
+    "legend_cate": {
+      "type": "switch",
+      "label": "messages.basic.treeheatr.legend_cate",
+      "class": "col-12 col-md-4"
+    }
+  }
+}

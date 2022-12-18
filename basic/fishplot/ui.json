@@ -1,0 +1,103 @@
+{
+  "data": {
+    "datmat": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+ },
+  "extra": {
+    "shape": {
+      "type": "select",
+      "label": {
+        "en": "Shape",
+        "zh_cn": "形状"
+      },
+      "items": ["spline", "polygon", "bezier"],
+      "class": "col-12 col-md-4"
+    },
+    "bg_type": {
+      "type": "select",
+      "label": {
+        "en": "Background Type",
+        "zh_cn": "背景颜色类型"
+      },
+      "items": ["gradient", "solid"],
+      "class": "col-12 col-md-4"
+    },
+    "unit": {
+      "type": "combobox",
+      "label": {
+        "en": "Time Unit",
+        "zh_cn": "时间单位"
+      },
+      "items": ["Hour", "Day", "Month", "Year"],
+      "class": "col-12 col-md-4"
+    },
+    "border": {
+      "type": "slider",
+      "label": {
+        "en": "Border Width",
+        "zh_cn": "描边宽度"
+      },
+      "step": 0.01,
+      "class": "col-12 col-md-6"
+    },
+    "pad_left": {
+      "type": "slider",
+      "label": {
+        "en": "Padding Percent",
+        "zh_cn": "左侧间距占比"
+      },
+      "step": 0.01,
+      "max": 1,
+      "class": "col-12 col-md-6"
+    },
+    "vline": {
+      "type": "switch",
+      "label": {
+        "en": "Vline",
+        "zh_cn": "竖线"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "clone_label": {
+      "type": "switch",
+      "label": {
+        "en": "Clone Label",
+        "zh_cn": "克隆标签"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "fix_missing": {
+      "type": "switch",
+      "label": {
+        "en": "Fix Missing",
+        "zh_cn": "校正缺失值"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "col_vline": {
+      "type": "color-picker",
+      "label": {
+        "en": "Vline of Color",
+        "zh_cn": "竖线颜色"
+      },
+      "if": "vline",
+      "class": "col-12 col-md-4"
+    },
+    "border_col": {
+      "type": "color-picker",
+      "label": {
+        "en": "Border of Color",
+        "zh_cn": "描边颜色"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "世界地图 2",
+    "en": "World Map 2"
+  },
+  "alias": ["World-Map2"],
+  "intro": {
+    "zh_cn": "用于展示世界地图",
+    "en": "Display the map of the world"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/28/map-world2.jpg",
+  "href": "/basic/map-world2",
+  "tag": [
+    "vue",
+    "map"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 4.9,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-02-17",
+    "updateDate": "2021-02-17",
+    "version": "v0.1.0"
+  }
+}

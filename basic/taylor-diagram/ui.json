@@ -1,0 +1,98 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": {
+          "en": "Observations",
+          "zh_cn": "观测"
+        }
+      },
+      {
+        "label": {
+          "en": "Model Predictions",
+          "zh_cn": "模型预测列"
+        }
+      },
+      {
+        "label": {
+          "en": "Group",
+          "zh_cn": "分组"
+        }
+      }
+    ]
+  },
+  "extra": {
+    "type": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Split Type",
+        "zh_cn": "分割类型"
+      },
+      "items": ["default", "year", "hour", "month", "season", "weekday", "site", "weekend", "monthyear", "daylight", "dst"],
+      "class": "col-12"
+    },
+    "annotate": {
+      "type": "text-field",
+      "label": {
+        "en": "Text of RMS Error",
+        "zh_cn": "均方根误差标签"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "text_obs": {
+      "type": "text-field",
+      "label": {
+        "en": "Text of OBS",
+        "zh_cn": "观测文本标签"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "rms_col": {
+      "type": "color-picker",
+      "label": {
+        "en": "RMS Color",
+        "zh_cn": "RMS 颜色"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "cor_col": {
+      "type": "color-picker",
+      "label": {
+        "en": "Cor Color",
+        "zh_cn": "相关系数颜色"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "arrow_lwd": {
+      "type": "slider",
+      "label": {
+        "en": "Width of Arrow",
+        "zh_cn": "箭头宽度"
+      },
+      "class": "col-12"
+    },
+    "normalise": {
+      "type": "switch",
+      "label": {
+        "en": "Normalize",
+        "zh_cn": "标准化"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "strip": {
+      "type": "switch",
+      "label": {
+        "en": "Show Strip",
+        "zh_cn": "展示分割线"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

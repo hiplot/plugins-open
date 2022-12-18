@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh_cn": "英国地图",
+    "en": "UK Map"
+  },
+  "alias": ["UK-Map"],
+  "intro": {
+    "zh_cn": "用于展示英国地图",
+    "en": "Display the map of UK"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/28/map-uk-0-tuya.jpg",
+  "href": "/basic/map-uk",
+  "tag": [
+    "vue",
+    "map"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 3,
+    "author": "Hiplot Team | Jianfeng",
+    "citation": "Shape downloaded from https://borders.ukdataservice.ac.uk/easy_download_data.html?data=infuse_ctry_2011",
+    "releaseDate": "2021-03-28",
+    "updateDate": "2021-03-28",
+    "version": "v0.1.0"
+  }
+}

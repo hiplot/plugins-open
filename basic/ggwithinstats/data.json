@@ -1,0 +1,51 @@
+{
+  "module": "basic",
+  "tool": "ggwithinstats",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+        "datTable": [{ "value": "" }, { "value": "" }, { "value": "" }]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 7,
+          "height": 5
+        },
+        "title": "",
+        "palette": "aaas",
+        "theme": "default",
+        "digits": 2,
+        "font": "Arial"
+      },
+      "extra": {
+        "type": "parametric",
+        "pAdjustMethod": "holm",
+        "plotType": "boxviolin",
+        "pairwiseComparisons": true,
+        "pairwiseDisplay": "significant",
+        "effsizeType": "unbiased",
+        "notch": true,
+        "ncol": 2
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "datTable": [{ "value": "condition" }, { "value": "desire" }, { "value": "region" }]
+      },
+      "general": {
+        "title": ""
+      }
+    },
+    "textarea": {
+      "datTable": "subject\tgender\tregion\teducation\tcondition\tdesire\n1\tFemale\tNorth America\tsome\tLDLF\t6\n2\tFemale\tNorth America\tadvance\tLDLF\t10\n3\tFemale\tEurope\tcollege\tLDLF\t5\n4\tFemale\tNorth America\tcollege\tLDLF\t6\n5\tFemale\tNorth America\tsome\tLDLF\t3\n6\tFemale\tEurope\tsome\tLDLF\t2\n7\tFemale\tNorth America\tsome\tLDLF\t10\n8\tFemale\tNorth America\thigh\tLDLF\t10\n9\tFemale\tNorth America\thigh\tLDLF\t9.5\n11\tMale\tNorth America\tsome\tLDLF\t0\n12\tMale\tNorth America\tsome\tLDLF\t9.5\n13\tFemale\tNorth America\tless\tLDLF\t7\n14\tFemale\tNorth America\tsome\tLDLF\t3\n15\tMale\tNorth America\tsome\tLDLF\t4\n16\tMale\tNorth America\thigh\tLDLF\t7\n17\tMale\tNorth America\tsome\tLDLF\t2\n18\tFemale\tNorth America\thigh\tLDLF\t7.5\n19\tFemale\tNorth America\tsome\tLDLF\t6.5\n20\tFemale\tNorth America\tsome\tLDLF\t7\n22\tFemale\tNorth America\tsome\tLDLF\t3\n24\tFemale\tNorth America\tless\tLDLF\t10\n25\tMale\tEurope\thigh\tLDLF\t0\n26\tFemale\tEurope\tsome\tLDLF\t0.5\n27\tFemale\tNorth America\tless\tLDLF\t5\n30\tFemale\tNorth America\tsome\tLDLF\t8\n31\tFemale\tNorth America\tsome\tLDLF\t3\n32\tMale\tEurope\tsome\tLDLF\t7.5\n33\tMale\tNorth America\tsome\tLDLF\t6.5\n34\tMale\tEurope\tcollege\tLDLF\t4.5\n35\tMale\tNorth America\tsome\tLDLF\t3\n36\tMale\tNorth America\tsome\tLDLF\t6\n37\tFemale\tNorth America\tsome\tLDLF\t4\n38\tFemale\tNorth America\tsome\tLDLF\t4.5\n39\tMale\tNorth America\tsome\tLDLF\t7\n41\tFemale\tNorth America\tsome\tLDLF\t5\n42\tFemale\tNorth America\thigh\tLDLF\t5\n43\tFemale\tNorth America\tsome\tLDLF\t2\n45\tMale\tNorth America\tpartial\tLDLF\t7.5\n46\tFemale\tNorth America\tless\tLDLF\t3.5\n47\tFemale\tNorth America\tadvance\tLDLF\t5\n48\tMale\tNorth America\tsome\tLDLF\t2\n49\tMale\tNorth America\tsome\tLDLF\t4\n50\tFemale\tNorth America\tsome\tLDLF\t5\n51\tFemale\tNorth America\tsome\tLDLF\t5.5\n52\tFemale\tNorth America\tless\tLDLF\t10\n53\tFemale\tNorth America\tsome\tLDLF\t7\n56\tFemale\tNorth America\tsome\tLDLF\t10\n58\tMale\tNorth America\tsome\tLDLF\t6\n59\tFemale\tNorth America\tless\tLDLF\t7.5\n60\tMale\tNorth America\tless\tLDLF\t3.5\n61\tFemale\tNorth America\tcollege\tLDLF\t2.5\n62\tMale\tNorth America\tless\tLDLF\t3.5\n64\tFemale\tEurope\tsome\tLDLF\t8.5\n65\tFemale\tNorth America\tless\tLDLF\t3\n66\tMale\tNorth America\tless\tLDLF\t6\n67\tMale\tNorth America\thigh\tLDLF\t5.5\n68\tMale\tNorth America\thigh\tLDLF\t3\n69\tMale\tNorth America\tcollege\tLDLF\t2\n70\tFemale\tNorth America\tless\tLDLF\t4\n71\tFemale\tNorth America\tless\tLDLF\t9\n72\tFemale\tNorth America\tsome\tLDLF\t10\n73\tFemale\tNorth America\tsome\tLDLF\t5.5\n74\tMale\tNorth America\tless\tLDLF\t6\n76\tFemale\tNorth America\tsome\tLDLF\t9\n77\tFemale\tNorth America\tsome\tLDLF\t6\n78\tFemale\tNorth America\tless\tLDLF\t5\n79\tMale\tNorth America\tless\tLDLF\t6\n80\tFemale\tNorth America\tless\tLDLF\t1.5\n81\tMale\tNorth America\thigh\tLDLF\t5.5\n82\tFemale\tNorth America\thigh\tLDLF\t9.5\n83\tFemale\tNorth America\thigh\tLDLF\t8\n84\tFemale\tNorth America\tsome\tLDLF\t0\n85\tFemale\tNorth America\thigh\tLDLF\t3\n86\tMale\tNorth America\tless\tLDLF\t7\n87\tFemale\tNorth America\tpartial\tLDLF\t5\n88\tFemale\tNorth America\thigh\tLDLF\t10\n89\tMale\tNorth America\tless\tLDLF\t7.5\n90\tMale\tNorth America\tless\tLDLF\t6\n92\tFemale\tEurope\tless\tLDLF\t6.5\n93\tFemale\tNorth America\tless\tLDLF\t6.5\n95\tFemale\tNorth America\tless\tLDLF\t3\n96\tMale\tNorth America\thigh\tLDLF\t10\n97\tFemale\tNorth America\tNA\tLDLF\t8.5\n98\tFemale\tNorth America\tsome\tLDLF\t1.5\n99\tFemale\tNorth America\tsome\tLDLF\t9\n100\tFemale\tEurope\tsome\tLDLF\t5.5\n1\tFemale\tNorth America\tsome\tLDHF\t6\n2\tFemale\tNorth America\tadvance\tLDHF\tNA\n3\tFemale\tEurope\tcollege\tLDHF\t10\n4\tFemale\tNorth America\tcollege\tLDHF\t9\n5\tFemale\tNorth America\tsome\tLDHF\t6.5\n6\tFemale\tEurope\tsome\tLDHF\t0.5\n7\tFemale\tNorth America\tsome\tLDHF\t10\n8\tFemale\tNorth America\thigh\tLDHF\t10\n9\tFemale\tNorth America\thigh\tLDHF\t9.5\n11\tMale\tNorth America\tsome\tLDHF\t2.5\n12\tMale\tNorth America\tsome\tLDHF\t7.5\n13\tFemale\tNorth America\tless\tLDHF\t8.5\n14\tFemale\tNorth America\tsome\tLDHF\t8\n15\tMale\tNorth America\tsome\tLDHF\t5\n16\tMale\tNorth America\thigh\tLDHF\t8.5\n17\tMale\tNorth America\tsome\tLDHF\t6\n18\tFemale\tNorth America\thigh\tLDHF\t6\n19\tFemale\tNorth America\tsome\tLDHF\t6\n20\tFemale\tNorth America\tsome\tLDHF\t9\n22\tFemale\tNorth America\tsome\tLDHF\t4.5\n24\tFemale\tNorth America\tless\tLDHF\t10\n25\tMale\tEurope\thigh\tLDHF\t1.5\n26\tFemale\tEurope\tsome\tLDHF\t0.5\n27\tFemale\tNorth America\tless\tLDHF\t7.5\n30\tFemale\tNorth America\tsome\tLDHF\t9\n31\tFemale\tNorth America\tsome\tLDHF\t10\n32\tMale\tEurope\tsome\tLDHF\t7\n33\tMale\tNorth America\tsome\tLDHF\t10\n34\tMale\tEurope\tcollege\tLDHF\t8.5\n35\tMale\tNorth America\tsome\tLDHF\t2\n36\tMale\tNorth America\tsome\tLDHF\t10\n37\tFemale\tNorth America\tsome\tLDHF\t10\n38\tFemale\tNorth America\tsome\tLDHF\t7\n39\tMale\tNorth America\tsome\tLDHF\t7\n41\tFemale\tNorth America\tsome\tLDHF\t7.5\n42\tFemale\tNorth America\thigh\tLDHF\t8.5\n43\tFemale\tNorth America\tsome\tLDHF\t2\n45\tMale\tNorth America\tpartial\tLDHF\t7\n46\tFemale\tNorth America\tless\tLDHF\t4\n47\tFemale\tNorth America\tadvance\tLDHF\t7.5\n48\tMale\tNorth America\tsome\tLDHF\t3.5\n49\tMale\tNorth America\tsome\tLDHF\t8\n50\tFemale\tNorth America\tsome\tLDHF\t6\n51\tFemale\tNorth America\tsome\tLDHF\t2.5\n52\tFemale\tNorth America\tless\tLDHF\t10\n53\tFemale\tNorth America\tsome\tLDHF\t8.5\n56\tFemale\tNorth America\tsome\tLDHF\t10\n58\tMale\tNorth America\tsome\tLDHF\t4.5\n59\tFemale\tNorth America\tless\tLDHF\t6.5\n60\tMale\tNorth America\tless\tLDHF\t7.5\n61\tFemale\tNorth America\tcollege\tLDHF\t7.5\n62\tMale\tNorth America\tless\tLDHF\t9.5\n64\tFemale\tEurope\tsome\tLDHF\t6\n65\tFemale\tNorth America\tless\tLDHF\t8.5\n66\tMale\tNorth America\tless\tLDHF\t10\n67\tMale\tNorth America\thigh\tLDHF\t8\n68\tMale\tNorth America\thigh\tLDHF\t8\n69\tMale\tNorth America\tcollege\tLDHF\t8.5\n70\tFemale\tNorth America\tless\tLDHF\t9\n71\tFemale\tNorth America\tless\tLDHF\t10\n72\tFemale\tNorth America\tsome\tLDHF\t10\n73\tFemale\tNorth America\tsome\tLDHF\t6\n74\tMale\tNorth America\tless\tLDHF\t8.5\n76\tFemale\tNorth America\tsome\tLDHF\t9\n77\tFemale\tNorth America\tsome\tLDHF\t6\n78\tFemale\tNorth America\tless\tLDHF\t6.5\n79\tMale\tNorth America\tless\tLDHF\t8\n80\tFemale\tNorth America\tless\tLDHF\tNA\n81\tMale\tNorth America\thigh\tLDHF\t4\n82\tFemale\tNorth America\thigh\tLDHF\t9.5\n83\tFemale\tNorth America\thigh\tLDHF\t8\n84\tFemale\tNorth America\tsome\tLDHF\t5\n85\tFemale\tNorth America\thigh\tLDHF\t3\n86\tMale\tNorth America\tless\tLDHF\t7\n87\tFemale\tNorth America\tpartial\tLDHF\t4\n88\tFemale\tNorth America\thigh\tLDHF\t10\n89\tMale\tNorth America\tless\tLDHF\t8\n90\tMale\tNorth America\tless\tLDHF\t8\n92\tFemale\tEurope\tless\tLDHF\t9.5\n93\tFemale\tNorth America\tless\tLDHF\t10\n95\tFemale\tNorth America\tless\tLDHF\t4\n96\tMale\tNorth America\thigh\tLDHF\t10\n97\tFemale\tNorth America\tNA\tLDHF\t10\n98\tFemale\tNorth America\tsome\tLDHF\t10\n99\tFemale\tNorth America\tsome\tLDHF\t10\n100\tFemale\tEurope\tsome\tLDHF\t5.5\n"
+    }
+  }
+}

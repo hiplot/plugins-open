@@ -1,0 +1,76 @@
+{
+  "module": "basic",
+  "tool": "upset-plot",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "data": {
+        "datTable": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 10,
+          "height": 4
+        },
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "setsLabel": "Numbers",
+        "combLabel": "Intersections",
+        "mode": "distinct",
+        "type": "list",
+        "ptSize": 3,
+        "lwd": 2,
+        "setBarColor": "#000000",
+        "comBarColor": "#000000",
+        "comColor": "#000000",
+        "bgColor": "#F0F0F0",
+        "bgPtColor": "#CCCCCC",
+        "reorderSets": "asc",
+        "reorderComb": "degree-desc"
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "data": {
+          "datTable": {
+            "value": "public/demo/upset-plot/data.txt",
+            "link": ""
+          }
+        },
+        "general": {
+          "title": "Upset Plot"
+        }
+      },
+      "textarea": {
+        "datTable": "Set1\tSet2\tSet3\tSet4\tSet5\tSet6\tSet7\tSet8\nISG15\tHES5\tDVL1\tMATP6P1\tFAM132A\tFAM132A\tFAM132A\tTNFRSF4\nTTLL10\tAURKAIP1\tARHGEF16\tMIR551A\tAGRN\tMIR551A\tWBP1LP6\tWASH7P\nHES4\tLINC00982\tOR4F16\tC1orf222\tWBP1LP6\tMIR200B\tPANK4\tTMEM52\nOR4G4P\tFAM87B\tSKI\tMIR200B\tKLHL17\tATAD3C\tOR4G4P\tMMP23B\nMND2P28\tSKI\tWASH7P\tLINC00115\tFAM41C\tANKRD65\tSSU72\tCDK11B\nFAM87B\tGABRD\tMEGF6\tATAD3B\tPANK4\tLINC01128\tMND2P28\tC1orf170\nMIR200B\tOR4G11P\tLINC00115\tPANK4\tCDK11A\tC1orf222\tRN7SL657P\tARHGEF16\nPLCH2\tCALML6\tMMP23B\tMORN1\tAURKAIP1\tRER1\t\t\nMXRA8\tC1orf86\tATAD3C\tTPRG1L\tSDF4\t\t\t\nPEX10\tATAD3B\tPRDM16\tB3GALT6\tMND1P23\t\t\t\nTNFRSF4\tHES4\tOR4F29\tLINC00982\tFAM213B\t\t\t\nCICP27\tANKRD65\tTMEM52\tOR4F16\tSAMD11\t\t\t\nCCDC27\tOR4F5\tVWA1\tC1orf86\tATAD3B\t\t\t\nWBP1LP6\tCCNL2\tGNB1\tDDX11L1\tSSU72\t\t\t\nSCNN1D\tTNFRSF18\tFAM41C\tAURKAIP1\tSKI\t\t\t\nMIR429\tWASH7P\tMND2P28\tOR4G11P\tMIR200A\t\t\t\nATAD3C\tDDX11L1\tFAM87B\tTTC34\tMMP23B\t\t\t\nUBE2J2\tTNFRSF4\tC1orf170\tMRPL20\tTUBB8P11\t\t\t\nCDK11B\tSAMD11\tMXRA8\tRER1\tC1orf222\t\t\t\nTMEM52\tTPRG1L\tMIR200B\tATAD3C\tLINC01128\t\t\t\nVWA1\tRN7SL657P\tLINC01128\tHES4\tRER1\t\t\t\nMIR200A\tMIR429\tANKRD65\tOR4F29\tISG15\t\t\t\nTP73\tPLEKHN1\tTAS1R3\tMIB2\tGNB1\t\t\t\nWBP1LP7\tFAM138A\tSCNN1D\tUBE2J2\tUBE2J2\t\t\t\nFAM138A\tWBP1LP6\tC1orf86\tCICP7\tACTRT2\t\t\t\nHES5\tCICP7\tPLCH2\tATAD3A\tCALML6\t\t\t\nPUSL1\tNADK\tSAMD11\tNADK\tMATP8P1\t\t\t\nLINC01128\tTMEM52\tATAD3A\tMND2P28\tCICP3\t\t\t\nMRPL20\tMMP23B\tLINC00982\tAGRN\tMND2P28\t\t\t\nSSU72\tCDK11B\tC1orf159\tACAP3\tGLTPD1\t\t\t\nC1orf170\tC1orf170\tRNF223\tMMP23B\tDDX11L1\t\t\t\nTAS1R3\tARHGEF16\tMATP8P1\tGNB1\tWRAP73\t\t\t\nC1orf233\tFAM213B\tHES4\tWBP1LP7\tB3GALT6\t\t\t\nDDX11L1\tOR4G4P\tPLEKHN1\tC1orf159\tPRKCZ\t\t\t\nATAD3B\tSDF4\tCICP27\tTMEM52\tTNFRSF14\t\t\t\nACAP3\tTNFRSF14\tB3GALT6\tISG15\tLINC00982\t\t\t\nGNB1\tMEGF6\tCICP3\tWRAP73\tOR4F5\t\t\t\nATAD3A\tTTC34\tCPSF3L\tMXRA8\tPUSL1\t\t\t\nC1orf86\tVWA1\tOR4G11P\tGABRD\tSCNN1D\t\t\t\nSDF4\tAGRN\tC1orf233\tSAMD11\tATAD3A\t\t\t\nPANK4\tKLHL17\tMIB2\t\tNADK\t\t\t\nAGRN\tFAM132A\tMIR551A\t\tSMIM1\t\t\t\nSKI\tSMIM1\tTMEM88B\t\tCICP27\t\t\t\nLINC00115\tNOC2L\tSDF4\t\tCICP7\t\t\t\nPRDM16\tISG15\tACTRT2\t\tMIR200B\t\t\t\nGLTPD1\tSLC35E2\tTNFRSF18\t\tMIR551A\t\t\t\nMMP23B\tWBP1LP7\tTP73\t\tPLCH2\t\t\t\nWASH7P\tMATP8P1\tISG15\t\tTAS1R3\t\t\t\nFAM213B\tUBE2J2\tCICP7\t\tTNFRSF18\t\t\t\nCICP3\tMIR200A\tMRPL20\t\tMRPL20\t\t\t\n\tC1orf233\tSLC35E2B\t\tACAP3\t\t\t\n\tRNF223\tGABRD\t\tC1orf233\t\t\t\n\tTMEM240\tATAD3B\t\tTMEM240\t\t\t\n\tOR4F16\tAURKAIP1\t\tFAM87B\t\t\t\n\tMMP23A\tUBE2J2\t\tARHGEF16\t\t\t\n\tDVL1\tMIR200A\t\tFAM138A\t\t\t\n\tSCNN1D\tCDK11A\t\tOR4G4P\t\t\t\n\tSLC35E2B\tNOC2L\t\tMORN1\t\t\t\n\tMND2P28\tFAM213B\t\tOR4F16\t\t\t\n\tMIB2\tTTLL10\t\tATAD3C\t\t\t\n\t\tWRAP73\t\tSLC35E2B\t\t\t\n\t\tDDX11L1\t\tHES4\t\t\t\n\t\tTNFRSF14\t\tC1orf170\t\t\t\n\t\tOR4F5\t\tTPRG1L\t\t\t\n\t\tTMEM240\t\tTTLL10\t\t\t\n\t\tHES5\t\tMIR429\t\t\t\n\t\tFAM132A\t\tOR4F29\t\t\t\n\t\tRER1\t\tWASH7P\t\t\t\n\t\tCCDC27\t\tMIB2\t\t\t\n\t\tMIR429\t\tC1orf86\t\t\t\n\t\t\t\tANKRD65\t\t\t\n\t\t\t\tHES5\t\t\t\n\t\t\t\tCCDC27\t\t\t\n\t\t\t\tWBP1LP7\t\t\t\n\t\t\t\tTNFRSF4\t\t\t\n\t\t\t\tTTC34\t\t\t\n\t\t\t\tMMEL1\t\t\t\n\t\t\t\tSLC35E2\t\t\t\n\t\t\t\tPLEKHN1\t\t\t\n\t\t\t\tRNF223\t\t\t"
+      }
+    },
+    {
+      "config": {
+        "data": {
+          "datTable": {
+            "value": "public/demo/upset-plot/data2.txt",
+            "link": ""
+          }
+        },
+        "extra": {
+          "type": "binary"
+        }
+      },
+      "textarea": {
+        "datTable": "Terms\tSet1\tSet2\tSet3\tSet4\tSet5\tSet6\tSet7\tSet8\nACAP3\t1\t0\t0\t1\t1\t0\t0\t0\nACTRT2\t0\t0\t1\t0\t1\t0\t0\t0\nAGRN\t1\t1\t0\t1\t1\t0\t0\t0\nANKRD65\t0\t1\t1\t0\t1\t1\t0\t0\nARHGEF16\t0\t1\t1\t0\t1\t0\t0\t1\nATAD3A\t1\t0\t1\t1\t1\t0\t0\t0\nATAD3B\t1\t1\t1\t1\t1\t0\t0\t0\nATAD3C\t1\t0\t1\t1\t1\t1\t0\t0\nAURKAIP1\t0\t1\t1\t1\t1\t0\t0\t0\nB3GALT6\t0\t0\t1\t1\t1\t0\t0\t0\nC1orf159\t0\t0\t1\t1\t0\t0\t0\t0\nC1orf170\t1\t1\t1\t0\t1\t0\t0\t1\nC1orf222\t0\t0\t0\t1\t1\t1\t0\t0\nC1orf233\t1\t1\t1\t0\t1\t0\t0\t0\nC1orf86\t1\t1\t1\t1\t1\t0\t0\t0\nCALML6\t0\t1\t0\t0\t1\t0\t0\t0\nCCDC27\t1\t0\t1\t0\t1\t0\t0\t0\nCCNL2\t0\t1\t0\t0\t0\t0\t0\t0\nCDK11A\t0\t0\t1\t0\t1\t0\t0\t0\nCDK11B\t1\t1\t0\t0\t0\t0\t0\t1\nCICP27\t1\t0\t1\t0\t1\t0\t0\t0\nCICP3\t1\t0\t1\t0\t1\t0\t0\t0\nCICP7\t0\t1\t1\t1\t1\t0\t0\t0\nCPSF3L\t0\t0\t1\t0\t0\t0\t0\t0\nDDX11L1\t1\t1\t1\t1\t1\t0\t0\t0\nDVL1\t0\t1\t1\t0\t0\t0\t0\t0\nFAM132A\t0\t1\t1\t0\t1\t1\t1\t0\nFAM138A\t1\t1\t0\t0\t1\t0\t0\t0\nFAM213B\t1\t1\t1\t0\t1\t0\t0\t0\nFAM41C\t0\t0\t1\t0\t1\t0\t0\t0\nFAM87B\t1\t1\t1\t0\t1\t0\t0\t0\nGABRD\t0\t1\t1\t1\t0\t0\t0\t0\nGLTPD1\t1\t0\t0\t0\t1\t0\t0\t0\nGNB1\t1\t0\t1\t1\t1\t0\t0\t0\nHES4\t1\t1\t1\t1\t1\t0\t0\t0\nHES5\t1\t1\t1\t0\t1\t0\t0\t0\nISG15\t1\t1\t1\t1\t1\t0\t0\t0\nKLHL17\t0\t1\t0\t0\t1\t0\t0\t0\nLINC00115\t1\t0\t1\t1\t0\t0\t0\t0\nLINC00982\t0\t1\t1\t1\t1\t0\t0\t0\nLINC01128\t1\t0\t1\t0\t1\t1\t0\t0\nMATP6P1\t0\t0\t0\t1\t0\t0\t0\t0\nMATP8P1\t0\t1\t1\t0\t1\t0\t0\t0\nMEGF6\t0\t1\t1\t0\t0\t0\t0\t0\nMIB2\t0\t1\t1\t1\t1\t0\t0\t0\nMIR200A\t1\t1\t1\t0\t1\t0\t0\t0\nMIR200B\t1\t0\t1\t1\t1\t1\t0\t0\nMIR429\t1\t1\t1\t0\t1\t0\t0\t0\nMIR551A\t0\t0\t1\t1\t1\t1\t0\t0\nMMEL1\t0\t0\t0\t0\t1\t0\t0\t0\nMMP23A\t0\t1\t0\t0\t0\t0\t0\t0\nMMP23B\t1\t1\t1\t1\t1\t0\t0\t1\nMND1P23\t0\t0\t0\t0\t1\t0\t0\t0\nMND2P28\t1\t1\t1\t1\t1\t0\t1\t0\nMORN1\t0\t0\t0\t1\t1\t0\t0\t0\nMRPL20\t1\t0\t1\t1\t1\t0\t0\t0\nMXRA8\t1\t0\t1\t1\t0\t0\t0\t0\nNADK\t0\t1\t0\t1\t1\t0\t0\t0\nNOC2L\t0\t1\t1\t0\t0\t0\t0\t0\nOR4F16\t0\t1\t1\t1\t1\t0\t0\t0\nOR4F29\t0\t0\t1\t1\t1\t0\t0\t0\nOR4F5\t0\t1\t1\t0\t1\t0\t0\t0\nOR4G11P\t0\t1\t1\t1\t0\t0\t0\t0\nOR4G4P\t1\t1\t0\t0\t1\t0\t1\t0\nPANK4\t1\t0\t0\t1\t1\t0\t1\t0\nPEX10\t1\t0\t0\t0\t0\t0\t0\t0\nPLCH2\t1\t0\t1\t0\t1\t0\t0\t0\nPLEKHN1\t0\t1\t1\t0\t1\t0\t0\t0\nPRDM16\t1\t0\t1\t0\t0\t0\t0\t0\nPRKCZ\t0\t0\t0\t0\t1\t0\t0\t0\nPUSL1\t1\t0\t0\t0\t1\t0\t0\t0\nRER1\t0\t0\t1\t1\t1\t1\t0\t0\nRN7SL657P\t0\t1\t0\t0\t0\t0\t1\t0\nRNF223\t0\t1\t1\t0\t1\t0\t0\t0\nSAMD11\t0\t1\t1\t1\t1\t0\t0\t0\nSCNN1D\t1\t1\t1\t0\t1\t0\t0\t0\nSDF4\t1\t1\t1\t0\t1\t0\t0\t0\nSKI\t1\t1\t1\t0\t1\t0\t0\t0\nSLC35E2\t0\t1\t0\t0\t1\t0\t0\t0\nSLC35E2B\t0\t1\t1\t0\t1\t0\t0\t0\nSMIM1\t0\t1\t0\t0\t1\t0\t0\t0\nSSU72\t1\t0\t0\t0\t1\t0\t1\t0\nTAS1R3\t1\t0\t1\t0\t1\t0\t0\t0\nTMEM240\t0\t1\t1\t0\t1\t0\t0\t0\nTMEM52\t1\t1\t1\t1\t0\t0\t0\t1\nTMEM88B\t0\t0\t1\t0\t0\t0\t0\t0\nTNFRSF14\t0\t1\t1\t0\t1\t0\t0\t0\nTNFRSF18\t0\t1\t1\t0\t1\t0\t0\t0\nTNFRSF4\t1\t1\t0\t0\t1\t0\t0\t1\nTP73\t1\t0\t1\t0\t0\t0\t0\t0\nTPRG1L\t0\t1\t0\t1\t1\t0\t0\t0\nTTC34\t0\t1\t0\t1\t1\t0\t0\t0\nTTLL10\t1\t0\t1\t0\t1\t0\t0\t0\nTUBB8P11\t0\t0\t0\t0\t1\t0\t0\t0\nUBE2J2\t1\t1\t1\t1\t1\t0\t0\t0\nVWA1\t1\t1\t1\t0\t0\t0\t0\t0\nWASH7P\t1\t1\t1\t0\t1\t0\t0\t1\nWBP1LP6\t1\t1\t0\t0\t1\t0\t1\t0\nWBP1LP7\t1\t1\t0\t1\t1\t0\t0\t0\nWRAP73\t0\t0\t1\t1\t1\t0\t0\t0\n"
+      }
+    }
+  ]
+}

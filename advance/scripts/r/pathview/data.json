@@ -1,0 +1,55 @@
+{
+  "module": "advance",
+  "tool": "pathview",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "",
+          "link": ""
+        },
+        "2-cls": {
+          "value": "",
+          "link": ""
+        },
+        "3-kegg_db": {
+          "value": "",
+          "link": ""
+        },
+        "4-org_db": ""
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "cliMode": true
+      },
+      "extra": {
+        "pathways": [],
+        "draw_heatmap": true
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "public/demo/gsea/P53.txt",
+          "link": ""
+        },
+        "2-cls": {
+          "value": "public/demo/gsea/P53.cls",
+          "link": ""
+        },
+        "3-kegg_db": {
+          "value": "public/db/kegg/hsa_kegg_20210326.rds",
+          "link": ""
+        },
+        "4-org_db": "org.Hs.eg.db"
+      },
+      "extra": {
+        "pathways": ["p53 signaling pathway", "Cell cycle"]
+      }
+    }
+  }
+}

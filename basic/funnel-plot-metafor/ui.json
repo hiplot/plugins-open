@@ -1,0 +1,133 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "measure": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Measure",
+        "zh_cn": "度量"
+      },
+      "items": [
+        "COR",
+        "UCOR",
+        "ZCOR",
+        "RR",
+        "OR",
+        "RD",
+        "AS",
+        "PETO",
+        "PBIT",
+        "PHI",
+        "YUQ",
+        "YUY",
+        "RTET",
+        "OR2DN",
+        "OR2DL",
+        "IRR",
+        "IRD",
+        "IRSD",
+        "MD",
+        "SMD",
+        "SMDH",
+        "ROM",
+        "D2ORN",
+        "D2ORL",
+        "CVR",
+        "VR",
+        "RPB",
+        "RBIS",
+        "PR",
+        "PLN",
+        "PAS",
+        "PFT",
+        "IR",
+        "IRLN",
+        "IRS",
+        "IRFT",
+        "MN",
+        "MNLN",
+        "CVLN",
+        "SDLN",
+        "MPRR",
+        "MPOR",
+        "MPRD",
+        "MPORC",
+        "MPPETO",
+        "MC",
+        "SMCC",
+        "SMCR",
+        "SMCRH",
+        "ROMC",
+        "CVRC",
+        "CRC",
+        "ARAW",
+        "AHW",
+        "ABT",
+        "PCOR",
+        "ZPCOR",
+        "SPCOR"
+      ],
+      "required": true,
+      "class": "col-12 col-md-6"
+    },
+    "refline": {
+      "type": "text-field",
+      "label": {
+        "en": "Refline",
+        "zh_cn": "参考线"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "level": {
+      "type": "combobox",
+      "label": {
+        "en": "Level",
+        "zh_cn": "水平"
+      },
+      "multiple": true,
+      "required": true,
+      "class": "col-12 col-md-6"
+    },
+    "exprs": {
+      "type": "combobox",
+      "label": {
+        "en": "Exprs",
+        "zh_cn": "格式列设置"
+      },
+      "items": [
+        "bi = bi",
+        "ci = ci",
+        "di = di",
+        "n1i = n1i",
+        "n2i = n2i",
+        "x1i = x1i",
+        "x2i = x2i",
+        "t1i = t1i",
+        "t2i = t2i",
+        "m1i = m1i",
+        "m2i = m2i",
+        "sd1i = sd1i",
+        "sd2i = sd2i",
+        "xi = xi",
+        "mi = mi",
+        "ri = ri",
+        "ti = ti",
+        "sdi = sdi",
+        "r2i = r2i",
+        "ni = ni",
+        "yi = yi",
+        "vi = vi",
+        "sei = sei"
+      ],
+      "multiple": true,
+      "required": true,
+      "class": "col-12 col-md-6"
+    }
+  }
+}

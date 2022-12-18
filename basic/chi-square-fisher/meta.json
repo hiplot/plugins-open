@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "卡方与 Fisher 检验",
+    "en": "Chi-square-fisher Test"
+  },
+  "alias": ["CSF-Test"],
+  "intro": {
+    "zh_cn": "用于检验分类变量频数差异",
+    "en": "Frequency Difference of Categorical Variables"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/15/chi-square-fisher-0.w9da5bizrjb-1-tuya.jpg",
+  "href": "/basic/chi-square-fisher",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.95,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-03-15",
+    "updateDate": "2021-03-15"
+  }
+}

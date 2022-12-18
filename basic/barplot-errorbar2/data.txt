@@ -1,0 +1,13 @@
+score class student
+60 math stuA
+62 math stuA
+70 chinese stuA
+73 chinese stuA
+80 english stuA
+85 english stuA
+65 math stuB
+67 math stuB
+75 chinese stuB
+77 chinese stuB
+85 english stuB
+83 english stuB

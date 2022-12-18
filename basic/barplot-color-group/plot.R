@@ -1,7 +1,8 @@
 #######################################################
 #                    CAUTION                          #
 #-----------------------------------------------------#
-# Copyright (C) 2020 by Hiplot Team                   #
+# Copyright (C) 2022 by "National Center for          #
+# Translational Medicine·Shanghai                     #
 # All rights reserved.                                #
 #######################################################
 

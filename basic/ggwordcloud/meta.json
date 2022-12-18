@@ -1,0 +1,27 @@
+{
+  "name": {
+    "zh_cn": "ggplot2 词云",
+    "en": "ggwordcloud"
+  },
+  "alias": ["Words-Shape"],
+  "intro": {
+    "zh_cn": "文云文本展示",
+    "en": "Display the wordcloud"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/51-dmkQ9x-tuya.jpg",
+  "href": "/basic/ggwordcloud",
+  "tag": [
+    "vue",
+    "ranking"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2020-08-17",
+    "updateDate": "2020-08-17"
+  }
+}

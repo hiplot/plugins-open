@@ -1,0 +1,21 @@
+{
+  "data": {
+    "graph": {
+      "type": "codemirror",
+      "required": true,
+      "label": "messages.basic.ggdag.graph"
+    }
+  },
+  "extra": {
+    "exposure": {
+      "type": "select",
+      "label": "messages.basic.ggdag.exposure",
+      "items_func": "this.getDataAreaFactors('graph')"
+    },
+    "outcome": {
+      "type": "select",
+      "label": "messages.basic.ggdag.outcome",
+      "items_func": "this.getDataAreaFactors('graph')"
+    }
+  }
+}
