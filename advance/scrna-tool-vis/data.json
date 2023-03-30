@@ -1,0 +1,51 @@
+{
+  "module": "advance",
+  "tool": "scrna-tool-vis",
+  "params": {
+    "config": {
+      "data": {
+        "0-data": {
+          "value": "",
+          "link": ""
+        },
+        "1-data": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 14,
+          "height": 4
+        },
+        "font": "Arial",
+        "palette": "npg"
+      },
+      "extra": {
+        "mode": ["jjDotPlot"]
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "0-data": {
+          "value": "public/demo/scrna-tool-vis/htdata.RDS",
+          "link": ""
+        },
+        "1-data": {
+          "value": "public/demo/scrna-tool-vis/top5pbmc.markers.csv",
+          "link": ""
+        }
+      },
+      "extra":{
+        "mode": ["jjDotPlot"]
+      }
+    }
+  }
+}

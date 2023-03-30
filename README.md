@@ -1,6 +1,6 @@
 # plugins-open
 
-Open source plugins of [Hiplot](https://hiplot-academic.com).
+Open source plugins of [Hiplot ORG](https://hiplot.org).
 
 ## Submodules
 

@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh_cn": "scRNAtoolVis",
+    "en": "scRNAtoolVis"
+  },
+  "alias": ["scRNAtoolVis"],
+  "intro": {
+    "zh_cn": "单细胞数据可视化",
+    "en": "Visualization of scRNA-Seq data"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/18/ggmsa-0.fx6bscts6wm-1.jpg",
+  "href": "/advance/scrna-tool-vis",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "scRNA"
+  ],
+  "meta": {
+    "score": 5,
+    "issues": "https://github.com/junjunlab/scRNAtoolVis/issues",
+    "author": "Jun Zhang",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2023-03-29",
+    "updateDate": "2023-03-29"
+  }
+}

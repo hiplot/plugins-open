@@ -1,0 +1,44 @@
+{
+  "data": {
+    "0-data": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "en": "RDS",
+        "zh_cn": "RDS"
+      },
+      "icon": "mdi-file",
+      "exts": [
+        "RDS",
+        "rds"
+      ],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "1-data": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "Markers",
+        "zh_cn": "标志基因"
+      }
+    }
+  },
+  "extra": {
+    "mode": {
+      "type": "select",
+      "label": {
+        "en": "mode",
+        "zh_cn": "模式"
+      },
+      "items": [
+        "jjDotPlot",
+        "markerVocalno",
+        "jjVolcano"
+      ],
+      "class": "col-12",
+      "multiple": true
+    }
+  }
+}
