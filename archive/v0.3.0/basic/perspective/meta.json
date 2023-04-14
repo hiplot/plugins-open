@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "透视图",
+    "en": "Perspective"
+  },
+  "alias": ["3D-Perspective"],
+  "intro": {
+    "zh_cn": "展示多维数据",
+    "en": "Display multidimensional data"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/74-JCDnM9-tuya.jpg",
+  "href": "/basic/perspective",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 3,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-11-09",
+    "updateDate": "2020-01-08"
+  }
+}

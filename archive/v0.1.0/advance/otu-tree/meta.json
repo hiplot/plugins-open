@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "OTU-Tree Shiny",
+    "en": "OTU-Tree Shiny"
+  },
+  "alias": ["OTU-Tree"],
+  "intro": {
+    "zh_cn": "扩增子/宏基因组 OTU 丰度图",
+    "en": "Amplicon/Metagenome OTU abundance"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/35-d75Iu4-tuya.jpg",
+  "href": "/advance/otu-tree",
+  "tag": [
+    "shiny",
+    "metagenome"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-29",
+    "updateDate": "2020-08-29"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "三角函数可视化",
+    "en": "Trigonometric Function Visualiztion"
+  },
+  "alias": ["trigonometric"],
+  "intro": {
+    "zh_cn": "三角函数可视化",
+    "en": "Trigonometric Function Visualiztion"
+  },
+  "src": "https://z3.ax1x.com/2021/07/05/RIEnTx.png",
+  "href": "/advance/trigonometric",
+  "tag": [
+    "shiny",
+    "trigonometric"
+  ],
+  "meta": {
+    "score": 3,
+    "author": "Hiplot Team | benben.miao",
+    "issues": "https://github.com/hiplot/gold",
+    "releaseDate": "2021-07-05",
+    "updateDate": "2021-07-05"
+  }
+}

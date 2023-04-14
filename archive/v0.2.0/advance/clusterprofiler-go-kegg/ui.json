@@ -1,0 +1,221 @@
+{
+  "data": {
+    "1-datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    },
+    "2-kegg_db": {
+      "type": "cloud-file",
+      "required": false,
+      "label": {
+        "en": "KEGG DB",
+        "zh_cn": "KEGG 数据库"
+      },
+      "icon": "mdi-file",
+      "exts": [
+        "rds"
+      ],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "3-org_db": {
+      "type": "combobox",
+      "required": true,
+      "label": "Org DB",
+      "items": [
+        "org.Ag.eg.db",
+        "org.At.tair.db",
+        "org.Bt.eg.db",
+        "org.Ce.eg.db",
+        "org.Cf.eg.db",
+        "org.Dm.eg.db",
+        "org.Dr.eg.db",
+        "org.EcK12.eg.db",
+        "org.EcSakai.eg.db",
+        "org.Gg.eg.db",
+        "org.Hs.eg.db",
+        "org.Mm.eg.db",
+        "org.Mmu.eg.db",
+        "org.Mxanthus.db",
+        "org.Pf.plasmo.db",
+        "org.Pt.eg.db",
+        "org.Rn.eg.db",
+        "org.Sc.sgd.db",
+        "org.Ss.eg.db",
+        "org.Xl.eg.db"
+      ],
+      "prepend-icon": "mdi-file"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "mode": {
+      "type": "select",
+      "label": "messages.common.mode",
+      "items": [
+        "BP",
+        "MF",
+        "CC",
+        "KEGG",
+        "DO",
+        "NCG",
+        "DGN",
+        "MeSH",
+        "ReactomePA",
+        "WikiPathways"
+      ],
+      "multiple": true,
+      "class": "col-12 col-md-6",
+      "required": true
+    },
+    "pAdjustMethod": {
+      "type": "select",
+      "label": "messages.advance.clusterprofiler.pAdjustMethod",
+      "items": [
+        "holm",
+        "hochberg",
+        "hommel",
+        "bonferroni",
+        "BH",
+        "BY",
+        "fdr"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "minGSSize": {
+      "type": "slider",
+      "label": "messages.advance.clusterprofiler.minGSSize",
+      "class": "col-12 col-md-6",
+      "max": 1000,
+      "min": 1,
+      "step": 1
+    },
+    "maxGSSize": {
+      "type": "slider",
+      "label": "messages.advance.clusterprofiler.maxGSSize",
+      "class": "col-12 col-md-6",
+      "max": 10000,
+      "min": 1,
+      "step": 1
+    },
+    "pvalueCutoff": {
+      "type": "slider",
+      "label": "messages.advance.clusterprofiler.pvalueCutoff",
+      "class": "col-12 col-md-6",
+      "max": 1,
+      "min": 0,
+      "step": 0.001
+    },
+    "qvalueCutoff": {
+      "type": "slider",
+      "label": "messages.advance.clusterprofiler.qvalueCutoff",
+      "class": "col-12 col-md-6",
+      "max": 1,
+      "min": 0,
+      "step": 0.001
+    },
+    "showCategory": {
+      "type": "slider",
+      "label": "messages.advance.clusterprofiler.showCategory",
+      "class": "col-12",
+      "max": 100,
+      "min": 1,
+      "step": 1
+    },
+    "doseBackground": {
+      "type": "switch",
+      "label": "messages.advance.clusterprofiler.doseBackground",
+      "class": "col-12 col-md-6 col-lg-4"
+    },
+    "drawBarplot": {
+      "type": "switch",
+      "label": "messages.advance.clusterprofiler.drawBarplot",
+      "class": "col-12 col-md-6 col-lg-4"
+    },
+    "drawEnrichmentMap": {
+      "type": "switch",
+      "label": "messages.advance.clusterprofiler.drawEnrichmentMap",
+      "class": "col-12 col-md-6 col-lg-4"
+    },
+    "drawCnetPlot": {
+      "type": "switch",
+      "label": "messages.advance.clusterprofiler.drawCnetPlot",
+      "class": "col-12 col-md-6 col-lg-4"
+    },
+    "drawTreePlot": {
+      "type": "switch",
+      "label": {
+        "en": "Draw Tree Plot",
+        "zh_cn": "绘制树状图"
+      },
+      "class": "col-12 col-md-6 col-lg-4"
+    },
+    "hclustMethod": {
+      "type": "select",
+      "label": "messages.basic.common.hc_method",
+      "items": [
+        "ward.D",
+        "ward.D2",
+        "single",
+        "complete",
+        "average",
+        "mcquitty",
+        "median",
+        "centroid"
+      ],
+      "class": "col-12",
+      "if": "drawTreePlot"
+    },
+    "nClusterTree": {
+      "type": "slider",
+      "label": {
+        "en": "Tree NClusters",
+        "zh_cn": "树图子类数"
+      },
+      "class": "col-12",
+      "step": 1,
+      "max": 9999,
+      "if": "drawTreePlot"
+    },
+    "hilightTree": {
+      "type": "switch",
+      "label": {
+        "en": "Hilight Tree",
+        "zh_cn": "高亮树图"
+      },
+      "class": "col-12",
+      "if": "drawTreePlot"
+    },
+    "meshDB": {
+      "type": "select",
+      "label": {
+        "en": "MeSH DB",
+        "zh_cn": "MeSH 数据库"
+      },
+      "items": [
+        "gendoo", "gene2pubmed", "RBBH"
+      ],
+      "class": "col-12 col-md-6",
+      "if_func": "this.params.config.extra.mode.indexOf('MeSH') !== -1"
+    },
+    "meshCat": {
+      "type": "select",
+      "label": {
+        "en": "MeSH Category",
+        "zh_cn": "MeSH 类别"
+      },
+      "items": [
+        "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K",
+        "L","M", "N", "V", "Z"
+      ],
+      "class": "col-12 col-md-6",
+      "if_func": "this.params.config.extra.mode.indexOf('MeSH') !== -1"
+    }
+  }
+}

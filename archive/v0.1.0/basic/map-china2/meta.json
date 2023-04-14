@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh_cn": "中国地图 2",
+    "en": "China Map 2"
+  },
+  "alias": ["China-Map2"],
+  "intro": {
+    "zh_cn": "用于展示中国地图",
+    "en": "Display the map of China"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/18/map-china2-0-tuya.jpg",
+  "href": "/basic/map-china2",
+  "tag": [
+    "vue",
+    "map"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 4.9,
+    "author": "Hiplot Team | Jianfeng",
+    "citation": "Shape file download from https://github.com/dongli/china-shapefiles",
+    "releaseDate": "2021-02-22",
+    "updateDate": "2021-02-22",
+    "version": "v0.1.0"
+  }
+}

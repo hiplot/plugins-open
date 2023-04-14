@@ -1,0 +1,76 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "p_cutoff": {
+      "type": "combobox",
+      "label": "messages.basic.volcano.pCutoff",
+      "class": "col-12 col-md-4",
+      "items": ["0.5", "0.4", "0.3", "0.2", "0.1",
+                "0.05", "0.01", "0.001", "1e-04", "1e-05",
+                "1e-06", "1e-07", "1e-08",
+                "1e-09", "1e-10", "1e-11",
+                "1e-12"]
+    },
+    "subtitle": {
+      "type": "text-field",
+      "label": "messages.common.subtitle",
+      "class": "col-12 col-md-4"
+    },
+    "legendPosition": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Legend Position",
+        "zh_cn": "图例位置"
+      },
+      "class": "col-12 col-md-4",
+      "items": ["left", "right", "top", "bottom"]
+    },
+    "fc_cutoff": {
+      "type": "slider",
+      "label": "messages.basic.volcano.fcCutoff",
+      "step": 0.1,
+      "class": "col-12"
+    },
+    "pointSize": {
+      "type": "slider",
+      "label": {
+        "en": "Point Size",
+        "zh_cn": "点大小"
+      },
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    }
+    ,
+    "labSize": {
+      "type": "slider",
+      "label": {
+        "en": "Labels Size",
+        "zh_cn": "标注大小"
+      },
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    },
+    "yrange": {
+      "type": "range-slider",
+      "label": {
+        "en": "X-axis Range",
+        "zh_cn": "X 轴范围"
+      },
+      "step": 0.01,
+      "class": "col-12"
+    },
+    "boxedLabels": {
+      "type": "switch",
+      "label": {
+        "en": "Boxed Labels",
+        "zh_cn": "标注文字框"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "module": "basic",
+  "tool": "map-oceania-antarc",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 50,
+          "height": 24
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Oceania/Antarc Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "region\tvalue\nAmerican Samoa (US)\t672\nAntarctica\t3\nPacific Is Refuges (US)\t320\nCook Islands (NEW ZEALAND)\t740\nFIJI\t303\nFrench Polynesia (FRANCE)\t879\nKIRIBATI\t664\nNEW ZEALAND\t237\nNiue (NEW ZEALAND)\t653\nPitcairn Islands (UK)\t818\nSAMOA\t933\nTONGA\t217\nTokelau (NEW ZEALAND)\t827\nWallis and Futuna (FRANCE)\t271\nAUSTRALIA\t190\nCoral Sea Islands (AUSTRALIA)\t267\nAshmore & Cartier Islands (AUSTRALIA)\t499\nBRUNEI\t869\nChristmas Island (AUSTRALIA)\t540\nCocos (Keeling) Islands (AUSTRALIA)\t718\nFEDERATED STATES OF MICRONESIA\t399\nGuam (US)\t616\nINDONESIA\t476\nIn dispute-Spratly Islands\t868\nMALAYSIA\t819\nMARSHALL ISLANDS\t231\nNAURU\t186\nNew Caledonia (FRANCE)\t716\nNorfolk Island (AUSTRALIA)\t576\nNorthern Mariana Islands (US)\t62\nPALAU\t597\nPAPUA NEW GUINEA\t429\nPHILIPPINES\t390\nSINGAPORE\t47\nSOLOMAN ISLANDS\t61\nTIMOR-LESTE\t493\nTUVALU\t860\nVANUATU\t553\nIn dispute-CHINA/PHILIPPINES/TAIWAN\t191\n"
+    }
+  }
+}

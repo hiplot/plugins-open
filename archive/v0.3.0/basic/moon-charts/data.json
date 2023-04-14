@@ -1,0 +1,32 @@
+{
+  "module": "basic",
+  "tool": "moon-charts",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 7,
+          "height": 5
+        },
+        "theme": "default",
+        "title": "",
+        "font": "Arial"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Moon-charts"
+      }
+    },
+    "textarea": {
+      "datTable": "Restaurant\tFood\tDecor\tService\tPrice\nAnscombe\"s Luncheonette\t5\t2\t4\t4\nChai Squared\t3\t5\t2\t5\nTukey\"s Honest Southern Diner\t4\t3\t3\t2\nBagels ANOVA\t4\t1\t3\t5\nSpearmint Row\t1\t5\t5\t2"
+    }
+  }
+}

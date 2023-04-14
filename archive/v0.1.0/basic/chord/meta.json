@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "弦图",
+    "en": "Chord Plot"
+  },
+  "alias": ["Chord-Chart"],
+  "intro": {
+    "zh_cn": "关联可视化",
+    "en": "Corelation visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/01/WX20200901-201817-tuya.jpg",
+  "href": "/basic/chord",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | benben-miao",
+    "releaseDate": "2020-09-01",
+    "updateDate": "2020-09-01"
+  }
+}

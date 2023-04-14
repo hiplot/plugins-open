@@ -1,0 +1,58 @@
+{
+  "module": "basic",
+  "tool": "ezcox",
+  "params": {
+    "textarea": {
+      "1-data": ""
+    },
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": []
+          },
+          {
+            "value": []
+          },
+          {
+            "value": []
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 6,
+          "height": 4
+        },
+        "font": "Arial"
+      },
+      "extra": {
+        "merge_models": false,
+        "drop_controls": false,
+        "add_caption": true
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": ["sex", "ph.ecog"]
+          },
+          {
+            "value": ["age"]
+          },
+          {
+            "value": []
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "1-data": "time\tstatus\tsex\tph.ecog\tage\n306\t2\t1\t1\t74\n455\t2\t1\t0\t68\n1010\t1\t1\t0\t56\n210\t2\t1\t1\t57\n883\t2\t1\t0\t60\n1022\t1\t1\t1\t74\n310\t2\t2\t2\t68\n361\t2\t2\t2\t71\n218\t2\t1\t1\t53\n166\t2\t1\t2\t61\n170\t2\t1\t1\t57\n654\t2\t2\t2\t68\n728\t2\t2\t1\t68\n71\t2\t1\tNA\t60\n567\t2\t1\t1\t57\n144\t2\t1\t1\t67\n613\t2\t1\t1\t70\n707\t2\t1\t2\t63\n61\t2\t2\t2\t56\n88\t2\t1\t1\t57\n301\t2\t1\t1\t67\n81\t2\t2\t0\t49\n624\t2\t1\t1\t50\n371\t2\t1\t0\t58\n394\t2\t1\t0\t72\n520\t2\t2\t1\t70\n574\t2\t1\t0\t60\n118\t2\t1\t3\t70\n390\t2\t1\t1\t53\n12\t2\t1\t2\t74\n473\t2\t2\t1\t69\n26\t2\t1\t2\t73\n533\t2\t1\t2\t48\n107\t2\t2\t2\t60\n53\t2\t1\t2\t61\n122\t2\t2\t2\t62\n814\t2\t1\t2\t65\n965\t1\t2\t1\t66\n93\t2\t1\t2\t74\n731\t2\t2\t1\t64\n460\t2\t1\t1\t70\n153\t2\t2\t2\t73\n433\t2\t2\t0\t59\n145\t2\t2\t2\t60\n583\t2\t1\t1\t68\n95\t2\t2\t2\t76\n303\t2\t1\t0\t74\n519\t2\t1\t1\t63\n643\t2\t1\t0\t74\n765\t2\t2\t1\t50\n735\t2\t2\t1\t72\n189\t2\t1\t0\t63\n53\t2\t1\t0\t68\n246\t2\t1\t0\t58\n689\t2\t1\t1\t59\n65\t2\t1\t0\t62\n5\t2\t2\t0\t65\n132\t2\t1\t2\t57\n687\t2\t2\t1\t58\n345\t2\t2\t1\t64\n444\t2\t2\t2\t75\n223\t2\t1\t1\t48\n175\t2\t1\t1\t73\n60\t2\t2\t1\t65\n163\t2\t1\t1\t69\n65\t2\t1\t2\t68\n208\t2\t2\t2\t67\n821\t1\t2\t0\t64\n428\t2\t1\t0\t68\n230\t2\t1\t1\t67\n840\t1\t1\t0\t63\n305\t2\t2\t1\t48\n11\t2\t1\t2\t74\n132\t2\t1\t1\t40\n226\t2\t2\t1\t53\n426\t2\t2\t1\t71\n705\t2\t2\t0\t51\n363\t2\t2\t1\t56\n11\t2\t1\t0\t81\n176\t2\t1\t0\t73\n791\t2\t1\t0\t59\n95\t2\t1\t1\t55\n196\t1\t1\t1\t42\n167\t2\t2\t1\t44\n806\t1\t1\t1\t44\n284\t2\t1\t1\t71\n641\t2\t2\t1\t62\n147\t2\t1\t0\t61\n740\t1\t2\t1\t44\n163\t2\t1\t2\t72\n655\t2\t1\t0\t63\n239\t2\t1\t1\t70\n88\t2\t1\t1\t66\n245\t2\t2\t1\t57\n588\t1\t2\t0\t69\n30\t2\t1\t2\t72\n179\t2\t1\t1\t69\n310\t2\t1\t1\t71\n477\t2\t1\t1\t64\n166\t2\t2\t0\t70\n559\t1\t2\t0\t58\n450\t2\t2\t1\t69\n364\t2\t1\t1\t56\n107\t2\t1\t1\t63\n177\t2\t1\t2\t59\n156\t2\t1\t1\t66\n529\t1\t2\t1\t54\n11\t2\t1\t1\t67\n429\t2\t1\t1\t55\n351\t2\t2\t2\t75\n15\t2\t1\t0\t69\n181\t2\t1\t1\t44\n283\t2\t1\t1\t80\n201\t2\t2\t0\t75\n524\t2\t2\t1\t54\n13\t2\t1\t2\t76\n212\t2\t1\t2\t49\n524\t2\t1\t2\t68\n288\t2\t1\t2\t66\n363\t2\t1\t1\t80\n442\t2\t1\t0\t75\n199\t2\t2\t2\t60\n550\t2\t2\t1\t69\n54\t2\t1\t2\t72\n558\t2\t1\t0\t70\n207\t2\t1\t1\t66\n92\t2\t1\t1\t50\n60\t2\t1\t1\t64\n551\t1\t2\t2\t77\n543\t1\t2\t0\t48\n293\t2\t2\t1\t59\n202\t2\t1\t1\t53\n353\t2\t1\t0\t47\n511\t1\t2\t1\t55\n267\t2\t1\t0\t67\n511\t1\t2\t2\t74\n371\t2\t2\t1\t58\n387\t2\t1\t2\t56\n457\t2\t1\t1\t54\n337\t2\t1\t0\t56\n201\t2\t2\t2\t73\n404\t1\t1\t1\t74\n222\t2\t1\t2\t76\n62\t2\t2\t1\t65\n458\t1\t1\t1\t57\n356\t1\t2\t1\t53\n353\t2\t1\t0\t71\n163\t2\t1\t1\t54\n31\t2\t1\t0\t82\n340\t2\t2\t0\t59\n229\t2\t1\t1\t70\n444\t1\t1\t0\t60\n315\t1\t2\t0\t62\n182\t2\t2\t1\t53\n156\t2\t1\t2\t55\n329\t2\t1\t2\t69\n364\t1\t2\t1\t68\n291\t2\t1\t2\t62\n179\t2\t1\t1\t63\n376\t1\t2\t1\t56\n384\t1\t2\t0\t62\n268\t2\t2\t1\t44\n292\t1\t1\t2\t69\n142\t2\t1\t1\t63\n413\t1\t1\t1\t64\n266\t1\t2\t0\t57\n194\t2\t2\t1\t60\n320\t2\t1\t0\t46\n181\t2\t1\t1\t61\n285\t2\t1\t0\t65\n301\t1\t1\t1\t61\n348\t2\t2\t0\t58\n197\t2\t1\t1\t56\n382\t1\t2\t0\t43\n303\t1\t1\t1\t53\n296\t1\t2\t1\t59\n180\t2\t1\t2\t56\n186\t2\t2\t1\t55\n145\t2\t2\t1\t53\n269\t1\t2\t0\t74\n300\t1\t1\t0\t60\n284\t1\t1\t0\t39\n350\t2\t2\t0\t66\n272\t1\t2\t1\t65\n292\t1\t2\t0\t51\n332\t1\t2\t0\t45\n285\t2\t2\t2\t72\n259\t1\t1\t0\t58\n110\t2\t1\t1\t64\n286\t2\t1\t0\t53\n270\t2\t1\t1\t72\n81\t2\t1\t2\t52\n131\t2\t1\t1\t50\n225\t1\t1\t1\t64\n269\t2\t1\t1\t71\n225\t1\t1\t0\t70\n243\t1\t2\t1\t63\n279\t1\t1\t1\t64\n276\t1\t2\t0\t52\n135\t2\t1\t1\t60\n79\t2\t2\t1\t64\n59\t2\t1\t1\t73\n240\t1\t2\t0\t63\n202\t1\t2\t0\t50\n235\t1\t2\t0\t63\n105\t2\t1\t2\t62\n224\t1\t2\t0\t55\n239\t2\t2\t2\t50\n237\t1\t1\t1\t69\n173\t1\t2\t1\t59\n252\t1\t2\t0\t60\n221\t1\t1\t1\t67\n185\t1\t1\t1\t69\n92\t1\t2\t2\t64\n13\t2\t1\t1\t65\n222\t1\t1\t1\t65\n192\t1\t2\t1\t41\n183\t2\t1\t2\t76\n211\t1\t2\t2\t70\n175\t1\t2\t0\t57\n197\t1\t1\t1\t67\n203\t1\t2\t1\t71\n116\t2\t1\t1\t76\n188\t1\t1\t1\t77\n191\t1\t1\t0\t39\n105\t1\t2\t2\t75\n174\t1\t1\t1\t66\n177\t1\t2\t1\t58"
+    }
+  }
+}

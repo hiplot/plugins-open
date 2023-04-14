@@ -1,0 +1,45 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "n.e"
+      },
+      {
+        "label": "mean.e"
+      },
+      {
+        "label": "sd.e"
+      },
+      {
+        "label": "n.c"
+      },
+      {
+        "label": "mean.c"
+      },
+      {
+        "label": "sd.c"
+      },
+      {
+        "label": "Study"
+      }
+    ]
+  },
+  "extra": {
+    "layout": {
+      "type": "select",
+      "label": {
+        "en": "Layout Style",
+        "zh_cn": "布局"
+      },
+      "class": "col-12",
+      "items": ["meta", "RevMan5", "JAMA"]
+    }
+  }
+}

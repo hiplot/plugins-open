@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "Piestats",
+    "en": "Piestats"
+  },
+  "alias": ["Stats-Pie"],
+  "intro": {
+    "zh_cn": "展示数据占比",
+    "en": "Display data percent"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/ggpiestats-0.ct0mv9xmdk-1.jpg",
+  "href": "/basic/ggpiestats",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Indrajeet Patil & Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2021-01-30",
+    "updateDate": "2021-02-21",
+    "issues": "https://github.com/IndrajeetPatil/ggstatsplot",
+    "version": "v0.1.1"
+  }
+}

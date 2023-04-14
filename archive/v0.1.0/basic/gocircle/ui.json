@@ -1,0 +1,64 @@
+{
+  "data": {
+    "datmat": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "nsub": {
+      "type": "slider",
+      "label": {
+        "en": "Show Items",
+        "zh_cn": "展示 GO 条目数"
+      },
+      "class": "col-12 col-md-6",
+      "max": 20,
+      "step": 1
+    },
+    "label_size": {
+      "type": "slider",
+      "label": {
+        "en": "Label Size",
+        "zh_cn": "标签字体大小"
+      },
+      "class": "col-12 col-md-6",
+      "max": 10,
+      "step": 1
+    },
+    "rad1": {
+      "type": "slider",
+      "label": {
+        "en": "Rad1",
+        "zh_cn": "内圈半径大小"
+      },
+      "class": "col-12 col-md-6",
+      "max": 10,
+      "step": 1
+    },
+    "rad2": {
+      "type": "slider",
+      "label": {
+        "en": "Rad2",
+        "zh_cn": "外圈半径大小"
+      },
+      "class": "col-12 col-md-6",
+      "max": 10,
+      "step": 1
+    },
+    "table_legend": {
+      "type": "switch",
+      "label": {
+        "en": "Table Legend",
+        "zh_cn": "是否展示表格图例"
+      },
+      "class": "col-12"
+    }
+  }
+}

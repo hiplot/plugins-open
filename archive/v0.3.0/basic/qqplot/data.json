@@ -1,0 +1,106 @@
+{
+  "module": "basic",
+  "tool": "qqplot",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 5.5,
+          "height": 4
+        },
+        "theme": "default",
+        "palette": "grafify",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "transformY": "",
+        "ybreaks": []
+      },
+      "extra": {
+        "point_size": 2,
+        "point_thick": 0.5
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "Cytokine"
+            },
+            {
+              "value": "Genotype"
+            },
+            {
+              "value": ""
+            }
+          ]
+        },
+        "general": {
+          "title": "QQplot without facet"
+        }
+      },
+      "textarea": {
+        "datTable": "Genotype\tCytokine\tExperiment\tfacet\nWT\t1.312322\tExp_ 1\tA\nWT\t2.171466\tExp_ 2\tA\nWT\t1.49761\tExp_ 3\tA\nWT\t1.088861\tExp_ 4\tA\nWT\t1.270528\tExp_ 5\tA\nWT\t3.012708\tExp_ 6\tA\nWT\t9.691702\tExp_ 7\tA\nWT\t2.765479\tExp_ 8\tA\nWT\t6.774652\tExp_ 9\tA\nWT\t0.492458\tExp_ 10\tA\nWT\t0.540903\tExp_ 11\tA\nWT\t0.205375\tExp_ 12\tA\nWT\t0.381568\tExp_ 13\tA\nWT\t2.130989\tExp_ 14\tA\nWT\t8.432083\tExp_ 15\tA\nWT\t2.670059\tExp_ 16\tA\nWT\t5.181176\tExp_ 17\tA\nWT\t4.687338\tExp_ 18\tA\nWT\t0.471445\tExp_ 19\tA\nWT\t1.956259\tExp_ 20\tA\nWT\t0.171804\tExp_ 21\tA\nWT\t1.021475\tExp_ 22\tA\nWT\t8.096598\tExp_ 23\tA\nWT\t0.343344\tExp_ 24\tA\nWT\t2.791929\tExp_ 25\tA\nWT\t0.623008\tExp_ 26\tA\nWT\t2.020879\tExp_ 27\tA\nWT\t1.081427\tExp_ 28\tA\nWT\t5.853213\tExp_ 29\tA\nWT\t6.333266\tExp_ 30\tA\nWT\t2.756875\tExp_ 31\tA\nWT\t4.308646\tExp_ 32\tA\nWT\t6.368477\tExp_ 33\tA\nKO\t1.952614\tExp_ 1\tA\nKO\t4.105857\tExp_ 2\tA\nKO\t1.524945\tExp_ 3\tA\nKO\t0.947824\tExp_ 4\tA\nKO\t1.751518\tExp_ 5\tA\nKO\t4.915473\tExp_ 6\tA\nKO\t13.8516\tExp_ 7\tA\nKO\t3.724252\tExp_ 8\tA\nKO\t8.139972\tExp_ 9\tA\nKO\t2.421041\tExp_ 10\tA\nKO\t1.036425\tExp_ 11\tA\nKO\t0.451209\tExp_ 12\tA\nKO\t0.664712\tExp_ 13\tA\nKO\t3.055736\tExp_ 14\tA\nKO\t13.24601\tExp_ 15\tA\nKO\t5.07842\tExp_ 16\tA\nKO\t8.139972\tExp_ 17\tA\nKO\t7.421389\tExp_ 18\tA\nKO\t0.638242\tExp_ 19\tA\nKO\t5.937843\tExp_ 20\tA\nKO\t0.557661\tExp_ 21\tA\nKO\t4.834382\tExp_ 22\tA\nKO\t9.270064\tExp_ 23\tA\nKO\t0.811687\tExp_ 24\tA\nKO\t4.937101\tExp_ 25\tA\nKO\t0.656166\tExp_ 26\tA\nKO\t4.513057\tExp_ 27\tA\nKO\t2.122024\tExp_ 28\tA\nKO\t19.58136\tExp_ 29\tA\nKO\t17.92826\tExp_ 30\tA\nKO\t5.042143\tExp_ 31\tA\nKO\t7.886269\tExp_ 32\tA\nKO\t27.99006\tExp_ 33\tA\nWT\t1.312322\tExp_ 1\tB\nWT\t2.171466\tExp_ 2\tB\nWT\t1.49761\tExp_ 3\tB\nWT\t1.088861\tExp_ 4\tB\nWT\t1.270528\tExp_ 5\tB\nWT\t3.012708\tExp_ 6\tB\nWT\t9.691702\tExp_ 7\tB\nWT\t2.765479\tExp_ 8\tB\nWT\t6.774652\tExp_ 9\tB\nWT\t0.492458\tExp_ 10\tB\nWT\t0.540903\tExp_ 11\tB\nWT\t0.205375\tExp_ 12\tB\nWT\t0.381568\tExp_ 13\tB\nWT\t2.130989\tExp_ 14\tB\nWT\t8.432083\tExp_ 15\tB\nWT\t2.670059\tExp_ 16\tB\nWT\t5.181176\tExp_ 17\tB\nWT\t4.687338\tExp_ 18\tB\nWT\t0.471445\tExp_ 19\tB\nWT\t1.956259\tExp_ 20\tB\nWT\t0.171804\tExp_ 21\tB\nWT\t1.021475\tExp_ 22\tB\nWT\t8.096598\tExp_ 23\tB\nWT\t0.343344\tExp_ 24\tB\nWT\t2.791929\tExp_ 25\tB\nWT\t0.623008\tExp_ 26\tB\nWT\t2.020879\tExp_ 27\tB\nWT\t1.081427\tExp_ 28\tB\nWT\t5.853213\tExp_ 29\tB\nWT\t6.333266\tExp_ 30\tB\nWT\t2.756875\tExp_ 31\tB\nWT\t4.308646\tExp_ 32\tB\nWT\t6.368477\tExp_ 33\tB\nKO\t1.952614\tExp_ 1\tB\nKO\t4.105857\tExp_ 2\tB\nKO\t1.524945\tExp_ 3\tB\nKO\t0.947824\tExp_ 4\tB\nKO\t1.751518\tExp_ 5\tB\nKO\t4.915473\tExp_ 6\tB\nKO\t13.8516\tExp_ 7\tB\nKO\t3.724252\tExp_ 8\tB\nKO\t8.139972\tExp_ 9\tB\nKO\t2.421041\tExp_ 10\tB\nKO\t1.036425\tExp_ 11\tB\nKO\t0.451209\tExp_ 12\tB\nKO\t0.664712\tExp_ 13\tB\nKO\t3.055736\tExp_ 14\tB\nKO\t13.24601\tExp_ 15\tB\nKO\t5.07842\tExp_ 16\tB\nKO\t8.139972\tExp_ 17\tB\nKO\t7.421389\tExp_ 18\tB\nKO\t0.638242\tExp_ 19\tB\nKO\t5.937843\tExp_ 20\tB\nKO\t0.557661\tExp_ 21\tB\nKO\t4.834382\tExp_ 22\tB\nKO\t9.270064\tExp_ 23\tB\nKO\t0.811687\tExp_ 24\tB\nKO\t4.937101\tExp_ 25\tB\nKO\t0.656166\tExp_ 26\tB\nKO\t4.513057\tExp_ 27\tB\nKO\t2.122024\tExp_ 28\tB\nKO\t19.58136\tExp_ 29\tB\nKO\t17.92826\tExp_ 30\tB\nKO\t5.042143\tExp_ 31\tB\nKO\t7.886269\tExp_ 32\tB\nKO\t27.99006\tExp_ 33\tB\n"
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "Cytokine"
+            },
+            {
+              "value": "Genotype"
+            },
+            {
+              "value": "facet"
+            }
+          ]
+        },
+        "general": {
+          "title": "QQplot with facet",
+          "size": {
+            "width": 7,
+            "height": 4,
+            "alpha": 0.8
+          }
+        }
+      }
+    }
+  ]
+}

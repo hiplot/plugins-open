@@ -1,0 +1,35 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Term"
+      },
+      {
+        "label": "Count"
+      },
+      {
+        "label": "Type"
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "topnum": {
+      "type": "slider",
+      "label": "messages.basic.bubble.topnum",
+      "max": 300,
+      "class": "col-12"
+    }
+  }
+}

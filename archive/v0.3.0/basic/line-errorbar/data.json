@@ -1,0 +1,48 @@
+{
+  "module": "basic",
+  "tool": "line-errorbar",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 5.5,
+          "height": 4
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "transformY": "",
+        "ybreaks": []
+      },
+      "extra": {
+        "pval": "value"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Line plot with errorbar"
+      }
+    },
+    "textarea": {
+      "datTable": "Value\tGroup2\tGroup1\n4.2\ttreat1\tlow\n11.5\ttreat1\tlow\n7.3\ttreat1\tlow\n5.8\ttreat1\tlow\n6.4\ttreat1\tlow\n10\ttreat1\tlow\n11.2\ttreat1\tlow\n11.2\ttreat1\tlow\n5.2\ttreat1\tlow\n7\ttreat1\tlow\n16.5\ttreat1\tmid\n16.5\ttreat1\tmid\n15.2\ttreat1\tmid\n17.3\ttreat1\tmid\n22.5\ttreat1\tmid\n17.3\ttreat1\tmid\n13.6\ttreat1\tmid\n14.5\ttreat1\tmid\n18.8\ttreat1\tmid\n15.5\ttreat1\tmid\n23.6\ttreat1\thigh\n18.5\ttreat1\thigh\n33.9\ttreat1\thigh\n25.5\ttreat1\thigh\n26.4\ttreat1\thigh\n32.5\ttreat1\thigh\n26.7\ttreat1\thigh\n21.5\ttreat1\thigh\n23.3\ttreat1\thigh\n29.5\ttreat1\thigh\n15.2\ttreat2\tlow\n21.5\ttreat2\tlow\n17.6\ttreat2\tlow\n9.7\ttreat2\tlow\n14.5\ttreat2\tlow\n10\ttreat2\tlow\n8.2\ttreat2\tlow\n9.4\ttreat2\tlow\n16.5\ttreat2\tlow\n9.7\ttreat2\tlow\n19.7\ttreat2\tmid\n23.3\ttreat2\tmid\n23.6\ttreat2\tmid\n26.4\ttreat2\tmid\n20\ttreat2\tmid\n25.2\ttreat2\tmid\n25.8\ttreat2\tmid\n21.2\ttreat2\tmid\n14.5\ttreat2\tmid\n27.3\ttreat2\tmid\n25.5\ttreat2\thigh\n26.4\ttreat2\thigh\n22.4\ttreat2\thigh\n24.5\ttreat2\thigh\n24.8\ttreat2\thigh\n30.9\ttreat2\thigh\n26.4\ttreat2\thigh\n27.3\ttreat2\thigh\n29.4\ttreat2\thigh\n23\ttreat2\thigh"
+    }
+  }
+}

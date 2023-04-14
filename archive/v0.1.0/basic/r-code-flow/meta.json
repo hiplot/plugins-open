@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "R 脚本逻辑可视化",
+    "en": "R Script Flow"
+  },
+  "alias": ["Rscript Flow"],
+  "intro": {
+    "zh_cn": "展示 R 脚本执行逻辑",
+    "en": "Flow diagrams the logic of R scripts"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/2-a5Eb80-tuya.jpg",
+  "href": "/basic/r-code-flow",
+  "tag": [
+    "vue",
+    "flow"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Antoine Fabri & Hiplot Team | Jianfeng",
+    "email": "antoine.fabri@gmail.com",
+    "issues": "https://github.com/moodymudskipper/flow",
+    "releaseDate": "2020-08-08",
+    "updateDate": "2020-08-08"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "Betweenstats",
+    "en": "Betweenstats"
+  },
+  "alias": ["Stats-Violin"],
+  "intro": {
+    "zh_cn": "展示组间差异",
+    "en": "Display differences between groups"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/01/30/ggbetweenstats-tuya.jpg",
+  "href": "/basic/ggbetweenstats",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Indrajeet Patil & Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2021-01-29",
+    "updateDate": "2021-02-21",
+    "issues": "https://github.com/IndrajeetPatil/ggstatsplot",
+    "version": "v0.1.1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "正交偏最小二乘-判别分析",
+    "en": "Orthogonal PLS-DA"
+  },
+  "alias": ["OPLS-DA"],
+  "intro": {
+    "zh_cn": "判别分析",
+    "en": "Discrimination Analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/26/ops-da-tuya.jpg",
+  "href": "/advance/opls-da",
+  "tag": [
+    "shiny",
+    "discrimination"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-09-26",
+    "updateDate": "2020-09-26"
+  }
+}

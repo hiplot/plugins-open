@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Echarts Shiny",
+    "en": "Echarts Shiny"
+  },
+  "alias": ["Custom-Echarts"],
+  "intro": {
+    "zh_cn": "Javascript 交互式可视化",
+    "en": "Interactive Javascript Visulization"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/01/echarts.png",
+  "href": "/advance/echarts",
+  "tag": [
+    "shiny",
+    "echarts"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-10-01",
+    "updateDate": "2020-10-01"
+  }
+}

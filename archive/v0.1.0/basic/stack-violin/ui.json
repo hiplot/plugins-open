@@ -1,0 +1,22 @@
+{
+  "data": {
+    "1-expmat": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.basic.common.expMat"
+    },
+    "2-genelist": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.basic.common.genelist"
+    }
+  },
+  "extra": {
+    "yangle": {
+      "type": "slider",
+      "label": "messages.basic.common.yangle",
+      "class": "col-12",
+      "max": 60
+    }
+  }
+}

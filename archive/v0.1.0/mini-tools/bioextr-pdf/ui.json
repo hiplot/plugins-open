@@ -1,0 +1,40 @@
+{
+  "data": {
+    "infile": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "zh_cn": "文件列表",
+        "en": "Files"
+      },
+      "icon": "mdi-file",
+      "exts": ["pdf"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "keywordsData": {
+      "type": "hiplot-textarea",
+      "required": false,
+      "label": {
+        "en": "Keywords List",
+        "zh_cn": "关键词列表"
+      }
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "extract_url": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "提取 URL",
+        "en": "Extract URL"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

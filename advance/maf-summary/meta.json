@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "Maftools 变异位点简单统计",
+    "en": "Maftools Summary Plots"
+  },
+  "alias": ["Maf-Summary"],
+  "intro": {
+    "zh_cn": "突变数据可视化应用",
+    "en": "Genetic Mutations Visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/01/20/maf-summary-tuya.jpg",
+  "href": "/advance/maf-summary",
+  "tag": [
+    "shiny",
+    "mutation",
+    "maf"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "issues": "https://github.com/hiplot/gold",
+    "releaseDate": "2021-01-20",
+    "updateDate": "2021-01-20"
+  }
+}

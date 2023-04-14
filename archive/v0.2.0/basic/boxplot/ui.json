@@ -1,0 +1,61 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "pval": {
+      "type": "select",
+      "label": "messages.basic.common.pval",
+      "items": [
+        "value",
+        "signif",
+        "no"
+      ],
+      "class": "col-12 col-md-4",
+      "required": true
+    },
+    "stat_method": {
+      "type": "select",
+      "label": "messages.basic.common.statMethod",
+      "items": [
+        "t.test",
+        "wilcox.test",
+        "anova",
+        "kruskal.test"
+      ],
+      "class": "col-12 col-md-4",
+      "required": true
+    },
+    "test_groups": {
+      "type": "select",
+      "label": "messages.basic.common.test_groups",
+      "items_func": "this.selectCols('datTable', 1)",
+      "multiple": true,
+      "class": "col-12 col-md-4"
+    },
+    "point": {
+      "type": "switch",
+      "label": "messages.basic.common.point",
+      "class": "col-12 col-md-4"
+    },
+    "notch": {
+      "type": "switch",
+      "label": "messages.basic.common.notch",
+      "class": "col-12 col-md-4"
+    },
+    "order_by_table": {
+      "type": "switch",
+      "label": "messages.basic.common.facet_order_by_table",
+      "class": "col-12 col-md-4"
+    }
+  }
+}

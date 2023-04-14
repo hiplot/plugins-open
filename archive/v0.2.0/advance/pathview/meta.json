@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "Pathview",
+    "en": "Pathview"
+  },
+  "alias": ["Pathway-Visual"],
+  "intro": {
+    "zh_cn": "基因通路表达模式",
+    "en": "Expression pattern of gene pathway"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/26/pathview-0-tuya.jpg",
+  "href": "/advance/pathview",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "expression"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-03-25",
+    "updateDate": "2021-03-25",
+    "version": "v0.1.0"
+  }
+}

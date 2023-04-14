@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "小提琴图",
+    "en": "Violin"
+  },
+  "alias": ["Violin-Chart"],
+  "intro": {
+    "zh_cn": "用于展示数据分布",
+    "en": "Display the data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/108-YBH58J-tuya.jpg",
+  "href": "/basic/violin",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-10-12",
+    "updateDate": "2020-02-12"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "月亮饼图",
+    "en": "Moon charts"
+  },
+  "alias": ["Moon-Chart"],
+  "intro": {
+    "zh_cn": "用于展示数据占比",
+    "en": "Display the data ratio"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/17-aHIZ8A-tuya.jpg",
+  "href": "/basic/moon-charts",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Michael Bramson & Hiplot Team | Jianfeng",
+    "email": "mnbramson@gmail.com",
+    "issues": "https://github.com/mnbram/gggibbous",
+    "releaseDate": "2020-08-10",
+    "updateDate": "2020-08-10"
+  }
+}

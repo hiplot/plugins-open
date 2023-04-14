@@ -1,0 +1,32 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "panel_space": {
+      "type": "slider",
+      "label": "messages.basic.common.panelSpace",
+      "class": "col-12",
+      "max": 5
+    },
+    "panel_border_color": {
+      "type": "select",
+      "label": "messages.basic.common.panelBorderColor",
+      "items": [
+        "gray",
+        "black",
+        "white"
+      ],
+      "class": "col-12"
+    }
+  }
+}

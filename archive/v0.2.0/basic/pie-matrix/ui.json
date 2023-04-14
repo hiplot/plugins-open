@@ -1,0 +1,12 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [{"label": "X"}, {"label": "Group"}, {"label": "Color"}]
+  }
+}

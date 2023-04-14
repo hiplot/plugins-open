@@ -1,0 +1,44 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "scale": {
+      "type": "select",
+      "label": "messages.basic.common.scale",
+      "items": [
+        "std",
+        "robust",
+        "uniminmax",
+        "globalminmax",
+        "center",
+        "centerObs"
+      ],
+      "class": "col-12"
+    },
+    "box": {
+      "type": "switch",
+      "label": "messages.basic.common.addbox",
+      "class": "col-12  col-md-4"
+    },
+    "show_points": {
+      "type": "switch",
+      "label": "messages.basic.common.point",
+      "class": "col-12  col-md-4"
+    },
+    "facet": {
+      "type": "switch",
+      "label": "messages.basic.common.facet",
+      "class": "col-12  col-md-4"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "WGCNA Shiny",
+    "en": "WGCNA Shiny"
+  },
+  "alias": "WGCNA-Anlysis-Shiny",
+  "intro": {
+    "zh_cn": "基因共表达网络分析",
+    "en": "Co-expression network analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/58-dUgLoq-tuya.jpg",
+  "href": "/advance/wgcna-shiny",
+  "tag": [
+    "shiny",
+    "expression"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-22",
+    "updateDate": "2020-08-22"
+  }
+}

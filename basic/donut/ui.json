@@ -1,0 +1,22 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "width": {
+      "type": "slider",
+      "label": "messages.basic.donut.width",
+      "class": "col-12",
+      "max": 5
+    },
+    "label": {
+      "type": "switch",
+      "label": "messages.basic.common.label",
+      "class": "col-12 col-md-6"
+    }
+  }
+}

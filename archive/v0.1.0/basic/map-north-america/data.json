@@ -1,0 +1,38 @@
+{
+  "module": "basic",
+  "tool": "map-north-america",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 36,
+          "height": 20
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "North America Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "region\tvalue\nANTIGUA & BARBUDA\t918\nAnguilla (UK)\t95\nBARBADOS\t878\nBELIZE\t874\nBermuda (UK)\t159\nCANADA\t118\nCOSTA RICA\t607\nCUBA\t466\nCayman Islands (UK)\t710\nClipperton Island (FRANCE)\t732\nDOMINICA\t52\nDOMINICAN REPUBLIC\t592\nEL SALVADOR\t853\nGRENADA\t499\nGUATEMALA\t270\nGreenland (DENMARK)\t921\nGuadeloupe (FRANCE)\t195\nHAITI\t493\nHONDURAS\t32\nIn dispute BELIZE/HONDURAS\t250\nIn dispute CANADA/DENMARK\t662\nIn dispute EL SALVADOR/HONDURAS\t810\nJAMAICA\t338\nMEXICO\t822\nMartinique (FRANCE)\t825\nMontserrat (UK)\t784\nNICARAGUA\t298\nNavassa Island (US)\t857\nPANAMA\t16\nPuerto Rico (US)\t503\nSAINT KITTS & NEVIS\t138\nSAINT LUCIA\t749\nSAINT VINCENT & THE GRENADINES\t501\nSaint Barthelemy (FRANCE)\t569\nSaint Martin (FRANCE)\t890\nSaint Pierre & Miquelon (FRANCE)\t655\nTHE BAHAMAS\t227\nTurks & Caicos Islands (UK)\t860\nCOLOMBIA\t982\nUNITED STATES\t437\nVirgin Islands (UK)\t798\nVirgin Islands (US)\t58\nPacific Is Refuges (US)\t788\nSint Eustatius (NETH)\t933\nSaba (NETH)\t759\nSint Maarten (NETH)\t495\nVENEZUELA\t94\n"
+    }
+  }
+}

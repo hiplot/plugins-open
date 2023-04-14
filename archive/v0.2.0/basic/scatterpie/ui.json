@@ -1,0 +1,17 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "data_format": {
+      "type": "select",
+      "label": "messages.basic.common.data_format",
+      "items": ["wide", "long"],
+      "class": "col-12"
+    }
+  }
+}

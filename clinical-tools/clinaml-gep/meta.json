@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "AML-G1-G6",
+    "en": "AML-G1-G6"
+  },
+  "alias": ["ClinAML-GEP"],
+  "intro": {
+    "zh_cn": "预测基因表达亚型",
+    "en": "Predict GEP-defined subtypes"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/clindet.jpg",
+  "href": "/clinical-tools/clinaml-gep",
+  "tag": [
+    "vue",
+    "AML",
+    "model"
+  ],
+  "meta": {
+    "score": 4,
+    "issues": "https://github.com/clindet/clinaml",
+    "author": "National Center for Translational Medicine·Shanghai",
+    "version": "v0.1.0",
+    "releaseDate": "2021-11-11",
+    "updateDate": "2021-11-11"
+  }
+}

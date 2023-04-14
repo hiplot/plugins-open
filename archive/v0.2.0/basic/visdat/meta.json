@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "数据概览图",
+    "en": "Visdat"
+  },
+  "alias": ["Stats-PreVisual"],
+  "intro": {
+    "zh_cn": "初步探索数据",
+    "en": "Preliminary exploratory visualisation of data"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/02/21/visdat-0.7nd6rbfig6-tuya.jpg",
+  "href": "/basic/visdat",
+  "tag": [
+    "vue",
+    "qc"
+  ],
+  "meta": {
+    "score": 4.9,
+    "issues": "https://github.com/ropensci/visdat",
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-02-20",
+    "updateDate": "2021-02-20"
+  }
+}

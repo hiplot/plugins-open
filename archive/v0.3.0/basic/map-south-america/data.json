@@ -1,0 +1,38 @@
+{
+  "module": "basic",
+  "tool": "map-south-america",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 28,
+          "height": 30
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "South America Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "region\tvalue\nArgentina\t198\nBolivia\t568\nBrazil\t191\nChile\t275\nColombia\t901\nEcuador\t604\nFrench Guiana (France)\t866\nFalkland Islands (UK)\t612\nGuyana\t33\nSuriname\t132\nParaguay\t987\nPeru\t743\nSouth Georgia and the South Sandwich Is (UK)\t488\nUruguay\t347\nVenezuela\t406\n"
+    }
+  }
+}

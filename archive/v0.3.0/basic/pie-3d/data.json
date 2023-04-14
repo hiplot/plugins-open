@@ -1,0 +1,42 @@
+{
+  "module": "basic",
+  "tool": "pie-3d",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 6.5,
+          "height": 6
+        },
+        "palette": "npg",
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "radius": 0.8,
+        "height": 0.05,
+        "theta": 0.8,
+        "explode": 0.1
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": ""
+      }
+    },
+    "textarea": {
+      "datTable": "group\tvalue\nGroup1\t13\nGroup2\t34\nGroup3\t21\nGroup4\t43"
+    }
+  }
+}

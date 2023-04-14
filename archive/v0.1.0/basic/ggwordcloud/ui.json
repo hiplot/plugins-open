@@ -1,0 +1,38 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    },
+    "inmask": {
+      "type": "cloud-file",
+      "required": false,
+      "label": "messages.basic.ggwordcloud.inmask",
+      "icon": "mdi-file",
+      "exts": ["png"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "extra": {
+    "gradient": {
+      "type": "switch",
+      "label": "messages.basic.ggwordcloud.gradient",
+      "class": "col-12 col-lg-4"
+    },
+    "glow": {
+      "type": "color-picker",
+      "label": "messages.basic.ggwordcloud.lowcol",
+      "class": "col-12 col-md-6 col-lg-4",
+      "if": "gradient"
+    },
+    "ghigh": {
+      "type": "color-picker",
+      "label": "messages.basic.ggwordcloud.highcol",
+      "class": "col-12 col-md-6 col-lg-4",
+      "if": "gradient"
+    }
+  }
+}

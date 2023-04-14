@@ -1,0 +1,72 @@
+{
+  "data": {
+    "1-expmat": {
+      "type": "cloud-file",
+      "required": true,
+      "label": "messages.common.dataTable",
+      "icon": "mdi-file",
+      "exts": ["txt", "gct"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "2-cls": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "en": "Sample Groups",
+        "zh_cn": "样本分组"
+      },
+      "icon": "mdi-file",
+      "exts": ["cls"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "3-kegg_db": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "en": "KEGG DB",
+        "zh_cn": "KEGG 数据库"
+      },
+      "icon": "mdi-file",
+      "exts": ["rds"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "4-org_db": {
+      "type": "combobox",
+      "required": true,
+      "label": "Org DB",
+      "items": ["org.Ag.eg.db", "org.At.tair.db", "org.Bt.eg.db", "org.Ce.eg.db", "org.Cf.eg.db", "org.Dm.eg.db", "org.Dr.eg.db", "org.EcK12.eg.db", "org.EcSakai.eg.db", "org.Gg.eg.db", "org.Hs.eg.db", "org.Mm.eg.db", "org.Mmu.eg.db", "org.Mxanthus.db", "org.Pf.plasmo.db", "org.Pt.eg.db", "org.Rn.eg.db", "org.Sc.sgd.db", "org.Ss.eg.db", "org.Xl.eg.db"],
+      "prepend-icon": "mdi-file"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "pathways": {
+      "type": "combobox",
+      "items_func": "this.selectCols('3-kegg_db', 2, null, '[[2]][,2]')",
+      "multiple": true,
+      "label": {
+        "en": "Pathway",
+        "zh_cn": "通路"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "draw_heatmap": {
+      "type": "switch",
+      "label": {
+        "en": "Draw Heatmap",
+        "zh_cn": "绘制热图"
+      },
+      "class": "col-12 col-md-6"
+    }
+  }
+}

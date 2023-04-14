@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "线图",
+    "en": "Line"
+  },
+  "alias": ["Line-Plot"],
+  "intro": {
+    "zh_cn": "展示变量间关系",
+    "en": "Display the variables"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/11/07/line-0.ws0hn5yhzi-1.jpg",
+  "href": "/basic/line",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 4.9,
+    "author": "Hiplot Team | Jack Wang & Jianfeng",
+    "releaseDate": "2019-08-16",
+    "updateDate": "2021-03-07",
+    "version": "v0.1.1"
+  }
+}

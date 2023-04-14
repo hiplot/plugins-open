@@ -1,0 +1,166 @@
+{
+  "data": {
+    "1-countData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.basic.heatmap.countData"
+    },
+    "2-sampleInfo": {
+      "type": "hiplot-textarea",
+      "required": false,
+      "label": {
+        "en": "SampleInfo",
+        "zh_cn": "样本信息"
+      }
+    },
+    "3-geneInfo": {
+      "type": "hiplot-textarea",
+      "required": false,
+      "label": {
+        "en": "GeneInfo",
+        "zh_cn": "基因信息"
+      }
+    }
+  },
+  "extra": {
+    "color": {
+      "type": "select",
+      "label": "messages.basic.heatmap.color",
+      "items": [
+        "default",
+        "custom",
+        "bluered",
+        "bluered2",
+        "redblue",
+        "greenred",
+        "redgreen",
+        "heat",
+        "methylation"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "scale": {
+      "type": "select",
+      "label": "messages.basic.common.scale",
+      "items": [
+        "none",
+        "row",
+        "column"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "hc_method": {
+      "type": "select",
+      "label": "messages.basic.common.hc_method",
+      "items": [
+        "ward.D",
+        "ward.D2",
+        "single",
+        "complete",
+        "average",
+        "mcquitty",
+        "median",
+        "centroid"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "hc_distance_rows": {
+      "type": "select",
+      "label": {
+        "en": "Row Distance Measure",
+        "zh_cn": "行距离度量"
+      },
+      "items": [
+        "euclidean",
+        "correlation",
+        "maximum",
+        "manhattan",
+        "canberra",
+        "binary",
+        "minkowski"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "hc_distance_cols": {
+      "type": "select",
+      "label": {
+        "en": "Column Distance Measure",
+        "zh_cn": "列距离度量"
+      },
+      "items": [
+        "euclidean",
+        "correlation",
+        "maximum",
+        "manhattan",
+        "canberra",
+        "binary",
+        "minkowski"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "cluster_rows": {
+      "type": "switch",
+      "label": "messages.basic.common.cluster_rows",
+      "class": "col-12 col-md-3"
+    },
+    "cluster_cols": {
+      "type": "switch",
+      "label": "messages.basic.common.cluster_cols",
+      "class": "col-12 col-md-3"
+    },
+    "display_numbers": {
+      "type": "switch",
+      "label": {
+        "en": "Display Value",
+        "zh_cn": "显示数值"
+      },
+      "class": "col-12 col-md-3"
+    },
+    "number_color": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color of Value",
+        "zh_cn": "数值颜色"
+      },
+      "if": "display_numbers",
+      "class": "col-12 col-md-3",
+      "style": "margin-top: -5px"
+    },
+    "top_var": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "Top 方差",
+        "en": "Top Variance"
+      },
+      "min": 1,
+      "class": "col-12"
+    },
+    "color_low": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color Low",
+        "zh_cn": "小值颜色"
+      },
+      "class": "col-12 col-md-4",
+      "if_func": "this.params.config.extra.color === 'custom'"
+    },
+    "color_mid": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color Middle",
+        "zh_cn": "中值颜色"
+      },
+      "class": "col-12 col-md-4",
+      "if_func": "this.params.config.extra.color === 'custom'"
+    },
+    "color_high": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color High",
+        "zh_cn": "大值颜色"
+      },
+      "class": "col-12 col-md-4",
+      "if_func": "this.params.config.extra.color === 'custom'"
+    }
+  }
+}

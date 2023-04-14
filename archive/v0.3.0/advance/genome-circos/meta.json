@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "Genome Circos",
+    "en": "Genome Circos"
+  },
+  "alias": ["Genome-Visual"],
+  "intro": {
+    "zh_cn": "基因组圈图",
+    "en": "Genome Circos Plot"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/07/genome-circos-tuya.jpg",
+  "href": "/advance/genome-circos",
+  "tag": [
+    "shiny",
+    "genome",
+    "circos"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "issues": "https://github.com/hiplot/gold",
+    "releaseDate": "2020-11-07",
+    "updateDate": "2020-11-07"
+  }
+}

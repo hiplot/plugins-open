@@ -1,0 +1,51 @@
+{
+  "module": "basic",
+  "tool": "fishplot",
+  "params": {
+    "textarea": {
+      "datmat": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 10,
+          "height": 4
+        },
+        "plumber": false,
+        "cliMode": true,
+        "title": "",
+        "palette": "custom",
+        "palette2": "custom",
+        "paletteCustom": [],
+        "paletteCustom2": [],
+        "font": "Arial"
+      },
+      "extra": {
+        "shape": "spline",
+        "bg_type": "gradient",
+        "unit": "Day",
+        "vline": true,
+        "clone_label": false,
+        "fix_missing": false,
+        "col_vline": "#FFFFFF",
+        "border_col": "#777777",
+        "border": 0.5,
+        "pad_left": 0.2
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Fishplot",
+        "paletteCustom": ["#FFE4C4", "#B8860B", "#FF8C00"],
+        "paletteCustom2": ["#888888", "#EF0000","#FF0000", "#511F90"]
+      }
+    },
+    "textarea": {
+      "datmat": "timepoints\tparents\tsample.name\tevent1\tevent2\tevent3\tevent4\n0\t0\tSample1\t100\t2\t2\t98\n30\t1\tSample1\t45\t0\t0\t0\n75\t1\tSample1\t0\t0\t2\t95\n150\t3\tSample1\t0\t0\t1\t40\n"
+    }
+  }
+}

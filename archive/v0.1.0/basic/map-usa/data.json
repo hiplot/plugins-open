@@ -1,0 +1,39 @@
+{
+  "module": "basic",
+  "tool": "map-usa",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 25,
+          "height": 20
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false,
+        "cliMode": true
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "USA Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "name\tvalue\nWashington\t438\nMontana\t103\nMaine\t614\nNorth Dakota\t256\nSouth Dakota\t639\nWyoming\t599\nWisconsin\t888\nIdaho\t212\nVermont\t499\nMinnesota\t289\nOregon\t204\nNew Hampshire\t255\nIowa\t877\nMassachusetts\t573\nNebraska\t127\nNew York\t590\nPennsylvania\t261\nConnecticut\t383\nRhode Island\t593\nNew Jersey\t630\nIndiana\t643\nNevada\t293\nUtah\t794\nCalifornia\t513\nOhio\t836\nIllinois\t661\nDistrict of Columbia\t468\nDelaware\t69\nWest Virginia\t401\nMaryland\t617\nColorado\t558\nKentucky\t16\nKansas\t259\nVirginia\t324\nMissouri\t499\nArizona\t242\nOklahoma\t421\nNorth Carolina\t616\nTennessee\t425\nTexas\t377\nNew Mexico\t505\nAlabama\t884\nMississippi\t957\nGeorgia\t343\nSouth Carolina\t455\nArkansas\t177\nLouisiana\t362\nFlorida\t654\nMichigan\t50\nHawaii\t383\nAlaska\t776\n"
+    }
+  }
+}

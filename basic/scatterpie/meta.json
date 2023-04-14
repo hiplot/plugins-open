@@ -1,0 +1,27 @@
+{
+  "name": {
+    "zh_cn": "散点饼图",
+    "en": "Scatterpie"
+  },
+  "alias": ["Scatter-Pie"],
+  "intro": {
+    "zh_cn": "以点图的形式展示分类数据占比",
+    "en": "Proportion under different groups"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/11/scatterpie-tuya12de3fe7d68bfa35.jpg",
+  "href": "/basic/scatterpie",
+  "tag": [
+    "vue",
+    "scatter",
+    "pie",
+    "comparison"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Shixiang Wang",
+    "email": "w_shixiang@163.com",
+    "issues": "https://github.com/GuangchuangYu/scatterpie/issues",
+    "releaseDate": "2020-09-11",
+    "updateDate": "2020-09-11"
+  }
+}

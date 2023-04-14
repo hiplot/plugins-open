@@ -1,0 +1,36 @@
+{
+  "module": "mini-tools",
+  "tool": "bioextr-pubmed",
+  "files": [],
+  "params": {
+    "textarea": {
+      "1-queryData": "",
+      "2-keywordsData": ""
+    },
+    "config": {
+      "general": {
+        "cmds": "",
+        "taskname": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "cliMode": true
+      },
+      "extra": {
+        "from": 1,
+        "size": 20,
+        "extract_url": true,
+        "keep_abs": true,
+        "query_mode": "and",
+        "proxy": ""
+      }
+    }
+  },
+  "exampleData": {
+    "textarea": {
+      "1-queryData": "query_list\ndataset\nRNA-seq\nbioinformatics[journal]",
+      "2-keywordsData": "keywords_list\nalgorithm\ntool\nmodel\npipleline\nmethod\ndatabase\nworkflow\ndataset\nbioinformatics\nsequencing"
+    }
+  }
+}

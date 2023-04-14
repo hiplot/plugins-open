@@ -1,0 +1,36 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "interval": {
+      "type": "select",
+      "label": "messages.basic.roc.interval",
+      "items": [
+        "shape",
+        "bars",
+        "none"
+      ],
+      "class": "col-12"
+    },
+    "smooth": {
+      "type": "switch",
+      "label": "messages.basic.roc.smooth",
+      "class": "col-12  col-md-4"
+    },
+    "evaluation": {
+      "type": "switch",
+      "label": "messages.basic.roc.evaluation",
+      "class": "col-12  col-md-4"
+    },
+    "compare": {
+      "type": "switch",
+      "label": "messages.basic.roc.compare",
+      "class": "col-12  col-md-4"
+    }
+  }
+}

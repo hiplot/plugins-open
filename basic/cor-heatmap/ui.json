@@ -1,0 +1,142 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "correlation": {
+      "type": "select",
+      "label": "messages.basic.corHeatmap.correlation",
+      "items": [
+        "row", "col"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "half": {
+      "type": "select",
+      "label": "messages.basic.corHeatmap.half",
+      "items": [
+        "upper", "lower", "full"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "shape": {
+      "type": "select",
+      "label": "messages.basic.common.shape",
+      "items": [
+        "circle", "square"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "hc_method": {
+      "type": "select",
+      "label": "messages.basic.common.hc_method",
+      "items": [
+        "ward.D",
+        "ward.D2",
+        "single",
+        "complete",
+        "average",
+        "mcquitty",
+        "median",
+        "centroid"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "cor_method": {
+      "type": "select",
+      "label": {
+        "en": "Correlation Method",
+        "zh_cn": "相关计算方法"
+      },
+      "items": [
+        "pearson", "spearman", "kendall"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "insig": {
+      "type": "select",
+      "label": "messages.basic.corHeatmap.insig",
+      "items": [
+        "on", "off"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "insig_type": {
+      "type": "select",
+      "label": "messages.basic.corHeatmap.insig_type",
+      "items": [
+        "pch", "blank"
+      ],
+      "class": "col-12 col-md-6",
+      "if_func": "this.params.config.extra.insig === 'on'"
+    },
+    "pch_col": {
+      "type": "select",
+      "label": "messages.basic.corHeatmap.pch_col",
+      "items": [
+        "black","red","green","blue","purple"
+      ],
+      "class": "col-12 col-md-6",
+      "if_func": "this.params.config.extra.insig === 'on'"
+    },
+    "pch": {
+      "type": "slider",
+      "label": {
+        "en": "Insig Shape",
+        "zh_cn": "不显著形状"
+      },
+      "class": "col-12 col-md-6",
+      "max": 25,
+      "if_func": "this.params.config.extra.insig === 'on' && this.params.config.extra.insig_type ==='pch'"
+    },
+    "sig_level": {
+      "type": "slider",
+      "label": "messages.basic.common.sig_level",
+      "class": "col-12 col-md-6",
+      "max": 1,
+      "step": 0.001,
+      "if_func": "this.params.config.extra.insig === 'on' && this.params.config.extra.insig_type ==='pch'"
+    },
+    "color_low": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color Low",
+        "zh_cn": "小值颜色"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "color_mid": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color Middle",
+        "zh_cn": "中值颜色"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "color_high": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color High",
+        "zh_cn": "大值颜色"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "reorder": {
+      "type": "switch",
+      "label": "messages.basic.common.reorder",
+      "class": "col-12 col-md-3"
+    },
+    "lab": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "展示数字",
+        "en": "Show Number"
+      },
+      "class": "col-12 col-md-3"
+    }
+  }
+}

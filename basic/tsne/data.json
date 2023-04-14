@@ -1,0 +1,114 @@
+{
+  "module": "basic",
+  "tool": "tsne",
+  "maxPlex": 1,
+  "params": {
+    "textarea": { "1-datTable": "", "2-sampleInfo": "" },
+    "config": {
+      "data": {
+        "1-datTable": {
+          "value": "",
+          "link": ""
+        },
+        "2-sampleInfo": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "dataArg": {
+        "2-sampleInfo": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 4,
+          "height": 3
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "xbreaks": [],
+        "ybreaks": []
+      },
+      "extra": {
+        "colorBy": "",
+        "shapeBy": "",
+        "theta": 0.1,
+        "perplexity": 1
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "data": {
+          "1-datTable": {
+            "value": "public/demo/pca/datTable.txt",
+            "link": ""
+          },
+          "2-sampleInfo": {
+            "value": "public/demo/pca/sampleInfo.txt",
+            "link": ""
+          }
+        },
+        "dataArg": {
+          "2-sampleInfo": [
+            {
+              "value": "group"
+            },
+            {
+              "value": ""
+            }
+          ]
+        },
+        "general": {
+          "title": "tSNE Plot1"
+        }
+      },
+      "textarea": {
+        "1-datTable": "Observation\tM1\tM2\tM3\tM8\tM9\tM10\nGBP4\t6.59934411\t5.226266025\t3.693287538\t7.658312365\t8.666037977\t7.419708102\nBCAT1\t5.760380377\t4.892783021\t5.448923917\t8.765914637\t8.097206243\t8.262942399\nCMPK2\t9.561905115\t4.549168157\t3.998654922\t7.37959102\t7.938062515\t6.154117903\nSTOX2\t8.396409316\t8.71705522\t8.03906411\t3.542216879\t4.305187046\t6.964710085\nPADI2\t8.419765891\t8.268429802\t8.451180844\t4.13666741\t4.910986115\t4.080363054\nSCARNA5\t7.65307431\t5.78039263\t10.63355047\t3.822596067\t4.041077693\t7.956588636\nALOX12P2\t9.001421152\t7.753542291\t4.920959582\t3.700850128\t5.374031843\t7.804891919\nSNORA74B\t5.538708715\t7.169053394\t11.44164644\t4.587195378\t5.147439897\t7.830767801\nHIST1H2BL\t6.181270497\t4.44841889\t5.60496103\t10.13755803\t9.046604492\t7.132642752\n",
+        "2-sampleInfo": "sample\tgroup\nM1\tG1\nM2\tG1\nM3\tG1\nM8\tG2\nM9\tG2\nM10\tG2"
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "2-sampleInfo": [
+            {
+              "value": "sample"
+            },
+            {
+              "value": "sample"
+            }
+          ]
+        },
+        "general": {
+          "title": "tSNE Plot2",
+          "size": {
+            "width": 5,
+            "height": 4
+          }
+        }
+      }
+    }
+  ]
+}

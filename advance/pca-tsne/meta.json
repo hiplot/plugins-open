@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "PCA/t-SNE Shiny",
+    "en": "PCA/t-SNE Shiny"
+  },
+  "alias": ["PCA-tSNE"],
+  "intro": {
+    "zh_cn": "PCA/t-SNE 分析",
+    "en": "Interactive PCA/t-SNE analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/31-ayEcX6-tuya.jpg",
+  "href": "/advance/pca-tsne",
+  "tag": [
+    "shiny",
+    "general"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-05",
+    "updateDate": "2020-08-05"
+  }
+}

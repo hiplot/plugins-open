@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1-datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    },
+    "2-timeTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.basic.common.timeTable"
+    }
+  },
+  "extra": {
+    "time_unit": {
+      "type": "select",
+      "label": "messages.basic.common.time_unit",
+      "items": [
+        "Year", "Month", "Day"
+      ],
+      "class": "col-12"
+    },
+    "anno_x": {
+      "type": "slider",
+      "label": {
+        "en": "Annotation Text Location (X)",
+        "zh_cn": "注释文本位置 (X)"
+      },
+      "step": 0.01,
+      "max": 1,
+      "class": "col-12"
+    },
+    "anno_y": {
+      "type": "slider",
+      "label": {
+        "en": "Annotation Text Location (Y)",
+        "zh_cn": "注释文本位置 (Y)"
+      },
+      "step": 0.01,
+      "max": 1,
+      "class": "col-12"
+    },
+    "add_ci": {
+      "type": "switch",
+      "label": {
+        "en": "Add 95% Confidence Interval",
+        "zh_cn": "添加95%置信区间"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1-datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "topo": {
+      "type": "select",
+      "label": {
+        "zh_cn": "拓扑结构",
+        "en": "Topology"
+      },
+      "items": ["rectangular", "hexagonal"],
+      "class": "col-12"
+    },
+    "xdim": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "X 维度",
+        "en": "X Dimension"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "ydim": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "Y 维度",
+        "en": "Y Dimension"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "classCount": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "类别数",
+        "en": "Count of Class"
+      },
+      "class": "col-12"
+    },
+    "drawProperty": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "绘制属性值",
+        "en": "Draw Property"
+      },
+      "class": "col-12"
+    }
+  }
+}

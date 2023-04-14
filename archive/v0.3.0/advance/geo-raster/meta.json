@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "Geo 光栅图",
+    "en": "Geo Raster"
+  },
+  "alias": ["Geo-Rainfall"],
+  "intro": {
+    "zh_cn": "地图数据可视化",
+    "en": "Map Data Visulization"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/01/11/geo-raster-tuya.jpg",
+  "href": "/advance/geo-raster",
+  "tag": [
+    "shiny",
+    "geography",
+    "map"
+  ],
+  "meta": {
+    "score": 5,
+    "issues": "https://github.com/hiplot/gold",
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2021-01-11",
+    "updateDate": "2021-01-11"
+  }
+}

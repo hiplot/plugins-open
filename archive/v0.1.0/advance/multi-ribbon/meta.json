@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "分组丝带图",
+    "en": "Multi Ribbon"
+  },
+  "alias": ["Multi-Ribbon"],
+  "intro": {
+    "zh_cn": "分组丝带图 Shiny",
+    "en": "Multi-ribbon Shiny"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/07/multi-ribbon-tuya.jpg",
+  "href": "/advance/multi-ribbon",
+  "tag": [
+    "shiny",
+    "general"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-09-07",
+    "updateDate": "2020-09-07"
+  }
+}

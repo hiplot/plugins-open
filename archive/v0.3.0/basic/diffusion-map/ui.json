@@ -1,0 +1,64 @@
+{
+  "data": {
+    "1-datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    },
+    "2-sampleInfo": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "SampleInfo",
+        "zh_cn": "样本信息"
+      }
+    }
+  },
+  "dataArg": {
+    "2-sampleInfo": [
+      {
+        "label": {
+          "en": "Color By",
+          "zh_cn": "颜色映射列"
+        },
+        "required": false,
+        "independent": true
+      },
+      {
+        "label": {
+          "en": "Shape By",
+          "zh_cn": "形状映射列"
+        },
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "three_dim": {
+      "type": "switch",
+      "label": {
+        "en": "Three-dimensional (3D)",
+        "zh_cn": "三维图"
+      },
+      "class": "col-12 col-md-12"
+    },
+    "angle": {
+      "type": "slider",
+      "label": {
+        "en": "Angle",
+        "zh_cn": "角度"
+      },
+      "min": -180,
+      "max": 180,
+      "step": 0.1,
+      "if": "three_dim",
+      "class": "col-12 col-md-12"
+    }
+  }
+}

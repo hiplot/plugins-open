@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "哑铃图",
+    "en": "Dumbbell Chart"
+  },
+  "alias": ["Basic-Dumbbell"],
+  "intro": {
+    "zh_cn": "用于展示数据变化",
+    "en": "Display the data change"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/05/15/dumbbell-0.sw83vyh0gfj-1-tuya.jpg",
+  "href": "/basic/dumbbell",
+  "tag": [
+    "vue",
+    "evolution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-05-15",
+    "updateDate": "2021-05-15"
+  }
+}

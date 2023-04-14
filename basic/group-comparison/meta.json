@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "分组比较热图",
+    "en": "Group-comparison Heatmap"
+  },
+  "alias": [
+    "group-comparison"
+  ],
+  "intro": {
+    "zh_cn": "分组比较热图",
+    "en": "Plot heatmap for sub-group comparison"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/05/14/group-comparison-0.lb1ob51szh-1.jpg",
+  "href": "/basic/group-comparison",
+  "tag": ["vue", "group", "heatmap", "comparison"],
+  "meta": {
+    "score": 4.5,
+    "author": "Shixiang Wang",
+    "email": "",
+    "issues": "https://github.com/ShixiangWang/sigminer",
+    "releaseDate": "2022-05-13",
+    "updateDate": "2022-05-13",
+    "citation": "See citation part of https://github.com/ShixiangWang/sigminer"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "Manhattan Shiny",
+    "en": "Manhattan Shiny"
+  },
+  "alias": ["Manhattan-Plus"],
+  "intro": {
+    "zh_cn": "曼哈顿图可视化",
+    "en": "Manhattan Plots"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/46-dfgxgK-tuya.jpg",
+  "href": "/advance/manhattan-shiny",
+  "tag": [
+    "shiny",
+    "genome",
+    "gwas"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-27",
+    "updateDate": "2020-08-27"
+  }
+}

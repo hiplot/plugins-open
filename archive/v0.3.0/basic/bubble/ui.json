@@ -1,0 +1,80 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Y"
+      },
+      {
+        "label": {
+          "en": "Size Column",
+          "zh_cn": "大小映射列"
+        }
+      },
+      {
+        "label": "X"
+      },
+      {
+        "label": {
+        "en": "Transformed Color Column",
+        "zh_cn": "变换颜色映射列"
+        }
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "topnum": {
+      "type": "slider",
+      "label": "messages.basic.bubble.topnum",
+      "max": 300,
+      "class": "col-12"
+    },
+    "low_color": {
+      "type": "color-picker",
+      "label": "messages.basic.common.low_color",
+      "class": "col-12 col-md-4"
+    },
+    "high_color": {
+      "type": "color-picker",
+      "label": "messages.basic.common.high_color",
+      "class": "col-12 col-md-4"
+    },
+    "transform": {
+      "type": "combobox",
+      "label": {
+        "en": "Transformed Function",
+        "zh_cn": "变换函数"
+      },
+      "class": "col-12 col-md-6",
+      "items": ["-log10", "-log2", "-exp", "exp", "log2", "log10"]
+    },
+    "pq_value": {
+      "type": "combobox",
+      "label": {
+        "en": "Legend of Transformed Color",
+        "zh_cn": "颜色图例标题"
+      },
+      "class": "col-12 col-md-6",
+      "items": ["Q Value", "P Value", "FDR"]
+    },
+    "show_percent": {
+      "type": "switch",
+      "label": {
+        "en": "Show Percent (X axis)",
+        "zh_cn": "展示百分数 (X 轴)"
+      },
+      "class": "col-12 col-md-6"
+    }
+  }
+}

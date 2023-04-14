@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh_cn": "Pubmed 文本提取",
+    "en": "Pubmed Text-Extract"
+  },
+  "alias": ["Pubmed-Search"],
+  "intro": {
+    "zh_cn": "Pubmed 摘要文本挖掘",
+    "en": "Pubmed abstract text mining"
+  },
+  "usergroup": [
+    1,
+    2
+  ],
+  "src": "https://s1.imagehub.cc/images/2020/11/26/bioextr-pubmed-tuyad8a3b97f277798fc.jpg",
+  "href": "/mini-tools/bioextr-pubmed",
+  "tag": [
+    "vue",
+    "pubmed",
+    "text-mining"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "version": "v0.1.0",
+    "releaseDate": "2020-11-26",
+    "updateDate": "2020-11-26"
+  }
+}

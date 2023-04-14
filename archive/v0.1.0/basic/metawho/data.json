@@ -1,0 +1,31 @@
+{
+  "module": "basic",
+  "tool": "metawho",
+  "params": {
+    "textarea": {
+      "1-data": ""
+    },
+    "config": {
+      "dataArg": [],
+      "general": {
+        "cmd": "",
+        "imageExportType": ["pdf", "png"],
+        "size": {
+          "width": 8,
+          "height": 6
+        }
+      },
+      "extra": {
+        "conf_interval": 0.95
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": []
+    },
+    "textarea": {
+      "1-data": "entry\ttrial\tsubgroup\thr\tci.lb\tci.ub\tni\nRizvi 2015-Male\tRizvi 2015\tMale\t0.3\t0.09\t1\t16\nRizvi 2015-Female\tRizvi 2015\tFemale\t0.11\t0.02\t0.56\t18\nRizvi 2018-Male\tRizvi 2018\tMale\t1.25\t0.82\t1.9\t118\nRizvi 2018-Female\tRizvi 2018\tFemale\t0.63\t0.42\t0.95\t122\nHellmann 2018-Male\tHellmann 2018\tMale\t0.9\t0.41\t1.99\t37\nHellmann 2018-Female\tHellmann 2018\tFemale\t0.28\t0.12\t0.67\t38"
+    }
+  }
+}

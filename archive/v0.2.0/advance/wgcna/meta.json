@@ -1,0 +1,30 @@
+{
+  "name": {
+    "zh_cn": "WGCNA",
+    "en": "WGCNA"
+  },
+  "alias": ["WGCNA-Analysis"],
+  "intro": {
+    "zh_cn": "基因共表达网络分析",
+    "en": "Co-expression network analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/99-Juc7Qg-tuya.jpg",
+  "href": "/advance/wgcna",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "expression"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Peter Langfelder & Hiplot Team | Jianfeng, benben-miao",
+    "email": "Peter.Langfelder@gmail.com",
+    "citation": "Langfelder, P., Horvath, S. WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics 9, 559 (2008). https://doi.org/10.1186/1471-2105-9-559",
+    "releaseDate": "2020-03-06",
+    "updateDate": "2020-08-24",
+    "version": "v0.1.1"
+  }
+}

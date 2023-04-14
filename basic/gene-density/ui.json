@@ -1,0 +1,22 @@
+{
+  "data": {
+    "1-chromInfo": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.basic.common.chromInfo"
+    },
+    "2-geneInfo": {
+      "type": "hiplot-textarea",
+      "required": false,
+      "label": "messages.basic.common.geneInfo"
+    }
+  },
+  "extra": {
+    "windows": {
+      "type": "slider",
+      "label": "messages.basic.common.windowsKB",
+      "class": "col-12",
+      "max": 5000
+    }
+  }
+}

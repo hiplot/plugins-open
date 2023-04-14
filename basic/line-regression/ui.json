@@ -1,0 +1,62 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "addFunction": {
+      "type": "switch",
+      "label": "messages.basic.line.addFunction",
+      "class": "col-12 col-md-6"
+    },
+    "add_p": {
+      "type": "switch",
+      "label": "messages.basic.line.add_p",
+      "class": "col-12 col-md-6"
+    },
+    "functionSize": {
+      "type": "slider",
+      "label": {
+        "en": "Function Font Size",
+        "zh_cn": "方程字体大小"
+      },
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    },
+    "functionLabelPadding": {
+      "type": "slider",
+      "label": {
+        "en": "Function Label Padding",
+        "zh_cn": "方程标签间距"
+      },
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    },
+    "nudgeX": {
+      "type": "slider",
+      "label": {
+        "en": "Horizontal Adjustments",
+        "zh_cn": "方程水平位置调整"
+      },
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    },
+    "nudgeY": {
+      "type": "slider",
+      "label": {
+        "en": "Vertical Adjustments",
+        "zh_cn": "方程垂直位置调整"
+      },
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    }
+  }
+}

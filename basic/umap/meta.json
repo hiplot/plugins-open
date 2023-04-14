@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "UMAP",
+    "en": "UMAP"
+  },
+  "alias": ["Basic-UMAP"],
+  "intro": {
+    "zh_cn": "降维方法，常用于单细胞数据分析",
+    "en": "Dimension reduction methods"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/16/umap-0.ecd4r9ace1o-1-tuya.jpg",
+  "href": "/basic/umap",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-03-16",
+    "updateDate": "2021-03-16",
+    "version": "v0.1.0"
+  }
+}

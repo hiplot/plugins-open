@@ -1,0 +1,38 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "point_size": {
+      "type": "slider",
+      "label": {
+        "en": "Point Size",
+        "zh_cn": "点大小"
+      },
+      "class": "col-12 col-md-6",
+      "step": 0.1
+    },
+    "line_size": {
+      "type": "slider",
+      "label": {
+        "en": "Line Size",
+        "zh_cn": "线条大小"
+      },
+      "class": "col-12 col-md-6",
+      "step": 0.1
+    },
+    "text_size": {
+      "type": "slider",
+      "label": {
+        "en": "Text Size",
+        "zh_cn": "文字大小"
+      },
+      "class": "col-12",
+      "step": 0.1
+    }
+  }
+}

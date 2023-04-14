@@ -1,0 +1,44 @@
+{
+  "module": "basic",
+  "tool": "chi-square-fisher",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 7,
+          "height": 5
+        },
+        "theme": "theme_bw",
+        "paletteCont": "RdBu",
+        "palette": "lancet",
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "by": "row",
+        "addMean": false,
+        "addMedian": false
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "general": {
+          "title": "Chi-square or Fisher Exact Test"
+        }
+      },
+      "textarea": {
+        "datTable": "Group\tL\tM\tH\nA\t401\t216\t221\nB\t254\t259\t169\nC\t400\t215\t220\nD\t252\t251\t162\nE\t3\t5\t5"
+      }
+    },
+    {
+      "textarea": {
+        "datTable": "breaks\twool\ttension\n26\tA\tL\n30\tA\tL\n54\tA\tL\n25\tA\tL\n70\tA\tL\n52\tA\tL\n51\tA\tL\n26\tA\tL\n67\tA\tL\n18\tA\tM\n21\tA\tM\n29\tA\tM\n17\tA\tM\n12\tA\tM\n18\tA\tM\n35\tA\tM\n30\tA\tM\n36\tA\tM\n36\tA\tH\n21\tA\tH\n24\tA\tH\n18\tA\tH\n10\tA\tH\n43\tA\tH\n28\tA\tH\n15\tA\tH\n26\tA\tH\n27\tB\tL\n14\tB\tL\n29\tB\tL\n19\tB\tL\n29\tB\tL\n31\tB\tL\n41\tB\tL\n20\tB\tL\n44\tB\tL\n42\tB\tM\n26\tB\tM\n19\tB\tM\n16\tB\tM\n39\tB\tM\n28\tB\tM\n21\tB\tM\n39\tB\tM\n29\tB\tM\n20\tB\tH\n21\tB\tH\n24\tB\tH\n17\tB\tH\n13\tB\tH\n15\tB\tH\n15\tB\tH\n16\tB\tH\n28\tB\tH\n"
+      }
+    }
+  ]
+}

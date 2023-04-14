@@ -1,0 +1,46 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "hist": {
+      "type": "switch",
+      "label": {
+        "en": "Histogram",
+        "zh_cn": "直方图"
+      },
+      "class": "col-12"
+    },
+    "kernel": {
+      "type": "select",
+      "label": {
+        "en": "Smoothing Kernel",
+        "zh_cn": "核函数"
+      },
+      "items": [
+        "gaussian",
+        "rectangular", "triangular", "epanechnikov",
+        "biweight", "cosine",
+        "optcosine"
+      ],
+      "if_func": "!this.params.config.extra.hist",
+      "class": "col-12"
+    },
+    "bins": {
+      "type": "slider",
+      "label": "messages.basic.common.bins",
+      "max": 9999,
+      "if": "hist",
+      "class": "col-12"
+    }
+  }
+}

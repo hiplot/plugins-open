@@ -1,0 +1,50 @@
+{
+  "module": "basic",
+  "tool": "radar",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 8,
+          "height": 5
+        },
+        "theme": "default",
+        "palette": "npg",
+        "title": "",
+        "font": "Arial",
+        "alpha": 0.5,
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "rescale": true,
+        "fill": false,
+        "background.circle.transparency": 0.2,
+        "gridline.min.linetype": "longdash",
+        "gridline.mid.linetype": "longdash",
+        "gridline.max.linetype": "longdash",
+        "background.circle.colour": "#D7D6D1",
+        "gridline.min.colour": "grey",
+        "gridline.mid.colour": "#007A87",
+        "gridline.max.colour": "grey"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Radar Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "observation\tS1\tS2\tS3\tS4\nvalue1\t6\t6\t4\t6\nvalue2\t160\t160\t108\t258\nvalue3\t110\t110\t93\t110\nvalue4\t3.9\t3.9\t3.85\t3.08\nvalue5\t2.62\t2.875\t2.32\t3.215"
+    }
+  }
+}

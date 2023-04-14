@@ -1,0 +1,27 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "phi": {
+      "type": "slider",
+      "label": "messages.basic.common.phi",
+      "class": "col-12 col-md-6",
+      "max": 90,
+      "min": -90,
+      "step": 1
+    },
+    "theta": {
+      "type": "slider",
+      "label": "messages.basic.common.theta",
+      "class": "col-12 col-md-6",
+      "max": 180,
+      "min": -180,
+      "step": 1
+    }
+  }
+}

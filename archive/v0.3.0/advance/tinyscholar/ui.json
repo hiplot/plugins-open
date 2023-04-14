@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "type": "combobox",
+      "required": true,
+      "label": "Google Scholar ID",
+      "prepend-icon": "mdi-diamond-stone"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  }
+}

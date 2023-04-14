@@ -1,0 +1,38 @@
+{
+  "module": "basic",
+  "tool": "barplot-3d",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 8,
+          "height": 8
+        },
+        "theme": "theme_bw",
+        "palette": "npg",
+        "title": "",
+        "alpha": 1,
+        "font": "Arial"
+      },
+      "extra": {
+        "phi": 20,
+        "theta": -55
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "3D Bar Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "value\ttreat\tdose\n13\tGroup1\thigh\n34\tGroup2\thigh\n21\tGroup3\thigh\n43\tGroup4\thigh\n25\tGroup1\tmid\n8\tGroup2\tmid\n17\tGroup3\tmid\n10\tGroup4\tmid\n5\tGroup1\tlow\n25\tGroup2\tlow\n12\tGroup3\tlow\n19\tGroup4\tlow"
+    }
+  }
+}

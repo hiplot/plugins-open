@@ -1,0 +1,49 @@
+{
+  "module": "basic",
+  "tool": "waterfalls",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 5,
+          "height": 4
+        },
+        "theme": "theme_bw",
+        "palette": "nejm",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10
+      },
+      "extra": {
+        "calc_total": true,
+        "rect_text_size": 2,
+        "rect_width": 0.7,
+        "linetype": 2,
+        "fill_by_sign": false
+      }
+    }
+  },
+  "exampleData": {
+    "textarea": {
+      "datTable": "label\tvalue\na\t100\nb\t-20\nc\t10\nd\t20\ne\t110\n"
+    },
+    "config": {
+      "general": {
+        "title": "Waterfalls Plot"
+      }
+    }
+  }
+}

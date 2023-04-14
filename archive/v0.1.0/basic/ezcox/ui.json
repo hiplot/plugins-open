@@ -1,0 +1,69 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "A table with at least 3 columns, the 1rd and 2nd columns refer to 'time' and 'survival' of sample.",
+        "zh_cn": "至少 3 列的数值的表格，第 1 列和第 2 列分别对应样本的生存时间和状态。"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "Batch Process Covariates",
+          "zh_cn": "批处理协变量"
+        },
+        "blackItems": ["time", "status"],
+        "required": true
+      },
+      {
+        "label": {
+          "en": "Controls",
+          "zh_cn": "控制变量"
+        },
+        "blackItems": ["time", "status"],
+        "required": false
+      },
+      {
+        "label": {
+          "en": "Select Show Variables",
+          "zh_cn": "展示变量"
+        },
+        "blackItems": ["time", "status"],
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "merge_models": {
+      "type": "switch",
+      "label": {
+        "en": "Merge Models",
+        "zh_cn": "合并模型"
+      }
+    },
+    "drop_controls": {
+      "type": "switch",
+      "label": {
+        "en": "Drop Controls",
+        "zh_cn": "去除控制变量"
+      }
+    },
+    "add_caption": {
+      "type": "switch",
+      "label": {
+        "en": "Add Caption",
+        "zh_cn": "添加说明文字"
+      }
+    }
+  }
+}

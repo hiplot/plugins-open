@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "GO圈图",
+    "en": "GOCircle Plot"
+  },
+  "alias": ["GO-Circle"],
+  "intro": {
+    "zh_cn": "GO圈图可视化",
+    "en": "GOCircle plot visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/02/08/WechatIMG12-tuya.jpg",
+  "href": "/basic/gocircle",
+  "tag": [
+    "vue",
+    "go enrichment",
+    "circle plot"
+  ],
+  "meta": {
+    "score": 4.95,
+    "author": "Hiplot Team | Wei Dong",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2021-02-07",
+    "updateDate": "2021-02-07"
+  }
+}

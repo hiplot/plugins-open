@@ -1,0 +1,28 @@
+{
+  "data": {
+    "datmat": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "resolution": {
+      "type": "slider",
+      "label": "messages.common.resolutionKB",
+      "class": "col-12 col-md-6",
+      "max": 5000
+    },
+    "interval": {
+      "type": "slider",
+      "label": "messages.common.interval",
+      "class": "col-12 col-md-6",
+      "max": 5000
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "module": "basic",
+  "tool": "circular-barplot",
+  "params": {
+    "textarea": {
+      "datmat": ""
+    },
+    "config": {
+      "data": {
+        "datmat": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 9.5,
+          "height": 7.5
+        },
+        "palette": "aaas",
+        "font": "Arial"
+      },
+      "extra": {
+        "gapbar_num": 2,
+        "sort_value": false,
+        "label": true,
+        "label_size": 3
+      }
+    }
+  },
+  "exampleData": {
+    "textarea": {
+      "datmat": "individual\tgroup\tvalue\nMister 1\tA\t82\nMister 2\tA\t98\nMister 3\tA\t72\nMister 4\tA\t34\nMister 5\tA\t60\nMister 6\tA\t61\nMister 7\tA\t19\nMister 8\tA\t92\nMister 9\tA\t41\nMister 10\tA\t37\nMister 11\tB\t41\nMister 12\tB\t16\nMister 13\tB\t33\nMister 14\tB\t15\nMister 15\tB\t52\nMister 16\tB\t63\nMister 17\tB\t74\nMister 18\tB\t89\nMister 19\tB\t82\nMister 20\tB\t40\nMister 21\tB\t76\nMister 22\tB\t21\nMister 23\tB\t10\nMister 24\tB\t69\nMister 25\tB\t84\nMister 26\tB\t26\nMister 27\tB\t71\nMister 28\tB\t37\nMister 29\tB\t47\nMister 30\tB\t72\nMister 31\tB\t91\nMister 32\tB\t16\nMister 33\tB\t100\nMister 34\tB\t78\nMister 35\tB\t13\nMister 36\tB\t23\nMister 37\tB\t41\nMister 38\tB\t11\nMister 39\tB\t53\nMister 40\tB\t96\nMister 41\tC\t88\nMister 42\tC\t70\nMister 43\tC\t86\nMister 44\tC\t27\nMister 45\tC\t91\nMister 46\tC\t85\nMister 47\tC\t17\nMister 48\tC\t48\nMister 49\tC\t28\nMister 50\tC\t22\nMister 51\tC\t52\nMister 52\tC\t62\nMister 53\tC\t45\nMister 54\tC\t85\nMister 55\tD\t32\nMister 56\tD\t92\nMister 57\tD\t57\nMister 58\tD\t76\nMister 59\tD\t78\nMister 60\tD\t37\n"
+    },
+    "config": {
+      "data": {
+        "datmat": {
+          "value": "public/demo/circular-barplot/data.csv",
+          "link": ""
+        }
+      },
+      "general": {}
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "overallline": {
+      "type": "select",
+      "label": {
+        "en": "Overall Line",
+        "zh_cn": "整体线"
+      },
+      "items": [
+        "mean",
+        "median"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "beanlines": {
+      "type": "select",
+      "label": {
+        "en": "Bean Line",
+        "zh_cn": "都荚线"
+      },
+      "items": [
+        "mean",
+        "median"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "kernel": {
+      "type": "select",
+      "label": {
+        "en": "Smoothing Kernel",
+        "zh_cn": "核函数"
+      },
+      "items": [
+        "gaussian",
+        "rectangular", "triangular", "epanechnikov",
+        "biweight", "cosine",
+        "optcosine"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "horizontal": {
+      "type": "switch",
+      "label": {
+        "en": "Horizontal",
+        "zh_cn": "水平"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

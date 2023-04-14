@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh_cn": "Broad GSEA",
+    "en": "Broad GSEA"
+  },
+  "alias": ["Multi-GSEA"],
+  "intro": {
+    "zh_cn": "基因富集分析",
+    "en": "Gene set enrichment analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/29/gsea-tuya.jpg",
+  "href": "/advance/gsea",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "expression"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Aravind Subramanian & Hiplot Team | Jianfeng",
+    "citation": "Subramanian A, Tamayo P, Mootha V K, et al. Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles[J]. Proceedings of the National Academy of Sciences, 2005, 102(43): 15545-15550.",
+    "releaseDate": "2020-10-29",
+    "updateDate": "2020-10-29",
+    "version": "v0.1.0"
+  }
+}

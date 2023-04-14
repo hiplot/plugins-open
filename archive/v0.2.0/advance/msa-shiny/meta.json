@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "MSA Shiny",
+    "en": "MSA Shiny"
+  },
+  "alias": ["MSA-Online"],
+  "intro": {
+    "zh_cn": "多重序列比对可视化",
+    "en": "Multiple sequence alignment"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/34-d6MSWd-tuya.jpg",
+  "href": "/advance/msa-shiny",
+  "tag": [
+    "shiny",
+    "seq"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-25",
+    "updateDate": "2020-08-25"
+  }
+}

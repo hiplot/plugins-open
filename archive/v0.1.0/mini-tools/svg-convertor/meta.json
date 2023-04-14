@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "SVG 转换器",
+    "en": "SVG Convertor"
+  },
+  "alias": ["SVG-Convertor"],
+  "intro": {
+    "zh_cn": "图片格式转换",
+    "en": "Covertor of image format"
+  },
+  "usergroup": [
+    1,
+    2
+  ],
+  "src": "https://s1.imagehub.cc/images/2020/12/25/img_6681.png",
+  "href": "/mini-tools/svg-convertor",
+  "tag": [
+    "vue",
+    "svg"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "version": "v0.1.0",
+    "releaseDate": "2020-12-25",
+    "updateDate": "2020-12-25"
+  }
+}

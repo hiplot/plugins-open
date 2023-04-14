@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "元分析亚组比较",
+    "en": "Meta-Subgroup Analysis"
+  },
+  "alias": ["Meta-Subgroup"],
+  "intro": {
+    "zh_cn": "确定谁从治疗中获益最大的元分析方法",
+    "en": "Identify Who Benefits Most from Treatments"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/08/metawho-0.dtz3ulo8gxo-1-tuya.jpg",
+  "href": "/basic/metawho",
+  "tag": ["vue", "meta", "comparison", "forestplot"],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot team | Shixiang Wang",
+    "email": "",
+    "issues": "https://github.com/ShixiangWang/metawho",
+    "releaseDate": "2021-03-07",
+    "updateDate": "2021-03-07",
+    "citation": "- Wang, Shixiang, et al. “The predictive power of tumor mutational burden in lung cancer immunotherapy response is influenced by patients’ sex.” International journal of cancer (2019).\n- Fisher, David J., et al. “Meta-analytical methods to identify who benefits most from treatments: daft, deluded, or deft approach?.” bmj 356 (2017): j573."
+  }
+}

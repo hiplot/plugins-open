@@ -1,0 +1,25 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "funlabel": {
+      "type": "text-field",
+      "label": {
+        "en": "Label",
+        "zh_cn": "标签"
+      },
+      "required": true,
+      "class": "col-12"
+    }
+  }
+}

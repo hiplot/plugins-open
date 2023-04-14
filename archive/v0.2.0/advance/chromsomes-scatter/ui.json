@@ -1,0 +1,74 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "species": {
+      "type": "combobox",
+      "label": {
+        "en": "Genome Version",
+        "zh_ch": "基因组版本"
+      },
+      "items": ["hg38", "hg19", "mm10", "mm9"],
+      "required": true,
+      "clearable": true,
+      "class": "col-12 col-md-6"
+    },
+    "pch": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Point Shape",
+        "zh_cn": "点形状"
+      },
+      "items": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 
+        14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+      "class": "col-12 col-md-6"
+    },
+    "ylab": {
+      "type": "text-field",
+      "label": {
+        "en": "Ylab",
+        "zh_cn": "Y 轴标签"
+      },
+      "class": "col-12"
+    },
+    "nrow": {
+      "type": "slider",
+      "label": {
+        "en": "Nrow",
+        "zh_cn": "染色体行数"
+      },
+      "step": 1,
+      "min": 1,
+      "max": 24,
+      "class": "col-12 col-md-6"
+    },
+    "track_height": {
+      "type": "slider",
+      "label": {
+        "en": "Height of Track",
+        "zh_cn": "数值区高度"
+      },
+      "step": 0.01,
+      "class": "col-12 col-md-6"
+    },
+    "point_size": {
+      "type": "slider",
+      "label": {
+        "en": "Point Size",
+        "zh_cn": "点大小"
+      },
+      "step": 0.01,
+      "class": "col-12"
+    }
+  }
+}

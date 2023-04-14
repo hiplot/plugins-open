@@ -1,0 +1,22 @@
+{
+  "name": {
+    "zh_cn": "Synteny Viewer",
+    "en": "Synteny Viewer"
+  },
+  "intro": {
+    "zh_cn": "三元同构图",
+    "en": "Ternary Synteny Plot"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/06/syntenyviewer2-tuya.jpg",
+  "href": "/advance/syntenyviewer",
+  "tag": [
+    "shiny",
+    "general"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Davey",
+    "releaseDate": "2020-09-06",
+    "updateDate": "2020-09-06"
+  }
+}

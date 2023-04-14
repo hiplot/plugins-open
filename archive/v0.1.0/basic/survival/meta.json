@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "生存分析",
+    "en": "Survival Analysis"
+  },
+  "alias": ["Survival-Analysis"],
+  "intro": {
+    "zh_cn": "用于生存数据展示",
+    "en": "Used for survival data display"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/80-JCNk11-tuya.jpg",
+  "href": "/basic/survival",
+  "tag": [
+    "vue",
+    "model",
+    "survival"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-11-12",
+    "updateDate": "2020-03-25",
+    "version": "v0.1.1"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "module": "basic",
+  "tool": "funnel-plot-metafor",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 8,
+          "height": 5
+        },
+        "palette": "nejm",
+        "paletteCustom": ""
+      },
+      "extra": {
+        "measure": "ZCOR",
+        "refline": "0",
+        "level": [90, 95, 99],
+        "exprs": []
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Funnel Plot (metafor)",
+        "palette": "custom",
+        "paletteCustom": "#FFFFFF, #AC0303, #D73B02"
+      },
+      "extra": {
+        "exprs": ["ri = ri", "ni = ni"]
+      }
+    },
+    "textarea": {
+      "datTable": "authors\tyear\tni\tri\tcontrols\tdesign\ta_measure\tc_measure\tmeanage\tquality\nAxelsson et al.\t2009\t109\t0.187\tnone\tcross-sectional\tself-report\tother\t22\t1\nAxelsson et al.\t2011\t749\t0.162\tnone\tcross-sectional\tself-report\tNEO\t53.59\t1\nBruce et al.\t2010\t55\t0.34\tnone\tprospective\tother\tNEO\t43.36\t2\nChristensen et al.\t1999\t107\t0.32\tnone\tcross-sectional\tself-report\tother\t41.7\t1\nChristensen & Smith\t1995\t72\t0.27\tnone\tprospective\tother\tNEO\t46.39\t2\nCohen et al.\t2004\t65\t0\tnone\tprospective\tother\tNEO\t41.2\t2\nDobbels et al.\t2005\t174\t0.175\tnone\tcross-sectional\tself-report\tNEO\t52.3\t1\nEdiger et al.\t2007\t326\t0.05\tmultiple\tprospective\tself-report\tNEO\t41\t3\nInsel et al.\t2006\t58\t0.26\tnone\tprospective\tother\tother\t77\t2\nJerant et al.\t2011\t771\t0.01\tmultiple\tprospective\tother\tNEO\t78.6\t3\nMoran et al.\t1997\t56\t-0.09\tmultiple\tprospective\tother\tNEO\t57.2\t2\nO'Cleirigh et al.\t2007\t91\t0.37\tnone\tprospective\tself-report\tNEO\t37.9\t2\nPenedo et al.\t2003\t116\t0\tnone\tcross-sectional\tself-report\tNEO\t39.2\t1\nQuine et al.\t2012\t537\t0.15\tnone\tprospective\tself-report\tother\t69\t2\nStilley et al.\t2004\t158\t0.24\tnone\tprospective\tother\tNEO\t46.2\t3\nWiebe & Christensen\t1997\t65\t0.04\tnone\tprospective\tother\tNEO\t56\t1\n"
+    }
+  }
+}

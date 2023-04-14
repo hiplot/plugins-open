@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "三线表",
+    "en": "Three Line Table"
+  },
+  "alias": ["Table-Three"],
+  "intro": {
+    "zh_cn": "表格操作",
+    "en": "Table Operation"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/06/09/3-line-tables5e1bd268f9d26d02.png",
+  "href": "/advance/3-line-table",
+  "tag": [
+    "shiny",
+    "table"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Houshi Xu",
+    "releaseDate": "2021-06-09",
+    "updateDate": "2021-06-09"
+  }
+}

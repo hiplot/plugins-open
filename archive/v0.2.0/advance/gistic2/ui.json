@@ -1,0 +1,126 @@
+{
+  "data": {
+    "input": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "zh_cn": "Segmentation 文件",
+        "en": "Segmentation File"
+      },
+      "icon": "mdi-file",
+      "exts": [
+        "txt"
+      ],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "refgenefile": {
+      "type": "select",
+      "label": {
+        "en": "Reference Genome Version",
+        "zh_cn": "参考基因版本"
+      },
+      "items": [
+        "hg16.mat",
+        "hg17.mat",
+        "hg18.mat",
+        "hg19.mat",
+        "hg19.UCSC.add_miR.140312.refgene.mat",
+        "hg38.UCSC.add_miR.160920.refgene.mat"
+      ],
+      "class": "col-12"
+    },
+    "brlen": {
+      "type": "slider",
+      "label": {
+        "en": "Threshold (broad form focal events)",
+        "zh_cn": "阈值 (broad form focal events)"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "class": "col-12"
+    },
+    "maxseg": {
+      "type": "slider",
+      "label": {
+        "en": "Maximum number of segments (K)",
+        "zh_cn": "片段最大值 (K)"
+      },
+      "min": 0,
+      "max": 100,
+      "step": 0.01,
+      "class": "col-12"
+    },
+    "confidence": {
+      "type": "slider",
+      "label": {
+        "en": "Confidence Level of Region Driver",
+        "zh_cn": "区间驱动置信水平"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "class": "col-12"
+    },
+    "rx": {
+      "type": "switch",
+      "label": {
+        "en": "Remove X-chromosome",
+        "zh_cn": "移除 X 染色体"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "genegistic": {
+      "type": "switch",
+      "label": {
+        "en": "Deletions Sig at Gene level",
+        "zh_cn": "基因水平计算缺失显著性"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "broad": {
+      "type": "switch",
+      "label": {
+        "en": "Broad-level Analysis",
+        "zh_cn": "Broad 水平分析"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "armpeel": {
+      "type": "switch",
+      "label": {
+        "en": "Arm-level Peel Off",
+        "zh_cn": "臂水平剥离"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "preprocess": {
+      "type": "switch",
+      "label": {
+        "en": "Clean Overlap Segments",
+        "zh_cn": "预处理 Overlap 片段"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "min_probes": {
+      "type": "slider",
+      "label": {
+        "en": "Min Probe Number for Clean",
+        "zh_cn": "预处理最少探针数"
+      },
+      "min": 0,
+      "max": 9999,
+      "step": 1,
+      "class": "col-12 col-md-6"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "module": "basic",
+  "tool": "pyramid-chart2",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+        "datTable": [
+          { "value": "" },
+          { "value": "" },
+          { "value": "" }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 7,
+          "height": 5
+        },
+        "theme": "theme_classic",
+        "palette": "nejm",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10
+      },
+      "extra": {
+        "age_breaks": []
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            { "value": "age" },
+            { "value": "Gender" },
+            { "value": ""}
+          ]
+        },
+        "general": {
+          "title": ""
+        }
+      },
+      "textarea": {
+        "datTable": "case_id\tdate_of_onset\tdate_of_hospitalisation\tdate_of_outcome\toutcome\tGender\tage\tprovince\n1\t2013/2/19\tNA\t2013/3/4\tDeath\tMale\t87\tShanghai\n2\t2013/2/27\t2013/3/3\t2013/3/10\tDeath\tMale\t27\tShanghai\n3\t2013/3/9\t2013/3/19\t2013/4/9\tDeath\tFemale\t35\tAnhui\n4\t2013/3/19\t2013/3/27\tNA\tNA\tFemale\t45\tJiangsu\n5\t2013/3/19\t2013/3/30\t2013/5/15\tRecover\tFemale\t48\tJiangsu\n6\t2013/3/21\t2013/3/28\t2013/4/26\tDeath\tFemale\t32\tJiangsu\n7\t2013/3/20\t2013/3/29\t2013/4/9\tDeath\tMale\t83\tJiangsu\n8\t2013/3/7\t2013/3/18\t2013/3/27\tDeath\tMale\t38\tZhejiang\n9\t2013/3/25\t2013/3/25\tNA\tNA\tMale\t67\tZhejiang\n10\t2013/3/28\t2013/4/1\t2013/4/3\tDeath\tMale\t48\tShanghai\n11\t2013/3/29\t2013/3/31\t2013/4/4\tDeath\tMale\t64\tZhejiang\n12\t2013/3/27\tNA\t2013/4/3\tDeath\tFemale\t52\tShanghai\n13\t2013/3/22\t2013/3/25\t2013/4/3\tDeath\tFemale\t67\tShanghai\n14\t2013/3/31\tNA\t2013/4/10\tRecover\tMale\t4\tShanghai\n15\t2013/3/20\tNA\tNA\tNA\tFemale\t61\tJiangsu\n16\t2013/3/21\tNA\tNA\tNA\tMale\t79\tJiangsu\n17\t2013/3/28\t2013/4/3\t2013/4/11\tDeath\tMale\t74\tShanghai\n18\t2013/3/29\t2013/4/2\t2013/4/18\tRecover\tMale\t66\tShanghai\n19\t2013/3/25\t2013/3/30\t2013/5/31\tDeath\tMale\t59\tShanghai\n20\t2013/3/28\t2013/4/1\t2013/4/19\tRecover\tMale\t55\tAnhui\n21\t2013/3/29\t2013/3/30\t2013/4/21\tRecover\tMale\t67\tShanghai\n22\t2013/3/28\t2013/4/1\tNA\tNA\tMale\t85\tJiangsu\n23\t2013/3/30\t2013/3/30\t2013/5/15\tRecover\tFemale\t25\tJiangsu\n24\t2013/4/1\tNA\t2013/4/7\tDeath\tMale\t64\tShanghai\n25\t2013/4/1\t2013/4/1\t2013/5/6\tRecover\tMale\t62\tShanghai\n26\t2013/4/3\t2013/4/7\t2013/4/14\tDeath\tMale\t77\tShanghai\n27\t2013/3/13\t2013/4/9\t2013/4/19\tRecover\tFemale\t51\tZhejiang\n28\t2013/3/29\tNA\tNA\tNA\tMale\t79\tZhejiang\n29\t2013/4/1\t2013/4/5\t2013/5/3\tRecover\tFemale\t76\tShanghai\n30\t2013/4/4\tNA\t2013/4/27\tRecover\tFemale\t81\tShanghai\n31\t2013/3/29\tNA\tNA\tNA\tMale\t70\tJiangsu\n32\t2013/4/2\tNA\tNA\tNA\tMale\t74\tJiangsu\n33\t2013/4/3\tNA\t2013/4/27\tRecover\tMale\t65\tZhejiang\n34\t2013/3/31\t2013/4/5\t2013/4/11\tDeath\tMale\t74\tShanghai\n35\t2013/4/2\t2013/4/7\t2013/5/10\tDeath\tFemale\t83\tShanghai\n36\t2013/4/4\tNA\t2013/4/21\tRecover\tMale\t68\tShanghai\n37\t2013/3/31\tNA\t2013/5/15\tRecover\tMale\t31\tJiangsu\n38\t2013/4/3\tNA\tNA\tNA\tMale\t56\tJiangsu\n39\t2013/4/8\t2013/4/8\tNA\tNA\tMale\t66\tZhejiang\n40\t2013/4/6\t2013/4/11\tNA\tNA\tMale\t74\tZhejiang\n41\t2013/4/6\t2013/4/12\tNA\tNA\tFemale\t54\tZhejiang\n42\t2013/4/3\t2013/4/10\tNA\tNA\tMale\t53\tShanghai\n43\t2013/4/3\t2013/4/6\t2013/4/21\tDeath\tMale\t86\tShanghai\n44\t2013/4/11\t2013/4/11\t2013/4/17\tRecover\tFemale\t7\tBeijing\n45\t2013/4/1\t2013/4/4\t2013/6/26\tDeath\tMale\t56\tShanghai\n46\t2013/4/5\tNA\t2013/4/14\tDeath\tFemale\t77\tJiangsu\n47\t2013/4/1\tNA\tNA\tNA\tMale\t72\tJiangsu\n48\t2013/4/3\t2013/4/9\tNA\tNA\tMale\t65\tZhejiang\n49\t2013/4/6\t2013/4/11\t2013/5/4\tRecover\tMale\t38\tZhejiang\n50\t2013/4/6\t2013/4/9\tNA\tRecover\tMale\t34\tHenan\n51\t2013/4/8\t2013/4/10\t2013/4/23\tRecover\tMale\t65\tHenan\n52\t2013/4/6\tNA\tNA\tNA\tFemale\t64\tZhejiang\n53\t2013/3/29\tNA\t2013/4/20\tDeath\tFemale\t62\tZhejiang\n54\t2013/4/6\tNA\tNA\tNA\tMale\t75\tZhejiang\n55\t2013/4/9\tNA\t2013/4/27\tRecover\tMale\t79\tZhejiang\n56\t2013/4/5\t2013/4/11\tNA\tNA\tMale\t73\tShanghai\n57\t2013/4/8\t2013/4/12\t2013/4/21\tRecover\tMale\t54\tShanghai\n58\t2013/4/4\t2013/4/8\t2013/5/5\tRecover\tMale\t78\tShanghai\n59\t2013/4/1\tNA\t2013/5/8\tRecover\tMale\t50\tJiangsu\n60\t2013/4/8\tNA\t2013/4/26\tRecover\tMale\t26\tJiangsu\n61\t2013/4/6\tNA\t2013/4/16\tDeath\tMale\t60\tJiangsu\n62\t2013/4/3\tNA\tNA\tNA\tFemale\t68\tZhejiang\n63\t2013/4/10\tNA\tNA\tNA\tMale\t60\tAnhui\n64\tNA\tNA\t2013/5/11\tRecover\tMale\t56\tJiangsu\n65\tNA\tNA\t2013/5/16\tRecover\tFemale\t21\tJiangsu\n66\tNA\tNA\tNA\tNA\tMale\t72\tJiangsu\n67\t2013/4/12\tNA\tNA\tNA\tMale\t56\tZhejiang\n68\t2013/4/10\tNA\tNA\tNA\tMale\t57\tZhejiang\n69\t2013/4/10\tNA\tNA\tNA\tMale\t62\tZhejiang\n70\t2013/4/11\tNA\tNA\tNA\tFemale\t58\tZhejiang\n71\t2013/4/10\tNA\tNA\tNA\tFemale\t72\tZhejiang\n72\t2013/4/10\t2013/4/15\t2013/4/27\tRecover\tMale\t47\tShanghai\n73\tNA\tNA\tNA\tRecover\tMale\t69\tShanghai\n74\tNA\tNA\tNA\tRecover\tNA\t?\tShanghai\n75\tNA\tNA\tNA\tDeath\tNA\t?\tShanghai\n76\tNA\tNA\tNA\tDeath\tMale\t55\tShanghai\n77\t2013/3/17\tNA\tNA\tRecover\tMale\t2\tShanghai\n78\t2013/4/12\t2013/4/16\t2013/4/29\tDeath\tMale\t89\tShanghai\n79\t2013/4/11\tNA\t2013/4/27\tRecover\tFemale\t37\tZhejiang\n80\t2013/4/8\tNA\tNA\tNA\tMale\t74\tZhejiang\n81\t2013/4/13\tNA\t2013/4/23\tDeath\tMale\t86\tZhejiang\n82\t2013/4/14\tNA\t2013/4/22\tRecover\tMale\t41\tZhejiang\n83\tNA\tNA\tNA\tRecover\tMale\t38\tHenan\n84\tNA\tNA\tNA\tNA\tFemale\t26\tJiangsu\n85\t2013/4/9\t2013/4/16\tNA\tNA\tFemale\t80\tShanghai\n86\t2013/4/13\tNA\tNA\tNA\tFemale\t54\tZhejiang\n87\t2013/4/11\tNA\t2013/4/19\tDeath\tMale\t69\tZhejiang\n88\tNA\tNA\tNA\tNA\tMale\t4\tBeijing\n89\t2013/4/9\t2013/4/15\t2013/5/15\tRecover\tMale\t54\tJiangsu\n90\t2013/4/12\t2013/4/15\tNA\tNA\tMale\t43\tZhejiang\n91\t2013/4/11\t2013/4/17\t2013/4/27\tRecover\tMale\t48\tZhejiang\n92\t2013/4/10\t2013/4/17\tNA\tNA\tFemale\t66\tZhejiang\n93\t2013/4/11\tNA\tNA\tNA\tMale\t56\tZhejiang\n94\t2013/4/14\tNA\t2013/4/27\tRecover\tFemale\t35\tZhejiang\n95\t2013/3/30\tNA\tNA\tNA\tMale\t37\tZhejiang\n96\t2013/4/7\tNA\tNA\tNA\tMale\t43\tJiangsu\n97\t2013/4/13\t2013/4/18\t2013/5/5\tRecover\tFemale\t75\tShanghai\n98\t2013/4/8\tNA\t2013/4/21\tDeath\tMale\t76\tZhejiang\n99\t2013/4/12\tNA\tNA\tNA\tFemale\t68\tZhejiang\n100\t2013/4/16\tNA\tNA\tNA\tMale\t58\tZhejiang\n101\t2013/4/13\tNA\tNA\tNA\tFemale\t79\tZhejiang\n102\t2013/4/12\tNA\tNA\tNA\tMale\t81\tZhejiang\n103\t2013/4/13\t2013/4/19\tNA\tNA\tMale\t68\tJiangsu\n104\t2013/4/16\tNA\tNA\tNA\tFemale\t54\tZhejiang\n105\t2013/4/14\tNA\tNA\tNA\tMale\t32\tZhejiang\n106\t2013/4/16\t2013/4/22\t2013/5/16\tRecover\tMale\t36\tShandong\n107\t2013/4/14\tNA\t2013/5/5\tDeath\tMale\t91\tAnhui\n108\t2013/4/15\tNA\tNA\tNA\tMale\t84\tZhejiang\n109\t2013/4/15\tNA\tNA\tNA\tMale\t62\tZhejiang\n110\t2013/4/12\t2013/4/16\tNA\tNA\tMale\t53\tTaiwan\n111\t2013/4/17\tNA\t2013/5/9\tDeath\tMale\t56\tHenan\n112\t2013/4/17\tNA\tNA\tNA\tMale\t69\tJiangxi\n113\t2013/4/15\tNA\tNA\tNA\tFemale\t60\tZhejiang\n114\t2013/4/18\tNA\tNA\tNA\tFemale\t50\tZhejiang\n115\t2013/4/17\tNA\tNA\tNA\tMale\t38\tZhejiang\n116\t2013/4/18\t2013/4/23\t2013/5/9\tRecover\tMale\t65\tFujian\n117\t2013/4/19\tNA\t2013/5/17\tRecover\tFemale\t76\tJiangxi\n118\t2013/4/17\tNA\tNA\tNA\tMale\t49\tJiangsu\n119\t2013/4/19\tNA\t2013/5/15\tRecover\tMale\t36\tJiangsu\n120\t2013/3/8\tNA\tNA\tNA\tMale\t60\tJiangsu\n121\t2013/4/14\t2013/4/19\t2013/5/14\tDeath\tFemale\t64\tHunan\n122\t2013/4/18\tNA\tNA\tNA\tMale\t38\tZhejiang\n123\t2013/4/15\t2013/4/22\t2013/5/1\tDeath\tMale\t54\tJiangxi\n124\t2013/4/21\tNA\t2013/5/8\tRecover\tMale\t80\tJiangxi\n125\t2013/4/23\tNA\t2013/5/13\tRecover\tFemale\t31\tJiangxi\n126\t2013/4/17\t2013/4/27\tNA\tNA\tMale\t80\tFujian\n127\t2013/4/27\tNA\t2013/5/6\tRecover\tMale\t4\tShandong\n128\t2013/4/21\t2013/4/28\t2013/5/13\tRecover\tMale\t58\tFujian\n129\t2013/4/23\t2013/4/27\t2013/5/21\tRecover\tMale\t69\tHunan\n130\t2013/4/29\t2013/4/30\tNA\tNA\tMale\t69\tFujian\n131\t2013/4/26\t2013/4/27\tNA\tRecover\tMale\t9\tFujian\n132\t2013/5/3\t2013/5/3\tNA\tNA\tFemale\t79\tJiangxi\n133\t2013/5/21\t2013/5/21\t2013/5/23\tRecover\tMale\t6\tBeijing\n134\t2013/4/25\t2013/4/26\t2013/5/2\tRecover\tMale\t15\tJiangsu\n135\t2013/7/10\t2013/7/13\t2013/8/11\tDeath\tFemale\t61\tHebei\n136\t2013/7/27\t2013/7/28\tNA\tNA\tFemale\t51\tGuangdong\n"
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            { "value": "age" },
+            { "value": "Gender" },
+            { "value": "outcome"}
+          ]
+        },
+        "general": {
+          "title": ""
+        },
+        "extra": {
+          "age_breaks": [0, 10, 20, 30, 40, 50, 100]
+        }
+      }
+    }
+  ]
+}

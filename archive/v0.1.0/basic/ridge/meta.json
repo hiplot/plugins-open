@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "岭图",
+    "en": "Ridge"
+  },
+  "alias": ["Ridge-Chart"],
+  "intro": {
+    "zh_cn": "展示多数据分布关系",
+    "en": "Display the data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/67-JC3Jne-tuya.jpg",
+  "href": "/basic/ridge",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-12-02",
+    "updateDate": "2020-01-26"
+  }
+}

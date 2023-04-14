@@ -1,0 +1,119 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "X"
+      },
+      {
+        "label": "Y"
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "combine": {
+      "type": "switch",
+      "label": "combine",
+      "class": "col-12 col-md-4"
+    },
+    "merge": {
+      "type": "switch",
+      "label": "merge",
+      "class": "col-12 col-md-4"
+    },
+    "color": {
+      "type": "color-picker",
+      "label": {
+        "en": "Bar Border Color",
+        "zh_cn": "柱状图描边色"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "fill": {
+
+    },
+    "size": {
+
+    },
+    "width": {
+
+    },
+    "xlab": {
+
+    },
+    "ylab": {
+
+    },
+    "facet.by": {
+
+    },
+    "panel.labs": {
+
+    },
+    "short.panel.labs": {
+
+    },
+    "select": {
+
+    },
+    "remove": {
+
+    },
+    "order": {
+
+    },
+    "add": {
+
+    },
+    "add.params": {
+
+    },
+    "error.plot": {
+
+    },
+    "label": {
+
+    },
+    "lab.col": {
+
+    },
+    "lab.size": {
+
+    },
+    "lab.pos": {
+
+    },
+    "lab.vjust": {
+
+    },
+    "lab.hjust": {
+
+    },
+    "lab.nb.digits": {
+
+    },
+    "sort.val": {
+
+    },
+    "sort.by.groups": {
+
+    },
+    "top": {
+
+    },
+    "position": {
+
+    }
+  }
+}

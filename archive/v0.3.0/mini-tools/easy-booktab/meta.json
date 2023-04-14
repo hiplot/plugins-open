@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "简易三线表",
+    "en": "Easy Booktab"
+  },
+  "alias": ["GTSummary"],
+  "intro": {
+    "zh_cn": "表格概貌整理",
+    "en": "Publication-ready tables"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/23/easy-booktab.png",
+  "href": "/mini-tools/easy-booktab",
+  "tag": [
+    "vue",
+    "table"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2022-04-23",
+    "updateDate": "2022-04-23",
+    "citation": "Sjoberg DD, Whiting K, Curry M, Lavery JA, Larmarange J. Reproducible summary tables with the gtsummary package. The R Journal 2021;13:570–80. https://doi.org/10.32614/RJ-2021-053.",
+    "version": "v0.1.0"
+  }
+}

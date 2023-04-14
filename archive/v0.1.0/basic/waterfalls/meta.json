@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "瀑布图",
+    "en": "Waterfalls"
+  },
+  "alias": ["Waterfall-Chart"],
+  "intro": {
+    "zh_cn": "展示数据变化过程",
+    "en": "Display the variables change"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/01/waterfalls-tuya.jpg",
+  "href": "/basic/waterfalls",
+  "tag": [
+    "vue",
+    "evolution",
+    "waterfalls"
+  ],
+  "meta": {
+    "score": 4.7,
+    "author": "Hiplot Team | Wei Dong",
+    "releaseDate": "2020-10-29",
+    "updateDate": "2020-10-29"
+  }
+}

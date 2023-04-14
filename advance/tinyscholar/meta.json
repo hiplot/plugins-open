@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "Tinyscholar",
+    "en": "Tinyscholar"
+  },
+  "alias": ["Scholar-Citation"],
+  "intro": {
+    "zh_cn": "谷歌学术作者引用展示",
+    "en": "Google scholar author citations"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/56-dtmHDf-tuya.jpg",
+  "href": "/advance/tinyscholar",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "google"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Shixiang Wang",
+    "email": "wangshx@shanghaitech.edu.cn",
+    "releaseDate": "2020-08-21",
+    "updateDate": "2020-08-21"
+  }
+}

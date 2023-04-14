@@ -1,0 +1,88 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "direction_type": {
+      "type": "select",
+      "label": "messages.basic.chord.direction_type",
+      "items": [
+        "diffHeight",
+        "arrows"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "directional": {
+      "type": "select",
+      "label": "messages.basic.chord.directional",
+      "items": [
+        -1,
+        0,
+        1,
+        2
+      ],
+      "multiple": true,
+      "class": "col-12 col-md-6"
+    },
+    "label_dir": {
+      "type": "select",
+      "label": "messages.basic.chord.label_dir",
+      "items": [
+        "hor",
+        "ver"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "data_stru": {
+      "type": "select",
+      "label": "messages.basic.chord.data_stru",
+      "items": [
+        "matrix", "frame"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "dist_name": {
+      "type": "slider",
+      "label": "messages.basic.chord.dist_name",
+      "class": "col-12 col-md-6",
+      "max": 10,
+      "min": 0,
+      "step": 0.1
+    },
+    "width_circle": {
+      "type": "slider",
+      "label": "messages.basic.chord.width_circle",
+      "class": "col-12 col-md-6",
+      "max": 10,
+      "min": 0,
+      "step": 0.1
+    },
+    "dist_label": {
+      "type": "slider",
+      "label": "messages.basic.chord.dist_label",
+      "class": "col-12 col-md-6",
+      "max": 2,
+      "min": 0,
+      "step": 0.1
+    },
+    "link_visible": {
+      "type": "switch",
+      "label": "messages.basic.chord.link_visible",
+      "class": "col-12 col-md-3"
+    },
+    "scale": {
+      "type": "switch",
+      "label": "messages.basic.common.scale",
+      "class": "col-12 col-md-3"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": {
+    "zh_cn": "诺莫图",
+    "en": "Nomogram"
+  },
+  "alias": ["Nomo-Diagram"],
+  "intro": {
+    "zh_cn": "Cox 生存分析结果可视化",
+    "en": "COX result visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/05/17/nomogram-0.quyn8brhz2i-1-tuya.jpg",
+  "href": "/basic/nomogram",
+  "tag": [
+    "vue",
+    "flow",
+    "model"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben-miao",
+    "email": "benben.miao@outlook.com",
+    "issues": "https://github.com/hiplot/gold",
+    "citation": "nomogram",
+    "releaseDate": "2020-10-31",
+    "updateDate": "2020-10-31"
+  }
+}

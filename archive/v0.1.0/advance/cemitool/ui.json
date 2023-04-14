@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1-expmat": {
+      "type": "cloud-file",
+      "required": true,
+      "label": "messages.common.dataTable",
+      "icon": "mdi-file",
+      "exts": ["txt", "csv", "txt.gz", "csv.gz", "tsv", "tsv.gz"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "2-gmt": {
+      "type": "cloud-file",
+      "required": false,
+      "label": {
+        "en": "Pathways File",
+        "zh_cn": "通路信息"
+      },
+      "icon": "mdi-file",
+      "exts": ["gmt"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "3-int_df": {
+      "type": "cloud-file",
+      "required": false,
+      "label": {
+        "en": "Interactions Info",
+        "zh_cn": "相互作用信息"
+      },
+      "icon": "mdi-file",
+      "exts": ["txt", "csv", "tsv"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  }
+}

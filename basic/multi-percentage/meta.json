@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "多百分比图",
+    "en": "Multi-percentage"
+  },
+  "alias": ["multi-percentage"],
+  "intro": {
+    "zh_cn": "展示数据分布",
+    "en": "Display the distribution of data"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/11/05/multi-percentage-0.dhwfbhroqm-1-tuya.jpg",
+  "href": "/basic/multi-percentage",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.9,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-11-05",
+    "updateDate": "2021-11-05"
+  }
+}

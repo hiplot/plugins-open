@@ -1,0 +1,61 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "clade": {
+      "type": "slider",
+      "label": "messages.basic.dendrogram.clade",
+      "class": "col-12"
+    },
+    "hc_method": {
+      "type": "select",
+      "label": "messages.basic.common.hc_method",
+      "items": [
+        "ward.D",
+        "ward.D2",
+        "single",
+        "complete",
+        "average",
+        "mcquitty",
+        "median",
+        "centroid"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "dist": {
+      "type": "select",
+      "label": "messages.basic.dendrogram.dist",
+      "items": [
+        "euclidean",
+        "maximum",
+        "manhattan",
+        "canberra",
+        "binary",
+        "minkowski"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "type": {
+      "type": "select",
+      "label": "messages.basic.dendrogram.type",
+      "items": [
+        "phylogram",
+        "fan",
+        "cladogram",
+        "radial",
+        "unrooted"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "labelcol": {
+      "type": "switch",
+      "label": "messages.basic.common.labelcol",
+      "class": "col-12 col-md-4"
+    }
+  }
+}

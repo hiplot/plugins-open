@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "ggpiestats-multiple",
+    "en": "ggpiestats-multiple"
+  },
+  "intro": {
+    "zh_cn": "展示数据占比",
+    "en": "Display data percent"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/01/29/gghistostats-0.w0bhmphs72i-tuya.jpg",
+  "href": "/basic/ggpiestats-multiple",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-01-30",
+    "updateDate": "2021-01-30",
+    "issues": "https://github.com/IndrajeetPatil/ggstatsplot"
+  }
+}

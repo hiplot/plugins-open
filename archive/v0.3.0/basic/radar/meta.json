@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "雷达图",
+    "en": "Radar"
+  },
+  "alias": ["Radar-Chart"],
+  "intro": {
+    "zh_cn": "展示技能强弱",
+    "en": "Display the variables"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/11/07/radar-0.svcpighpkt-1-tuya.jpg",
+  "href": "/basic/radar",
+  "tag": [
+    "vue",
+    "ranking"
+  ],
+  "meta": {
+    "score": 5,
+    "version": "v0.1.1",
+    "author": "Hiplot Team | Jack Wang & Jianfeng",
+    "releaseDate": "2019-06-13",
+    "updateDate": "2022-04-22"
+  }
+}

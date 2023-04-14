@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "诺莫图 (逻辑回归)",
+    "en": "Nomogram (Logistic)"
+  },
+  "alias": ["Nomo-Diagram-Logistic"],
+  "intro": {
+    "zh_cn": "逻辑回归结果可视化",
+    "en": "Logistic regression visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/05/17/nomogram-logistic-0.fu9zppdwve9-1-tuya.jpg",
+  "href": "/basic/nomogram-logistic",
+  "tag": [
+    "vue",
+    "flow",
+    "model"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "issues": "https://github.com/hiplot/gold",
+    "releaseDate": "2021-05-17",
+    "updateDate": "2021-05-17"
+  }
+}

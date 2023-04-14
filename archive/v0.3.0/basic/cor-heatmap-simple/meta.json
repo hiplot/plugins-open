@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "简单可变相关热图",
+    "en": "Simplified Correlation Heatmap"
+  },
+  "alias": ["Cor-Heatmap-Simple"],
+  "intro": {
+    "zh_cn": "提供一个简单化版本的相关热图可视化",
+    "en": "Simplified variables correlation heatmap"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/01/cor-heatmap-simple-tuya.jpg",
+  "href": "/basic/cor-heatmap-simple",
+  "tag": [
+    "correlation",
+    "heatmap"
+  ],
+  "meta": {
+    "score": 3,
+    "author": "Hiplot Team | Shixiang Wang",
+    "email": "w_shixiang@163.com",
+    "issues": "https://github.com/ShixiangWang/sigminer/issues",
+    "citation": "Wang, Shixiang, et al. “Copy number signature analyses in prostate cancer reveal distinct etiologies and clinical outcomes” medRxiv (2020) https://www.medrxiv.org/content/10.1101/2020.04.27.20082404v1",
+    "releaseDate": "2020-10-27",
+    "updateDate": "2020-10-27"
+  }
+}

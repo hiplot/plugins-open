@@ -1,0 +1,46 @@
+{
+  "data": {
+    "datmat": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "log_fc": {
+      "type": "slider",
+      "label": {
+        "en": "log2FC",
+        "zh_cn": "log2FC阈值"
+      },
+      "class": "col-12 col-md-6",
+      "max": 5,
+      "step": 1
+    },
+    "label_size": {
+      "type": "slider",
+      "label": {
+        "en": "Label Size",
+        "zh_cn": "标签字体大小"
+      },
+      "class": "col-12 col-md-6",
+      "max": 10,
+      "step": 1
+    },
+    "top_n": {
+      "type": "slider",
+      "label": {
+        "en": "TopN",
+        "zh_cn": "topN基因"
+      },
+      "class": "col-12",
+      "max": 20,
+      "step": 1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Shiny GO (富集)",
+    "en": "Shiny GO (Enrich)"
+  },
+  "alias": ["GOwithEnrichment"],
+  "intro": {
+    "zh_cn": "GO 富集分析",
+    "en": "GO enrichment analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/27-avtE5V-tuya.jpg",
+  "href": "/advance/go-plot-enrich",
+  "tag": [
+    "shiny",
+    "geneset"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-12",
+    "updateDate": "2020-08-12"
+  }
+}

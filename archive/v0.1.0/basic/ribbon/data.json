@@ -1,0 +1,50 @@
+{
+  "module": "basic",
+  "tool": "ribbon",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 4,
+          "height": 2
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "title": "",
+        "alpha": 0.2,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "transformX": "",
+        "transformY": ""
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Ribbon Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "group\tx.axis.value\ty.axis.value.low\ty.axis.value.high\nGroup1\t1900\t-0.279\t-0.063\nGroup1\t1901\t-0.271\t-0.053\nGroup1\t1902\t-0.285\t-0.069\nGroup1\t1903\t-0.303\t-0.095\nGroup1\t1904\t-0.328\t-0.118\nGroup1\t1905\t-0.348\t-0.134\nGroup1\t1906\t-0.4\t-0.188\nGroup1\t1907\t-0.417\t-0.207\nGroup1\t1908\t-0.431\t-0.225\nGroup1\t1909\t-0.382\t-0.18\nGroup2\t1900\t-0.346\t-0.148\nGroup2\t1901\t-0.34\t-0.146\nGroup2\t1902\t-0.357\t-0.157\nGroup2\t1903\t-0.368\t-0.168\nGroup2\t1904\t-0.354\t-0.16\nGroup2\t1905\t-0.344\t-0.154\nGroup2\t1906\t-0.31\t-0.118\nGroup2\t1907\t-0.297\t-0.105\nGroup2\t1908\t-0.272\t-0.08\nGroup2\t1909\t-0.279\t-0.085"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "module": "basic",
+  "tool": "eulerr",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 9,
+          "height": 5
+        },
+        "title": "",
+        "palette": "npg",
+        "font": "Arial"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Eulerr",
+        "palette": "aaas"
+      }
+    },
+    "textarea": {
+      "datTable": "Term\tValue\nSE\t13\nTreat\t28\nAnti-CCP\t101\nDAS28\t91\nSE&Treat\t1\nSE&DAS28\t14\nTreat&Anti-CCP\t6\nSE&Anti-CCP&DAS28\t1"
+    }
+  }
+}

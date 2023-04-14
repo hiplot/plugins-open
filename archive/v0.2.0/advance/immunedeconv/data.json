@@ -1,0 +1,53 @@
+{
+  "module": "advance",
+  "tool": "immunedeconv",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "expmat": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "title": "",
+        "size": {
+          "width": 5.5,
+          "height": 3
+        },
+        "alpha": 1,
+        "theme": "theme_bw",
+        "palette": "null",
+        "font": "Arial"
+      },
+      "extra": {
+        "method": "quantiseq",
+        "tumor": true,
+        "timer_cancer_type": "",
+        "arrays": false,
+        "scale_mrna": true,
+        "pointSize": 4
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "expmat": {
+          "value": "public/demo/dataset_racle_expr_mat.csv",
+          "link": ""
+        }
+      },
+      "general": {
+        "title": "immunedeconv"
+      },
+      "extra": {}
+    }
+  }
+}

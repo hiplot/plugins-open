@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "D3 词云",
+    "en": "D3 Wordcloud"
+  },
+  "alias": ["Word-Cloud"],
+  "intro": {
+    "zh_cn": "文云文本展示",
+    "en": "Display the wordcloud"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/45-dE5AmR-tuya.jpg",
+  "href": "/basic/d3-wordcloud",
+  "tag": [
+    "vue",
+    "ranking"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2020-08-16",
+    "updateDate": "2021-02-21",
+    "version": "v0.1.1"
+  }
+}

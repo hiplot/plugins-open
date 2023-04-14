@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "韦恩图2",
+    "en": "Venn2"
+  },
+  "alias": ["Venn2-Topology"],
+  "intro": {
+    "zh_cn": "用于展示数据集间交叉关系",
+    "en": "Data sets cross-relationships"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/02/venn2.jpg",
+  "href": "/basic/venn2",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2022-04-03",
+    "updateDate": "2022-04-03"
+  }
+}

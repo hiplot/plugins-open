@@ -1,0 +1,78 @@
+{
+  "module": "basic",
+  "tool": "meta-cont",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 12,
+          "height": 7
+        },
+        "font": "Arial"
+      },
+      "extra": {
+        "layout": "meta"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": "n.e"
+          },
+          {
+            "value": "mean.e"
+          },
+          {
+            "value": "sd.e"
+          },
+          {
+            "value": "n.c"
+          },
+          {
+            "value": "mean.c"
+          },
+          {
+            "value": "sd.c"
+          },
+          {
+            "value": "Study"
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "datTable": "Study\tn.e\tmean.e\tsd.e\tn.c\tmean.c\tsd.c\nA\t13\t5\t4.7\t13\t6.5\t3.8\nB\t30\t4.9\t1.71\t50\t6.1\t2.3\nC\t35\t22.5\t3.44\t35\t24.9\t10.65\nD\t20\t12.5\t1.47\t20\t12.3\t1.66\nE\t8\t6.5\t0.76\t8\t7.38\t1.41\n"
+    }
+  }
+}

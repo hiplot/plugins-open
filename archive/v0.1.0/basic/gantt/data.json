@@ -1,0 +1,42 @@
+{
+  "module": "basic",
+  "tool": "gantt",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 5,
+          "height": 2.5
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Gantt Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "sample\titem\tstart\tend\npatient1\ttreat1\t1\t6\npatient2\ttreat1\t2\t4\npatient2\ttreat2\t5\t6\npatient2\ttreat3\t7\t8\npatient3\ttreat3\t6\t8\npatient3\ttreat1\t3\t4\npatient4\ttreat2\t5\t6\npatient4\ttreat3\t1\t2\npatient4\ttreat1\t3\t5"
+    }
+  }
+}

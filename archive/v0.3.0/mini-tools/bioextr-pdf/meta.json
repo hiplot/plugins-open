@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "PDF 文本提取",
+    "en": "PDF Text-Extract"
+  },
+  "alias": ["PDF-Extract"],
+  "intro": {
+    "zh_cn": "文本挖掘",
+    "en": "Text mining"
+  },
+  "usergroup": [
+    1,
+    2
+  ],
+  "src": "https://s1.imagehub.cc/images/2020/11/27/bioextr-file-tuya.jpg",
+  "href": "/mini-tools/bioextr-pdf",
+  "tag": [
+    "vue",
+    "text-mining"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "version": "v0.1.0",
+    "releaseDate": "2020-11-27",
+    "updateDate": "2020-11-27"
+  }
+}

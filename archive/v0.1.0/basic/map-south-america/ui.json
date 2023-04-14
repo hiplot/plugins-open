@@ -1,0 +1,24 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "background": {
+      "type": "color-picker",
+      "class": "col-12",
+      "label": {
+        "en": "Background Color",
+        "zh_cn": "背景颜色"
+      }
+    }
+  }
+}

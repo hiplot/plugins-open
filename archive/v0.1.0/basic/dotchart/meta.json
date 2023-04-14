@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "滑珠图",
+    "en": "Dotchart"
+  },
+  "alias": ["Dot-Chart"],
+  "intro": {
+    "zh_cn": "常用数据展示方式",
+    "en": "Common way to show digital dramas"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/72-JCDEPU-tuya.jpg",
+  "href": "/basic/dotchart",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 3.5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-08-22",
+    "updateDate": "2020-02-16"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "Cerebro应用",
+    "en": "CerebroApp"
+  },
+  "alias": ["Cerebro-Shiny"],
+  "intro": {
+    "zh_cn": "Seurat对象处理和可视化",
+    "en": "Prepare single-cell RNA-seq data stored in a Seurat object for visualization"
+  },
+  "src": "",
+  "href": "/advance/cerebro-shiny",
+  "tag": [
+    "shiny",
+    "single-cell",
+    "RNA-seq",
+    "Seurat"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Roman Hillje",
+    "issues": "https://github.com/romanhaa/cerebroApp",
+    "releaseDate": "2021-08-04",
+    "updateDate": "2021-08-04"
+  }
+}

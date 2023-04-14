@@ -1,0 +1,20 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "stack": {
+      "type": "switch",
+      "label": "messages.basic.common.stack"
+    }
+  }
+}

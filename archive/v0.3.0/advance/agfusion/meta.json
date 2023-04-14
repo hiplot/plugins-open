@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "AGFusion",
+    "en": "AGFusion"
+  },
+  "alias": ["Gene-Fusion"],
+  "intro": {
+    "zh_cn": "融合基因可视化",
+    "en": "Visualization of fusion genes"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/02/05/agfusion-0.yipbuniqei-2-1-tuya.jpg",
+  "href": "/advance/agfusion",
+  "tag": [
+    "vue",
+    "mutation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Charlie Murphy & Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "issues": "https://github.com/murphycj/AGFusion",
+    "releaseDate": "2021-02-05",
+    "updateDate": "2021-02-05"
+  }
+}

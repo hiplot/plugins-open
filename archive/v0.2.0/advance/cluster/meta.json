@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Cluster Shiny",
+    "en": "Cluster Shiny"
+  },
+  "alias": ["Hierarchic-Cluster"],
+  "intro": {
+    "zh_cn": "Shiny 聚类分析",
+    "en": "Interactive cluster analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/30-ayE66x-tuya.jpg",
+  "href": "/advance/cluster",
+  "tag": [
+    "shiny",
+    "expression"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-05",
+    "updateDate": "2020-08-05"
+  }
+}

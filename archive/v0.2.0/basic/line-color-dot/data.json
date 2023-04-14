@@ -1,0 +1,139 @@
+{
+  "module": "basic",
+  "tool": "line-color-dot",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 5.5,
+          "height": 4
+        },
+        "theme": "default",
+        "palette": "grafify",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "transformY": "",
+        "ybreaks": []
+      },
+      "extra": {
+        "point_size": 5,
+        "point_thick": 1
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "Time"
+            },
+            {
+              "value": "PI"
+            },
+            {
+              "value": "Experiment"
+            },
+            {
+              "value": "Genotype"
+            }
+          ]
+        },
+        "general": {
+          "title": "Two-way repeated measures"
+        }
+      },
+      "textarea": {
+        "datTable": "Experiment\tTime\tSubject\tGenotype\tPI\tTime2\ne1\tt100\ts1\tWT\t20.4712\t100\ne2\tt100\ts2\tWT\t28.88967\t100\ne3\tt100\ts3\tWT\t11.55061\t100\ne4\tt100\ts4\tWT\t23.24516\t100\ne5\tt100\ts5\tWT\t30.20904\t100\ne6\tt100\ts6\tWT\t28.683\t100\ne1\tt100\ts7\tKO\t9.340923\t100\ne2\tt100\ts8\tKO\t7.600166\t100\ne3\tt100\ts9\tKO\t5.483234\t100\ne4\tt100\ts10\tKO\t8.260629\t100\ne5\tt100\ts11\tKO\t6.983286\t100\ne6\tt100\ts12\tKO\t3.872678\t100\ne1\tt300\ts1\tWT\t38.14251\t300\ne2\tt300\ts2\tWT\t38.10213\t300\ne3\tt300\ts3\tWT\t23.16938\t300\ne4\tt300\ts4\tWT\t32.18743\t300\ne5\tt300\ts5\tWT\t44.01176\t300\ne6\tt300\ts6\tWT\t48.81051\t300\ne1\tt300\ts7\tKO\t13.409\t300\ne2\tt300\ts8\tKO\t9.765893\t300\ne3\tt300\ts9\tKO\t7.828131\t300\ne4\tt300\ts10\tKO\t10.18009\t300\ne5\tt300\ts11\tKO\t12.62895\t300\ne6\tt300\ts12\tKO\t7.344305\t300\n"
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "Genotype"
+            },
+            {
+              "value": "Death"
+            },
+            {
+              "value": "Experiment"
+            },
+            {
+              "value": ""
+            }
+          ]
+        },
+        "general": {
+          "title": "Mutiple groups, matched colours"
+        }
+      },
+      "textarea": {
+        "datTable": "Experiment\tGenotype\tDeath\nExp_1\tWT\t25.0121733143877\nExp_1\tKO_1\t1.82497328617052\nExp_1\tKO_2\t14.2949562565592\nExp_2\tWT\t16.542608863806\nExp_2\tKO_1\t2.13119932977473\nExp_2\tKO_2\t23.7494386942613\nExp_3\tWT\t31.125802201831\nExp_3\tKO_1\t1.91667033903401\nExp_3\tKO_2\t21.9985270288337\nExp_4\tWT\t21.5963475181686\nExp_4\tKO_1\t1.87277670277948\nExp_4\tKO_2\t16.444741534348\nExp_5\tWT\t28.3533382760948\nExp_5\tKO_1\t1.9563145330167\nExp_5\tKO_2\t22.647566009271\n"
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "Condition"
+            },
+            {
+              "value": "Mass"
+            },
+            {
+              "value": "Subject"
+            },
+            {
+              "value": ""
+            }
+          ]
+        },
+        "general": {
+          "title": "Two-groups, matched colours"
+        }
+      },
+      "textarea": {
+        "datTable": "Subject\tCondition\tMass\nA\tUntreated\t20.88633911\nA\tTreated\t33.36158292\nB\tUntreated\t21.01960397\nB\tTreated\t33.88687782\nC\tUntreated\t28.73167194\nC\tTreated\t39.02328954\nD\tUntreated\t27.31434304\nD\tTreated\t34.86337928\nE\tUntreated\t26.23107665\nE\tTreated\t37.87626267\nF\tUntreated\t27.28706831\nF\tTreated\t38.84851018\nG\tUntreated\t28.06722985\nG\tTreated\t39.10183138\nH\tUntreated\t32.59005752\nH\tTreated\t39.78066196\nI\tUntreated\t17.81461524\nI\tTreated\t26.52439113\nJ\tUntreated\t21.60219933\nJ\tTreated\t31.3519858\n"
+      }
+    }
+  ]
+}

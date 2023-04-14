@@ -1,0 +1,218 @@
+{
+  "data": {
+    "1-nodes": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "Nodes",
+        "zh_cn": "节点"
+      }
+    },
+    "2-edges": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "Edges",
+        "zh_cn": "连线"
+      }
+    }
+  },
+  "dataArg": {
+    "1-nodes": [
+      {
+        "label": {
+          "en": "Label Column",
+          "zh_cn": "标签列"
+        }
+      },
+      {
+        "label": {
+          "en": "Color Column",
+          "zh_cn": "颜色列"
+        }
+      },
+      {
+        "label": {
+          "en": "Node Size Column",
+          "zh_cn": "节点大小列"
+        },
+        "required": false
+      },
+      {
+        "label": {
+          "en": "Marked Group Column",
+          "zh_cn": "标记组列"
+        },
+        "required": false
+      }
+    ],
+    "2-edges": [
+      {
+        "label": {
+          "en": "Line Width Column",
+          "zh_cn": "线条宽度列"
+        },
+        "required": false
+      }
+    ]
+  },
+  "extra": {
+    "layout": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Layout",
+        "zh_cn": "布局样式"
+      },
+      "required": true,
+      "items": [
+        "layout_as_bipartite",
+        "layout_as_star",
+        "layout_as_tree",
+        "layout_components",
+        "layout_in_circle",
+        "layout_nicely",
+        "layout_on_grid",
+        "layout_on_sphere",
+        "layout_randomly",
+        "layout_with_dh",
+        "layout_with_drl",
+        "layout_with_fr",
+        "layout_with_gem",
+        "layout_with_graphopt",
+        "layout_with_kk",
+        "layout_with_lgl",
+        "layout_with_mds",
+        "layout_with_sugiyama"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "line_type": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Line Type",
+        "zh_cn": "线条样式"
+      },
+      "required": true,
+      "items": [
+        "blank",
+        "solid",
+        "dashed",
+        "dotted",
+        "dotdash",
+        "longdash",
+        "twodash"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "node_shape": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Node Shape",
+        "zh_cn": "节点形状"
+      },
+      "required": true,
+      "items": [
+        "none",
+        "circle",
+        "square",
+        "csquare",
+        "rectangle",
+        "crectangle",
+        "vrectangle",
+        "pie",
+        "raster",
+        "sphere"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "transform_size": {
+      "type": "combobox",
+      "label": {
+        "en": "Transform (Size)",
+        "zh_cn": "变换 (大小)"
+      },
+      "items": [
+        "-log10",
+        "-log2",
+        "-exp",
+        "exp",
+        "log2",
+        "log10",
+        "+10",
+        "-10",
+        "*5",
+        "/2",
+        "%%2",
+        "^2"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "transform_width": {
+      "type": "combobox",
+      "label": {
+        "en": "Transform (Width)",
+        "zh_cn": "变换 (宽度)"
+      },
+      "items": [
+        "-log10",
+        "-log2",
+        "-exp",
+        "exp",
+        "log2",
+        "log10",
+        "+10",
+        "-10",
+        "*5",
+        "/2",
+        "%%2",
+        "^2"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "show_text": {
+      "type": "switch",
+      "label": {
+        "en": "Show Text Label",
+        "zh_cn": "展示文字标注"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "arrow": {
+      "type": "switch",
+      "label": {
+        "en": "Show Arrow",
+        "zh_cn": "展示箭头"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "arrow_size": {
+      "type": "slider",
+      "label": {
+        "en": "Arrow Size",
+        "zh_cn": "箭头大小"
+      },
+      "class": "col-12 col-md-6",
+      "if": "arrow",
+      "step": 0.1
+    },
+    "arrow_width": {
+      "type": "slider",
+      "label": {
+        "en": "Arrow Width",
+        "zh_cn": "箭头宽度"
+      },
+      "class": "col-12 col-md-6",
+      "if": "arrow",
+      "step": 0.1
+    },
+    "label_dist": {
+      "type": "slider",
+      "label": {
+        "en": "Label Distance",
+        "zh_cn": "标签距离"
+      },
+      "class": "col-12",
+      "step": 0.1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "CMplot",
+    "en": "CMplot"
+  },
+  "alias": ["SNP-Manhattan"],
+  "intro": {
+    "zh_cn": "GWAS 可视化",
+    "en": "GWAS Visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/03/cmplot-tuya.jpg",
+  "href": "/advance/cmplot",
+  "tag": [
+    "shiny",
+    "genome"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-09-03",
+    "updateDate": "2020-09-03"
+  }
+}

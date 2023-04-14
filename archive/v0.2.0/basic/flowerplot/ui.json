@@ -1,0 +1,70 @@
+{
+  "data": {
+    "datmat": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "angle": {
+      "type": "slider",
+      "label": {
+        "en": "Angle",
+        "zh_cn": "起始角度"
+      },
+      "class": "col-12 col-md-6",
+      "min": -180,
+      "max": 180,
+      "step": 5
+    },
+    "a": {
+      "type": "slider",
+      "label": {
+        "en": "X-axes ellipses radius",
+        "zh_cn": "X轴椭圆半径"
+      },
+      "class": "col-12 col-md-6",
+      "max": 3,
+      "step": 0.1
+    },
+    "b": {
+      "type": "slider",
+      "label": {
+        "en": "Y-axes ellipses radius",
+        "zh_cn": "Y轴椭圆半径"
+      },
+      "class": "col-12 col-md-6",
+      "max": 3,
+      "step": 0.1
+    },
+    "r": {
+      "type": "slider",
+      "label": {
+        "en": "Circle radius",
+        "zh_cn": "中心圆半径"
+      },
+      "class": "col-12 col-md-6",
+      "max": 2,
+      "step": 0.1
+    },
+    "circle_col": {
+      "type": "color-picker",
+      "label": {
+        "en": "Circle color",
+        "zh_cn": "中心圆颜色"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "lab_size": {
+      "type": "slider",
+      "label": {
+        "en": "Label size",
+        "zh_cn": "标签字体"
+      },
+      "class": "col-12",
+      "max": 2,
+      "step": 0.1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "Barstats",
+    "en": "Barstats"
+  },
+  "alias": ["Stats-Stack"],
+  "intro": {
+    "zh_cn": "展示数据值",
+    "en": "Display data values"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/01/30/ggbarstats-0.dtv0bhj40eg-tuya.jpg",
+  "href": "/basic/ggbarstats",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Indrajeet Patil & Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2021-01-30",
+    "updateDate": "2021-02-21",
+    "issues": "https://github.com/IndrajeetPatil/ggstatsplot",
+    "version": "v0.1.1"
+  }
+}

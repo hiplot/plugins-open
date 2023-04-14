@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "主成分分析 (PCAtools)",
+    "en": "PCAtools"
+  },
+  "alias": ["Complex-PCA"],
+  "intro": {
+    "zh_cn": "常规降维",
+    "en": "Dimension reduction methods"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/02/01/pcatools-0-tuya.jpg",
+  "href": "/basic/pcatools",
+  "tag": ["vue", "correlation", "dimension"],
+  "meta": {
+    "score": 5,
+    "author": "Kevin Blighe & Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "issues": "https://github.com/kevinblighe/PCAtools",
+    "releaseDate": "2021-01-31",
+    "updateDate": "2021-02-17",
+    "citation": "",
+    "version": "v0.1.3"
+  }
+}

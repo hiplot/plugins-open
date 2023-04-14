@@ -1,0 +1,50 @@
+{
+  "module": "basic",
+  "tool": "matrix-bubble",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 12,
+          "height": 7
+        },
+        "theme": "default",
+        "palette": "aaas",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "panel_border_color": "black",
+        "panel_space": 0
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Matrix Bubble"
+      },
+      "extra": {
+      }
+    },
+    "textarea": {
+      "datTable": "x\ty\tvalue\tgroup\ncell1\tgene1\t1\tgroupC\ncell1\tgene2\t5\tgroupC\ncell1\tgene3\t10\tgroupC\ncell1\tgene4\t15\tgroupC\ncell1\tgene5\t20\tgroupC\ncell1\tgene6\t25\tgroupC\ncell1\tgene7\t30\tgroupC\ncell1\tgene8\t35\tgroupC\ncell1\tgene9\t40\tgroupC\ncell1\tgene10\t45\tgroupC\ncell2\tgene1\t3\tgroupC\ncell2\tgene2\t7\tgroupC\ncell2\tgene3\t11\tgroupC\ncell2\tgene4\t15\tgroupC\ncell2\tgene5\t19\tgroupC\ncell2\tgene6\t23\tgroupC\ncell2\tgene7\t27\tgroupC\ncell2\tgene8\t31\tgroupC\ncell2\tgene9\t35\tgroupC\ncell2\tgene10\t39\tgroupC\ncell3\tgene1\t100\tgroupC\ncell3\tgene2\t90\tgroupC\ncell3\tgene3\t80\tgroupC\ncell3\tgene4\t70\tgroupC\ncell3\tgene5\t60\tgroupC\ncell3\tgene6\t50\tgroupC\ncell3\tgene7\t40\tgroupC\ncell3\tgene8\t30\tgroupC\ncell3\tgene9\t20\tgroupC\ncell3\tgene10\t10\tgroupC\ncell4\tgene1\t90\tgroupC\ncell4\tgene2\t85\tgroupC\ncell4\tgene3\t80\tgroupC\ncell4\tgene4\t75\tgroupC\ncell4\tgene5\t70\tgroupC\ncell4\tgene6\t65\tgroupC\ncell4\tgene7\t60\tgroupC\ncell4\tgene8\t55\tgroupC\ncell4\tgene9\t50\tgroupC\ncell4\tgene10\t45\tgroupC\ncell5\tgene1\t6\tgroupC\ncell5\tgene2\t12\tgroupC\ncell5\tgene3\t18\tgroupC\ncell5\tgene4\t24\tgroupC\ncell5\tgene5\t30\tgroupC\ncell5\tgene6\t36\tgroupC\ncell5\tgene7\t42\tgroupC\ncell5\tgene8\t48\tgroupC\ncell5\tgene9\t54\tgroupC\ncell5\tgene10\t60\tgroupC\ncell1\tgene1\t1\tgroupD\ncell1\tgene2\t5\tgroupD\ncell1\tgene3\t10\tgroupD\ncell1\tgene4\t15\tgroupD\ncell1\tgene5\t20\tgroupD\ncell1\tgene6\t25\tgroupD\ncell1\tgene7\t30\tgroupD\ncell1\tgene8\t35\tgroupD\ncell1\tgene9\t40\tgroupD\ncell1\tgene10\t45\tgroupD\ncell2\tgene1\t3\tgroupD\ncell2\tgene2\t7\tgroupD\ncell2\tgene3\t11\tgroupD\ncell2\tgene4\t15\tgroupD\ncell2\tgene5\t19\tgroupD\ncell2\tgene6\t23\tgroupD\ncell2\tgene7\t27\tgroupD\ncell2\tgene8\t31\tgroupD\ncell2\tgene9\t35\tgroupD\ncell2\tgene10\t39\tgroupD\ncell3\tgene1\t100\tgroupD\ncell3\tgene2\t90\tgroupD\ncell3\tgene3\t80\tgroupD\ncell3\tgene4\t70\tgroupD\ncell3\tgene5\t60\tgroupD\ncell3\tgene6\t50\tgroupD\ncell3\tgene7\t40\tgroupD\ncell3\tgene8\t30\tgroupD\ncell3\tgene9\t20\tgroupD\ncell3\tgene10\t10\tgroupD\ncell4\tgene1\t90\tgroupD\ncell4\tgene2\t85\tgroupD\ncell4\tgene3\t80\tgroupD\ncell4\tgene4\t75\tgroupD\ncell4\tgene5\t70\tgroupD\ncell4\tgene6\t65\tgroupD\ncell4\tgene7\t60\tgroupD\ncell4\tgene8\t55\tgroupD\ncell4\tgene9\t50\tgroupD\ncell4\tgene10\t45\tgroupD\ncell5\tgene1\t6\tgroupD\ncell5\tgene2\t12\tgroupD\ncell5\tgene3\t18\tgroupD\ncell5\tgene4\t24\tgroupD\ncell5\tgene5\t30\tgroupD\ncell5\tgene6\t36\tgroupD\ncell5\tgene7\t42\tgroupD\ncell5\tgene8\t48\tgroupD\ncell5\tgene9\t54\tgroupD\ncell5\tgene10\t60\tgroupD"
+    }
+  }
+}

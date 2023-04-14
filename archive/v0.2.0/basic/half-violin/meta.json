@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "半小提琴图",
+    "en": "Half Violin"
+  },
+  "alias": ["Half-Violin"],
+  "intro": {
+    "zh_cn": "用于展示数据分布",
+    "en": "Display the data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/11/07/half-violin-0.d6t1goxq8gj-1-tuya.jpg",
+  "href": "/basic/half-violin",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.9,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-09-12",
+    "updateDate": "2020-03-17"
+  }
+}

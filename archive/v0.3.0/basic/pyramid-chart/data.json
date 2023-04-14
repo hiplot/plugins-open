@@ -1,0 +1,41 @@
+{
+  "module": "basic",
+  "tool": "pyramid-chart",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 4,
+          "height": 4
+        },
+        "theme": "default",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10
+      },
+      "extra": {
+        "groupcolor1": "#C20B01",
+        "groupcolor2": "#196ABD",
+        "sort": "no"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": ""
+      }
+    },
+    "textarea": {
+      "datTable": "age\tsex\tpop\n0-4\tmale\t225817\n0-4\tfemale\t213072\n5-9\tmale\t223656\n5-9\tfemale\t210508\n10-14\tmale\t214782\n10-14\tfemale\t201672\n15-19\tmale\t211536\n15-19\tfemale\t199507\n20-24\tmale\t234660\n20-24\tfemale\t227201\n25-29\tmale\t262196\n25-29\tfemale\t261740\n30-34\tmale\t290515\n30-34\tfemale\t292873\n35-39\tmale\t305496\n35-39\tfemale\t303424\n40-44\tmale\t293771\n40-44\tfemale\t292086\n45-49\tmale\t293819\n45-49\tfemale\t295896\n50-54\tmale\t322448\n50-54\tfemale\t319922\n55-59\tmale\t313971\n55-59\tfemale\t307701\n60-64\tmale\t255746\n60-64\tfemale\t255781\n65-69\tmale\t207405\n65-69\tfemale\t219221\n70-74\tmale\t184796\n70-74\tfemale\t205348\n75-79\tmale\t142895\n75-79\tfemale\t170923\n80-84\tmale\t89351\n80-84\tfemale\t125421\n85-89\tmale\t52414\n85-89\tfemale\t90547\n90-94\tmale\t18965\n90-94\tfemale\t46585\n95-99\tmale\t3648\n95-99\tfemale\t14396\n100+\tmale\t276\n100+\tfemale\t2007"
+    }
+  }
+}

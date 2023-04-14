@@ -1,0 +1,20 @@
+{
+  "name": {
+    "zh_cn": "iQPCR Tools",
+    "en": "iQPCR Tools"
+  },
+  "alias": ["iQPCR"],
+  "intro": {
+    "zh_cn": "qPCR 数据分析工具",
+    "en": "qPCR Data Analysis Tool"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/03/iqpcr-tuya.jpg",
+  "href": "/advance/iqpcr/",
+  "tag": ["shiny", "qpcr"],
+  "meta": {
+    "score": 5,
+    "author": "Chris Lou",
+    "releaseDate": "2020-10-03",
+    "updateDate": "2020-10-03"
+  }
+}

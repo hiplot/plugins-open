@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "Maftools 雨图",
+    "en": "Maftools Rainfall"
+  },
+  "alias": ["Maf-Rainfall"],
+  "intro": {
+    "zh_cn": "突变数据可视化应用",
+    "en": "Genetic Mutations Visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/01/21/maf-rainfall-tuya.jpg",
+  "href": "/advance/maf-rainfall",
+  "tag": [
+    "shiny",
+    "mutation",
+    "maf"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "issues": "https://github.com/hiplot/gold",
+    "releaseDate": "2021-01-21",
+    "updateDate": "2021-01-21"
+  }
+}

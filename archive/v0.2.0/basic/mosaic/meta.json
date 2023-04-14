@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "马赛克比例图",
+    "en": "Mosaic Ratio Plot"
+  },
+  "alias": ["Mosaic-Chart"],
+  "intro": {
+    "zh_cn": "展示数据占比",
+    "en": "Display the data ratio"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/05/17/mosaic-0.1ub3c804lon-1-tuya.jpg",
+  "href": "/basic/mosaic",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 4.98,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-05-17",
+    "updateDate": "2021-05-17",
+    "version": "v0.1.0"
+  }
+}

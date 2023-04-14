@@ -1,0 +1,22 @@
+{
+  "data": {
+    "infile": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "zh_cn": "文件列表",
+        "en": "Files"
+      },
+      "icon": "mdi-file",
+      "exts": ["svg"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "module": "advance",
+  "tool": "diff-exp-mat",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "",
+          "link": ""
+        },
+        "2-sampleInfo": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 9,
+          "height": 5
+        }
+      },
+      "extra": {
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "public/demo/gsea/P53.txt",
+          "link": ""
+        },
+        "2-sampleInfo": {
+          "value": "public/demo/gsea/P53.cls",
+          "link": ""
+        }
+      },
+      "extra": {
+        "test_groups": ["MUT", "WT"]
+      }
+    }
+  }
+}

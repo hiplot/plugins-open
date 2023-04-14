@@ -1,0 +1,39 @@
+{
+  "module": "basic",
+  "tool": "map-uk-city",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 25,
+          "height": 34
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false,
+        "cliMode": true
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "UK Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "name\tvalue\nRhondda Cynon Taf\t503\nEilean Siar\t221\nBridgend\t993\nLincoln\t798\nRichmondshire\t169\nAshford\t653\nColeraine\t522\nNewport\t10\nKirklees\t255\nSouth Ribble\t550\nDumfries & Galloway\t458\nLewisham\t668\nNottingham\t873\nSouthwark\t94\nMelton\t449\nNuneaton and Bedworth\t668\nBallymena\t83\nEast Hertfordshire\t186\nSlough\t798\nTamworth\t913\nGedling\t956\nStroud\t281\nThurrock\t808\nBlaenau Gwent\t656\nNewham\t649\nGlasgow City\t693\nTorbay\t768\nMerton\t739\nEden\t593\nRutland\t849\nGuildford\t742\nSedgemoor\t396\nMedway\t323\nSutton\t790\nNorwich\t219\nRenfrewshire\t661\nHalton\t858\nCherwell\t468\nGloucester\t112\nIslington\t567\nFylde\t449\nBanbridge\t63\nCrawley\t778\nNorth Lincolnshire\t900\nDover\t94\nYork\t415\nCarrickfergus\t600\nLeicester\t728\nHastings\t146\nFenland\t837\nGateshead\t380\nCornwall,Isles of Scilly\t585\nCardiff\t568\nAllerdale\t551\nSunderland\t730\nNorth Dorset\t281\nNorth Warwickshire\t224\nNorth Hertfordshire\t46\nWatford\t936\nDoncaster\t844\nEast Dunbartonshire\t53\nHyndburn\t712\nWiltshire\t979\nBromsgrove\t620\nStevenage\t960\nWrexham\t988\nEpping Forest\t863\nWest Lothian\t925\nGreenwich\t220\nChristchurch\t175\nRugby\t69\nSouth Kesteven\t424\nWaverley\t945\nPowys\t703\nMidlothian\t486\nNorth Tyneside\t607\nStratford-on-Avon\t407\nSwindon\t296\nBedford\t606\nRotherham\t122\nFife\t410\nHartlepool\t180\nHinckley and Bosworth\t217\nLancaster\t985\nNorth Somerset\t828\nTaunton Deane\t55\nSouth Somerset\t740\nRochford\t144\nSouthampton\t242\nCarmarthenshire\t784\nWest Dorset\t276\nBromley\t867\nNorth Down\t741\nTelford and Wrekin\t279\nSouth Staffordshire\t356\nTonbridge and Malling\t777\nDerry\t995\nBolsover\t934\nWarwick\t105\nDerbyshire Dales\t281\nStirling\t193\nStaffordshire Moorlands\t345\nTameside\t939\nExeter\t997\nLarne\t374\nWest Devon\t515\nNeath Port Talbot\t672\nCentral Bedfordshire\t385\nStafford\t942\nInverclyde\t612\nWalsall\t741\nEpsom and Ewell\t438\nCounty Durham\t326\nStrabane\t29\nFlintshire\t269\nShropshire\t90\nConwy\t735\nForest Heath\t978\nKettering\t355\nRossendale\t587\nHavering\t417\nHillingdon\t709\nChelmsford\t10\nNorthumberland\t661\nCity of London,Westminster\t371\nScarborough\t785\nShepway\t10\nMansfield\t543\nBroxbourne\t641\nMid Suffolk\t559\nWest Lindsey\t933\nSwansea\t489\nReading\t105\nBlackburn with Darwen\t918\nOrkney Islands\t205\nAberdeenshire\t280\nBasildon\t168\nSuffolk Coastal\t535\nWoking\t818\nWyre\t716\nBristol, City of\t463\nSouth Gloucestershire\t529\nBasingstoke and Deane\t272\nHarborough\t947\nEast Lothian\t816\nSouth Cambridgeshire\t402\nLewes\t249\nWolverhampton\t871\nBexley\t344\nBurnley\t751\nBracknell Forest\t645\nBlackpool\t84\nGosport\t230\nBallymoney\t760\nMerthyr Tydfil\t966\nGravesham\t358\nWelwyn Hatfield\t237\nStockport\t79\nDown\t970\nHart\t501\nMagherafelt\t595\nRedcar and Cleveland\t523\nLimavady\t462\nTrafford\t731\nCanterbury\t496\nBreckland\t53\nGwynedd\t895\nWellingborough\t600\nCopeland\t717\nKensington and Chelsea\t199\nBury\t317\nCookstown\t693\nArmagh\t727\nHorsham\t798\nEaling\t725\nMole Valley\t501\nWealden\t75\nEast Riding of Yorkshire\t56\nWest Somerset\t21\nMid Devon\t812\nSouthend-on-Sea\t540\nHigh Peak\t533\nRochdale\t409\nIsle of Anglesey\t312\nChesterfield\t680\nWest Dunbartonshire\t364\nHavant\t504\nEast Lindsey\t187\nRichmond upon Thames\t4\nDaventry\t787\nWorthing\t456\nTest Valley\t832\nMoyle\t661\nNewcastle-under-Lyme\t563\nBarking and Dagenham\t177\nEnfield\t231\nWigan\t680\nCoventry\t732\nIsle of Wight\t3\nScottish Borders\t374\nSpelthorne\t898\nFareham\t659\nCotswold\t941\nCharnwood\t866\nSwale\t152\nLisburn\t365\nWindsor and Maidenhead\t432\nNorth East Derbyshire\t490\nSandwell\t825\nPoole\t378\nGreat Yarmouth\t720\nBlaby\t149\nRibble Valley\t90\nAntrim\t875\nLuton\t550\nNewark and Sherwood\t776\nRother\t302\nNewcastle upon Tyne\t675\nWorcester\t658\nSouth Oxfordshire\t869\nCastlereagh\t541\nSouth Norfolk\t788\nMendip\t461\nArgyll & Bute\t233\nUttlesford\t713\nBelfast\t137\nSouth Ayrshire\t67\nHuntingdonshire\t458\nTewkesbury\t588\nWest Lancashire\t862\nDarlington\t483\nCambridge\t464\nCheltenham\t473\nErewash\t289\nWest Berkshire\t738\nTeignbridge\t629\nPortsmouth\t12\nKingston upon Thames\t401\nManchester\t4\nKnowsley\t503\nSouth Tyneside\t698\nDungannon\t650\nBrentwood\t112\nShetland Islands\t343\nForest of Dean\t15\nCeredigion\t437\nArun\t428\nChichester\t41\nSevenoaks\t680\nEast Staffordshire\t54\nStoke-on-Trent\t349\nAylesbury Vale\t420\nWandsworth\t49\nSouth Holland\t353\nSouth Lakeland\t337\nTorfaen\t585\nThanet\t31\nNorth West Leicestershire\t51\nCraigavon\t900\nBolton\t820\nBabergh\t835\nBarnet\t382\nLichfield\t90\nChorley\t61\nClackmannanshire\t370\nThree Rivers\t242\nFermanagh\t529\nNewtownabbey\t838\nNorth Lanarkshire\t319\nCorby\t548\nRedbridge\t4\nDerby\t534\nEast Devon\t7\nAshfield\t739\nDacorum\t638\nHarrogate\t244\nDartford\t62\nPendle\t616\nLambeth\t761\nElmbridge\t49\nAmber Valley\t145\nWarrington\t892\nRushmoor\t402\nAdur\t151\nArds\t14\nRushcliffe\t871\nBroadland\t509\nRedditch\t262\nHackney\t204\nDudley\t863\nWychavon\t261\nWeymouth and Portland\t803\nHaringey\t253\nAberdeen City\t516\nDundee City\t163\nHarlow\t694\nCheshire West and Chester\t825\nCaerphilly\t857\nHerefordshire, County of\t565\nWaltham Forest\t573\nEast Hampshire\t261\nCamden\t119\nEast Northamptonshire\t468\nRunnymede\t262\nDenbighshire\t198\nTower Hamlets\t145\nColchester\t165\nKingston upon Hull, City of\t341\nHertsmere\t265\nBradford\t225\nHounslow\t655\nOmagh\t151\nBrent\t373\nVale of White Horse\t87\nSalford\t816\nMoray\t256\nMaidstone\t636\nSt Edmundsbury\t142\nHarrow\t979\nMaldon\t388\nReigate and Banstead\t189\nCalderdale\t399\nBarrow-in-Furness\t237\nHambleton\t974\nKing's Lynn and West Norfolk\t828\nBoston\t590\nWinchester\t645\nHammersmith and Fulham\t863\nNorth East Lincolnshire\t874\nEast Renfrewshire\t416\nOldham\t167\nWokingham\t460\nWakefield\t722\nMonmouthshire\t258\nSolihull\t152\nNorth Devon\t361\nSefton\t586\nCheshire East\t619\nBassetlaw\t169\nWyre Forest\t352\nSt. Helens\t529\nTunbridge Wells\t66\nFalkirk\t419\nPlymouth\t549\nPeterborough\t535\nWest Oxfordshire\t126\nLeeds\t98\nEdinburgh, City of\t107\nSouth Lanarkshire\t891\nPurbeck\t794\nChiltern\t834\nCroydon\t282\nThe Vale of Glamorgan\t460\nSouth Derbyshire\t947\nSouth Northamptonshire\t277\nMilton Keynes\t643\nMiddlesbrough\t328\nEast Ayrshire\t909\nNewry and Mourne\t108\nAngus\t617\nSouth Bucks\t856\nSouth Hams\t783\nWycombe\t976\nCastle Point\t995\nMid Sussex\t344\nEast Cambridgeshire\t633\nWaveney\t353\nBrighton and Hove\t544\nCraven\t422\nNorth Ayrshire\t913\nBarnsley\t788\nSt Albans\t360\nOxford\t841\nTendring\t148\nTandridge\t118\nOadby and Wigston\t958\nBraintree\t804\nLiverpool\t606\nNew Forest\t240\nSheffield\t310\nWirral\t316\nBournemouth\t942\nCarlisle\t537\nMalvern Hills\t607\nPreston\t379\nNorth Kesteven\t605\nHighland\t906\nPembrokeshire\t61\nRyedale\t363\nBath and North East Somerset\t700\nCannock Chase\t997\nEastbourne\t166\nBroxtowe\t478\nIpswich\t61\nNorthampton\t525\nSurrey Heath\t701\nEastleigh\t557\nNorth Norfolk\t97\nBirmingham\t31\nEast Dorset\t734\nTorridge\t369\nStockton-on-Tees\t702\nPerth & Kinross\t278\nSelby\t589\n"
+    }
+  }
+}

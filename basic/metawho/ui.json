@@ -1,0 +1,26 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": [],
+  "extra": {
+    "conf_interval": {
+      "type": "slider",
+      "label": {
+        "en": "Confidence interval",
+        "zh_cn": "置信区间"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "class": "col-12"
+    }
+  }
+}

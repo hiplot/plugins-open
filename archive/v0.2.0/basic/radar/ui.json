@@ -1,0 +1,105 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "gridline.min.colour": {
+      "type": "color-picker",
+      "label": {
+        "en": "Col (Gridline Min)",
+        "zh_cn": "网格线颜色 (最小)"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "gridline.mid.colour": {
+      "type": "color-picker",
+      "label": {
+        "en": "Col (Gridline Mid)",
+        "zh_cn": "网格线颜色 (中间)"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "gridline.max.colour": {
+      "type": "color-picker",
+      "label": {
+        "en": "Col (Gridline Max)",
+        "zh_cn": "网格线颜色 (最大)"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "gridline.min.linetype": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Type (Gridline Min)",
+        "zh_cn": "网格类型 (最小)"
+      },
+      "items": ["blank", "solid", "dashed", "dotted", "dotdash",
+        "longdash", "twodash"],
+      "class": "col-12 col-md-4"
+    },
+    "gridline.mid.linetype": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Type (Gridline Mid)",
+        "zh_cn": "网格类型 (中间)"
+      },
+      "items": ["blank", "solid", "dashed", "dotted", "dotdash",
+        "longdash", "twodash"],
+      "class": "col-12 col-md-4"
+    },
+    "gridline.max.linetype": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Type (Gridline Max)",
+        "zh_cn": "网格类型 (最大)"
+      },
+      "items": ["blank", "solid", "dashed", "dotted", "dotdash",
+        "longdash", "twodash"],
+      "class": "col-12 col-md-4"
+    },
+    "background.circle.transparency": {
+      "type": "slider",
+      "label": {
+        "en": "Background Alpha",
+        "zh_cn": "背景透明度"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "class": "col-12"
+    },
+    "background.circle.colour": {
+      "type": "color-picker",
+      "label": {
+        "en": "Background",
+        "zh_cn": "背景"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "rescale": {
+      "type": "switch",
+      "label": {
+        "en": "Scale",
+        "zh_cn": "归一化"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "fill": {
+      "type": "switch",
+      "label": {
+        "en": "Fill Colors",
+        "zh_cn": "填充色块"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

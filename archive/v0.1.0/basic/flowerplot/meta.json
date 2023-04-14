@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "花瓣图",
+    "en": "Flower plot"
+  },
+  "alias": ["Base-Flowerplot"],
+  "intro": {
+    "zh_cn": "绘制多集合花瓣图",
+    "en": "Flower plot with multiple sets"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/05/14/flowerplot-0.50pdnb2y0es-1-tuya.jpg",
+  "href": "/basic/flowerplot",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 4.95,
+    "author": "Hiplot Team | Wei Dong",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2021-05-14",
+    "updateDate": "2021-05-14"
+  }
+}

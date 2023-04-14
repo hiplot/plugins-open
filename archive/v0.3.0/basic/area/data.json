@@ -1,0 +1,44 @@
+{
+  "module": "basic",
+  "tool": "area",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 8,
+          "height": 5
+        },
+        "theme": "theme_stata",
+        "palette": "npg",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Area Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "group\txaxis.value\tyaxis.value\nGroup1\t1900\t26\nGroup1\t1901\t27\nGroup1\t1902\t10\nGroup1\t1903\t16\nGroup1\t1904\t19\nGroup1\t1905\t18\nGroup1\t1906\t30\nGroup1\t1907\t27\nGroup1\t1908\t23\nGroup1\t1909\t8\nGroup2\t1900\t10\nGroup2\t1901\t10\nGroup2\t1902\t8\nGroup2\t1903\t6\nGroup2\t1904\t9\nGroup2\t1905\t7\nGroup2\t1906\t10\nGroup2\t1907\t6\nGroup2\t1908\t5\nGroup2\t1909\t3\nGroup3\t1900\t20\nGroup3\t1901\t14\nGroup3\t1902\t14\nGroup3\t1903\t14\nGroup3\t1904\t17\nGroup3\t1905\t17\nGroup3\t1906\t10\nGroup3\t1907\t19\nGroup3\t1908\t11\nGroup3\t1909\t18"
+    }
+  }
+}

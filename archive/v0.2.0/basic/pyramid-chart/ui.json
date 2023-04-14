@@ -1,0 +1,26 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "sort": {
+      "type": "select",
+      "label": "messages.common.sort",
+      "class": "col-12 col-md-6",
+      "items": ["no", "desc", "asc"]
+    },
+    "groupcolor1": {
+      "type": "color-picker",
+      "class": "col-1"
+    },
+    "groupcolor2": {
+      "type": "color-picker",
+      "label": "messages.basic.common.groupcolor",
+      "class": "col-5"
+    }
+  }
+}

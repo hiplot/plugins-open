@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "分布图",
+    "en": "Dist Plot"
+  },
+  "alias": ["Cloud-Rain"],
+  "intro": {
+    "zh_cn": "展示多数据分布关系",
+    "en": "Display the data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/1-a10s10-tuya.jpg",
+  "href": "/basic/ggdist",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Matthew Kay & Hiplot Team | Jianfeng",
+    "email": "mjskay@umich.edu",
+    "issues": "https://github.com/mjskay/ggdist",
+    "citation": "Matthew Kay (2020). ggdist: Visualizations of Distributions and Uncertainty. R package version 2.2.0, https://mjskay.github.io/ggdist/. DOI: 10.5281/zenodo.3879620.",
+    "releaseDate": "2020-07-31",
+    "updateDate": "2020-07-31"
+  }
+}

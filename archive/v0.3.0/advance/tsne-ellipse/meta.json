@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "t-SNE 椭圆 Shiny",
+    "en": "t-SNE Ellipse Shiny"
+  },
+  "alias": ["Prettify-tSNE"],
+  "intro": {
+    "zh_cn": "t-SNE 降维",
+    "en": "Interactive t-SNE Visulization"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/25/tsne-ellipse-tuya.jpg",
+  "href": "/advance/tsne-ellipse",
+  "tag": [
+    "shiny",
+    "tsne"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-10-25",
+    "updateDate": "2020-10-25"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "DoAbsolute",
+    "en": "DoAbsolute"
+  },
+  "alias": ["Absolute-CNV"],
+  "intro": {
+    "zh_cn": "ABSOLUTE 批量处理（支持并行）",
+    "en": "ABSOLUTE for multiple samples in parallel way"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/02/19/DoAbsolute.called.ABSOLUTE.plots-tuya.jpg",
+  "href": "/advance/doabsolute",
+  "tag": ["vue", "copynumber", "CNV", "ABSOLUTE"],
+  "meta": {
+    "score": 5,
+    "author": "Shixiang Wang | Hiplot team",
+    "email": "",
+    "issues": "https://github.com/ShixiangWang/DoAbsolute https://www.genepattern.org/modules/docs/ABSOLUTE",
+    "releaseDate": "2021-02-09",
+    "updateDate": "2021-02-19",
+    "citation": "- Wang, Shixiang, et al. \"The predictive power of tumor mutational burden in lung cancer immunotherapy response is influenced by patients' sex.\" International journal of cancer (2019).\n- Carter, Scott L., et al. “Absolute quantification of somatic DNA alterations in human cancer.” Nature biotechnology 30.5 (2012): 413."
+  }
+}

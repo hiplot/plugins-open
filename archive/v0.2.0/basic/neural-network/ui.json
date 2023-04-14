@@ -1,0 +1,68 @@
+{
+  "data": {
+    "netData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "NetData",
+        "zh_cn": "网络数据"
+      }
+    }
+  },
+  "dataArg": {
+    "netData": [
+      {
+        "label": {
+          "en": "Output",
+          "zh_cn": "输出"
+        }
+      },
+      {
+        "label": {
+          "en": "Input",
+          "zh_cn": "输入"
+        }
+      }
+    ]
+  },
+  "extra": {
+    "hide_layer_size": {
+      "type": "text-field",
+      "label": {
+        "en": "Hide Units",
+        "zh_cn": "隐藏层神经元数"
+      },
+      "class": "col-12 col-md-4",
+      "required": true
+    },
+    "mode": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Mode",
+        "zh_cn": "模式"
+      },
+      "items": ["logistic", "linout", "entropy", "softmax", "censored"],
+      "class": "col-12 col-md-4",
+      "required": true
+    },
+    "decay": {
+      "type": "text-field",
+      "label": {
+        "en": "Weight Decay",
+        "zh_cn": "权重退化"
+      },
+      "class": "col-12 col-md-4",
+      "required": true
+    },
+    "maxit": {
+      "type": "slider",
+      "max": 9999,
+      "min": 1,
+      "label": {
+        "en": "Maximum Iterations",
+        "zh_cn": "最大迭代次数"
+      },
+      "class": "col-12"
+    }
+  }
+}

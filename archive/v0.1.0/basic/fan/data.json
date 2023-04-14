@@ -1,0 +1,35 @@
+{
+  "module": "basic",
+  "tool": "fan",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 6,
+          "height": 4
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "title": "",
+        "alpha": 1,
+        "font": "Arial"
+      },
+      "extra": {
+        "ratio": false
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Fan Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "group\tvalue\nGroup1\t13\nGroup2\t34\nGroup3\t21\nGroup4\t43"
+    }
+  }
+}

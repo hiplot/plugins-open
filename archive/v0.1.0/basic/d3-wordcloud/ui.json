@@ -1,0 +1,68 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+     "imageExportType": {
+       "svg": false,
+       "ppt": false,
+       "eps": false,
+       "tif": false
+     }
+  },
+  "extra": {
+    "sizeScale": {
+      "type": "select",
+      "label": "messages.basic.common.sizeScale",
+      "items": [
+        "linear", "sqrt", "log"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "colorScale": {
+      "type": "select",
+      "label": "messages.basic.common.colorScale",
+      "items": [
+        "linear", "sqrt", "log"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "spiral": {
+      "type": "select",
+      "label": "messages.basic.common.spiral",
+      "items": [
+        "archimedean", "rectangular"
+      ],
+      "class": "col-12"
+    },
+    "rotateMin": {
+      "type": "slider",
+      "label": "messages.basic.common.rotateMin",
+      "class": "col-12 col-md-6",
+      "min": -180,
+      "max": 180
+    },
+    "rotateMax": {
+      "type": "slider",
+      "label": "messages.basic.common.rotateMax",
+      "class": "col-12 col-md-6",
+      "min": -180,
+      "max": 180
+    },
+    "rangesizefont": {
+      "type": "range-slider",
+      "label": "messages.basic.common.rangesizefont",
+      "class": "col-12 col-md-6",
+      "max": 200
+    },
+    "padding": {
+      "type": "slider",
+      "label": "messages.basic.common.padding",
+      "class": "col-12 col-md-6"
+    }
+  }
+}

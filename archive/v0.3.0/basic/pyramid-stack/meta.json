@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "金字塔堆叠图",
+    "en": "Pyramid Stack"
+  },
+  "alias": ["Pyramid-Stack"],
+  "intro": {
+    "zh_cn": "展示数据值",
+    "en": "Display data values"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/10/05/pyramid-stack-0.jpg",
+  "href": "/basic/pyramid-stack",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2022-10-05",
+    "updateDate": "2022-10-05"
+  }
+}

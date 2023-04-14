@@ -1,0 +1,56 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Y"
+      },
+      {
+        "label": {
+          "en": "Group",
+          "zh_cn": "分组"
+        },
+        "required": false
+      },
+      {
+        "label": {
+          "en": "Facet",
+          "zh_cn": "分面"
+        },
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "point_size": {
+      "type": "slider",
+      "label": {
+        "en": "Point Size",
+        "zh_cn": "点大小"
+      },
+      "class": "col-12 col-md-6",
+      "step": 0.1
+    },
+    "point_thick": {
+      "type": "slider",
+      "label": {
+        "en": "Point Thick",
+        "zh_cn": "点描边"
+      },
+      "class": "col-12 col-md-6",
+      "step": 0.1
+    }
+  }
+}

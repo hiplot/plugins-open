@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "凹凸图",
+    "en": "Bumpchart"
+  },
+  "alias": ["Basic-Bumpchart"],
+  "intro": {
+    "zh_cn": "用于展示数据变化",
+    "en": "Display the data change"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/05/14/bumpchart.jpg",
+  "href": "/basic/bumpchart",
+  "tag": [
+    "vue",
+    "evolution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-05-14",
+    "updateDate": "2021-05-14"
+  }
+}

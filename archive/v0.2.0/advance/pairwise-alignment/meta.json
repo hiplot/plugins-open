@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "双序列比对",
+    "en": "Pairwise Alignment"
+  },
+  "alias": ["Pairwise-Alignment"],
+  "intro": {
+    "zh_cn": "序列操作",
+    "en": "Sequence Operation"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/09/pairwise-alignment-tuya.jpg",
+  "href": "/advance/pairwise-alignment",
+  "tag": [
+    "shiny",
+    "seq"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-10-09",
+    "updateDate": "2020-10-09"
+  }
+}

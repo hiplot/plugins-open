@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "AML-G1-G8",
+    "en": "AML-G1-G8"
+  },
+  "alias": ["ClinAML-GEP2"],
+  "intro": {
+    "zh_cn": "预测基因表达亚型",
+    "en": "Predict GEP-defined subtypes"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/clindet.jpg",
+  "href": "/clinical-tools/clinaml-gep2",
+  "tag": [
+    "vue",
+    "AML",
+    "model"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "National Center for Translational Medicine·Shanghai",
+    "version": "v0.1.0",
+    "releaseDate": "2022-12-10",
+    "updateDate": "2022-12-10",
+    "citation": "- Cheng WY, Li JF, Zhu YM, Lin XJ, Wen LJ, Zhang F, Zhang YL, Zhao M, Fang H, Wang SY, Lin XJ, Qiao N, Yin W, Zhang JN, Dai YT, Jiang L, Sun XJ, Xu Y, Zhang TT, Chen SN, Zhu HH, Chen Z, Jin J, Wu DP, Shen Y, Chen SJ. Transcriptome-based molecular subtypes and differentiation hierarchies improve the classification framework of acute myeloid leukemia. Proc Natl Acad Sci U S A. 2022 Dec 6;119(49):e2211429119. doi: 10.1073/pnas.2211429119. Epub 2022 Nov 28. PMID: 36442087."
+  }
+}

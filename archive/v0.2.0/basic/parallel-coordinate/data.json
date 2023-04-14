@@ -1,0 +1,48 @@
+{
+  "module": "basic",
+  "tool": "parallel-coordinate",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 10,
+          "height": 4
+        },
+        "alpha": 0.3,
+        "theme": "theme_base",
+        "palette": "default",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "box": false,
+        "show_points": true,
+        "facet": true,
+        "scale": "globalminmax"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Parallel Coordinate Plot for cancer Data"
+      }
+    },
+    "textarea": {
+      "datTable": "Name\tValue1\tValue2\tValue3\tValue4\tGroup\nATR\t5.1\t3.5\t1.4\t0.2\tp53 pathway\nCHEK1\t4.9\t3\t1.4\t0.2\tp53 pathway\nGORAB\t4.7\t3.2\t1.3\t0.2\tp53 pathway\nCDKN2A\t4.6\t3.1\t1.5\t0.2\tp53 pathway\nMDM2\t5\t3.6\t1.4\t0.2\tp53 pathway\nMDM4\t5.4\t3.9\t1.7\t0.4\tp53 pathway\nTP53\t4.6\t3.4\t1.4\t0.3\tp53 pathway\nCDKN1A\t5\t3.4\t1.5\t0.2\tp53 pathway\nCCND1\t4.4\t2.9\t1.4\t0.2\tp53 pathway\nCCND2\t4.9\t3.1\t1.5\t0.1\tp53 pathway\nCCND3\t5.4\t3.7\t1.5\t0.2\tp53 pathway\nCDK4\t4.8\t3.4\t1.6\t0.2\tp53 pathway\nCDK6\t4.8\t3\t1.4\t0.1\tp53 pathway\nCCNE1\t4.3\t3\t1.1\t0.1\tp53 pathway\nCCNE2\t5.8\t4\t1.2\t0.2\tp53 pathway\nCDK2\t5.7\t4.4\t1.5\t0.4\tp53 pathway\nSFN\t5.4\t3.9\t1.3\t0.4\tp53 pathway\nRPRM\t5.1\t3.5\t1.4\t0.3\tp53 pathway\nCCNB1\t5.7\t3.8\t1.7\t0.3\tp53 pathway\nCCNB2\t5.1\t3.8\t1.5\t0.3\tp53 pathway\nCDK1\t5.4\t3.4\t1.7\t0.2\tp53 pathway\nGADD45A\t5.1\t3.7\t1.5\t0.4\tp53 pathway\nGADD45B\t4.6\t3.6\t1\t0.2\tp53 pathway\nGADD45G\t5.1\t3.3\t1.7\t0.5\tp53 pathway\nGTSE1\t4.8\t3.4\t1.9\t0.2\tp53 pathway\nFAS\t5\t3\t1.6\t0.2\tp53 pathway\nPIDD1\t5\t3.4\t1.6\t0.4\tp53 pathway\nTNFRSF10A\t5.2\t3.5\t1.5\t0.2\tp53 pathway\nTNFRSF10B\t5.2\t3.4\t1.4\t0.2\tp53 pathway\nCASP8\t4.7\t3.2\t1.6\t0.2\tp53 pathway\nBID\t4.8\t3.1\t1.6\t0.2\tp53 pathway\nBAX\t5.4\t3.4\t1.5\t0.4\tp53 pathway\nPMAIP1\t5.2\t4.1\t1.5\t0.1\tp53 pathway\nBBC3\t5.5\t4.2\t1.4\t0.2\tp53 pathway\nTP53AIP1\t4.9\t3.1\t1.5\t0.2\tp53 pathway\nSIVA1\t5\t3.2\t1.2\t0.2\tp53 pathway\nBCL2L1\t5.5\t3.5\t1.3\t0.2\tp53 pathway\nBCL2\t4.9\t3.6\t1.4\t0.1\tp53 pathway\nTP53I3\t4.4\t3\t1.3\t0.2\tp53 pathway\nEI24\t5.1\t3.4\t1.5\t0.2\tp53 pathway\nSHISA5\t5\t3.5\t1.3\t0.3\tp53 pathway\nPERP\t4.5\t2.3\t1.3\t0.3\tp53 pathway\nZMAT3\t4.4\t3.2\t1.3\t0.2\tp53 pathway\nSIAH1\t5\t3.5\t1.6\t0.6\tp53 pathway\nCYCS\t5.1\t3.8\t1.9\t0.4\tp53 pathway\nAPAF1\t4.8\t3\t1.4\t0.3\tp53 pathway\nCASP9\t5.1\t3.8\t1.6\t0.2\tp53 pathway\nCASP3\t4.6\t3.2\t1.4\t0.2\tp53 pathway\nAIFM2\t5.3\t3.7\t1.5\t0.2\tp53 pathway\nIGFBP3\t5\t3.3\t1.4\t0.2\tp53 pathway\nPORCN\t7\t3.2\t4.7\t1.4\twnt pathway\nWNT1\t6.4\t3.2\t4.5\t1.5\twnt pathway\nWNT2\t6.9\t3.1\t4.9\t1.5\twnt pathway\nWNT2B\t5.5\t2.3\t4\t1.3\twnt pathway\nWNT3\t6.5\t2.8\t4.6\t1.5\twnt pathway\nWNT3A\t5.7\t2.8\t4.5\t1.3\twnt pathway\nWNT4\t6.3\t3.3\t4.7\t1.6\twnt pathway\nWNT5A\t4.9\t2.4\t3.3\t1\twnt pathway\nWNT5B\t6.6\t2.9\t4.6\t1.3\twnt pathway\nWNT6\t5.2\t2.7\t3.9\t1.4\twnt pathway\nWNT7A\t5\t2\t3.5\t1\twnt pathway\nWNT7B\t5.9\t3\t4.2\t1.5\twnt pathway\nWNT8A\t6\t2.2\t4\t1\twnt pathway\nWNT8B\t6.1\t2.9\t4.7\t1.4\twnt pathway\nWNT9A\t5.6\t2.9\t3.6\t1.3\twnt pathway\nWNT9B\t6.7\t3.1\t4.4\t1.4\twnt pathway\nWNT10B\t5.6\t3\t4.5\t1.5\twnt pathway\nWNT10A\t5.8\t2.7\t4.1\t1\twnt pathway\nWNT11\t6.2\t2.2\t4.5\t1.5\twnt pathway\nWNT16\t5.6\t2.5\t3.9\t1.1\twnt pathway\nCER1\t5.9\t3.2\t4.8\t1.8\twnt pathway\nNOTUM\t6.1\t2.8\t4\t1.3\twnt pathway\nWIF1\t6.3\t2.5\t4.9\t1.5\twnt pathway\nSERPINF1\t6.1\t2.8\t4.7\t1.2\twnt pathway\nSOST\t6.4\t2.9\t4.3\t1.3\twnt pathway\nDKK1\t6.6\t3\t4.4\t1.4\twnt pathway\nDKK2\t6.8\t2.8\t4.8\t1.4\twnt pathway\nDKK4\t6.7\t3\t5\t1.7\twnt pathway\nSFRP1\t6\t2.9\t4.5\t1.5\twnt pathway\nSFRP2\t5.7\t2.6\t3.5\t1\twnt pathway\nSFRP4\t5.5\t2.4\t3.8\t1.1\twnt pathway\nSFRP5\t5.5\t2.4\t3.7\t1\twnt pathway\nRSPO1\t5.8\t2.7\t3.9\t1.2\twnt pathway\nRSPO2\t6\t2.7\t5.1\t1.6\twnt pathway\nRSPO3\t5.4\t3\t4.5\t1.5\twnt pathway\nRSPO4\t6\t3.4\t4.5\t1.6\twnt pathway\nLGR4\t6.7\t3.1\t4.7\t1.5\twnt pathway\nLGR5\t6.3\t2.3\t4.4\t1.3\twnt pathway\nLGR6\t5.6\t3\t4.1\t1.3\twnt pathway\nRNF43\t5.5\t2.5\t4\t1.3\twnt pathway\nZNRF3\t5.5\t2.6\t4.4\t1.2\twnt pathway\nFZD1\t6.1\t3\t4.6\t1.4\twnt pathway\nFZD7\t5.8\t2.6\t4\t1.2\twnt pathway\nFZD2\t5\t2.3\t3.3\t1\twnt pathway\nFZD3\t5.6\t2.7\t4.2\t1.3\twnt pathway\nFZD4\t5.7\t3\t4.2\t1.2\twnt pathway\nFZD5\t5.7\t2.9\t4.2\t1.3\twnt pathway\nFZD8\t6.2\t2.9\t4.3\t1.3\twnt pathway\nFZD6\t5.1\t2.5\t3\t1.1\twnt pathway\nFDZ10\t5.7\t2.8\t4.1\t1.3\twnt pathway\nEGF\t6.3\t3.3\t6\t2.5\tPI3K pathway\nTGFA\t5.8\t2.7\t5.1\t1.9\tPI3K pathway\nEREG\t7.1\t3\t5.9\t2.1\tPI3K pathway\nAREG\t6.3\t2.9\t5.6\t1.8\tPI3K pathway\nFGF1\t6.5\t3\t5.8\t2.2\tPI3K pathway\nFGF2\t7.6\t3\t6.6\t2.1\tPI3K pathway\nFGF3\t4.9\t2.5\t4.5\t1.7\tPI3K pathway\nFGF4\t7.3\t2.9\t6.3\t1.8\tPI3K pathway\nFGF17\t6.7\t2.5\t5.8\t1.8\tPI3K pathway\nFGF6\t7.2\t3.6\t6.1\t2.5\tPI3K pathway\nFGF7\t6.5\t3.2\t5.1\t2\tPI3K pathway\nFGF8\t6.4\t2.7\t5.3\t1.9\tPI3K pathway\nFGF9\t6.8\t3\t5.5\t2.1\tPI3K pathway\nFGF10\t5.7\t2.5\t5\t2\tPI3K pathway\nFGF16\t5.8\t2.8\t5.1\t2.4\tPI3K pathway\nFGF5\t6.4\t3.2\t5.3\t2.3\tPI3K pathway\nFGF18\t6.5\t3\t5.5\t1.8\tPI3K pathway\nFGF20\t7.7\t3.8\t6.7\t2.2\tPI3K pathway\nFGF22\t7.7\t2.6\t6.9\t2.3\tPI3K pathway\nFGF19\t6\t2.2\t5\t1.5\tPI3K pathway\nFGF21\t6.9\t3.2\t5.7\t2.3\tPI3K pathway\nFGF23\t5.6\t2.8\t4.9\t2\tPI3K pathway\nNGF\t7.7\t2.8\t6.7\t2\tPI3K pathway\nBDNF\t6.3\t2.7\t4.9\t1.8\tPI3K pathway\nNTF3\t6.7\t3.3\t5.7\t2.1\tPI3K pathway\nNTF4\t7.2\t3.2\t6\t1.8\tPI3K pathway\nINS\t6.2\t2.8\t4.8\t1.8\tPI3K pathway\nIGF1\t6.1\t3\t4.9\t1.8\tPI3K pathway\nIGF2\t6.4\t2.8\t5.6\t2.1\tPI3K pathway\nPDGFA\t7.2\t3\t5.8\t1.6\tPI3K pathway\nPDGFB\t7.4\t2.8\t6.1\t1.9\tPI3K pathway\nPDGFC\t7.9\t3.8\t6.4\t2\tPI3K pathway\nPDGFD\t6.4\t2.8\t5.6\t2.2\tPI3K pathway\nCSF1\t6.3\t2.8\t5.1\t1.5\tPI3K pathway\nKITLG\t6.1\t2.6\t5.6\t1.4\tPI3K pathway\nFLT3LG\t7.7\t3\t6.1\t2.3\tPI3K pathway\nVEGFA\t6.3\t3.4\t5.6\t2.4\tPI3K pathway\nVEGFB\t6.4\t3.1\t5.5\t1.8\tPI3K pathway\nPGF\t6\t3\t4.8\t1.8\tPI3K pathway\nVEGFC\t6.9\t3.1\t5.4\t2.1\tPI3K pathway\nVEGFD\t6.7\t3.1\t5.6\t2.4\tPI3K pathway\nHGF\t6.9\t3.1\t5.1\t2.3\tPI3K pathway\nANGPT1\t5.8\t2.7\t5.1\t1.9\tPI3K pathway\nANGPT2\t6.8\t3.2\t5.9\t2.3\tPI3K pathway\nANGPT4\t6.7\t3.3\t5.7\t2.5\tPI3K pathway\nEFNA1\t6.7\t3\t5.2\t2.3\tPI3K pathway\nEFNA2\t6.3\t2.5\t5\t1.9\tPI3K pathway\nEFNA3\t6.5\t3\t5.2\t2\tPI3K pathway\nEFNA4\t6.2\t3.4\t5.4\t2.3\tPI3K pathway\nEFNA5\t5.9\t3\t5.1\t1.8\tPI3K pathway"
+    }
+  }
+}

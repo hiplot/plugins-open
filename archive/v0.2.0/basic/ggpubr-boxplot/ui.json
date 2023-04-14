@@ -1,0 +1,217 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "X Axis Variable",
+          "zh_cn": "X 轴变量"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "Y Axis Variable",
+          "zh_cn": "Y 轴变量"
+        },
+        "required": true,
+        "multiple": true
+      },
+      {
+        "label": {
+          "en": "Facet Variable",
+          "zh_cn": "分面变量"
+        },
+        "required": false
+      }
+    ]
+  },
+  "extra": {
+    "color": {
+      "type": "combobox",
+      "label": {
+        "en": "Outline Color (Can be column name)",
+        "zh_cn": "轮廓颜色（可以映射列名）"
+      },
+      "items_func": "this.tableHeader['1-data']",
+      "class": "col-12 col-md-4"
+    },
+    "fill": {
+      "type": "combobox",
+      "label": {
+        "en": "Fill Color (Can be column name)",
+        "zh_cn": "填充颜色（可以映射列名）"
+      },
+      "items_func": "this.tableHeader['1-data']",
+      "class": "col-12 col-md-4"
+    },
+    "linetype": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Line Type",
+        "zh_cn": "线型"
+      },
+      "items": ["blank", "solid", "dashed", "dotted", "dotdash",
+        "longdash", "twodash"],
+      "class": "col-12 col-md-4"
+    },
+    "add": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Add Other Plot Element",
+        "zh_cn": "添加其他图形元素"
+      },
+      "items": ["none", "dotplot", "jitter", "boxplot", "point", "mean", "mean_se", "mean_sd", "mean_ci", "mean_range", "median", "median_iqr", "median_hilow", "median_q1q3", "median_mad", "median_range"],
+      "class": "col-12 col-md-4"
+    },
+    "error.plot": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Error Plot Type",
+        "zh_cn": "误差可视化类型"
+      },
+      "items": ["pointrange", "linerange", "crossbar", "errorbar", "upper_errorbar", "lower_errorbar", "upper_pointrange", "lower_pointrange", "upper_linerange", "lower_linerange"],
+      "class": "col-12 col-md-4"
+    },
+    "scales": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Facet Scale Control",
+        "zh_cn": "分面标度控制"
+      },
+      "items": ["fixed", "free", "free_x", "free_y"],
+      "class": "col-12 col-md-4"
+    },
+    "combine": {
+      "type": "switch",
+      "label": {
+        "en": "Combine Multiple Y Variables",
+        "zh_cn": "结合多个 Y 轴变量"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "merge": {
+      "type": "switch",
+      "label": {
+        "en": "Merge Multiple Y Variables",
+        "zh_cn": "合并多个 Y 轴变量"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "bxp.errorbar": {
+      "type": "switch",
+      "label": {
+        "en": "Error Bars",
+        "zh_cn": "展示误差"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "notch": {
+      "type": "switch",
+      "label": {
+        "en": "Add Notch",
+        "zh_cn": "添加凹槽"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "repel": {
+      "type": "switch",
+      "label": {
+        "en": "Avoid Overlap",
+        "zh_cn": "避免重叠"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "bxp.errorbar.width": {
+      "type": "slider",
+      "label": {
+        "en": "Error Bar Width",
+        "zh_cn": "误差宽度"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    },
+    "size": {
+      "type": "slider",
+      "label": {
+        "en": "Point and Outline Size",
+        "zh_cn": "点和轮廓大小"
+      },
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    },
+    "width": {
+      "type": "slider",
+      "label": {
+        "en": "Box Width",
+        "zh_cn": "箱宽"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    },
+    "outlier.shape": {
+      "type": "slider",
+      "label": {
+        "en": "Outlier Shape",
+        "zh_cn": "异常值点的形状"
+      },
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "class": "col-12 col-md-6"
+    },
+    "add_sig_label": {
+      "type": "switch",
+      "label": {
+        "en": "Add Significance Test",
+        "zh_cn": "添加显著性检验"
+      },
+      "class": "col-12"
+    },
+    "sig_method": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Significance Label Type",
+        "zh_cn": "显著性标记类型"
+      },
+      "items": ["wilcox", "t.test"],
+      "class": "col-12 col-md-4",
+      "if": "add_sig_label"
+    },
+    "sig_label_type": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Significance Label Type",
+        "zh_cn": "显著性标记类型"
+      },
+      "items": ["p.signif", "p.format"],
+      "class": "col-12 col-md-4",
+      "if": "add_sig_label"
+    },
+    "sig_label_position": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Significance Label Position",
+        "zh_cn": "显著性标记位置"
+      },
+      "items": ["right", "left", "center", "centre", "middle"],
+      "class": "col-12 col-md-4",
+      "if": "add_sig_label"
+    }
+  }
+}

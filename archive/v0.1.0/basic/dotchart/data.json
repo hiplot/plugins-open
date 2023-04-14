@@ -1,0 +1,44 @@
+{
+  "module": "basic",
+  "tool": "dotchart",
+
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 5,
+          "height": 6
+        },
+        "theme": "theme_classic",
+        "palette": "nejm",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "DotChart Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "Name\tValue\tGroup\nBMP2\t18.7\tGroup1\nXIST\t14.3\tGroup1\nC19orf38\t16.4\tGroup1\nPDZD3\t17.3\tGroup1\nMAPRE2\t15.2\tGroup1\nIRF4\t10.4\tGroup1\nNUP210\t10.4\tGroup1\nARID3B\t14.7\tGroup1\nKCNS3\t15.5\tGroup1\nACHE\t15.2\tGroup1\nSH3TC2\t13.3\tGroup1\nIER3IP1\t19.2\tGroup1\nDOCK3\t15.8\tGroup2\nFIBP\t15\tGroup2\nBMF\t21\tGroup2\nATP10D\t21\tGroup2\nGCNT1\t21.4\tGroup2\nKCTD15\t18.1\tGroup2\nFREM1\t19.2\tGroup2\nDIS3L2\t17.8\tGroup2\nBLZF1\t19.7\tGroup2\nZNF704\t22.8\tGroup3\nNBEAL2\t24.4\tGroup3\nSEMA4B\t22.8\tGroup3\nETS1\t32.4\tGroup3\nTMEM120B\t30.4\tGroup3\nCGN\t33.9\tGroup3\nNCAN\t21.5\tGroup3\nABHD6\t27.3\tGroup3\nJADE2\t26\tGroup3\nUBN1\t30.4\tGroup3\nNKX2-5\t21.4\tGroup3"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "module": "advance",
+  "tool": "fusion-circlize",
+  "files": [],
+  "update": {
+    "datTable": false
+  },
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 4,
+          "height": 4
+        },
+        "font": "Arial"
+      }
+    }
+  },
+  "exampleData": {
+    "textarea": {
+      "datTable": "fusions\nACIN1/NUTM1\nBCR/ABL1\nCREBBP/ZNF384\nCRLF2/P2RY8\nDUX4/IGH\nEP300/ZNF384\nETV6/RUNX1\nIGH/CRLF2\nIGH/EPOR\nKMT2A/MLLT1\nKMT2A/MLLT10\nMEF2D/BCL9\nMEF2D/CSF1R\nMEF2D/DAZAP1\nMEF2D/FOXJ2\nMEF2D/HNRNPM\nMEF2D/HNRNPUL1\nTCF3/PBX1"
+    }
+  }
+}

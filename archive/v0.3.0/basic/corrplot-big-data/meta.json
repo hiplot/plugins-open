@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "大样本相关性热图 (Corrplot) ",
+    "en": "Corrplot Big Data"
+  },
+  "alias": ["Corrplot-Big-Data"],
+  "intro": {
+    "zh_cn": "相关性矩阵展示",
+    "en": "Display of correlation matrix"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/03/19/corrplot-tuya.jpg",
+  "href": "/basic/corrplot-big-data",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2022-05-07",
+    "updateDate": "2022-05-07",
+    "version": "v0.1.0"
+  }
+}

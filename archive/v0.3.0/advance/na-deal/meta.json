@@ -1,0 +1,22 @@
+{
+  "name": {
+    "zh_cn": "表格缺失值处理",
+    "en": "Table NA Process"
+  },
+  "intro": {
+    "zh_cn": "表格操作",
+    "en": "Table Operation"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/07/na-deal-tuya.jpg",
+  "href": "/advance/na-deal",
+  "tag": [
+    "shiny",
+    "table"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-10-06",
+    "updateDate": "2020-10-06"
+  }
+}

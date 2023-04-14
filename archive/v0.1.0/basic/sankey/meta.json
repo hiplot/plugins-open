@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "桑基图",
+    "en": "Sankey"
+  },
+  "alias": ["Sankey-Chart"],
+  "intro": {
+    "zh_cn": "关系与数据流量",
+    "en": "Relationship and flow data"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/87-JCtOlq-tuya.jpg",
+  "href": "/basic/sankey",
+  "tag": [
+    "vue",
+    "flow"
+  ],
+  "meta": {
+    "score": 4.95,
+    "author": "Hiplot Team | Jack Wang & Jianfeng",
+    "releaseDate": "2019-12-02",
+    "updateDate": "2020-06-16"
+  }
+}

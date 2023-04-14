@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "火山图",
+    "en": "Volcano"
+  },
+  "alias": ["DEG-Volcano"],
+  "intro": {
+    "zh_cn": "差异表达基因可视化",
+    "en": "Visualization of differentially expressed genes"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/70-JC66kq-tuya.jpg",
+  "href": "/basic/volcano",
+  "tag": [
+    "vue",
+    "ranking"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jack Wang & Jianfeng",
+    "releaseDate": "2019-11-22",
+    "updateDate": "2020-02-01"
+  }
+}

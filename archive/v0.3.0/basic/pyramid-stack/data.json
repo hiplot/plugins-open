@@ -1,0 +1,57 @@
+{
+  "module": "basic",
+  "tool": "pyramid-stack",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 6,
+          "height": 7
+        },
+        "theme": "default",
+        "palette": "npg",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "xbreaks": [],
+        "legendPos": "top",
+        "legendDir": "horizontal",
+        "font": "Arial",
+        "titleSize": 10,
+        "axisTitleSize": 10,
+        "axisTextFontSize": 10
+      },
+      "extra": {
+        "stack": false
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "general": {
+          "title": "",
+          "xbreaks": [-400, 400]
+        }
+      },
+      "textarea": {
+        "datTable": "age\tgender\tyear\tpop\n0-4\tmale\t1950\t171.851238\n5-9\tmale\t1950\t137.992424\n10-14\tmale\t1950\t133.274278\n15-19\tmale\t1950\t121.692743\n20-24\tmale\t1950\t112.394382\n25-29\tmale\t1950\t96.594075\n30-34\tmale\t1950\t83.385946\n35-39\tmale\t1950\t80.596713\n40-44\tmale\t1950\t73.082626\n45-49\tmale\t1950\t63.136479\n50-54\tmale\t1950\t52.593586\n55-59\tmale\t1950\t42.523172\n60-64\tmale\t1950\t34.370241\n65-69\tmale\t1950\t25.04987\n70-74\tmale\t1950\t16.560301\n75-79\tmale\t1950\t9.400711\n80-84\tmale\t1950\t3.854504\n85-89\tmale\t1950\t1.284851\n90-94\tmale\t1950\t0.314663\n95-99\tmale\t1950\t0.058533\n100+\tmale\t1950\t0.009501\n0-4\tfemale\t1950\t165.580655\n5-9\tfemale\t1950\t131.557139\n10-14\tfemale\t1950\t127.011695\n15-19\tfemale\t1950\t116.935705\n20-24\tfemale\t1950\t109.386527\n25-29\tfemale\t1950\t97.829844\n30-34\tfemale\t1950\t83.550604\n35-39\tfemale\t1950\t82.320715\n40-44\tfemale\t1950\t74.400168\n45-49\tfemale\t1950\t64.278449\n50-54\tfemale\t1950\t55.014452\n55-59\tfemale\t1950\t46.077573\n60-64\tfemale\t1950\t39.052122\n65-69\tfemale\t1950\t30.056559\n70-74\tfemale\t1950\t20.799887\n75-79\tfemale\t1950\t12.596606\n80-84\tfemale\t1950\t5.724381\n85-89\tfemale\t1950\t2.165515\n90-94\tfemale\t1950\t0.627281\n95-99\tfemale\t1950\t0.137941\n100+\tfemale\t1950\t0.024657\n0-4\tmale\t2000\t312.922708\n5-9\tmale\t2000\t316.851924\n10-14\tmale\t2000\t321.70669\n15-19\tmale\t2000\t290.18731\n20-24\tmale\t2000\t263.313968\n25-29\tmale\t2000\t256.375782\n30-34\tmale\t2000\t242.044902\n35-39\tmale\t2000\t216.360431\n40-44\tmale\t2000\t188.021238\n45-49\tmale\t2000\t167.873318\n50-54\tmale\t2000\t131.2985\n55-59\tmale\t2000\t103.457094\n60-64\tmale\t2000\t91.395675\n65-69\tmale\t2000\t72.20425\n70-74\tmale\t2000\t53.070619\n75-79\tmale\t2000\t32.346914\n80-84\tmale\t2000\t16.033579\n85-89\tmale\t2000\t6.898426\n90-94\tmale\t2000\t1.84177\n95-99\tmale\t2000\t0.30279\n100+\tmale\t2000\t0.029774\n0-4\tfemale\t2000\t293.265648\n5-9\tfemale\t2000\t297.821248\n10-14\tfemale\t2000\t304.914942\n15-19\tfemale\t2000\t277.73882\n20-24\tfemale\t2000\t253.389638\n25-29\tfemale\t2000\t247.428757\n30-34\tfemale\t2000\t235.1495\n35-39\tfemale\t2000\t210.697963\n40-44\tfemale\t2000\t184.23876\n45-49\tfemale\t2000\t165.909845\n50-54\tfemale\t2000\t132.753044\n55-59\tfemale\t2000\t105.833712\n60-64\tfemale\t2000\t96.673709\n65-69\tfemale\t2000\t80.113007\n70-74\tfemale\t2000\t64.633412\n75-79\tfemale\t2000\t45.663562\n80-84\tfemale\t2000\t25.620237\n85-89\tfemale\t2000\t14.108771\n90-94\tfemale\t2000\t4.965906\n95-99\tfemale\t2000\t1.03382\n100+\tfemale\t2000\t0.130158\n0-4\tmale\t2050\t358.052777\n5-9\tmale\t2050\t354.951376\n10-14\tmale\t2050\t350.183415\n15-19\tmale\t2050\t344.153582\n20-24\tmale\t2050\t338.880369\n25-29\tmale\t2050\t337.221732\n30-34\tmale\t2050\t337.12117\n35-39\tmale\t2050\t330.049172\n40-44\tmale\t2050\t312.093117\n45-49\tmale\t2050\t293.041474\n50-54\tmale\t2050\t278.588953\n55-59\tmale\t2050\t276.053845\n60-64\tmale\t2050\t264.278279\n65-69\tmale\t2050\t218.512137\n70-74\tmale\t2050\t174.505754\n75-79\tmale\t2050\t142.608369\n80-84\tmale\t2050\t99.676971\n85-89\tmale\t2050\t54.662793\n90-94\tmale\t2050\t21.79687\n95-99\tmale\t2050\t6.058483\n100+\tmale\t2050\t0.956388\n0-4\tfemale\t2050\t340.250999\n5-9\tfemale\t2050\t337.213816\n10-14\tfemale\t2050\t332.240233\n15-19\tfemale\t2050\t326.149733\n20-24\tfemale\t2050\t321.065326\n25-29\tfemale\t2050\t319.221278\n30-34\tfemale\t2050\t318.828949\n35-39\tfemale\t2050\t312.172752\n40-44\tfemale\t2050\t295.988462\n45-49\tfemale\t2050\t279.533985\n50-54\tfemale\t2050\t268.551483\n55-59\tfemale\t2050\t271.573703\n60-64\tfemale\t2050\t268.66263\n65-69\tfemale\t2050\t231.775735\n70-74\tfemale\t2050\t192.701747\n75-79\tfemale\t2050\t164.479622\n80-84\tfemale\t2050\t123.814262\n85-89\tfemale\t2050\t76.080353\n90-94\tfemale\t2050\t35.981847\n95-99\tfemale\t2050\t12.694477\n100+\tfemale\t2050\t2.719576\n"
+      }
+    },
+    {
+      "config": {
+        "general": {
+          "title": "",
+          "xbreaks": [-1000, 1000]
+        },
+        "extra": {
+          "stack": true
+        }
+      }
+    }
+  ]
+}

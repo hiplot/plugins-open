@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "贡献表生成器",
+    "en": "Tiny Contribution Table Generator"
+  },
+  "alias": ["Table-Generator"],
+  "intro": {
+    "zh_cn": "表格操作",
+    "en": "Table Operation"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/12/02/contribution-table-tuya.jpg",
+  "href": "/advance/contribution-table",
+  "tag": [
+    "shiny",
+    "table"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Shixiang Wang",
+    "releaseDate": "2020-12-02",
+    "updateDate": "2020-12-02"
+  }
+}

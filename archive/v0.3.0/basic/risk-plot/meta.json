@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "风险因子分析",
+    "en": "Risk Factor Analysis"
+  },
+  "alias": ["Risk-Factor"],
+  "intro": {
+    "zh_cn": "生存数据分析",
+    "en": "Survival data analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/21/risk-plot-tuyab7e8c59e59bf01cd.jpg",
+  "href": "/basic/risk-plot",
+  "tag": [
+    "vue",
+    "survival",
+    "model"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Houshi Xu",
+    "email": "houshi@sjtu.edu.cn",
+    "releaseDate": "2020-09-20",
+    "updateDate": "2021-03-10",
+    "version": "v0.1.1"
+  }
+}

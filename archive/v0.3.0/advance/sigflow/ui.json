@@ -1,0 +1,73 @@
+{
+  "data": {
+    "input": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "zh_cn": "MAF 突变文件",
+        "en": "Maf File"
+      },
+      "exts": [
+        "maf",
+        "maf.gz",
+        "txt"
+      ],
+      "icon": "mdi-file",
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "command": {
+      "type": "select",
+      "label": "messages.common.subcommand",
+      "items": [
+        "extract",
+        "fit"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "genome": {
+      "type": "select",
+      "label": "messages.common.genomeVersion",
+      "items": [
+        "hg19", "hg38", "mm10"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "mode": {
+      "type": "select",
+      "label": "messages.common.mode",
+      "items": [
+        "SBS", "DBS", "ID", "MAF"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "max_sig_number": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "最大 Signature 数",
+        "en": "Maximum Signature Number"
+      },
+      "class": "col-12",
+      "max": 101,
+      "min": -1,
+      "step": 1,
+      "if_func": "this.params.config.extra.command === 'extract'"
+    },
+    "nrun": {
+      "type": "slider",
+      "label": "messages.advance.sigflow.nrun",
+      "class": "col-12",
+      "max": 1000,
+      "min": 1,
+      "if_func": "this.params.config.extra.command === 'extract'"
+    }
+  }
+}

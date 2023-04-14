@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "矩阵气泡图",
+    "en": "Matrix Bubble"
+  },
+  "alias": ["Matrix-Bubble"],
+  "intro": {
+    "zh_cn": "气泡图可视化",
+    "en": "Display matrix bubble"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/11/matrix-bubble-tuya2a40d9db0ce5c25a.jpg",
+  "href": "/basic/matrix-bubble",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao & Jianfeng",
+    "email": "benben.miao@outlook.com",
+    "issues": "https://github.com/hiplot/gold",
+    "releaseDate": "2020-09-10",
+    "updateDate": "2021-02-21",
+    "version": "v0.1.1"
+  }
+}

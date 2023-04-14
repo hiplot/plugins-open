@@ -1,0 +1,196 @@
+{
+  "module": "basic",
+  "tool": "network-d3",
+  "maxPlex": 1,
+  "params": {
+    "textarea": {
+      "1-nodes": "",
+      "2-edges": ""
+    },
+    "config": {
+      "data": {
+        "1-nodes": {
+          "value": "",
+          "link": ""
+        },
+        "2-edges": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "dataArg": {
+        "1-nodes": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ],
+        "2-edges": [
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "palette": "nejm",
+        "palette2": "nejm",
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "layout": "layout_as_star",
+        "line_type": "solid",
+        "node_shape": "circle",
+        "show_text": true,
+        "transform_size": "",
+        "transform_width": "",
+        "arrow": false,
+        "arrow_size": 0.5,
+        "arrow_width": 0.5,
+        "label_dist": 3.5
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "data": {
+          "1-nodes": {
+            "value": "public/demo/network-d3/nodes.txt",
+            "link": ""
+          },
+          "2-edges": {
+            "value": "public/demo/network-d3/edges.txt",
+            "link": ""
+          }
+        },
+        "dataArg": {
+          "1-nodes": [
+            {
+              "value": "name"
+            },
+            {
+              "value": "group"
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            }
+          ],
+          "2-edges": [
+            {
+              "value": "value"
+            }
+          ]
+        },
+        "general": {
+          "title": "Network1",
+          "palette": "custom",
+          "paletteCustom": "#7f7f7f,#ff6347,#ffd700"
+        },
+        "extra": {
+          "layout": "layout_as_star",
+          "transform_size": "*3",
+          "transform_width": "/6",
+          "label_dist": 3.1
+        }
+      },
+      "textarea": {
+        "1-nodes": "name\tgroup\tsize\nMyriel\t1\t15\nNapoleon\t1\t20\nMlle.Baptistine\t1\t23\nMme.Magloire\t1\t30\nCountessdeLo\t1\t11\nGeborand\t1\t9\nChamptercier\t1\t11\nCravatte\t1\t30\nCount\t1\t8\nOldMan\t1\t29\nLabarre\t2\t29\nValjean\t2\t9\nMarguerite\t3\t18\nMme.deR\t2\t12\nIsabeau\t2\t16\nGervais\t2\t22\nTholomyes\t3\t21\nListolier\t3\t11\nFameuil\t3\t19\nBlacheville\t3\t10\nFavourite\t3\t8\nDahlia\t3\t13\nZephine\t3\t25\nFantine\t3\t30\nMme.Thenardier\t4\t23\nThenardier\t4\t14\nCosette\t5\t12\nJavert\t4\t17\nFauchelevent\t0\t29\nBamatabois\t2\t7\nPerpetue\t3\t12\nSimplice\t2\t28\nScaufflaire\t2\t19\nWoman1\t2\t10\nJudge\t2\t12\nChampmathieu\t2\t23\nBrevet\t2\t30\nChenildieu\t2\t15\nCochepaille\t2\t18\nPontmercy\t4\t22\nBoulatruelle\t6\t28\nEponine\t4\t11\nAnzelma\t4\t8\nWoman2\t5\t7\nMotherInnocent\t0\t23\nGribier\t0\t17\nJondrette\t7\t30\nMme.Burgon\t7\t15\nGavroche\t8\t21\nGillenormand\t5\t14\nMagnon\t5\t26\nMlle.Gillenormand\t5\t19\nMme.Pontmercy\t5\t8\nMlle.Vaubois\t5\t27\nLt.Gillenormand\t5\t29\nMarius\t8\t19\nBaronessT\t5\t9\nMabeuf\t8\t30\nEnjolras\t8\t28\nCombeferre\t8\t20\nProuvaire\t8\t7\nFeuilly\t8\t8\nCourfeyrac\t8\t8\nBahorel\t8\t26\nBossuet\t8\t25\nJoly\t8\t10\nGrantaire\t8\t29\nMotherPlutarch\t9\t23\nGueulemer\t4\t8\nBabet\t4\t17\nClaquesous\t4\t23\nMontparnasse\t4\t17\nToussaint\t5\t13\nChild1\t10\t29\nChild2\t10\t25\nBrujon\t4\t16\nMme.Hucheloup\t8\t6",
+        "2-edges": "source\ttarget\tvalue\n1\t0\t1\n2\t0\t8\n3\t0\t10\n3\t2\t6\n4\t0\t1\n5\t0\t1\n6\t0\t1\n7\t0\t1\n8\t0\t2\n9\t0\t1\n11\t10\t1\n11\t3\t3\n11\t2\t3\n11\t0\t5\n12\t11\t1\n13\t11\t1\n14\t11\t1\n15\t11\t1\n17\t16\t4\n18\t16\t4\n18\t17\t4\n19\t16\t4\n19\t17\t4\n19\t18\t4\n20\t16\t3\n20\t17\t3\n20\t18\t3\n20\t19\t4\n21\t16\t3\n21\t17\t3\n21\t18\t3\n21\t19\t3\n21\t20\t5\n22\t16\t3\n22\t17\t3\n22\t18\t3\n22\t19\t3\n22\t20\t4\n22\t21\t4\n23\t16\t3\n23\t17\t3\n23\t18\t3\n23\t19\t3\n23\t20\t4\n23\t21\t4\n23\t22\t4\n23\t12\t2\n23\t11\t9\n24\t23\t2\n24\t11\t7\n25\t24\t13\n25\t23\t1\n25\t11\t12\n26\t24\t4\n26\t11\t31\n26\t16\t1\n26\t25\t1\n27\t11\t17\n27\t23\t5\n27\t25\t5\n27\t24\t1\n27\t26\t1\n28\t11\t8\n28\t27\t1\n29\t23\t1\n29\t27\t1\n29\t11\t2\n30\t23\t1\n31\t30\t2\n31\t11\t3\n31\t23\t2\n31\t27\t1\n32\t11\t1\n33\t11\t2\n33\t27\t1\n34\t11\t3\n34\t29\t2\n35\t11\t3\n35\t34\t3\n35\t29\t2\n36\t34\t2\n36\t35\t2\n36\t11\t2\n36\t29\t1\n37\t34\t2\n37\t35\t2\n37\t36\t2\n37\t11\t2\n37\t29\t1\n38\t34\t2\n38\t35\t2\n38\t36\t2\n38\t37\t2\n38\t11\t2\n38\t29\t1\n39\t25\t1\n40\t25\t1\n41\t24\t2\n41\t25\t3\n42\t41\t2\n42\t25\t2\n42\t24\t1\n43\t11\t3\n43\t26\t1\n43\t27\t1\n44\t28\t3\n44\t11\t1\n45\t28\t2\n47\t46\t1\n48\t47\t2\n48\t25\t1\n48\t27\t1\n48\t11\t1\n49\t26\t3\n49\t11\t2\n50\t49\t1\n50\t24\t1\n51\t49\t9\n51\t26\t2\n51\t11\t2\n52\t51\t1\n52\t39\t1\n53\t51\t1\n54\t51\t2\n54\t49\t1\n54\t26\t1\n55\t51\t6\n55\t49\t12\n55\t39\t1\n55\t54\t1\n55\t26\t21\n55\t11\t19\n55\t16\t1\n55\t25\t2\n55\t41\t5\n55\t48\t4\n56\t49\t1\n56\t55\t1\n57\t55\t1\n57\t41\t1\n57\t48\t1\n58\t55\t7\n58\t48\t7\n58\t27\t6\n58\t57\t1\n58\t11\t4\n59\t58\t15\n59\t55\t5\n59\t48\t6\n59\t57\t2\n60\t48\t1\n60\t58\t4\n60\t59\t2\n61\t48\t2\n61\t58\t6\n61\t60\t2\n61\t59\t5\n61\t57\t1\n61\t55\t1\n62\t55\t9\n62\t58\t17\n62\t59\t13\n62\t48\t7\n62\t57\t2\n62\t41\t1\n62\t61\t6\n62\t60\t3\n63\t59\t5\n63\t48\t5\n63\t62\t6\n63\t57\t2\n63\t58\t4\n63\t61\t3\n63\t60\t2\n63\t55\t1\n64\t55\t5\n64\t62\t12\n64\t48\t5\n64\t63\t4\n64\t58\t10\n64\t61\t6\n64\t60\t2\n64\t59\t9\n64\t57\t1\n64\t11\t1\n65\t63\t5\n65\t64\t7\n65\t48\t3\n65\t62\t5\n65\t58\t5\n65\t61\t5\n65\t60\t2\n65\t59\t5\n65\t57\t1\n65\t55\t2\n66\t64\t3\n66\t58\t3\n66\t59\t1\n66\t62\t2\n66\t65\t2\n66\t48\t1\n66\t63\t1\n66\t61\t1\n66\t60\t1\n67\t57\t3\n68\t25\t5\n68\t11\t1\n68\t24\t1\n68\t27\t1\n68\t48\t1\n68\t41\t1\n69\t25\t6\n69\t68\t6\n69\t11\t1\n69\t24\t1\n69\t27\t2\n69\t48\t1\n69\t41\t1\n70\t25\t4\n70\t69\t4\n70\t68\t4\n70\t11\t1\n70\t24\t1\n70\t27\t1\n70\t41\t1\n70\t58\t1\n71\t27\t1\n71\t69\t2\n71\t68\t2\n71\t70\t2\n71\t11\t1\n71\t48\t1\n71\t41\t1\n71\t25\t1\n72\t26\t2\n72\t27\t1\n72\t11\t1\n73\t48\t2\n74\t48\t2\n74\t73\t3\n75\t69\t3\n75\t68\t3\n75\t25\t3\n75\t48\t1\n75\t41\t1\n75\t70\t1\n75\t71\t1\n76\t64\t1\n76\t65\t1\n76\t66\t1\n76\t63\t1\n76\t62\t1\n76\t48\t1\n76\t58\t1\n"
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "1-nodes": [
+            {
+              "value": "media"
+            },
+            {
+              "value": "type.label"
+            },
+            {
+              "value": "audience.size"
+            },
+            {
+              "value": "type.label"
+            }
+          ],
+          "2-edges": [
+            {
+              "value": "weight"
+            }
+          ]
+        },
+        "general": {
+          "title": "Network2",
+          "palette": "nejm",
+          "palette2": "custom",
+          "paletteCustom2": "#cacaca,#cacaca,#cacaca"
+        },
+        "extra": {
+          "layout": "layout_in_circle",
+          "transform_size": "*0.7",
+          "transform_width": "/6"
+        }
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "1-nodes": [
+            {
+              "value": "media"
+            },
+            {
+              "value": "type.label"
+            },
+            {
+              "value": "audience.size"
+            },
+            {
+              "value": "type.label"
+            }
+          ],
+          "2-edges": [
+            {
+              "value": "weight"
+            }
+          ]
+        },
+        "general": {
+          "title": "Network3",
+          "palette": "custom",
+          "paletteCustom": "#7f7f7f,#ff6347,#ffd700",
+          "palette2": "custom",
+          "paletteCustom2": "#41B3C2,#D1372C,#C9D8C5"
+        },
+        "extra": {
+          "layout": "layout_in_circle",
+          "transform_size": "*0.7",
+          "transform_width": "/6"
+        }
+      }
+    }
+  ]
+}

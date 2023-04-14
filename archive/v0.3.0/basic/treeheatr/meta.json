@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "热图决策树",
+    "en": "Treeheatr"
+  },
+  "alias": ["Decision-Tree"],
+  "intro": {
+    "zh_cn": "决策树可视化",
+    "en": "Decision tree visualizations"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/38-da836S-tuya.jpg",
+  "href": "/basic/treeheatr",
+  "tag": [
+    "vue",
+    "model"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Trang T Le & Hiplot Team | Jianfeng",
+    "citation": "Trang T Le, Jason H Moore, treeheatr: an R package for interpretable decision tree visualizations, Bioinformatics, , btaa662, https://doi.org/10.1093/bioinformatics/btaa662",
+    "releaseDate": "2020-08-22",
+    "updateDate": "2020-08-22"
+  }
+}

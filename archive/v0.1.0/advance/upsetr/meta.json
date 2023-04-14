@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "Shiny UpSetR",
+    "en": "Shiny UpSetR"
+  },
+  "alias": ["ShinyUpSet-Topology"],
+  "intro": {
+    "zh_cn": "用于展示数据集间交叉关系",
+    "en": "Data sets cross-relationships"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/44-dC96bQ-tuya.jpg",
+  "href": "/advance/upsetr",
+  "tag": [
+    "shiny",
+    "general"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Davey",
+    "issues": "https://github.com/dongwei1220/shiny-upsetr",
+    "citation": "Jake R Conway, Alexander Lex, Nils Gehlenborg UpSetR: An R Package for the Visualization of Intersecting Sets and their Properties doi: https://doi.org/10.1093/bioinformatics/btx364",
+    "releaseDate": "2020-08-14",
+    "updateDate": "2020-08-14"
+  }
+}

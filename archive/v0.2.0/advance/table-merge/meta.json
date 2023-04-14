@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "合并表格",
+    "en": "Table Merge"
+  },
+  "alias": ["Table-Merge"],
+  "intro": {
+    "zh_cn": "表格操作",
+    "en": "Table Operation"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/07/table-merge-tuya.jpg",
+  "href": "/advance/table-merge",
+  "tag": [
+    "shiny",
+    "table"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-10-06",
+    "updateDate": "2020-10-06"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "直方图",
+    "en": "Histogram"
+  },
+  "alias": ["Inter-Histogram"],
+  "intro": {
+    "zh_cn": "展示数据分布",
+    "en": "Display data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/101-JVqRg0-tuya.jpg",
+  "href": "/basic/histogram",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-12-12",
+    "updateDate": "2021-02-21",
+    "version": "v0.1.1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "dataset_type": {
+      "type": "select",
+      "label": {
+        "en": "Data Normalization",
+        "zh_cn": "数据标准化方法"
+      },
+      "items": ["deseq2vst", "tpm"],
+      "class": "col-12 col-md-6",
+      "required": true
+    },
+    "model_type": {
+      "type": "select",
+      "label": {
+        "en": "Model Types",
+        "zh_cn": "模型类型"
+      },
+      "items": ["all", "top"],
+      "class": "col-12 col-md-6",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

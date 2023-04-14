@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh_cn": "法国地图 (镇)",
+    "en": "France Map (Town)"
+  },
+  "alias": ["France-Town"],
+  "intro": {
+    "zh_cn": "用于展示法国地图",
+    "en": "Display the map of France"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/28/map-france-town-0-tuya.jpg",
+  "href": "/basic/map-france-town",
+  "tag": [
+    "vue",
+    "map"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 3,
+    "author": "Hiplot Team | Jianfeng",
+    "citation": "Shape downloaded from https://geodata.lib.berkeley.edu/catalog/stanford-sh365dx3135",
+    "releaseDate": "2021-03-28",
+    "updateDate": "2021-03-28",
+    "version": "v0.1.0"
+  }
+}

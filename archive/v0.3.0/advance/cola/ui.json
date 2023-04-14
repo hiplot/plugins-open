@@ -1,0 +1,60 @@
+{
+  "data": {
+    "1-countData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.basic.heatmap.countData"
+    },
+    "2-sampleInfo": {
+      "type": "hiplot-textarea",
+      "required": false,
+      "label": {
+        "en": "SampleInfo",
+        "zh_cn": "样本信息"
+      }
+    }
+  },
+  "extra": {
+    "p_sampling": {
+      "type": "slider",
+      "label": {
+        "en": "Proportion (Top Row)",
+        "zh_cn": "行取样百分比"
+      },
+      "class": "col-12 col-md-6",
+      "max": 1,
+      "min": 0,
+      "step": 0.001
+    },
+    "partition_repeat": {
+      "type": "slider",
+      "label": {
+        "en": "Partition Repeat",
+        "zh_cn": "取样次数"
+      },
+      "class": "col-12 col-md-6",
+      "max": 100,
+      "min": 1,
+      "step": 1
+    },
+    "max_k": {
+      "type": "slider",
+      "label": {
+        "en": "Max K",
+        "zh_cn": "最大类别数"
+      },
+      "class": "col-12",
+      "max": 1000,
+      "min": 1,
+      "step": 1
+    },
+    "scale_rows": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "行归一化",
+        "en": "Scale Rows"
+      },
+      "class": "col-12 col-md-6 col-lg-4"
+    }
+  }
+}

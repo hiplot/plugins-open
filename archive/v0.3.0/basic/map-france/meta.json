@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh_cn": "法国地图",
+    "en": "France Map"
+  },
+  "alias": ["France-Map"],
+  "intro": {
+    "zh_cn": "用于展示法国地图",
+    "en": "Display the map of France"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/28/map-france-0-tuya6a3a07433776e3d7.jpg",
+  "href": "/basic/map-france",
+  "tag": [
+    "vue",
+    "map"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 3,
+    "author": "Hiplot Team | Jianfeng",
+    "citation": "Shape downloaded from https://geodata.lib.berkeley.edu/catalog/stanford-ym781wr7170",
+    "releaseDate": "2021-03-28",
+    "updateDate": "2021-03-28",
+    "version": "v0.1.0"
+  }
+}

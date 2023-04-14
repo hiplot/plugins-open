@@ -1,0 +1,43 @@
+{
+  "module": "advance",
+  "tool": "wgcna",
+  "params": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "",
+          "link": ""
+        },
+        "2-traits": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 9,
+          "height": 5
+        }
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "public/demo/wgcna/LiverFemaleClean.txt",
+          "link": ""
+        },
+        "2-traits": {
+          "value": "public/demo/wgcna/TraitsClean.txt",
+          "link": ""
+        }
+      }
+    }
+  }
+}

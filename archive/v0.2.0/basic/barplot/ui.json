@@ -1,0 +1,36 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "type": {
+      "type": "select",
+      "label": "messages.basic.barplot.type",
+      "items": [
+        "stack",
+        "dodge",
+        "fill"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "horizon": {
+      "type": "switch",
+      "label": "messages.basic.barplot.horizon",
+      "class": "col-12 col-md-2"
+    },
+    "label": {
+      "type": "switch",
+      "label": "messages.basic.barplot.label",
+      "class": "col-12 col-md-4"
+    }
+  }
+}

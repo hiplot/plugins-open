@@ -1,0 +1,21 @@
+{
+  "data": {
+    "1-plotData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.basic.common.plotData"
+    },
+    "2-geneInfo": {
+      "type": "hiplot-textarea",
+      "required": false,
+      "label": "messages.basic.common.geneInfo"
+    }
+  },
+  "dataArg": {
+    "1-plotData": [
+      {
+        "label": "messages.basic.common.setColum"
+      }
+    ]
+  }
+}

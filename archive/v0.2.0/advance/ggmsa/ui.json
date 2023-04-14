@@ -1,0 +1,127 @@
+{
+  "data": {
+    "0-msa": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "en": "Multiple Sequence Alignments",
+        "zh_cn": "多重序列比对结果"
+      },
+      "icon": "mdi-file",
+      "exts": [
+        "fa",
+        "fasta"
+      ],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "extra": {
+    "start": {
+      "type": "text-field",
+      "label": {
+        "en": "Start",
+        "zh_cn": "起始点"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "end": {
+      "type": "text-field",
+      "label": {
+        "en": "End",
+        "zh_cn": "终止点"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "color": {
+      "type": "autocomplete",
+      "label": {
+        "en": "MSA Color",
+        "zh_cn": "MSA 颜色"
+      },
+      "items": [
+        "Clustal",
+        "Chemistry_AA",
+        "Shapely_AA",
+        "Zappo_AA",
+        "Taylor_AA",
+        "LETTER",
+        "CN6",
+        "Chemistry_NT",
+        "Shapely_NT",
+        "Zappo_NT",
+        "Taylor_NT"
+      ],
+      "required": true,
+      "class": "col-12 col-md-4"
+    },
+    "char_width": {
+      "type": "slider",
+      "label": {
+        "en": "Character Width",
+        "zh_cn": "字符宽度"
+      },
+      "step": 0.01,
+      "class": "col-12"
+    },
+    "seq_name": {
+      "type": "switch",
+      "label": {
+        "en": "Show Seqence Names",
+        "zh_cn": "展示序列名称"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "none_bg": {
+      "type": "switch",
+      "label": {
+        "en": "Show Background",
+        "zh_cn": "展示背景"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "by_conservation": {
+      "type": "switch",
+      "label": {
+        "en": "Conserved Brightest",
+        "zh_cn": "高亮保守区"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "consensus_views": {
+      "type": "switch",
+      "label": {
+        "en": "Consensus Views",
+        "zh_cn": "一致视图"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "use_dot": {
+      "type": "switch",
+      "label": {
+        "en": "Use Dots",
+        "zh_cn": "点号"
+      },
+      "if": "consensus_views",
+      "class": "col-12 col-md-4"
+    },
+    "disagreement": {
+      "type": "switch",
+      "label": {
+        "en": "Disagreement",
+        "zh_cn": "展示非一致字符"
+      },
+      "if": "consensus_views",
+      "class": "col-12 col-md-4"
+    },
+    "ignore_gaps": {
+      "type": "switch",
+      "label": {
+        "en": "Ignore Gaps",
+        "zh_cn": "忽略间隔"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "误差线柱状图",
+    "en": "Barplot (errorbar)"
+  },
+  "alias": ["Bar-Error"],
+  "intro": {
+    "zh_cn": "展示数据值",
+    "en": "Display data values"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/01/barplot-errorbar-tuya.jpg",
+  "href": "/basic/barplot-errorbar",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.8,
+    "author": "Hiplot Team | benben.miao & Jianfeng",
+    "releaseDate": "2020-10-31",
+    "updateDate": "2021-02-21",
+    "version": "v0.1.1"
+  }
+}

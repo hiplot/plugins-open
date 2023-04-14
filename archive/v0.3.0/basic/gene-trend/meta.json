@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "基因聚类趋势图",
+    "en": "Gene Cluster Trend"
+  },
+  "alias": ["Gene-Trend"],
+  "intro": {
+    "zh_cn": "基因表达聚类趋势分析",
+    "en": "Gene expression clustering"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/17/gene-trend-0.dmwp6cgbkz5af180a20953274d.jpg",
+  "href": "/basic/gene-trend",
+  "tag": [
+    "vue",
+    "clustering",
+    "trend"
+  ],
+  "meta": {
+    "score": 4.8,
+    "author": "Hiplot Team | Wei Dong",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2020-11-17",
+    "updateDate": "2020-11-17"
+  }
+}

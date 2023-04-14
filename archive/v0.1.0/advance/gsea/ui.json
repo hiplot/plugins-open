@@ -1,0 +1,208 @@
+{
+  "data": {
+    "1-expmat": {
+      "type": "cloud-file",
+      "required": true,
+      "label": "messages.common.dataTable",
+      "icon": "mdi-file",
+      "exts": ["txt", "gct"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "2-cls": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "en": "Sample Groups",
+        "zh_cn": "样本分组"
+      },
+      "icon": "mdi-file",
+      "exts": ["cls"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "3-gmt": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "en": "Pathways File",
+        "zh_cn": "通路信息"
+      },
+      "multiple": true,
+      "icon": "mdi-file",
+      "exts": ["gmt"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "mode": {
+      "type": "select",
+      "items": ["Max_probe", "Median_of_probes",
+      "Mean_of_probes", "Sum_of_probes"],
+      "label": {
+        "en": "Collapsing Mode",
+        "zh_cn": "折叠模式"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "norm": {
+      "type": "select",
+      "items": ["meandiv", "none"],
+      "label": {
+        "en": "Normalization Mode",
+        "zh_cn": "标准化模式"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "rnd_type": {
+      "type": "select",
+      "items": ["no_balance", "equalize_and_balance"],
+      "label": {
+        "en": "Randomization Mode",
+        "zh_cn": "随机化模式"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "scoring_scheme": {
+      "type": "select",
+      "items": ["classic", "weighted",
+      "weighted_p2", "weighted_p1.5"],
+      "label": {
+        "en": "Enrichment Statistic",
+        "zh_cn": "富集统计"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "metric": {
+      "type": "select",
+      "items": ["Signal2Noise", "tTest",
+      "Ratio_of_Classes", "Diff_of_Classes",
+      "log2_Ratio_of_Classes", "Euclidean",
+      "Manhattan", "Cosine", "Pearson"],
+      "label": {
+        "en": "Metrics for Ranking Genes",
+        "zh_cn": "基因排名指标"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "sort": {
+      "type": "select",
+      "items": ["real", "abs"],
+      "label": {
+        "en": "Gene List Sorting Mode",
+        "zh_cn": "基因列表排序模式"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "order": {
+      "type": "select",
+      "items": ["descending", "ascending"],
+      "label": {
+        "en": "Gene List Ordering Mode",
+        "zh_cn": "基因列表升降序模式"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "include_only_symbols": {
+      "type": "switch",
+      "label": {
+        "en": "Include Only Match Symbols",
+        "zh_cn": "只纳入名字匹配特征"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "make_sets": {
+      "type": "switch",
+      "label": {
+        "en": "Make Detailed Gene Sets Report",
+        "zh_cn": "报告基因集详细信息"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "median": {
+      "type": "switch",
+      "label": {
+        "en": "Median for Class Metrics",
+        "zh_cn": "类指标中位数"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "save_rnd_lists": {
+      "type": "switch",
+      "label": {
+        "en": "Save Random Ranked List",
+        "zh_cn": "保存随机排名列表"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "num": {
+      "type": "slider",
+      "label": {
+        "en": "Number of Markers",
+        "zh_cn": "蝶形图包含特征数"
+      },
+      "max": 9999,
+      "class": "col-12 col-md-6"
+    },
+    "nperm": {
+      "type": "slider",
+      "label": {
+        "en": "Number of Permutations",
+        "zh_cn": "迭代次数"
+      },
+      "max": 9999,
+      "class": "col-12 col-md-6"
+    },
+    "set_min": {
+      "type": "slider",
+      "label": {
+        "en": "Min Geneset Size",
+        "zh_cn": "最小基因集"
+      },
+      "max": 9999,
+      "class": "col-12 col-md-6"
+    },
+    "set_max": {
+      "type": "slider",
+      "label": {
+        "en": "Max Geneset Size",
+        "zh_cn": "最大基因集"
+      },
+      "max": 9999,
+      "class": "col-12 col-md-6"
+    },
+    "plot_top_x": {
+      "type": "slider",
+      "label": {
+        "en": "Plot Graph for the Top Set of Each Phenotype",
+        "zh_cn": "表型绘制 Top 数据集图形数目限制"
+      },
+      "max": 9999,
+      "class": "col-12"
+    },
+    "test_groups": {
+      "type": "combobox",
+      "items_func": "this.retriveUniqueLine('2-cls', 3)",
+      "multiple": true,
+      "label": "messages.basic.common.test_groups"
+    },
+    "enable_versus_rest": {
+      "type": "switch",
+      "label": {
+        "en": "Enable Versus Rest",
+        "zh_cn": "开启 REST 比较"
+      },
+      "class": "col-12 col-md-4",
+      "if_func": "this.unique_line.length > 2"
+    }
+  }
+}

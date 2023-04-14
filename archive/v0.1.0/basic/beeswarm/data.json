@@ -1,0 +1,42 @@
+{
+  "module": "basic",
+  "tool": "beeswarm",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 4,
+          "height": 2.5
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "BeeSwarm Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "group\tvalue\nG1\t5.1\nG1\t4.9\nG1\t4.7\nG1\t4.6\nG1\t5\nG1\t5.4\nG1\t4.6\nG1\t5\nG1\t4.4\nG1\t4.9\nG1\t5.4\nG1\t4.8\nG1\t4.8\nG1\t4.3\nG1\t5.8\nG1\t5.7\nG1\t5.4\nG1\t5.1\nG1\t5.7\nG1\t5.1\nG1\t5.4\nG1\t5.1\nG1\t4.6\nG1\t5.1\nG1\t4.8\nG1\t5\nG1\t5\nG1\t5.2\nG1\t5.2\nG1\t4.7\nG1\t4.8\nG1\t5.4\nG1\t5.2\nG1\t5.5\nG1\t4.9\nG1\t5\nG1\t5.5\nG1\t4.9\nG1\t4.4\nG1\t5.1\nG1\t5\nG1\t4.5\nG1\t4.4\nG1\t5\nG1\t5.1\nG1\t4.8\nG1\t5.1\nG1\t4.6\nG1\t5.3\nG1\t5\nG2\t7\nG2\t6.4\nG2\t6.9\nG2\t5.5\nG2\t6.5\nG2\t5.7\nG2\t6.3\nG2\t4.9\nG2\t6.6\nG2\t5.2\nG2\t5\nG2\t5.9\nG2\t6\nG2\t6.1\nG2\t5.6\nG2\t6.7\nG2\t5.6\nG2\t5.8\nG2\t6.2\nG2\t5.6\nG2\t5.9\nG2\t6.1\nG2\t6.3\nG2\t6.1\nG2\t6.4\nG2\t6.6\nG2\t6.8\nG2\t6.7\nG2\t6\nG2\t5.7\nG2\t5.5\nG2\t5.5\nG2\t5.8\nG2\t6\nG2\t5.4\nG2\t6\nG2\t6.7\nG2\t6.3\nG2\t5.6\nG2\t5.5\nG2\t5.5\nG2\t6.1\nG2\t5.8\nG2\t5\nG2\t5.6\nG2\t5.7\nG2\t5.7\nG2\t6.2\nG2\t5.1\nG2\t5.7\nG3\t6.3\nG3\t5.8\nG3\t7.1\nG3\t6.3\nG3\t6.5\nG3\t7.6\nG3\t4.9\nG3\t7.3\nG3\t6.7\nG3\t7.2\nG3\t6.5\nG3\t6.4\nG3\t6.8\nG3\t5.7\nG3\t5.8\nG3\t6.4\nG3\t6.5\nG3\t7.7\nG3\t7.7\nG3\t6\nG3\t6.9\nG3\t5.6\nG3\t7.7\nG3\t6.3\nG3\t6.7\nG3\t7.2\nG3\t6.2\nG3\t6.1\nG3\t6.4\nG3\t7.2\nG3\t7.4\nG3\t7.9\nG3\t6.4\nG3\t6.3\nG3\t6.1\nG3\t7.7\nG3\t6.3\nG3\t6.4\nG3\t6\nG3\t6.9\nG3\t6.7\nG3\t6.9\nG3\t5.8\nG3\t6.8\nG3\t6.7\nG3\t6.7\nG3\t6.3\nG3\t6.5\nG3\t6.2\nG3\t5.9"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "玫瑰图",
+    "en": "Rose Chart"
+  },
+  "alias": ["Rose-Chart"],
+  "intro": {
+    "zh_cn": "展示数据分布",
+    "en": "Display the data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/05/rose-chart-tuya.jpg",
+  "href": "/basic/rose-chart",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.95,
+    "author": "Hiplot Team | Songqi Duan",
+    "email": "songqi.duan@outlook.com",
+    "releaseDate": "2021-03-05",
+    "updateDate": "2021-03-05"
+  }
+}

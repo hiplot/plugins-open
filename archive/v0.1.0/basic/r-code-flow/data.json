@@ -1,0 +1,30 @@
+{
+  "module": "basic",
+  "tool": "r-code-flow",
+  "params": {
+    "config": {
+      "data": {
+        "code": ""
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 5,
+          "height": 5
+        },
+        "title": ""
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "code": "if (x < 10) {\n  a <- 1\n} else {\n  a <- 2\n}\nif (a == 2) {\n  c <- d\n} else {\n  d <- a\n}"
+      },
+      "general": {
+        "title": ""
+      }
+    }
+  }
+}

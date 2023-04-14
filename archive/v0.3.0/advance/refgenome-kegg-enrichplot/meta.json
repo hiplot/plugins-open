@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "参考基因组 Shiny KEGG (富集)",
+    "en": "Ref Shiny KEGG (Enrich)"
+  },
+  "alias": ["RefGenome-KEGG"],
+  "intro": {
+    "zh_cn": "KEGG 富集分析",
+    "en": "KEGG enrichment analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/29-avUlh6-tuya.jpg",
+  "href": "/advance/refgenome-kegg-enrichplot",
+  "tag": [
+    "shiny",
+    "geneset"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-12",
+    "updateDate": "2020-08-12"
+  }
+}

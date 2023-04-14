@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "热图",
+    "en": "Heatmap"
+  },
+  "alias": ["Inter-Heatmap"],
+  "intro": {
+    "zh_cn": "数值矩阵展示",
+    "en": "Numerical matrix display"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/78-JCKFN6-tuya.jpg",
+  "href": "/basic/heatmap",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "version": "v0.2.2",
+    "score": 5,
+    "author": "Hiplot Team | Jack Wang & Jianfeng",
+    "releaseDate": "2019-12-06",
+    "updateDate": "2021-03-23"
+  }
+}

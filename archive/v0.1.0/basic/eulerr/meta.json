@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "比例韦恩图",
+    "en": "Eulerr Plot"
+  },
+  "alias": ["Eulerr-Topology"],
+  "intro": {
+    "zh_cn": "用于展示数据占比",
+    "en": "Display the data ratio"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/107-UvOq58-tuya.jpg",
+  "href": "/basic/eulerr",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 4.8,
+    "author": "Johan Larsson & Hiplot Team | Jianfeng",
+    "email": "johan.larsson@stat.lu.se",
+    "issues": "https://github.com/jolars/eulerr",
+    "releaseDate": "2020-07-24",
+    "updateDate": "2020-07-24"
+  }
+}

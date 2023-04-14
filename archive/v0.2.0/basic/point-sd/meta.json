@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "点图（标准差）",
+    "en": "Point (SD)"
+  },
+  "alias": ["Point-SD"],
+  "intro": {
+    "zh_cn": "展示组间差异",
+    "en": "Display differences between groups"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/01/point-sd-0.tzh25p9rj0h-1.jpg",
+  "href": "/basic/point-sd",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2022-04-02",
+    "updateDate": "2022-04-02",
+    "citation": "Shenoy, A. R. (2021) grafify: an R package for easy graphs, ANOVAs and post-hoc comparisons. Zenodo. http://doi.org/10.5281/zenodo.5136508",
+    "version": "v0.1.0"
+  }
+}

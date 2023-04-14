@@ -1,0 +1,28 @@
+{
+  "data": {
+    "datmat": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "display": {
+      "type": "select",
+      "label": {
+        "en": "Display",
+        "zh_cn": "展示类型"
+      },
+      "items": [
+        "single",
+        "multiple"
+      ],
+      "class": "col-12"
+    }
+  }
+}

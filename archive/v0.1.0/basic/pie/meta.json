@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "饼图",
+    "en": "Pie"
+  },
+  "alias": ["Basic-Pie"],
+  "intro": {
+    "zh_cn": "用于展示数据占比",
+    "en": "Display the data ratio"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/81-JCNS7F-tuya.jpg",
+  "href": "/basic/pie",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2020-03-17",
+    "updateDate": "2020-06-27"
+  }
+}

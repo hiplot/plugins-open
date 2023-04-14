@@ -1,0 +1,38 @@
+{
+  "module": "basic",
+  "tool": "map-europe",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 30,
+          "height": 24
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Europe Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "region\tvalue\nAlbania\t758\nAndorra\t139\nAustria\t256\nBelgium\t959\nBosnia Herzegovina\t422\nCroatia\t791\nCzech Republic\t776\nDenmark\t383\nEstonia\t912\nFinland\t82\nFrance\t888\nGermany\t239\nGibraltar (UK)\t152\nGreece\t793\nGuernsey (UK)\t430\nHungary\t262\nIreland\t809\nIsle of Man (UK)\t461\nItaly\t601\nJersey (UK)\t564\nLatvia\t674\nLiechtenstein\t148\nLithuania\t322\nLuxembourg\t877\nMacedonia\t199\nMalta\t259\nMonaco\t366\nMontenegro\t878\nNetherlands\t819\nNorway\t824\nPoland\t992\nPortugal\t815\nSan Marino\t73\nSerbia\t750\nSlovakia\t704\nSlovenia\t47\nSpain\t336\nSweden\t6\nSwitzerland\t439\nUnited Kingdom\t34\nArmenia\t857\nAzerbaijan\t989\nBelarus\t480\nBulgaria\t404\nFaeroe Islands (Denmark)\t467\nGeorgia\t746\nIceland\t501\nJan Mayen (Norway)\t464\nMoldova\t715\nRomania\t389\nSvalbard (Norway)\t347\nTurkey\t206\nUkraine\t643\nRussia\t164\n"
+    }
+  }
+}

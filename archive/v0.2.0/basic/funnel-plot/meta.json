@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "漏斗图",
+    "en": "Funnel Plot"
+  },
+  "alias": ["Funnel-Plot"],
+  "intro": {
+    "zh_cn": "效应偏倚分析",
+    "en": "Analysis of effect bias"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/17/funnel-plot-0.mxv0s8xk4fa-1.jpg",
+  "href": "/basic/funnel-plot",
+  "tag": [
+    "vue",
+    "meta",
+    "model"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "citation": "https://nhs-r-community.github.io/FunnelPlotR",
+    "releaseDate": "2022-04-17",
+    "updateDate": "2022-04-17"
+  }
+}

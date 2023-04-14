@@ -23,7 +23,7 @@
     "author": "Aravind Subramanian & Hiplot Team | Jianfeng",
     "citation": "Subramanian A, Tamayo P, Mootha V K, et al. Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles[J]. Proceedings of the National Academy of Sciences, 2005, 102(43): 15545-15550.",
     "releaseDate": "2020-10-29",
-    "updateDate": "2022-4-16",
-    "version": "v0.2.0"
+    "updateDate": "2023-4-03",
+    "version": "v0.3.0"
   }
 }

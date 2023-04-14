@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "甘特图",
+    "en": "Gantt"
+  },
+  "alias": ["Gantt-Graph"],
+  "intro": {
+    "zh_cn": "内在关系随着时间进展的情况",
+    "en": "Display the flow data"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/11/07/gantt-0.ftl9b1ncf2t-1-tuya.jpg",
+  "href": "/basic/gantt",
+  "tag": [
+    "vue",
+    "evolution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-09-15",
+    "updateDate": "2020-03-16"
+  }
+}

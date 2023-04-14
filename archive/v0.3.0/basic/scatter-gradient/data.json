@@ -1,0 +1,123 @@
+{
+  "module": "basic",
+  "tool": "scatter-gradient",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 8,
+          "height": 5
+        },
+        "theme": "default",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "transformX": "",
+        "transformY": "",
+        "transformG": "",
+        "transformS": ""
+      },
+      "extra": {
+        "point_size": 5,
+        "point_thick": 0.5,
+        "low_color": "#00438e",
+        "high_color": "#E43535",
+        "type": 21
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "mpg"
+            },
+            {
+              "value": "disp"
+            },
+            {
+              "value": "gear"
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            }
+          ]
+        },
+        "general": {
+          "title": "Scatter-gradient Plot"
+        }
+      },
+      "textarea": {
+        "datTable": "car\tmpg\tcyl\tdisp\thp\tdrat\twt\tqsec\tvs\tam\tgear\tcarb\nMazda RX4\t21\t6\t160\t110\t3.9\t2.62\t16.46\t0\t1\t4\t4\nMazda RX4 Wag\t21\t6\t160\t110\t3.9\t2.875\t17.02\t0\t1\t4\t4\nDatsun 710\t22.8\t4\t108\t93\t3.85\t2.32\t18.61\t1\t1\t4\t1\nHornet 4 Drive\t21.4\t6\t258\t110\t3.08\t3.215\t19.44\t1\t0\t3\t1\nHornet Sportabout\t18.7\t8\t360\t175\t3.15\t3.44\t17.02\t0\t0\t3\t2\nValiant\t18.1\t6\t225\t105\t2.76\t3.46\t20.22\t1\t0\t3\t1\nDuster 360\t14.3\t8\t360\t245\t3.21\t3.57\t15.84\t0\t0\t3\t4\nMerc 240D\t24.4\t4\t146.7\t62\t3.69\t3.19\t20\t1\t0\t4\t2\nMerc 230\t22.8\t4\t140.8\t95\t3.92\t3.15\t22.9\t1\t0\t4\t2\nMerc 280\t19.2\t6\t167.6\t123\t3.92\t3.44\t18.3\t1\t0\t4\t4\nMerc 280C\t17.8\t6\t167.6\t123\t3.92\t3.44\t18.9\t1\t0\t4\t4\nMerc 450SE\t16.4\t8\t275.8\t180\t3.07\t4.07\t17.4\t0\t0\t3\t3\nMerc 450SL\t17.3\t8\t275.8\t180\t3.07\t3.73\t17.6\t0\t0\t3\t3\nMerc 450SLC\t15.2\t8\t275.8\t180\t3.07\t3.78\t18\t0\t0\t3\t3\nCadillac Fleetwood\t10.4\t8\t472\t205\t2.93\t5.25\t17.98\t0\t0\t3\t4\nLincoln Continental\t10.4\t8\t460\t215\t3\t5.424\t17.82\t0\t0\t3\t4\nChrysler Imperial\t14.7\t8\t440\t230\t3.23\t5.345\t17.42\t0\t0\t3\t4\nFiat 128\t32.4\t4\t78.7\t66\t4.08\t2.2\t19.47\t1\t1\t4\t1\nHonda Civic\t30.4\t4\t75.7\t52\t4.93\t1.615\t18.52\t1\t1\t4\t2\nToyota Corolla\t33.9\t4\t71.1\t65\t4.22\t1.835\t19.9\t1\t1\t4\t1\nToyota Corona\t21.5\t4\t120.1\t97\t3.7\t2.465\t20.01\t1\t0\t3\t1\nDodge Challenger\t15.5\t8\t318\t150\t2.76\t3.52\t16.87\t0\t0\t3\t2\nAMC Javelin\t15.2\t8\t304\t150\t3.15\t3.435\t17.3\t0\t0\t3\t2\nCamaro Z28\t13.3\t8\t350\t245\t3.73\t3.84\t15.41\t0\t0\t3\t4\nPontiac Firebird\t19.2\t8\t400\t175\t3.08\t3.845\t17.05\t0\t0\t3\t2\nFiat X1-9\t27.3\t4\t79\t66\t4.08\t1.935\t18.9\t1\t1\t4\t1\nPorsche 914-2\t26\t4\t120.3\t91\t4.43\t2.14\t16.7\t0\t1\t5\t2\nLotus Europa\t30.4\t4\t95.1\t113\t3.77\t1.513\t16.9\t1\t1\t5\t2\nFord Pantera L\t15.8\t8\t351\t264\t4.22\t3.17\t14.5\t0\t1\t5\t4\nFerrari Dino\t19.7\t6\t145\t175\t3.62\t2.77\t15.5\t0\t1\t5\t6\nMaserati Bora\t15\t8\t301\t335\t3.54\t3.57\t14.6\t0\t1\t5\t8\nVolvo 142E\t21.4\t4\t121\t109\t4.11\t2.78\t18.6\t1\t1\t4\t2\n"
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "mpg"
+            },
+            {
+              "value": "disp"
+            },
+            {
+              "value": "gear"
+            },
+            {
+              "value": "gear"
+            },
+            {
+              "value": "gear"
+            }
+          ]
+        },
+        "general": {
+          "title": "Scatter-gradient Plot with facet"
+        }
+      }
+    }
+  ]
+}

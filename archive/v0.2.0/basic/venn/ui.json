@@ -1,0 +1,16 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "eulerr": {
+      "type": "switch",
+      "label": "messages.basic.venn.eulerr",
+      "class": "col-12 col-md-6"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "model": {
+      "type": "select",
+      "label": {
+        "en": "Model",
+        "zh_cn": "模型"
+      },
+      "class": "col-12 col-md-4",
+      "items": [
+        "cox",
+        "lrm"
+      ]
+    },
+    "cmethod": {
+      "type": "select",
+      "label": {
+        "en": "Cmethod",
+        "zh_cn": "Cmethod"
+      },
+      "class": "col-12 col-md-4",
+      "items": [
+        "KM"
+      ]
+    },
+    "method": {
+      "type": "select",
+      "label": "messages.basic.common.method",
+      "class": "col-12 col-md-4",
+      "items": [
+        "boot",
+        "crossvalidation",
+        "randomization"
+      ]
+    },
+    "time_day": {
+      "type": "slider",
+      "label": {
+        "en": "Time (Day)",
+        "zh_cn": "时间（天）"
+      },
+      "max": 3650,
+      "class": "col-12"
+    }
+  }
+}

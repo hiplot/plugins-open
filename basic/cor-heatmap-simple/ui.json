@@ -1,0 +1,67 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "X axis",
+        "independent": true
+      },
+      {
+        "label": "Y axis",
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "cor_method": {
+      "type": "select",
+      "label": {
+        "zh_cn": "相关性方法",
+        "en": "Cor Method"
+      },
+      "class": "col-12 col-md-6",
+      "items": ["pearson", "spearman"]
+    },
+    "vis_method": {
+      "type": "select",
+      "label": "messages.basic.common.shape",
+      "class": "col-12 col-md-6",
+      "items": ["square", "circle"]
+    },
+    "lab": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "展示数字",
+        "en": "Show Number"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "hc_order": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "层次聚类",
+        "en": "Hierarchical Clustering"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "test": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "相关性检验",
+        "en": "Cor Test"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "点图合并密度图 Shiny",
+    "en": "Point-density Shiny"
+  },
+  "alias": ["Point-Density"],
+  "intro": {
+    "zh_cn": "统计可视化分析",
+    "en": "Statistical Visualization Analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/17/point-density-tuya.jpg",
+  "href": "/advance/point-density",
+  "tag": [
+    "shiny",
+    "point",
+    "density"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-11-17",
+    "updateDate": "2020-11-17"
+  }
+}

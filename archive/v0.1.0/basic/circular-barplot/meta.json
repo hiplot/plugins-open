@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "环状条形图",
+    "en": "Circular Barplot"
+  },
+  "alias": ["Polar-Bar"],
+  "intro": {
+    "zh_cn": "绘制环状条形图",
+    "en": "Drawing circular barplot"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/27/cbar739c24e36c39b717.jpg",
+  "href": "/basic/circular-barplot",
+  "tag": [
+    "vue",
+    "circular",
+    "distribution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Wei Dong",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2020-11-27",
+    "updateDate": "2020-11-27"
+  }
+}

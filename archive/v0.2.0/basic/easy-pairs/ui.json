@@ -1,0 +1,20 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {"label": "Columns", "required": false},
+      {"label": "Color By", "required": false}
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  }
+}

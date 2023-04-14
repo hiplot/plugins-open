@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "中国地图 (市)",
+    "en": "China Map (City)"
+  },
+  "alias": ["China-City"],
+  "intro": {
+    "zh_cn": "用于展示中国地图 (市级)",
+    "en": "Display the map of China city"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/27/map-china-city-0-tuya.jpg",
+  "href": "/basic/map-china-city",
+  "tag": [
+    "vue",
+    "map"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-03-27",
+    "updateDate": "2021-03-27",
+    "version": "v0.1.0"
+  }
+}

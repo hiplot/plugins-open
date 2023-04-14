@@ -1,0 +1,51 @@
+{
+  "module": "basic",
+  "tool": "line",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 6,
+          "height": 4
+        },
+        "theme": "theme_stata",
+        "palette": "npg",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "transformX": "",
+        "transformY": "",
+        "xbreaks": [],
+        "ybreaks": []
+      },
+      "extra": {
+        "type": true,
+        "point": true
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Line Regression Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "Value1\tValue2\tGroup\n1\t1\ttreat1\n2\t4\ttreat1\n3\t9\ttreat1\n4\t16\ttreat1\n5\t25\ttreat1\n6\t36\ttreat1\n7\t49\ttreat1\n8\t64\ttreat1\n9\t81\ttreat1\n10\t100\ttreat1\n1\t100\ttreat2\n2\t81\ttreat2\n3\t64\ttreat2\n4\t49\ttreat2\n5\t36\ttreat2\n6\t25\ttreat2\n7\t16\ttreat2\n8\t9\ttreat2\n9\t4\ttreat2\n10\t1\ttreat2"
+    }
+  }
+}

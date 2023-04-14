@@ -1,0 +1,27 @@
+{
+  "name": {
+    "zh_cn": "分组排序点图",
+    "en": "Group Rank Dotplot"
+  },
+  "alias": ["Group-Rank-DotChart"],
+  "intro": {
+    "zh_cn": "不同组别连续变量样本值及分布比较",
+    "en": "Values distribution for different groups"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/04/grdotplot-tuya.jpg",
+  "href": "/basic/grdotplot",
+  "tag": [
+    "vue",
+    "dotplot",
+    "comparison"
+  ],
+  "meta": {
+    "score": 4.8,
+    "author": "Hiplot Team | Shixiang Wang",
+    "email": "w_shixiang@163.com",
+    "issues": "https://github.com/ShixiangWang/sigminer/issues",
+    "citation": "Wang, Shixiang, et al. “Copy number signature analyses in prostate cancer reveal distinct etiologies and clinical outcomes” medRxiv (2020) https://www.medrxiv.org/content/10.1101/2020.04.27.20082404v1",
+    "releaseDate": "2020-09-04",
+    "updateDate": "2020-09-04"
+  }
+}

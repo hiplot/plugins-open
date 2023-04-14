@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "GGGenes",
+    "en": "GGGenes"
+  },
+  "alias": ["Gene-Position"],
+  "intro": {
+    "zh_cn": "基因可视化",
+    "en": "Gene Visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/02/gggenes-shiny.jpg",
+  "href": "/advance/gggenes",
+  "tag": [
+    "shiny",
+    "genome"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Davey",
+    "issues": "https://github.com/dongwei1220/shiny-gggenes",
+    "releaseDate": "2020-09-02",
+    "updateDate": "2020-09-02"
+  }
+}

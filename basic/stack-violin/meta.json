@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "堆叠小提琴图",
+    "en": "Stack Violin"
+  },
+  "alias": ["Stack-Violin"],
+  "intro": {
+    "zh_cn": "用于展示数据分布",
+    "en": "Display the data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/stack-violin-0.oqzhasp44v-1-tuya8449cd615cef41a7.jpg",
+  "href": "/basic/stack-violin",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | benben-miao",
+    "releaseDate": "2020-08-23",
+    "updateDate": "2021-02-21",
+    "version": "v0.1.1"
+  }
+}

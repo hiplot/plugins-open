@@ -1,0 +1,54 @@
+{
+  "module": "basic",
+  "tool": "line-regression",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 5,
+          "height": 4
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "transformX": "",
+        "transformY": "",
+        "xbreaks": [],
+        "ybreaks": []
+      },
+      "extra": {
+        "addFunction": true,
+        "add_p": false,
+        "functionSize": 4,
+        "functionLabelPadding": 5,
+        "nudgeX": 0,
+        "nudgeY": 0
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Line Reguression Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "value1\tvalue2\tgroup\n36.8\t29.44\tG1\n54\t43.2\tG1\n26\t26\tG1\n39\t31.2\tG1\n33\t29.7\tG1\n29\t34.8\tG1\n41.8\t33.44\tG1\n22.5\t27\tG1\n47.3\t47.3\tG1\n22\t22\tG1\n18\t14.4\tG2\n16\t14.4\tG2\n33\t29.7\tG2\n12\t10.8\tG2\n31.2\t34.32\tG2\n16\t12.8\tG2\n29.7\t26.73\tG2\n24\t19.2\tG2\n9.6\t10.56\tG2\n45.6\t50.16\tG2"
+    }
+  }
+}

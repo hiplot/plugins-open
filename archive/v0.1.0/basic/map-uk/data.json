@@ -1,0 +1,39 @@
+{
+  "module": "basic",
+  "tool": "map-uk",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 25,
+          "height": 34
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false,
+        "cliMode": true
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "UK Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "name\tvalue\nNorthern Ireland\t691\nScotland\t455\nEngland\t530\nWales\t767\n"
+    }
+  }
+}

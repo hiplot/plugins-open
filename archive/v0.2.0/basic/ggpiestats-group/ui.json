@@ -1,0 +1,23 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [{"label": "X"}, {"label": "Group"}]
+  },
+  "extra": {
+    "ncol": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "图片列数",
+        "en": "Ncol"
+      },
+      "class": "col-12",
+      "min": 1
+    }
+  }
+}

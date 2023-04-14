@@ -1,0 +1,47 @@
+{
+  "module": "basic",
+  "tool": "contour-xy",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 4,
+          "height": 2.5
+        },
+        "theme": "theme_bw",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Contour-XY Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "value1\tvalue2\n2.62\t110\n2.875\t110\n2.32\t93\n3.215\t110\n3.44\t175\n3.46\t105\n3.57\t245\n3.19\t62\n3.15\t95\n3.44\t123\n3.44\t123\n4.07\t180\n3.73\t180\n3.78\t180\n5.25\t205\n5.424\t215\n5.345\t230\n2.2\t66\n1.615\t52\n1.835\t65\n2.465\t97\n3.52\t150\n3.435\t150\n3.84\t245\n3.845\t175\n1.935\t66\n2.14\t91\n1.513\t113\n3.17\t264\n2.77\t175\n3.57\t335\n2.78\t109"
+    }
+  }
+}

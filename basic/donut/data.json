@@ -1,0 +1,36 @@
+{
+  "module": "basic",
+  "tool": "donut",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 5,
+          "height": 5
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "title": "",
+        "alpha": 0.8,
+        "font": "Arial"
+      },
+      "extra": {
+        "label": true,
+        "width": 5
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Donut Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "group\tvalue\nGroup1\t13\nGroup2\t34\nGroup3\t21\nGroup4\t43"
+    }
+  }
+}

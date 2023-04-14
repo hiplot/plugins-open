@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "限制性立方样条 COX 模型",
+    "en": "RCS-COX"
+  },
+  "intro": {
+    "zh_cn": "非线性回归分析",
+    "en": "Nonlinear regression analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/20/rcs-cox-tuya.jpg",
+  "href": "/basic/rcs-cox",
+  "tag": [
+    "vue",
+    "cox",
+    "model",
+    "rcs"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Houshi Xu",
+    "email": "houshi@sjtu.edu.cn",
+    "releaseDate": "2020-09-20",
+    "updateDate": "2020-09-20"
+  }
+}

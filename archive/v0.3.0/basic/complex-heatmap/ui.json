@@ -1,0 +1,102 @@
+{
+  "data": {
+    "1-plotData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.basic.common.plotData"
+    },
+    "2-colorData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "Color Data",
+        "zh_cn": "颜色数据"
+      }
+    }
+  },
+  "dataArg": {
+    "1-plotData": [
+      {
+        "label": "messages.basic.common.setColum"
+      }
+    ]
+  },
+  "extra": {
+    "hc_method": {
+      "type": "select",
+      "label": "messages.basic.common.hc_method",
+      "items": [
+        "ward.D",
+        "ward.D2",
+        "single",
+        "complete",
+        "average",
+        "mcquitty",
+        "median",
+        "centroid"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "hc_distance_rows": {
+      "type": "select",
+      "label": {
+        "en": "Row Distance Measure",
+        "zh_cn": "行距离度量"
+      },
+      "items": [
+        "euclidean",
+        "maximum",
+        "manhattan",
+        "canberra",
+        "binary",
+        "minkowski",
+        "pearson"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "hc_distance_cols": {
+      "type": "select",
+      "label": {
+        "en": "Column Distance Measure",
+        "zh_cn": "列距离度量"
+      },
+      "items": [
+        "euclidean",
+        "maximum",
+        "manhattan",
+        "canberra",
+        "binary",
+        "minkowski",
+        "pearson"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "color_key": {
+      "type": "text-field",
+      "label": {
+        "en": "Color Key",
+        "zh_ch": "颜色"
+      },
+      "required": true,
+      "clearable": true,
+      "class": "col-12 col-md-6"
+    },
+    "rel_height": {
+      "type": "text-field",
+      "label": {
+        "en": "相对高度",
+        "zh_cn": "Relative Height"
+      },
+      "multiple": true,
+      "class": "col-12 col-md-6"
+    },
+    "sync_mut_order": {
+      "type": "switch",
+      "label": {
+        "en": "Sync Mut Order with Heat",
+        "zh_cn": "突变顺序同步热图"
+      },
+      "class": "col-12"
+    }
+  }
+}

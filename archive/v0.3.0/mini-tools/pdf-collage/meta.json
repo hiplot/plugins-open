@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh_cn": "拼图工具",
+    "en": "PDF Collage Maker"
+  },
+  "alias": ["PDF-Operation"],
+  "intro": {
+    "zh_cn": "Hiplot 结果拼图",
+    "en": "Hiplot PDF Collage Maker"
+  },
+  "usergroup": [
+    1,
+    2
+  ],
+  "src": "https://s1.imagehub.cc/images/2020/11/01/pdf-collage.jpg",
+  "href": "/mini-tools/pdf-collage",
+  "tag": [
+    "vue",
+    "pdf",
+    "merge"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "version": "v0.1.1",
+    "releaseDate": "2020-10-30",
+    "updateDate": "2020-11-02"
+  }
+}

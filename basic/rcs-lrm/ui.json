@@ -1,0 +1,49 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Main"
+      },
+      {
+        "label": "Group"
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "cutoff": {
+      "type": "select",
+      "label": "messages.basic.common.cutoff",
+      "class": "col-12",
+      "items": ["Define", "Median"]
+    },
+    "line_color": {
+      "type": "color-picker",
+      "label": "messages.basic.common.line_color",
+      "class": "col-12 col-md-4"
+    },
+    "ribbon_color": {
+      "type": "color-picker",
+      "label": "messages.basic.common.ribbon_color",
+      "class": "col-12 col-md-4"
+    },
+    "define": {
+      "type": "slider",
+      "label": "messages.basic.common.cutoff_val",
+      "max_func": "this.selectCols('datTable', '0', true)",
+      "step": 1,
+      "class": "col-12"
+    }
+  }
+}

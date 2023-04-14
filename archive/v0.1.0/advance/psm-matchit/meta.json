@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "倾向得分匹配",
+    "en": "Propensity Score Matching Shiny"
+  },
+  "alias": ["PSM-Analysis"],
+  "intro": {
+    "zh_cn": "倾向得分匹配，基于 MatchIt 和 cabalt 包",
+    "en": "Propensity Score Matching (MatchIt and cabalt)"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/14/psm-matchlt-tuya.jpg",
+  "href": "/advance/psm-matchit",
+  "tag": [
+    "shiny",
+    "statistics"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-09-14",
+    "updateDate": "2020-09-14"
+  }
+}

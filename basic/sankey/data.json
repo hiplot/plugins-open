@@ -1,0 +1,56 @@
+{
+  "module": "basic",
+  "tool": "sankey",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+        "datTable": [{ "value": "" }, { "value": [] }]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 4,
+          "height": 2.5
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "ribbonColor": "",
+        "flip": "hor",
+        "order_by_input": false
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "datTable": [{ "value": "Freq" }, { "value": ["Class", "Sex"] }]
+      },
+      "general": {
+        "title": "Sankey plot"
+      },
+      "extra": {
+        "ribbonColor": "Sex"
+      }
+    },
+    "textarea": {
+      "datTable": "Class\tSex\tAge\tSurvived\tFreq\n1st\tMale\tChild\tNo\t0\n2nd\tMale\tChild\tNo\t0\n3rd\tMale\tChild\tNo\t35\nCrew\tMale\tChild\tNo\t0\n1st\tFemale\tChild\tNo\t0\n2nd\tFemale\tChild\tNo\t0\n3rd\tFemale\tChild\tNo\t17\nCrew\tFemale\tChild\tNo\t0\n1st\tMale\tAdult\tNo\t118\n2nd\tMale\tAdult\tNo\t154\n3rd\tMale\tAdult\tNo\t387\nCrew\tMale\tAdult\tNo\t670\n1st\tFemale\tAdult\tNo\t4\n2nd\tFemale\tAdult\tNo\t13\n3rd\tFemale\tAdult\tNo\t89\nCrew\tFemale\tAdult\tNo\t3\n1st\tMale\tChild\tYes\t5\n2nd\tMale\tChild\tYes\t11\n3rd\tMale\tChild\tYes\t13\nCrew\tMale\tChild\tYes\t0\n1st\tFemale\tChild\tYes\t1\n2nd\tFemale\tChild\tYes\t13\n3rd\tFemale\tChild\tYes\t14\nCrew\tFemale\tChild\tYes\t0\n1st\tMale\tAdult\tYes\t57\n2nd\tMale\tAdult\tYes\t14\n3rd\tMale\tAdult\tYes\t75\nCrew\tMale\tAdult\tYes\t192\n1st\tFemale\tAdult\tYes\t140\n2nd\tFemale\tAdult\tYes\t80\n3rd\tFemale\tAdult\tYes\t76\nCrew\tFemale\tAdult\tYes\t20"
+    }
+  }
+}

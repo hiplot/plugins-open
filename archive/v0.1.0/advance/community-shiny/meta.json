@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Community Shiny",
+    "en": "Community Shiny"
+  },
+  "alias": ["Molecular-Community"],
+  "intro": {
+    "zh_cn": "社群网络分析",
+    "en": "Community Network Analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/53-dRTTiQ-tuya.jpg",
+  "href": "/advance/community-shiny",
+  "tag": [
+    "shiny",
+    "expression"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-26",
+    "updateDate": "2020-08-26"
+  }
+}

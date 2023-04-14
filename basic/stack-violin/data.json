@@ -1,0 +1,53 @@
+{
+  "module": "basic",
+  "tool": "stack-violin",
+  "params": {
+    "textarea": {"1-expmat": "", "2-genelist": "" },
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 7,
+          "height": 10
+        },
+        "theme": "default",
+        "palette": "lancet",
+        "title": "",
+        "alpha": 0.5,
+        "font": "Arial",
+        "titleSize": 12,
+        "legendPos": "none",
+        "legendDir": "vertical",
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "plumber": false
+      },
+      "extra": {
+        "yangle": 0
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "public/demo/stack-violin.txt",
+          "link": ""
+        }
+      },
+      "general": {
+        "title": ""
+      }
+    },
+    "textarea": {
+      "2-genelist": "reature\nACTG1\nARF1\nALDOA\nARHGDIA\nACTB"
+    }
+  }
+}

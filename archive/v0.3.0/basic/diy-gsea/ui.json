@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1-datTable": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "GeneList",
+        "zh_cn": "基因"
+      },
+      "required": true
+    },
+    "2-term": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Term",
+        "zh_cn": "基因集"
+      },
+      "required": true
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "color": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color of Line Segments",
+        "zh_cn": "线段颜色"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "colorLine": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color of Enrichment Score Line",
+        "zh_cn": "富集分数线颜色"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "colorVline": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color of Vertical Line",
+        "zh_cn": "垂直线段颜色"
+      },
+      "class": "col-12 col-md-12"
+    }
+  }
+}

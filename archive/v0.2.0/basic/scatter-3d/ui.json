@@ -1,0 +1,44 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": {
+          "en": "Color By",
+          "zh_cn": "颜色映射"
+        },
+        "required": false
+      },
+      {
+        "label": {
+          "en": "Shape By",
+          "zh_cn": "形状映射"
+        },
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "extra": {
+    "phi": {
+      "type": "slider",
+      "label": "messages.basic.common.phi",
+      "class": "col-12 col-md-6",
+      "max": 90,
+      "min": -90
+    },
+    "theta": {
+      "type": "slider",
+      "label": "messages.basic.common.theta",
+      "class": "col-12 col-md-6",
+      "max": 180,
+      "min": -180
+    }
+  }
+}

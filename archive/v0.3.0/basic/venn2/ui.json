@@ -1,0 +1,56 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "linetype": {
+      "type": "autocomplete",
+      "required": true,
+      "label": {
+        "en": "Border Type",
+        "zh_cn": "描边类型"
+      },
+      "items": ["blank", "solid", "dashed", "dotted",
+          "dotdash", "longdash", "twodash"],
+      "class": "col-12"
+    },
+    "ilcs": {
+      "type": "slider",
+      "label": {
+        "en": "Size of Labels",
+        "zh_cn": "文字标注大小"
+      },
+      "step": 0.01,
+      "class": "col-12 col-md-6"
+    },
+    "sncs": {
+      "type": "slider",
+      "label": {
+        "en": "Size of Sets Label",
+        "zh_cn": "集合标签文字大小"
+      },
+      "step": 0.01,
+      "class": "col-12 col-md-6"
+    },
+    "ellipse": {
+      "type": "switch",
+      "label": {
+        "en": "Ellipse Layout",
+        "zh_cn": "椭圆布局"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "box": {
+      "type": "switch",
+      "label": {
+        "en": "Box Line",
+        "zh_cn": "框线"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

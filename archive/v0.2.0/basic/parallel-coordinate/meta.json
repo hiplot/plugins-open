@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "平行坐标图",
+    "en": "Parallel Coordinate"
+  },
+  "alias": ["Parallel-Coordinate"],
+  "intro": {
+    "zh_cn": "展示高维多元数据",
+    "en": "Display high-dimensional data"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/11/07/parallel-coordinate-0.ibfuina2beh-1-tuya.jpg",
+  "href": "/basic/parallel-coordinate",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "version": "v0.1.1",
+    "score": 5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2020-10-08",
+    "updateDate": "2020-10-09"
+  }
+}

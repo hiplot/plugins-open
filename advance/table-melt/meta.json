@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "表格宽数据转长数据",
+    "en": "Table Melt"
+  },
+  "alias": ["Table-Melt"],
+  "intro": {
+    "zh_cn": "表格操作",
+    "en": "Table Operation"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/07/table-melt.png",
+  "href": "/advance/table-melt",
+  "tag": [
+    "shiny",
+    "table"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-10-06",
+    "updateDate": "2020-10-06"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "module": "basic",
+  "tool": "ridge",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 8,
+          "height": 4
+        },
+        "theme": "theme_stata",
+        "palette": "npg",
+        "title": "",
+        "alpha": 0.8,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Ridge Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "value\tgroup\n5.1\tG1\n4.9\tG1\n4.7\tG1\n4.6\tG1\n5\tG1\n5.4\tG1\n4.6\tG1\n5\tG1\n4.4\tG1\n4.9\tG1\n5.4\tG1\n4.8\tG1\n4.8\tG1\n4.3\tG1\n5.8\tG1\n5.7\tG1\n5.4\tG1\n5.1\tG1\n5.7\tG1\n5.1\tG1\n5.4\tG1\n5.1\tG1\n4.6\tG1\n5.1\tG1\n4.8\tG1\n5\tG1\n5\tG1\n5.2\tG1\n5.2\tG1\n4.7\tG1\n4.8\tG1\n5.4\tG1\n5.2\tG1\n5.5\tG1\n4.9\tG1\n5\tG1\n5.5\tG1\n4.9\tG1\n4.4\tG1\n5.1\tG1\n5\tG1\n4.5\tG1\n4.4\tG1\n5\tG1\n5.1\tG1\n4.8\tG1\n5.1\tG1\n4.6\tG1\n5.3\tG1\n5\tG1\n7\tG2\n6.4\tG2\n6.9\tG2\n5.5\tG2\n6.5\tG2\n5.7\tG2\n6.3\tG2\n4.9\tG2\n6.6\tG2\n5.2\tG2\n5\tG2\n5.9\tG2\n6\tG2\n6.1\tG2\n5.6\tG2\n6.7\tG2\n5.6\tG2\n5.8\tG2\n6.2\tG2\n5.6\tG2\n5.9\tG2\n6.1\tG2\n6.3\tG2\n6.1\tG2\n6.4\tG2\n6.6\tG2\n6.8\tG2\n6.7\tG2\n6\tG2\n5.7\tG2\n5.5\tG2\n5.5\tG2\n5.8\tG2\n6\tG2\n5.4\tG2\n6\tG2\n6.7\tG2\n6.3\tG2\n5.6\tG2\n5.5\tG2\n5.5\tG2\n6.1\tG2\n5.8\tG2\n5\tG2\n5.6\tG2\n5.7\tG2\n5.7\tG2\n6.2\tG2\n5.1\tG2\n5.7\tG2\n6.3\tG3\n5.8\tG3\n7.1\tG3\n6.3\tG3\n6.5\tG3\n7.6\tG3\n4.9\tG3\n7.3\tG3\n6.7\tG3\n7.2\tG3\n6.5\tG3\n6.4\tG3\n6.8\tG3\n5.7\tG3\n5.8\tG3\n6.4\tG3\n6.5\tG3\n7.7\tG3\n7.7\tG3\n6\tG3\n6.9\tG3\n5.6\tG3\n7.7\tG3\n6.3\tG3\n6.7\tG3\n7.2\tG3\n6.2\tG3\n6.1\tG3\n6.4\tG3\n7.2\tG3\n7.4\tG3\n7.9\tG3\n6.4\tG3\n6.3\tG3\n6.1\tG3\n7.7\tG3\n6.3\tG3\n6.4\tG3\n6\tG3\n6.9\tG3\n6.7\tG3\n6.9\tG3\n5.8\tG3\n6.8\tG3\n6.7\tG3\n6.7\tG3\n6.3\tG3\n6.5\tG3\n6.2\tG3\n5.9\tG3"
+    }
+  }
+}

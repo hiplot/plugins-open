@@ -1,0 +1,36 @@
+{
+  "module": "basic",
+  "tool": "bumpchart",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 6,
+          "height": 4
+        },
+        "paletteCont": "RdBu",
+        "palette": "null",
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "point_size": 5,
+        "line_size": 1.5,
+        "text_size": 5
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Bumpchart"
+      }
+    },
+    "textarea": {
+      "datTable": "x\ty\tgroup\n2019\t4\tA\n2020\t2\tA\n2021\t2\tA\n2019\t3\tB\n2020\t1\tB\n2021\t4\tB\n2019\t2\tC\n2020\t3\tC\n2021\t1\tC\n2019\t1\tD\n2020\t4\tD\n2021\t3\tD"
+    }
+  }
+}

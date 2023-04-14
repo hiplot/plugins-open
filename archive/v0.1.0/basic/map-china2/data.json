@@ -1,0 +1,39 @@
+{
+  "module": "basic",
+  "tool": "map-china2",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 25,
+          "height": 27
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false,
+        "cliMode": true
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "China Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "name\tvalue\n安徽省\t6118\n福建省\t3581\n甘肃省\t2617\n广东省\t9449\n贵州省\t3762\n海南省\t845\n河北省\t6943\n河南省\t9360\n黑龙江省\t3824\n湖北省\t5699\n湖南省\t6355\n吉林省\t2730\n江苏省\t7625\n江西省\t4368\n辽宁省\t4298\n青海省\t552\n山东省\t9367\n山西省\t3393\n陕西省\t3748\n四川省\t8127\n台湾省\t2296\n云南省\t4514\n浙江省\t5060\n北京市\t1633\n天津市\t1115\n上海市\t1858\n重庆市\t2816\n广西壮族自治区\t4768\n内蒙古自治区\t2405\n宁夏回族自治区\t610\n西藏自治区\t284\n新疆维吾尔自治区\t2095\n香港特别行政区\t693\n澳门特别行政区\t453"
+    }
+  }
+}

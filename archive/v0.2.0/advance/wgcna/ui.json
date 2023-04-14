@@ -1,0 +1,36 @@
+{
+  "data": {
+    "1-expmat": {
+      "label": "messages.common.dataTable",
+      "type": "cloud-file",
+      "required": true,
+      "exts": [
+        "txt"
+      ],
+      "icon": "mdi-file",
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "2-traits": {
+      "type": "cloud-file",
+      "required": true,
+      "exts": [
+        "txt"
+      ],
+      "icon": "mdi-file",
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true,
+      "label": {
+        "en": "Traits",
+        "zh_cn": "表型文件"
+      }
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  }
+}

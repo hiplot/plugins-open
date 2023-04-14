@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "扩散映射",
+    "en": "Diffusion Map"
+  },
+  "alias": ["Basic-Diffusion-MAP"],
+  "intro": {
+    "zh_cn": "降维方法",
+    "en": "Dimension reduction methods"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/07/09/diffusion-map-0.jzzdthbrexn-1a113f4383b93a8a0.jpg",
+  "href": "/basic/diffusion-map",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2022-07-09",
+    "updateDate": "2022-07-09",
+    "version": "v0.1.0"
+  }
+}

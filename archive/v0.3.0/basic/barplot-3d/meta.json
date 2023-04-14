@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "三维柱状图",
+    "en": "3D Barplot"
+  },
+  "alias": ["3D-Bar"],
+  "intro": {
+    "zh_cn": "展示数据值",
+    "en": "Display data values"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/barplot-3d-0.6whi8lcgqzi-1-tuyafc7d1de33797b819.jpg",
+  "href": "/basic/barplot-3d",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.8,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-09-03",
+    "updateDate": "2020-02-17"
+  }
+}

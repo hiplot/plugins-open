@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "统计分布图",
+    "en": "Vistributions"
+  },
+  "alias": ["Prob-Dist"],
+  "intro": {
+    "zh_cn": "统计分布可视化",
+    "en": "Visualization of statistical distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/02/21/vistributions-0.kb62egfxxoc-tuya.jpg",
+  "href": "/mini-tools/vistributions",
+  "tag": [
+    "vue",
+    "statistics"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | Jianfeng",
+    "version": "v0.1.0",
+    "releaseDate": "2021-02-21",
+    "updateDate": "2021-02-21"
+  }
+}

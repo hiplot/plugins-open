@@ -1,0 +1,26 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "labelsize": {
+      "type": "switch",
+      "label": "messages.basic.treemap.labelsize",
+      "class": "col-12 col-md-6"
+    },
+    "labelcol": {
+      "type": "color-picker",
+      "label": "messages.basic.treemap.labelcol",
+      "class": "col-12 col-md-6"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "LEfSe",
+    "en": "LEfSe"
+  },
+  "alias": ["LEfSe-Online"],
+  "intro": {
+    "zh_cn": "宏基因组数据分析应用",
+    "en": "Metagenomic Data Analysis Application"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/07/lefse-tuya.jpg",
+  "href": "/advance/lefse",
+  "tag": [
+    "shiny",
+    "microbiome"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "issues": "https://github.com/hiplot/gold",
+    "releaseDate": "2020-11-07",
+    "updateDate": "2020-11-07"
+  }
+}

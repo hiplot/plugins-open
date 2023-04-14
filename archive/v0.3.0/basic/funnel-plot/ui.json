@@ -1,0 +1,147 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": {
+          "en": "Dependent Variable",
+          "zh_cn": "因变量"
+        }
+      },
+      {
+        "label": {
+          "en": "Independent Variables",
+          "zh_cn": "自变量"
+        }
+      },
+      {
+        "label": {
+          "en": "Factorization",
+          "zh_cn": "因子化"
+        }
+      },
+      {
+        "label": {
+          "en": "Denominator",
+          "zh_cn": "预测/人口"
+        }
+      },
+      {
+        "label": {
+          "en": "Group",
+          "zh_cn": "分组"
+        }
+      }
+    ]
+  },
+  "extra": {
+    "family": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Model Family",
+        "zh_cn": "模型分布"
+      },
+      "items": [
+        "binomial",
+        "gaussian",
+        "gamma",
+        "inverse.gaussian",
+        "poisson",
+        "quasi",
+        "quasibinomial",
+        "quasipoisson"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "data_type": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Data Type",
+        "zh_cn": "数据类型"
+      },
+      "items": [
+        "SR",
+        "PR",
+        "RC"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "sr_method": {
+      "type": "autocomplete",
+      "label": {
+        "en": "SR Method",
+        "zh_cn": "SR 调整方法"
+      },
+      "items": [
+        "CQC",
+        "SHMI"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "label": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Label Outliers",
+        "zh_cn": "标注离群值"
+      },
+      "items": [
+        "outlier",
+        "outlier_lower",
+        "outlier_upper",
+        "highlight",
+        "both",
+        "both_lower",
+        "both_upper",
+        "NA"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "limit": {
+      "type": "slider",
+      "label": {
+        "en": "Quantiles",
+        "zh_cn": "百分比"
+      },
+      "min": 95,
+      "max": 99,
+      "step": 0.001,
+      "class": "col-12 col-md-6"
+    },
+    "trim_by": {
+      "type": "slider",
+      "label": {
+        "en": "Trim By",
+        "zh_cn": "去除比例"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.001,
+      "class": "col-12 col-md-6"
+    },
+    "multiplier": {
+      "type": "slider",
+      "label": {
+        "en": "Multiplier",
+        "zh_cn": "扩增系数"
+      },
+      "min": 0,
+      "max": 100,
+      "step": 0.001,
+      "class": "col-12"
+    },
+    "draw_adjusted": {
+      "type": "switch",
+      "label": {
+        "en": "Adjusted Overdispersed",
+        "zh_cn": "校正过离散"
+      },
+      "class": "col-12 col-md-4"
+    }
+  }
+}

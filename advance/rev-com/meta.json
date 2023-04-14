@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "反向互补序列",
+    "en": "Reverse & Complement"
+  },
+  "alias": ["Reverse-Complement"],
+  "intro": {
+    "zh_cn": "序列操作",
+    "en": "Sequence Operation"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/08/rev-com-tuya.jpg",
+  "href": "/advance/rev-com",
+  "tag": [
+    "shiny",
+    "seq"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-10-08",
+    "updateDate": "2020-10-08"
+  }
+}

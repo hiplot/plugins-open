@@ -1,0 +1,49 @@
+{
+  "data": {
+    "datmat": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "centre": {
+      "type": "switch",
+      "label": {
+        "en": "Draw Cluster Centre Line",
+        "zh_cn": "绘制簇中心线"
+      },
+      "class": "col-12"
+    },
+    "cluster_num": {
+      "type": "slider",
+      "label": {
+        "en": "Cluster Num",
+        "zh_cn": "簇数目"
+      },
+      "class": "col-12 col-md-6",
+      "max": 20,
+      "step": 1
+    },
+    "thres": {
+      "type": "slider",
+      "label": {
+        "en": "Threshold",
+        "zh_cn": "阈值"
+      },
+      "class": "col-12 col-md-6",
+      "max": 1,
+      "step": 0.01
+    },
+    "min_std": {
+      "type": "slider",
+      "label": {
+        "en": "MinStd",
+        "zh_cn": "最小标准差"
+      },
+      "class": "col-12",
+      "max": 1,
+      "step": 0.01
+    }
+  }
+}

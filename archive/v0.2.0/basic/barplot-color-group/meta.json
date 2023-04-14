@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "颜色组柱状图",
+    "en": "Barplot Color Group"
+  },
+  "alias": ["Enrich-Bar"],
+  "intro": {
+    "zh_cn": "展示数据值",
+    "en": "Display data values"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/02/02/barplot-color-group.jpg",
+  "href": "/basic/barplot-color-group",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.99,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-02-02",
+    "updateDate": "2021-02-02"
+  }
+}

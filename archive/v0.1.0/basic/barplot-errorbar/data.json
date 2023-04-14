@@ -1,0 +1,46 @@
+{
+  "module": "basic",
+  "tool": "barplot-errorbar",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 4,
+          "height": 2.5
+        },
+        "theme": "theme_bw",
+        "palette": "aaas",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "bar_colour":"#000000",
+        "errorbar_width":0.2
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Barplot (errorbar)"
+      }
+    },
+    "textarea": {
+      "datTable": "score\tclass\tstudent\n60\tmath\tstuA\n62\tmath\tstuA\n70\tchinese\tstuA\n73\tchinese\tstuA\n80\tenglish\tstuA\n85\tenglish\tstuA\n65\tmath\tstuB\n67\tmath\tstuB\n75\tchinese\tstuB\n77\tchinese\tstuB\n85\tenglish\tstuB\n83\tenglish\tstuB"
+    }
+  }
+}

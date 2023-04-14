@@ -1,0 +1,21 @@
+{
+  "name": {
+    "zh_cn": "鱼形图",
+    "en": "Fishplot"
+  },
+  "alias": ["Subclonal-Structure"],
+  "intro": {
+    "zh_cn": "克隆演化分析",
+    "en": "Clone evolution analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/26/fishplot-0.04akq4i1wlfo-1-1-tuya.jpg",
+  "href": "/basic/fishplot",
+  "tag": ["vue", "evolution"],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2021-03-26",
+    "updateDate": "2021-03-26"
+  }
+}

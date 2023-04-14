@@ -1,0 +1,22 @@
+{
+  "name": {
+    "zh_cn": "通用柱状图（ggpubr）",
+    "en": "Barplot (ggpubr)"
+  },
+  "intro": {
+    "zh_cn": "展示数据值",
+    "en": "Display data values"
+  },
+  "src": "",
+  "href": "/basic/barplot-ggpubr",
+  "tag": [
+    "distribution",
+    "comparison"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team",
+    "releaseDate": "2020-12-29",
+    "updateDate": "2020-12-29"
+  }
+}

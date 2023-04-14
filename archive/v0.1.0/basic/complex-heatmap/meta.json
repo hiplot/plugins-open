@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "复合热图 (预览版)",
+    "en": "Complex Heatmap (Dev)"
+  },
+  "alias": ["Complex-Heatmap"],
+  "intro": {
+    "zh_cn": "多组学数据矩阵展示",
+    "en": "Multi-omics matrix display"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/06/complex-heatmap-tuya.jpg",
+  "href": "/basic/complex-heatmap",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2020-09-06",
+    "updateDate": "2020-09-06"
+  }
+}

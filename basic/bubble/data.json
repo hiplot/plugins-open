@@ -1,0 +1,97 @@
+{
+  "module": "basic",
+  "tool": "bubble",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "data": {
+        "datTable": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 6,
+          "height": 4
+        },
+        "theme": "theme_bw",
+        "title": "",
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "topnum": 7,
+        "low_color": "#00438e",
+        "high_color": "#E43535",
+        "transform": "-log10",
+        "pq_value": "",
+        "show_percent": false
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "datTable": {
+          "value": "public/demo/bubble/data.txt",
+          "link": ""
+        }
+      },
+      "dataArg": {
+        "datTable": [
+          {
+            "value": "Term"
+          },
+          {
+            "value": "Count"
+          },
+          {
+            "value": "Ratio"
+          },
+          {
+            "value": "PValue"
+          }
+        ]
+      },
+      "general": {
+        "title": "Bubble Plot"
+      },
+      "extra": {
+        "pq_value": "P Value"
+      }
+    },
+    "textarea": {
+      "datTable": "Term\tCount\tRatio\tPValue\nGO:0006955~immune response\t20\t10.47120419\t9.61E-08\nGO:0042742~defense response to bacterium\t11\t5.759162304\t3.02E-06\nGO:0060326~cell chemotaxis\t8\t4.188481675\t5.14E-06\nGO:0007155~cell adhesion\t17\t8.90052356\t2.73E-05\nGO:0006956~complement activation\t8\t4.188481675\t3.56E-05\nGO:0030198~extracellular matrix organization\t11\t5.759162304\t4.23E-05\nGO:0006958~complement activation, classical pathway\t8\t4.188481675\t8.16E-05\nGO:0030324~lung development\t7\t3.664921466\t1.45E-04\nGO:0050871~positive regulation of B cell activation\t5\t2.617801047\t1.46E-04\nGO:0055114~oxidation-reduction process\t18\t9.42408377\t1.67E-04\nGO:0006954~inflammatory response\t14\t7.329842932\t1.85E-04\nGO:0006910~phagocytosis, recognition\t5\t2.617801047\t1.96E-04\nGO:0042738~exogenous drug catabolic process\t4\t2.094240838\t2.32E-04\nGO:0006957~complement activation, alternative pathway\t4\t2.094240838\t3.00E-04\nGO:0010560~positive regulation of glycoprotein biosynthetic process\t3\t1.570680628\t3.25E-04\nGO:0019221~cytokine-mediated signaling pathway\t8\t4.188481675\t4.62E-04\nGO:0006911~phagocytosis, engulfment\t5\t2.617801047\t4.74E-04\nGO:0046426~negative regulation of JAK-STAT cascade\t5\t2.617801047\t7.94E-04\nGO:0019373~epoxygenase P450 pathway\t4\t2.094240838\t8.23E-04\nGO:0070098~chemokine-mediated signaling pathway\t6\t3.141361257\t8.90E-04\nGO:2000107~negative regulation of leukocyte apoptotic process\t3\t1.570680628\t0.001593802\nGO:0050853~B cell receptor signaling pathway\t5\t2.617801047\t0.002452192\nGO:0040014~regulation of multicellular organism growth\t4\t2.094240838\t0.002464663\nGO:0017144~drug metabolic process\t4\t2.094240838\t0.002751555\nGO:0030449~regulation of complement activation\t4\t2.094240838\t0.003732442\nGO:0060670~branching involved in labyrinthine layer morphogenesis\t3\t1.570680628\t0.003746713\nGO:0002544~chronic inflammatory response\t3\t1.570680628\t0.003746713\nGO:2000406~positive regulation of T cell migration\t3\t1.570680628\t0.004651222\nGO:0014068~positive regulation of phosphatidylinositol 3-kinase signaling\t5\t2.617801047\t0.004802875\nGO:0045087~innate immune response\t12\t6.282722513\t0.005741514\nGO:0071356~cellular response to tumor necrosis factor\t6\t3.141361257\t0.006035394\nGO:0050921~positive regulation of chemotaxis\t3\t1.570680628\t0.006728517\nGO:0045766~positive regulation of angiogenesis\t6\t3.141361257\t0.007259757\nGO:0030199~collagen fibril organization\t4\t2.094240838\t0.007843337\nGO:2000147~positive regulation of cell motility\t3\t1.570680628\t0.009150562\nGO:0008202~steroid metabolic process\t4\t2.094240838\t0.010273626\nGO:0030214~hyaluronan catabolic process\t3\t1.570680628\t0.010486124\nGO:0007405~neuroblast proliferation\t3\t1.570680628\t0.011902241\nGO:0050830~defense response to Gram-positive bacterium\t5\t2.617801047\t0.012229194\nGO:0002407~dendritic cell chemotaxis\t3\t1.570680628\t0.0133971\nGO:0006898~receptor-mediated endocytosis\t7\t3.664921466\t0.013738177\nGO:0006508~proteolysis\t12\t6.282722513\t0.016467098\nGO:0045926~negative regulation of growth\t3\t1.570680628\t0.01661592\nGO:0048146~positive regulation of fibroblast proliferation\t4\t2.094240838\t0.018995878\nGO:0006469~negative regulation of protein kinase activity\t5\t2.617801047\t0.02032845\nGO:0060045~positive regulation of cardiac muscle cell proliferation\t3\t1.570680628\t0.021990955\nGO:0002576~platelet degranulation\t5\t2.617801047\t0.023126906\nGO:0009612~response to mechanical stimulus\t4\t2.094240838\t0.023974023\nGO:0050679~positive regulation of epithelial cell proliferation\t4\t2.094240838\t0.025046243\nGO:0048661~positive regulation of smooth muscle cell proliferation\t4\t2.094240838\t0.025046243\nGO:0007166~cell surface receptor signaling pathway\t8\t4.188481675\t0.025622604\nGO:0001523~retinoid metabolic process\t4\t2.094240838\t0.026143967\nGO:0002040~sprouting angiogenesis\t3\t1.570680628\t0.0279821\nGO:0034112~positive regulation of homotypic cell-cell adhesion\t2\t1.047120419\t0.031116964\nGO:0060491~regulation of cell projection assembly\t2\t1.047120419\t0.031116964\nGO:0060523~prostate epithelial cord elongation\t2\t1.047120419\t0.031116964\nGO:0030573~bile acid catabolic process\t2\t1.047120419\t0.031116964\nGO:0035690~cellular response to drug\t4\t2.094240838\t0.03583872\nGO:0030203~glycosaminoglycan metabolic process\t3\t1.570680628\t0.036854499\nGO:0000281~mitotic cytokinesis\t3\t1.570680628\t0.036854499\nGO:0070374~positive regulation of ERK1 and ERK2 cascade\t6\t3.141361257\t0.037245008\nGO:0071347~cellular response to interleukin-1\t4\t2.094240838\t0.038513556\nGO:0006935~chemotaxis\t5\t2.617801047\t0.039516319\nGO:1903237~negative regulation of leukocyte tethering or rolling\t2\t1.047120419\t0.041273818\nGO:0051450~myoblast proliferation\t2\t1.047120419\t0.041273818\nGO:0033634~positive regulation of cell-cell adhesion mediated by integrin\t2\t1.047120419\t0.041273818\nGO:0043552~positive regulation of phosphatidylinositol 3-kinase activity\t3\t1.570680628\t0.041642397\nGO:0007259~JAK-STAT cascade\t3\t1.570680628\t0.044119187\nGO:0030335~positive regulation of cell migration\t6\t3.141361257\t0.044571504\nGO:0006805~xenobiotic metabolic process\t4\t2.094240838\t0.048649052\nGO:0030282~bone mineralization\t3\t1.570680628\t0.049231449\nGO:0001837~epithelial to mesenchymal transition\t3\t1.570680628\t0.049231449\nGO:0050728~negative regulation of inflammatory response\t4\t2.094240838\t0.050193529\nGO:0007267~cell-cell signaling\t7\t3.664921466\t0.051088622\nGO:0050918~positive chemotaxis\t3\t1.570680628\t0.051864192\nGO:0008284~positive regulation of cell proliferation\t10\t5.235602094\t0.057161003\nGO:0051897~positive regulation of protein kinase B signaling\t4\t2.094240838\t0.058268479\nGO:0060527~prostate epithelial cord arborization involved in prostate glandular acinus morphogenesis\t2\t1.047120419\t0.061270994\nGO:0032754~positive regulation of interleukin-5 production\t2\t1.047120419\t0.061270994\nGO:0071286~cellular response to magnesium ion\t2\t1.047120419\t0.061270994\nGO:0019800~peptide cross-linking via chondroitin 4-sulfate glycosaminoglycan\t2\t1.047120419\t0.061270994\nGO:0032914~positive regulation of transforming growth factor beta1 production\t2\t1.047120419\t0.061270994\nGO:0001768~establishment of T cell polarity\t2\t1.047120419\t0.061270994\nGO:0006928~movement of cell or subcellular component\t4\t2.094240838\t0.061659932\nGO:0032355~response to estradiol\t4\t2.094240838\t0.070529864\nGO:0043654~recognition of apoptotic cell\t2\t1.047120419\t0.0711135\nGO:0072112~glomerular visceral epithelial cell differentiation\t2\t1.047120419\t0.0711135\nGO:2000503~positive regulation of natural killer cell chemotaxis\t2\t1.047120419\t0.0711135\nGO:0048251~elastic fiber assembly\t2\t1.047120419\t0.0711135\nGO:2000096~positive regulation of Wnt signaling pathway, planar cell polarity pathway\t2\t1.047120419\t0.0711135\nGO:0051988~regulation of attachment of spindle microtubules to kinetochore\t2\t1.047120419\t0.0711135\nGO:0061051~positive regulation of cell growth involved in cardiac muscle cell development\t2\t1.047120419\t0.0711135\nGO:0032736~positive regulation of interleukin-13 production\t2\t1.047120419\t0.0711135\nGO:0002606~positive regulation of dendritic cell antigen processing and presentation\t2\t1.047120419\t0.0711135\nGO:0019441~tryptophan catabolic process to kynurenine\t2\t1.047120419\t0.0711135\nGO:0060687~regulation of branching involved in prostate gland morphogenesis\t2\t1.047120419\t0.0711135\nGO:0001867~complement activation, lectin pathway\t2\t1.047120419\t0.0711135\nGO:0030388~fructose 1,6-bisphosphate metabolic process\t2\t1.047120419\t0.0711135\nGO:0002548~monocyte chemotaxis\t3\t1.570680628\t0.071601752\nGO:0018108~peptidyl-tyrosine phosphorylation\t5\t2.617801047\t0.077491308\nGO:0006094~gluconeogenesis\t3\t1.570680628\t0.077624394\nGO:0034695~response to prostaglandin E\t2\t1.047120419\t0.080853388\nGO:0060396~growth hormone receptor signaling pathway\t2\t1.047120419\t0.080853388\nGO:0002221~pattern recognition receptor signaling pathway\t2\t1.047120419\t0.080853388\nGO:0040036~regulation of fibroblast growth factor receptor signaling pathway\t2\t1.047120419\t0.080853388\nGO:0006629~lipid metabolic process\t5\t2.617801047\t0.083297979\nGO:0010468~regulation of gene expression\t4\t2.094240838\t0.087838938\nGO:0097267~omega-hydroxylase P450 pathway\t2\t1.047120419\t0.090491722\nGO:0010863~positive regulation of phospholipase C activity\t2\t1.047120419\t0.090491722\nGO:0006569~tryptophan catabolic process\t2\t1.047120419\t0.090491722\nGO:0000082~G1/S transition of mitotic cell cycle\t4\t2.094240838\t0.091907755"
+    }
+  }
+}

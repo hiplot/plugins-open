@@ -1,0 +1,47 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "plot_type": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Plot Type",
+        "zh_cn": "绘图类型"
+      },
+      "items": ["line", "barplot"],
+      "class": "col-12"
+    },
+    "line_size": {
+      "type": "slider",
+      "label": {
+        "en": "Line Size",
+        "zh_cn": "线条大小"
+      },
+      "class": "col-12 col-md-6",
+      "max": 5,
+      "step": 0.1,
+      "if_func": "this.params.config.extra.plot_type === 'line'"
+    },
+    "point_size": {
+      "type": "slider",
+      "label": {
+        "en": "Point Size",
+        "zh_cn": "点大小"
+      },
+      "class": "col-12 col-md-6",
+      "max": 10,
+      "step": 0.1,
+      "if_func": "this.params.config.extra.plot_type === 'line'"
+    }
+  }
+}

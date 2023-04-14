@@ -1,0 +1,55 @@
+{
+  "module": "basic",
+  "tool": "barplot-line-multiple",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 8,
+          "height": 5
+        },
+        "theme": "theme_stata",
+        "palette": "aaas",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10,
+        "xlab":"X Lable",
+        "ylab":"Value",
+        "transformX": "",
+        "transformY": "",
+        "xbreaks": [],
+        "ybreaks": []
+      },
+      "extra": {
+        "legend_title":"",
+        "plot_type":"line",
+        "line_size":1,
+        "point_size":3,
+        "bar_colour":"#000000"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Barplot & Line (Multiple)"
+      }
+    },
+    "textarea": {
+      "datTable": "age\theight\tweight\tmath\tbiology\tenglish\tchinese\n12\t158\t100\t120\t90\t115\t140\n15\t160\t110\t145\t80\t120\t120\n18\t175\t120\t132\t95\t118\t110\n20\t176\t121\t124\t99\t118\t136\n21\t176\t120\t135\t98\t114\t150\n22\t177\t124\t140\t87\t110\t150"
+    }
+  }
+}

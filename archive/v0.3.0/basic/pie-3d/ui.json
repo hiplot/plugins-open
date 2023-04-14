@@ -1,0 +1,44 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "radius": {
+      "type": "slider",
+      "label": "messages.basic.pie3d.radius",
+      "step": 0.05,
+      "max": 1,
+      "class": "col-12 col-md-6"
+    },
+    "height": {
+      "type": "slider",
+      "label": "messages.basic.pie3d.height",
+      "step": 0.05,
+      "max": 1,
+      "class": "col-12 col-md-6"
+    },
+    "theta": {
+      "type": "slider",
+      "label": "messages.basic.common.theta",
+      "step": 0.05,
+      "max": 1,
+      "class": "col-12 col-md-6"
+    },
+    "explode": {
+      "type": "slider",
+      "label": "messages.basic.common.explode",
+      "step": 0.05,
+      "max": 1,
+      "class": "col-12 col-md-6"
+    }
+  }
+}

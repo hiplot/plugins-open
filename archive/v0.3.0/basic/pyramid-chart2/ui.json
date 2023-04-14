@@ -1,0 +1,35 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Age"
+      },
+      {
+        "label": "Split By"
+      },
+      {
+        "label": "Stack By",
+        "required": false
+      }
+    ]
+  },
+  "extra": {
+    "age_breaks": {
+      "type": "combobox",
+      "label": {
+        "en": "Age Breaks",
+        "zh_cn": "年龄刻度"
+      },
+      "class": "col-12",
+      "required": false,
+      "multiple": true
+    }
+  }
+}

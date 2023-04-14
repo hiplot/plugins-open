@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "堆积柱状图 Shiny",
+    "en": "Stacked Bar Shiny"
+  },
+  "alias": ["Stack-Bar"],
+  "intro": {
+    "zh_cn": "柱状图 Shiny 应用",
+    "en": "Barplot Shiny Application"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/12/14/stacked-bar.png",
+  "href": "/advance/stacked-bar",
+  "tag": [
+    "shiny",
+    "bar"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Zhiwei Bao",
+    "issues": "https://github.com/zwbao/shinyapps/issues",
+    "releaseDate": "2020-12-14",
+    "updateDate": "2020-12-14"
+  }
+}

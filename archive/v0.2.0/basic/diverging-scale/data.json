@@ -1,0 +1,50 @@
+{
+  "module": "basic",
+  "tool": "diverging-scale",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+        "datTable": [{ "value": "" }, { "value": "" }]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 4,
+          "height": 3.5
+        },
+        "theme": "default",
+        "title": "",
+        "font": "Arial",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10
+      },
+      "extra": {
+        "type": "lollipop",
+        "groupcolor1": "#C20B01",
+        "groupcolor2": "#196ABD",
+        "lineSize": 0.3,
+        "pointSize": 1.9,
+        "scale": true
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "datTable": [{ "value": "hp" }, { "value": "model" }]
+      },
+      "general": {
+        "title": ""
+      },
+      "extra": {
+        "type": "lollipop"
+      }
+    },
+    "textarea": {
+      "datTable": "model\tmpg\tcyl\tdisp\thp\tdrat\twt\tqsec\tvs\tam\tgear\tcarb\nMazda RX4\t21\t6\t160\t110\t3.9\t2.62\t16.46\t0\t1\t4\t4\nMazda RX4 Wag\t21\t6\t160\t110\t3.9\t2.875\t17.02\t0\t1\t4\t4\nDatsun 710\t22.8\t4\t108\t93\t3.85\t2.32\t18.61\t1\t1\t4\t1\nHornet 4 Drive\t21.4\t6\t258\t110\t3.08\t3.215\t19.44\t1\t0\t3\t1\nHornet Sportabout\t18.7\t8\t360\t175\t3.15\t3.44\t17.02\t0\t0\t3\t2\nValiant\t18.1\t6\t225\t105\t2.76\t3.46\t20.22\t1\t0\t3\t1\nDuster 360\t14.3\t8\t360\t245\t3.21\t3.57\t15.84\t0\t0\t3\t4\nMerc 240D\t24.4\t4\t146.7\t62\t3.69\t3.19\t20\t1\t0\t4\t2\nMerc 230\t22.8\t4\t140.8\t95\t3.92\t3.15\t22.9\t1\t0\t4\t2\nMerc 280\t19.2\t6\t167.6\t123\t3.92\t3.44\t18.3\t1\t0\t4\t4\nMerc 280C\t17.8\t6\t167.6\t123\t3.92\t3.44\t18.9\t1\t0\t4\t4\nMerc 450SE\t16.4\t8\t275.8\t180\t3.07\t4.07\t17.4\t0\t0\t3\t3\nMerc 450SL\t17.3\t8\t275.8\t180\t3.07\t3.73\t17.6\t0\t0\t3\t3\nMerc 450SLC\t15.2\t8\t275.8\t180\t3.07\t3.78\t18\t0\t0\t3\t3\nCadillac Fleetwood\t10.4\t8\t472\t205\t2.93\t5.25\t17.98\t0\t0\t3\t4\nLincoln Continental\t10.4\t8\t460\t215\t3\t5.424\t17.82\t0\t0\t3\t4\nChrysler Imperial\t14.7\t8\t440\t230\t3.23\t5.345\t17.42\t0\t0\t3\t4\nFiat 128\t32.4\t4\t78.7\t66\t4.08\t2.2\t19.47\t1\t1\t4\t1"
+    }
+  }
+}

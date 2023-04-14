@@ -1,0 +1,31 @@
+{
+  "name": {
+    "zh_cn": "GGtree-MSA",
+    "en": "GGtree-MSA"
+  },
+  "alias": ["GGtree-MSA"],
+  "intro": {
+    "zh_cn": "进化树可视化",
+    "en": "Visualization of phylogenetic tree"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/05/23/ggtree-msa-0.h68kgilhtul-1-tuya.jpg",
+  "href": "/advance/ggtree-msa",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "tree",
+    "msa"
+  ],
+  "meta": {
+    "score": 5,
+    "issues": "https://github.com/hiplot/gold/issues",
+    "author": "Guangchuang Yu & Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2021-05-23",
+    "updateDate": "2021-05-23",
+    "citation": "G Yu, DK Smith, H Zhu, Y Guan, TTY Lam*. ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data. Methods in Ecology and Evolution. 2017, 8(1):28-36. doi: 10.1111/2041-210X.12628."
+  }
+}

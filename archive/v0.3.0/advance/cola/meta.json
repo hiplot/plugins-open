@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "Cola",
+    "en": "Cola"
+  },
+  "alias": ["Cola"],
+  "intro": {
+    "zh_cn": "聚类分析",
+    "en": "Clustering Analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/cola.jpg",
+  "href": "/advance/cola",
+  "tag": [
+    "vue",
+    "correlation",
+    "clinical"
+  ],
+  "meta": {
+    "version": "v0.1.0",
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "issues": "",
+    "releaseDate": "2022-02-11",
+    "updateDate": "2022-02-11"
+  }
+}

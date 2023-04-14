@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "等高线图 (矩阵)",
+    "en": "Contour (Matrix)"
+  },
+  "alias": ["Contour-Graph"],
+  "intro": {
+    "zh_cn": "展示海拔等信息",
+    "en": "Display the altitude"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/65-JC336O-tuya.jpg",
+  "href": "/basic/contour-matrix",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-09-03",
+    "updateDate": "2020-02-18"
+  }
+}

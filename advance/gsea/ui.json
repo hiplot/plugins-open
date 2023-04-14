@@ -46,7 +46,7 @@
   "extra": {
     "cli_version": {
       "type": "select",
-      "items": ["4.1.0", "4.2.3"],
+      "items": ["4.1.0", "4.2.3", "4.3.2"],
       "label": {
         "en": "GSEA Version",
         "zh_cn": "GSEA 版本"

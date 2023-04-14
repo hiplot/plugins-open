@@ -1,0 +1,47 @@
+{
+  "module": "basic",
+  "tool": "barplot",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 7,
+          "height": 4
+        },
+        "theme": "theme_stata",
+        "palette": "npg",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "type": "dodge",
+        "horizon": false,
+        "label": true
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Bar Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "value\ttreat\tdose\n13\tGroup1\thigh\n34\tGroup2\thigh\n21\tGroup3\thigh\n43\tGroup4\thigh\n25\tGroup1\tmid\n8\tGroup2\tmid\n17\tGroup3\tmid\n10\tGroup4\tmid\n5\tGroup1\tlow\n25\tGroup2\tlow\n12\tGroup3\tlow\n19\tGroup4\tlow"
+    }
+  }
+}

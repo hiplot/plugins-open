@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "标准化均数差",
+    "en": "Standardized Mean Differences"
+  },
+  "alias": ["Prettify-SMD"],
+  "intro": {
+    "zh_cn": "统计参数可视化",
+    "en": "Visualization of Statistical Parameters"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/08/smd-visul-tuya.jpg",
+  "href": "/advance/smd-visul",
+  "tag": [
+    "shiny",
+    "statistics"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-09-08",
+    "updateDate": "2020-09-08"
+  }
+}

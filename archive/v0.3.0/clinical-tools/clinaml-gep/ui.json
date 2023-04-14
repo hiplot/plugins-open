@@ -1,0 +1,65 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "mode": {
+      "type": "select",
+      "label": {
+        "en": "Data Normalization",
+        "zh_cn": "数据标准化方法"
+      },
+      "items": ["deseq2", "log2tpm"],
+      "class": "col-12 col-md-4"
+    },
+    "model": {
+      "type": "select",
+      "multiple": true,
+      "label": {
+        "en": "Model",
+        "zh_cn": "模型"
+      },
+      "items": ["xgboost", "autogluon"],
+      "class": "col-12 col-md-4"
+    },
+    "model_sva": {
+      "type": "select",
+      "multiple": true,
+      "label": {
+        "en": "Model (SVA)",
+        "zh_cn": "模型 (SVA)"
+      },
+      "items": ["yes", "no"],
+      "class": "col-12 col-md-4"
+    },
+    "model_counter": {
+      "type": "select",
+      "label": {
+        "en": "Model Counter",
+        "zh_cn": "模型计数器"
+      },
+      "multiple": true,
+      "items": ["featurecounts", "htseq", "kallisto", "salmon"],
+      "class": "col-12 col-md-6"
+    },
+    "model_folds": {
+      "type": "select",
+      "multiple": true,
+      "label": {
+        "en": "Model Folds",
+        "zh_cn": "模型编号"
+      },
+      "items": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "class": "col-12 col-md-6"
+    }
+  }
+}

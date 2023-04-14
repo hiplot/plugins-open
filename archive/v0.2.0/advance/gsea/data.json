@@ -1,0 +1,74 @@
+{
+  "module": "advance",
+  "tool": "gsea",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "",
+          "link": ""
+        },
+        "2-cls": {
+          "value": "",
+          "link": ""
+        },
+        "3-gmt": {
+          "value": [],
+          "link": []
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "cliMode": true
+      },
+      "extra": {
+        "mode": "Max_probe",
+        "norm": "meandiv",
+        "rnd_type": "no_balance",
+        "scoring_scheme": "weighted",
+        "metric": "Signal2Noise",
+        "sort": "real",
+        "order": "descending",
+        "rnd_seed": "timestamp",
+        "include_only_symbols": true,
+        "make_sets": true,
+        "median": false,
+        "save_rnd_lists": false,
+        "nperm": 1000,
+        "num": 100,
+        "set_min": 15,
+        "set_max": 500,
+        "plot_top_x": 20,
+        "test_groups": [],
+        "enable_versus_rest": false,
+        "cli_version": "4.2.3"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "public/demo/gsea/P53.txt",
+          "link": ""
+        },
+        "2-cls": {
+          "value": "public/demo/gsea/P53.cls",
+          "link": ""
+        },
+        "3-gmt": {
+          "value": ["public/db/msigdb/v7.5.1/c2.cp.kegg.v7.5.1.symbols.gmt"],
+          "link": [""]
+        }
+      },
+      "extra": {
+        "test_groups": ["MUT", "WT"]
+      }
+    }
+  }
+}

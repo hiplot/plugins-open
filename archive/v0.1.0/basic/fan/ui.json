@@ -1,0 +1,15 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "ratio": {
+      "type": "switch",
+      "label": "messages.basic.fan.ratio"
+    }
+  }
+}

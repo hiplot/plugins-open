@@ -35,8 +35,7 @@ check_encoding <- function (x) {
   gsea_root <- sprintf("/cluster/home/public/opt/bio/gsea/%s/",
           conf$extra$cli_version)
   if (conf$extra$cli_version == "4.2.3") {
-    jdk11_root <- getOption("hiplot.jdk11",
-      "/cluster/home/public/opt/jdk/jdk-11.0.14/bin")
+    jdk11_root <- getOption("hiplot.jdk11_bin")
     gsea_root <- sprintf("export PATH=%s:$PATH && %s", jdk11_root, gsea_root)
   }
 }

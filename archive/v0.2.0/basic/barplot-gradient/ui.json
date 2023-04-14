@@ -1,0 +1,55 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "topnum": {
+      "type": "slider",
+      "label": "messages.basic.bubble.topnum",
+      "max": 300,
+      "class": "col-12"
+    },
+    "transform": {
+      "type": "combobox",
+      "label": {
+        "en": "Transform Function (column 2)",
+        "zh_cn": "变换函数 (列 2)"
+      },
+      "class": "col-12 col-md-6",
+      "items": ["-log10", "-log2", "-exp", "exp", "log2", "log10"]
+    },
+    "transform2": {
+      "type": "combobox",
+      "label": {
+        "en": "Transform Function (column 3)",
+        "zh_cn": "变换函数 (列 3)"
+      },
+      "class": "col-12 col-md-6",
+      "items": ["-log10", "-log2", "-exp", "exp", "log2", "log10"]
+    },
+    "low_color": {
+      "type": "color-picker",
+      "label": "messages.basic.common.low_color",
+      "class": "col-12 col-md-3"
+    },
+    "high_color": {
+      "type": "color-picker",
+      "label": "messages.basic.common.high_color",
+      "class": "col-12 col-md-3"
+    },
+    "horizon": {
+      "type": "switch",
+      "label": "messages.basic.barplot.horizon",
+      "class": "col-12 col-md-4"
+    }
+  }
+}

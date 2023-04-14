@@ -1,0 +1,74 @@
+{
+  "data": {
+    "1-mutData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "Mutation Table",
+        "zh_cn": "突变列表"
+      }
+    },
+    "2-sampleInfo": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.sampleInfo"
+    }
+  },
+  "dataArg": {
+    "1-mutData": [
+      {
+        "label": "Sample"
+      },
+      {
+        "label": "Gene"
+      },
+      {
+        "label": "Type"
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "q_thread_1": {
+      "type": "slider",
+      "label": {
+        "en": "Q Thread (Exclusive)",
+        "zh_cn": "Q 阈值 (互斥)"
+      },
+      "step": 0.0001,
+      "class": "col-12 col-md-6"
+    },
+    "q_thread_2": {
+      "type": "slider",
+      "label": {
+        "en": "Q Thread (Concourrence)",
+        "zh_cn": "Q 阈值 (共存)"
+      },
+      "step": 0.0001,
+      "class": "col-12 col-md-6"
+    },
+    "number_thread": {
+      "type": "slider",
+      "label": {
+        "en": "Number Thread",
+        "zh_cn": "重现次数阈值"
+      },
+      "step": 1,
+      "min": 1,
+      "max": 9999,
+      "class": "col-12"
+    },
+    "waterfall": {
+      "type": "switch",
+      "label": {
+        "en": "Output Waterfall",
+        "zh_cn": "输出瀑布图"
+      },
+      "class": "col-12"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Shiny ggcorrplot2",
+    "en": "Shiny ggcorrplot2"
+  },
+  "alias": ["Correlation-Heatmap"],
+  "intro": {
+    "zh_cn": "Shiny 相关性热图",
+    "en": "Correlation Heatmap Shiny"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/25/ggcor2-tuya.jpg",
+  "href": "/advance/ggcorrplot2",
+  "tag": [
+    "shiny",
+    "correlation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Davey",
+    "releaseDate": "2020-09-25",
+    "updateDate": "2020-09-25"
+  }
+}

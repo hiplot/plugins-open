@@ -1,0 +1,30 @@
+{
+  "module": "advance",
+  "tool": "tinyscholar",
+  "params": {
+    "config": {
+      "data": {
+        "id": ""
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 14.5,
+          "height": 5
+        },
+        "theme": "theme_bw"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "id": "B7vSqZsAAAAJ"
+      }
+    }
+  }
+}

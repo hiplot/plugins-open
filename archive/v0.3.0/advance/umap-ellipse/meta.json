@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "UMAP 椭圆 Shiny",
+    "en": "UMAP Ellipse Shiny"
+  },
+  "alias": ["Prettify-UMAP"],
+  "intro": {
+    "zh_cn": "UMAP 降维",
+    "en": "Interactive UMAP Visulization"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/17/umap-tuya.jpg",
+  "href": "/advance/umap-ellipse",
+  "tag": [
+    "shiny",
+    "umap"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-10-17",
+    "updateDate": "2020-10-17"
+  }
+}

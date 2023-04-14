@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "渐变柱状图",
+    "en": "Barplot Gradient"
+  },
+  "alias": ["GOterm-Bar"],
+  "intro": {
+    "zh_cn": "展示数据值",
+    "en": "Display data values"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/29/barplot-gradient-tuya9e9289b471bf6bd4.jpg",
+  "href": "/basic/barplot-gradient",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.95,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2020-10-29",
+    "updateDate": "2021-03-13",
+    "version": "v0.1.1"
+  }
+}

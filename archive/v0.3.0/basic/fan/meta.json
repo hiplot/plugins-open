@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "扇形图",
+    "en": "Fan Plot"
+  },
+  "alias": ["Fan-Diagram"],
+  "intro": {
+    "zh_cn": "用于展示数据占比",
+    "en": "Display the data ratio"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/fan-0.48c3qy89wui-1-tuya.jpg",
+  "href": "/basic/fan",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 4.8,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2020-01-16",
+    "updateDate": "2020-03-25"
+  }
+}

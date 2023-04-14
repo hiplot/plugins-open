@@ -1,0 +1,53 @@
+{
+  "module": "advance",
+  "tool": "ggmsa",
+  "params": {
+    "config": {
+      "data": {
+        "0-msa": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 14,
+          "height": 4
+        },
+        "font": "Arial"
+      },
+      "extra": {
+        "start": "",
+        "end": "",
+        "char_width": 0.5,
+        "seq_name": true,
+        "color": "Chemistry_AA",
+        "none_bg": false,
+        "by_conservation": false,
+        "consensus_views": false,
+        "use_dot": false,
+        "disagreement": true,
+        "ignore_gaps": false
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "0-msa": {
+          "value": "public/demo/ggmsa/sample.fasta",
+          "link": ""
+        }
+      },
+      "extra": {
+        "start": 221,
+        "end": 280
+      }
+    }
+  }
+}

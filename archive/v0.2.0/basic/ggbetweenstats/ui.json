@@ -1,0 +1,89 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [{"label": "X"}, {"label": "Y"}, {"label": "Group", "required": false}]
+  },
+  "extra": {
+    "type": {
+      "type": "select",
+      "label": {
+        "en": "Expected Statistic ",
+        "zh_cn": "统计期望"
+      },
+      "items": [
+        "parametric", "nonparametric", "robust", "bayes"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "pAdjustMethod": {
+      "type": "select",
+      "label": "messages.advance.clusterprofiler.pAdjustMethod",
+      "items": [
+        "holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "plotType": {
+      "type": "select",
+      "label": {
+        "en": "Plot Type",
+        "zh_cn": "绘制类型"
+      },
+      "items": [
+        "box", "violin", "boxviolin"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "pairwiseDisplay": {
+      "type": "select",
+      "label": {
+        "en": "Plot Type",
+        "zh_cn": "绘制类型"
+      },
+      "items": [
+        "significant", "non-significant", "everything"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "effsizeType": {
+      "type": "select",
+      "label": {
+        "en": "Effect Size Type",
+        "zh_cn": "效应大小类型"
+      },
+      "items": [
+        "biased", "eta", "unbiased", "omega"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "pairwiseComparisons": {
+      "type": "switch",
+      "label": {
+        "en": "Pairwise Comparisons",
+        "zh_cn": "配对比较"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "notch": {
+      "type": "switch",
+      "label": "messages.basic.common.notch",
+      "class": "col-12 col-md-4"
+    },
+    "ncol": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "图片列数",
+        "en": "Ncol"
+      },
+      "class": "col-12",
+      "min": 1,
+      "if_func": "this.params.config.dataArg.datTable[2].value"
+    }
+  }
+}

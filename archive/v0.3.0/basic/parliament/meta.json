@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "议会图",
+    "en": "Parliament"
+  },
+  "alias": ["Rainbow-Scatter"],
+  "intro": {
+    "zh_cn": "展示数据占比",
+    "en": "Display the data ratio"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/parliament-0.d84zwsjhe99-1-tuya59163c3b4933559e.jpg",
+  "href": "/basic/parliament",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2020-01-16",
+    "updateDate": "2020-02-26"
+  }
+}

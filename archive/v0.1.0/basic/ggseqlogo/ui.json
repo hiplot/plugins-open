@@ -1,0 +1,47 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "seq_type": {
+      "type": "select",
+      "label": "messages.basic.ggseqlogo.seq_type",
+      "items": [
+        "dna",
+        "rna",
+        "aa"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "col_scheme": {
+      "type": "select",
+      "label": "messages.basic.ggseqlogo.col_scheme",
+      "items_func": "this.params.config.extra.seq_type === 'aa'?['chemistry', 'hydrophobicity', 'clustalx', 'taylor']:['nucleotide', 'base_pairing']",
+      "class": "col-12 col-md-4"
+    },
+    "method": {
+      "type": "select",
+      "label": "messages.basic.common.method",
+      "items": [
+        "bits",
+        "prob"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "ncol": {
+      "type": "slider",
+      "label": "messages.basic.common.ncol",
+      "class": "col-12",
+      "max": 10
+    }
+  }
+}

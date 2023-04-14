@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "蜜蜂群图",
+    "en": "Beeswarm"
+  },
+  "alias": ["Bee-Scatter"],
+  "intro": {
+    "zh_cn": "展示数据分布等信息",
+    "en": "Display the data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/11/07/beeswarm-0.poq45rj3yq-1.jpg",
+  "href": "/basic/beeswarm",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-09-12",
+    "updateDate": "2020-06-06"
+  }
+}

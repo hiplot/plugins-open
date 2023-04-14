@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Shinyseurat",
+    "en": "Shinyseurat"
+  },
+  "alias": ["ShinySeurat"],
+  "intro": {
+    "zh_cn": "Seurat 单细胞数据分析",
+    "en": "Seurat Single Cell Data Analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/18/WechatIMG64-tuya.jpg",
+  "href": "/advance/shinyseurat",
+  "tag": [
+    "shiny",
+    "single cell"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Davey",
+    "releaseDate": "2020-09-16",
+    "updateDate": "2020-09-16"
+  }
+}

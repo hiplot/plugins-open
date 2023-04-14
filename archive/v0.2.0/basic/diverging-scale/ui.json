@@ -1,0 +1,57 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [{"label": "X"}, {"label": "Y"}]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "type": {
+      "type": "select",
+      "label": "messages.common.type",
+      "items": ["bar", "lollipop"],
+      "class": "col-12"
+    },
+    "lineSize": {
+      "type": "slider",
+      "label": "messages.basic.common.lineSize",
+      "class": "col-12 col-md-6",
+      "max": 2,
+      "step": 0.05,
+      "if_func": "this.params.config.extra.type === 'lollipop'"
+    },
+    "pointSize": {
+      "type": "slider",
+      "label": "messages.basic.common.pointSize",
+      "class": "col-12 col-md-6",
+      "max": 10,
+      "step": 0.05,
+      "if_func": "this.params.config.extra.type === 'lollipop'"
+    },
+    "scale": {
+      "type": "switch",
+      "label": "messages.basic.common.scale",
+      "class": "col-12 col-md-6"
+    },
+    "groupcolor1": {
+      "type": "color-picker",
+      "class": "col-md-1",
+      "style": "margin-top:10px"
+    },
+    "groupcolor2": {
+      "type": "color-picker",
+      "label": "messages.basic.common.groupcolor",
+      "class": "col-md-5",
+      "style": "margin-top:10px"
+    }
+  }
+}

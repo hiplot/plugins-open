@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "miRNA-Gene 预测",
+    "en": "miRNA-Gene Prediction"
+  },
+  "alias": ["miRNA-Prediction"],
+  "intro": {
+    "zh_cn": "miRNA 功能分析工具",
+    "en": "miRNA Functional Analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/01/mirna-prediction-tuya.jpg",
+  "href": "/advance/mirna-prediction",
+  "tag": [
+    "shiny",
+    "miRNA",
+    "gene"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-11-01",
+    "updateDate": "2020-11-01"
+  }
+}

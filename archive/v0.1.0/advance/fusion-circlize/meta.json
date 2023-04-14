@@ -1,0 +1,27 @@
+{
+  "name": {
+    "zh_cn": "Fusion-Circlize",
+    "en": "Fusion-Circlize"
+  },
+  "alias": ["Multi-Fusion"],
+  "intro": {
+    "zh_cn": "融合基因可视化",
+    "en": "Visualization of fusion genes"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/114-Yt7hU1-tuya.jpg",
+  "href": "/advance/fusion-circlize",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "mutation"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2020-03-06",
+    "updateDate": "2020-07-06"
+  }
+}

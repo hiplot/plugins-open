@@ -1,0 +1,40 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "messages.basic.sankey.axisCol"
+      },
+      {
+        "label": "messages.basic.sankey.valCol"
+      }
+    ]
+  },
+  "extra": {
+    "ribbonColor": {
+      "type": "select",
+      "label": "messages.basic.sankey.ribbonColor",
+      "items_func": "this.params.config.dataArg.datTable[1].value ? this.params.config.dataArg.datTable[1].value : []",
+      "required": true
+    },
+    "flip": {
+      "type": "select",
+      "label": "messages.basic.common.flip",
+      "items": [
+        "hor", "ver"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "order_by_input": {
+      "type": "switch",
+      "label": "messages.basic.sankey.order_by_input",
+      "class": "col-12"
+    }
+  }
+}

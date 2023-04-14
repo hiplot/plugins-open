@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "基因密度图",
+    "en": "Gene Density"
+  },
+  "alias": ["Gene-Density"],
+  "intro": {
+    "zh_cn": "染色体数据展示",
+    "en": "Chrosome data visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/08/gene-density-tuya6276a81d06cf5505.jpg",
+  "href": "/basic/gene-density",
+  "tag": [
+    "vue",
+    "genome"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Wei Dong",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2020-10-07",
+    "updateDate": "2020-10-07"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "GO 条形图",
+    "en": "GOBar Plot"
+  },
+  "alias": ["GO-KEGG-Bar"],
+  "intro": {
+    "zh_cn": "GO 条形图可视化",
+    "en": "GOBar plot visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/02/08/WechatIMG10-tuya.jpg",
+  "href": "/basic/gobar",
+  "tag": [
+    "vue",
+    "go enrichment",
+    "barplot"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | Wei Dong",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2021-02-07",
+    "updateDate": "2021-02-07"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "散点图2",
+    "en": "Scatter2"
+  },
+  "alias": ["Scatter-Cat"],
+  "intro": {
+    "zh_cn": "可用于展示变量之间的关系",
+    "en": "Display the variables"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/02/scatter2-0.ydrlufwqvwl-1.jpg",
+  "href": "/basic/scatter2",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2022-04-02",
+    "updateDate": "2022-04-02"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Network Shiny",
+    "en": "Network Shiny"
+  },
+  "alias": ["Molecular-Network"],
+  "intro": {
+    "zh_cn": "网络图绘制",
+    "en": "Network Plot"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/32-d2zAJK-tuya.jpg",
+  "href": "/advance/network-shiny",
+  "tag": [
+    "shiny",
+    "expression"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-26",
+    "updateDate": "2020-08-26"
+  }
+}

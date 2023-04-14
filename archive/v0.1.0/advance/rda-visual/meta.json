@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "冗余分析 Shiny",
+    "en": "RDA Visual Shiny"
+  },
+  "alias": ["Prettify-RDA"],
+  "intro": {
+    "zh_cn": "微生物多样性分析",
+    "en": "Microbial Diversity Analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/16/rda-tuya.jpg",
+  "href": "/advance/rda-visual",
+  "tag": [
+    "shiny",
+    "microbiome",
+    "rda"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-11-16",
+    "updateDate": "2020-11-16"
+  }
+}

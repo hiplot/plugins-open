@@ -1,0 +1,40 @@
+{
+  "module": "basic",
+  "tool": "nomogram-logistic",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 8,
+          "height": 7
+        },
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "funlabel": ""
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Nomogram (Logistic)"
+      },
+      "extra": {
+        "funlabel": "Dead Risk"
+      }
+    },
+    "textarea": {
+      "datTable": "status\tage\tsex\tph.ecog\tph.karno\tpat.karno\tmeal.cal\twt.loss\n2\t74\t1\t1\t90\t100\t1175\tNA\n2\t68\t1\t0\t90\t90\t1225\t15\n1\t56\t1\t0\t90\t90\tNA\t15\n2\t57\t1\t1\t90\t60\t1150\t11\n2\t60\t1\t0\t100\t90\tNA\t0\n1\t74\t1\t1\t50\t80\t513\t0\n2\t68\t2\t2\t70\t60\t384\t10\n2\t71\t2\t2\t60\t80\t538\t1\n2\t53\t1\t1\t70\t80\t825\t16\n2\t61\t1\t2\t70\t70\t271\t34\n2\t57\t1\t1\t80\t80\t1025\t27\n2\t68\t2\t2\t70\t70\tNA\t23\n2\t68\t2\t1\t90\t90\tNA\t5\n2\t60\t1\tNA\t60\t70\t1225\t32\n2\t57\t1\t1\t80\t70\t2600\t60\n2\t67\t1\t1\t80\t90\tNA\t15\n2\t70\t1\t1\t90\t100\t1150\t-5\n2\t63\t1\t2\t50\t70\t1025\t22\n2\t56\t2\t2\t60\t60\t238\t10\n2\t57\t1\t1\t90\t80\t1175\tNA\n2\t67\t1\t1\t80\t80\t1025\t17\n2\t49\t2\t0\t100\t70\t1175\t-8\n2\t50\t1\t1\t70\t80\tNA\t16\n2\t58\t1\t0\t90\t100\t975\t13\n2\t72\t1\t0\t90\t80\tNA\t0\n2\t70\t2\t1\t90\t80\t825\t6\n2\t60\t1\t0\t100\t100\t1025\t-13\n2\t70\t1\t3\t60\t70\t1075\t20\n2\t53\t1\t1\t80\t70\t875\t-7\n2\t74\t1\t2\t70\t50\t305\t20\n2\t69\t2\t1\t90\t90\t1025\t-1\n2\t73\t1\t2\t60\t70\t388\t20\n2\t48\t1\t2\t60\t80\tNA\t-11\n2\t60\t2\t2\t50\t60\t925\t-15\n2\t61\t1\t2\t70\t100\t1075\t10\n2\t62\t2\t2\t50\t50\t1025\tNA\n2\t65\t1\t2\t70\t60\t513\t28\n1\t66\t2\t1\t70\t90\t875\t4\n2\t74\t1\t2\t50\t40\t1225\t24\n2\t64\t2\t1\t80\t100\t1175\t15\n2\t70\t1\t1\t80\t60\t975\t10\n2\t73\t2\t2\t60\t70\t1075\t11\n2\t59\t2\t0\t90\t90\t363\t27\n2\t60\t2\t2\t70\t60\tNA\tNA\n2\t68\t1\t1\t60\t70\t1025\t7\n2\t76\t2\t2\t60\t60\t625\t-24\n2\t74\t1\t0\t90\t70\t463\t30\n2\t63\t1\t1\t80\t70\t1025\t10\n2\t74\t1\t0\t90\t90\t1425\t2\n2\t50\t2\t1\t90\t100\t1175\t4\n2\t72\t2\t1\t90\t90\tNA\t9\n2\t63\t1\t0\t80\t70\tNA\t0\n2\t68\t1\t0\t90\t100\t1025\t0\n2\t58\t1\t0\t100\t90\t1175\t7\n2\t59\t1\t1\t90\t80\t1300\t15\n2\t62\t1\t0\t90\t80\t725\tNA\n2\t65\t2\t0\t100\t80\t338\t5\n2\t57\t1\t2\t70\t60\tNA\t18\n2\t58\t2\t1\t80\t80\t1225\t10\n2\t64\t2\t1\t90\t80\t1075\t-3\n2\t75\t2\t2\t70\t70\t438\t8\n2\t48\t1\t1\t90\t80\t1300\t68\n2\t73\t1\t1\t80\t100\t1025\tNA\n2\t65\t2\t1\t90\t80\t1025\t0\n2\t69\t1\t1\t80\t60\t1125\t0\n2\t68\t1\t2\t70\t50\t825\t8\n2\t67\t2\t2\t70\tNA\t538\t2\n1\t64\t2\t0\t90\t70\t1025\t3\n2\t68\t1\t0\t100\t80\t1039\t0\n2\t67\t1\t1\t80\t100\t488\t23\n1\t63\t1\t0\t90\t90\t1175\t-1\n2\t48\t2\t1\t80\t90\t538\t29\n2\t74\t1\t2\t70\t100\t1175\t0\n2\t40\t1\t1\t80\t80\tNA\t3\n2\t53\t2\t1\t90\t80\t825\t3\n2\t71\t2\t1\t90\t90\t1075\t19\n2\t51\t2\t0\t100\t80\t1300\t0\n2\t56\t2\t1\t80\t70\t1225\t-2\n2\t81\t1\t0\t90\tNA\t731\t15\n2\t73\t1\t0\t90\t70\t169\t30\n2\t59\t1\t0\t100\t80\t768\t5\n2\t55\t1\t1\t70\t90\t1500\t15\n1\t42\t1\t1\t80\t80\t1425\t8\n2\t44\t2\t1\t80\t90\t588\t-1\n1\t44\t1\t1\t80\t80\t1025\t1\n2\t71\t1\t1\t80\t90\t1100\t14\n2\t62\t2\t1\t80\t80\t1150\t1\n2\t61\t1\t0\t100\t90\t1175\t4\n1\t44\t2\t1\t90\t80\t588\t39\n2\t72\t1\t2\t70\t70\t910\t2\n2\t63\t1\t0\t100\t90\t975\t-1\n2\t70\t1\t1\t80\t100\tNA\t23\n2\t66\t1\t1\t90\t80\t875\t8\n2\t57\t2\t1\t80\t60\t280\t14\n1\t69\t2\t0\t100\t90\tNA\t13\n2\t72\t1\t2\t80\t60\t288\t7\n2\t69\t1\t1\t80\t80\tNA\t25\n2\t71\t1\t1\t90\t100\tNA\t0\n2\t64\t1\t1\t90\t100\t910\t0\n2\t70\t2\t0\t90\t70\tNA\t10\n1\t58\t2\t0\t100\t100\t710\t15\n2\t69\t2\t1\t80\t90\t1175\t3\n2\t56\t1\t1\t70\t80\tNA\t4\n2\t63\t1\t1\t90\t70\tNA\t0\n2\t59\t1\t2\t50\tNA\tNA\t32\n2\t66\t1\t1\t80\t90\t875\t14\n1\t54\t2\t1\t80\t100\t975\t-3\n2\t67\t1\t1\t90\t90\t925\tNA\n2\t55\t1\t1\t100\t80\t975\t5\n2\t75\t2\t2\t60\t50\t925\t11\n2\t69\t1\t0\t90\t70\t575\t10\n2\t44\t1\t1\t80\t90\t1175\t5\n2\t80\t1\t1\t80\t100\t1030\t6\n2\t75\t2\t0\t90\t100\tNA\t1\n2\t54\t2\t1\t80\t100\tNA\t15\n2\t76\t1\t2\t70\t70\t413\t20\n2\t49\t1\t2\t70\t60\t675\t20\n2\t68\t1\t2\t60\t70\t1300\t30\n2\t66\t1\t2\t70\t60\t613\t24\n2\t80\t1\t1\t80\t90\t346\t11\n2\t75\t1\t0\t90\t90\tNA\t0\n2\t60\t2\t2\t70\t80\t675\t10\n2\t69\t2\t1\t70\t80\t910\t0\n2\t72\t1\t2\t60\t60\t768\t-3\n2\t70\t1\t0\t90\t90\t1025\t17\n2\t66\t1\t1\t80\t80\t925\t20\n2\t50\t1\t1\t80\t60\t1075\t13\n2\t64\t1\t1\t80\t90\t993\t0\n1\t77\t2\t2\t80\t60\t750\t28\n1\t48\t2\t0\t90\t60\tNA\t4\n2\t59\t2\t1\t80\t80\t925\t52\n2\t53\t1\t1\t80\t80\tNA\t20\n2\t47\t1\t0\t100\t90\t1225\t5\n1\t55\t2\t1\t80\t70\tNA\t49\n2\t67\t1\t0\t90\t70\t313\t6\n1\t74\t2\t2\t60\t40\t96\t37\n2\t58\t2\t1\t80\t70\tNA\t0\n2\t56\t1\t2\t80\t60\t1075\tNA\n2\t54\t1\t1\t90\t90\t975\t-5\n2\t56\t1\t0\t100\t100\t1500\t15\n2\t73\t2\t2\t70\t60\t1225\t-16\n1\t74\t1\t1\t80\t70\t413\t38\n2\t76\t1\t2\t70\t70\t1500\t8\n2\t65\t2\t1\t80\t90\t1075\t0\n1\t57\t1\t1\t80\t100\t513\t30\n1\t53\t2\t1\t90\t90\tNA\t2\n2\t71\t1\t0\t100\t80\t775\t2\n2\t54\t1\t1\t90\t80\t1225\t13\n2\t82\t1\t0\t100\t90\t413\t27\n2\t59\t2\t0\t100\t90\tNA\t0\n2\t70\t1\t1\t70\t60\t1175\t-2\n1\t60\t1\t0\t90\t100\tNA\t7\n1\t62\t2\t0\t90\t90\tNA\t0\n2\t53\t2\t1\t80\t60\tNA\t4\n2\t55\t1\t2\t70\t30\t1025\t10\n2\t69\t1\t2\t70\t80\t713\t20\n1\t68\t2\t1\t90\t90\tNA\t7\n2\t62\t1\t2\t70\t60\t475\t27\n2\t63\t1\t1\t80\t70\t538\t-2\n1\t56\t2\t1\t80\t90\t825\t17\n1\t62\t2\t0\t90\t90\t588\t8\n2\t44\t2\t1\t90\t100\t2450\t2\n1\t69\t1\t2\t60\t70\t2450\t36\n2\t63\t1\t1\t90\t80\t875\t2\n1\t64\t1\t1\t80\t70\t413\t16\n1\t57\t2\t0\t90\t90\t1075\t3\n2\t60\t2\t1\t80\t60\tNA\t33\n2\t46\t1\t0\t100\t100\t860\t4\n2\t61\t1\t1\t90\t90\t730\t0\n2\t65\t1\t0\t100\t90\t1025\t0\n1\t61\t1\t1\t90\t100\t825\t2\n2\t58\t2\t0\t90\t80\t1225\t10\n2\t56\t1\t1\t90\t60\t768\t37\n1\t43\t2\t0\t100\t90\t338\t6\n1\t53\t1\t1\t90\t80\t1225\t12\n1\t59\t2\t1\t80\t100\t1025\t0\n2\t56\t1\t2\t60\t80\t1225\t-2\n2\t55\t2\t1\t80\t70\tNA\tNA\n2\t53\t2\t1\t80\t90\t588\t13\n1\t74\t2\t0\t100\t100\t588\t0\n1\t60\t1\t0\t100\t100\t975\t5\n1\t39\t1\t0\t100\t90\t1225\t-5\n2\t66\t2\t0\t90\t100\t1025\tNA\n1\t65\t2\t1\t80\t90\tNA\t-1\n1\t51\t2\t0\t90\t80\t1225\t0\n1\t45\t2\t0\t90\t100\t975\t5\n2\t72\t2\t2\t70\t90\t463\t20\n1\t58\t1\t0\t90\t80\t1300\t8\n2\t64\t1\t1\t80\t60\t1025\t12\n2\t53\t1\t0\t90\t90\t1225\t8\n2\t72\t1\t1\t80\t90\t488\t14\n2\t52\t1\t2\t60\t70\t1075\tNA\n2\t50\t1\t1\t90\t80\t513\tNA\n1\t64\t1\t1\t90\t80\t825\t33\n2\t71\t1\t1\t90\t90\t1300\t-2\n1\t70\t1\t0\t100\t100\t1175\t6\n1\t63\t2\t1\t80\t90\t825\t0\n1\t64\t1\t1\t90\t90\tNA\t4\n1\t52\t2\t0\t100\t80\t975\t0\n2\t60\t1\t1\t90\t70\t1275\t0\n2\t64\t2\t1\t90\t90\t488\t37\n2\t73\t1\t1\t60\t60\t2200\t5\n1\t63\t2\t0\t90\t100\t1025\t0\n1\t50\t2\t0\t100\t100\t635\t1\n1\t63\t2\t0\t100\t90\t413\t0\n2\t62\t1\t2\tNA\t70\tNA\tNA\n1\t55\t2\t0\t80\t90\tNA\t23\n2\t50\t2\t2\t60\t60\t1025\t-3\n1\t69\t1\t1\t80\t70\tNA\tNA\n1\t59\t2\t1\t90\t80\tNA\t10\n1\t60\t2\t0\t100\t90\t488\t-2\n1\t67\t1\t1\t80\t70\t413\t23\n1\t69\t1\t1\t90\t70\t1075\t0\n1\t64\t2\t2\t70\t100\tNA\t31\n2\t65\t1\t1\t80\t90\tNA\t10\n1\t65\t1\t1\t90\t70\t1025\t18\n1\t41\t2\t1\t90\t80\tNA\t-10\n2\t76\t1\t2\t80\t60\t825\t7\n1\t70\t2\t2\t70\t30\t131\t3\n1\t57\t2\t0\t80\t80\t725\t11\n1\t67\t1\t1\t80\t90\t1500\t2\n1\t71\t2\t1\t80\t90\t1025\t0\n2\t76\t1\t1\t80\t80\tNA\t0\n1\t77\t1\t1\t80\t60\tNA\t3\n1\t39\t1\t0\t90\t90\t2350\t-5\n1\t75\t2\t2\t60\t70\t1025\t5\n1\t66\t1\t1\t90\t100\t1075\t1\n1\t58\t2\t1\t80\t90\t1060\t0\n"
+    }
+  }
+}

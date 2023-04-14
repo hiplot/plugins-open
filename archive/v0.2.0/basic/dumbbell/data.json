@@ -1,0 +1,38 @@
+{
+  "module": "basic",
+  "tool": "dumbbell",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 7,
+          "height": 5
+        },
+        "xlab": "",
+        "theme": "theme_minimal",
+        "palette": "aaas",
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "point_size": 3,
+        "line_size": 1,
+        "line_color": "#AFAFAF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Dumbbell Chart",
+        "xlab": "Life Expectancy (years)"
+      }
+    },
+    "textarea": {
+      "datTable": "country\ty1952\ty2007\nArgentina\t62.485\t75.32\nBolivia\t40.414\t65.554\nBrazil\t50.917\t72.39\nCanada\t68.75\t80.653\nChile\t54.745\t78.553\nColombia\t50.643\t72.889\nCosta Rica\t57.206\t78.782\nCuba\t59.421\t78.273\nDominican Republic\t45.928\t72.235\nEcuador\t48.357\t74.994\nEl Salvador\t45.262\t71.878\nGuatemala\t42.023\t70.259\nHaiti\t37.579\t60.916\nHonduras\t41.912\t70.198\nJamaica\t58.53\t72.567\nMexico\t50.789\t76.195\nNicaragua\t42.314\t72.899\nPanama\t55.191\t75.537\nParaguay\t62.649\t71.752\nPeru\t43.902\t71.421\nPuerto Rico\t64.28\t78.746\nTrinidad and Tobago\t59.1\t69.819\nUnited States\t68.44\t78.242\nUruguay\t66.071\t76.384\nVenezuela\t55.088\t73.747"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "ev.exp"
+      },
+      {
+        "label": "n.exp"
+      },
+      {
+        "label": "ev.cont"
+      },
+      {
+        "label": "n.cont"
+      },
+      {
+        "label": "Study"
+      }
+    ]
+  },
+  "extra": {
+    "layout": {
+      "type": "select",
+      "label": {
+        "en": "Layout Style",
+        "zh_cn": "布局"
+      },
+      "class": "col-12",
+      "items": ["meta", "RevMan5", "JAMA"]
+    }
+  }
+}

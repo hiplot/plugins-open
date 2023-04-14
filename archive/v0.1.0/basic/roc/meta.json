@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "ROC 曲线",
+    "en": "ROC"
+  },
+  "alias": ["ROC-Curve"],
+  "intro": {
+    "zh_cn": "模型比较",
+    "en": "Model comparison"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/77-JCDZ24-tuya.jpg",
+  "href": "/basic/roc",
+  "tag": [
+    "vue",
+    "model"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-10-07",
+    "updateDate": "2020-03-06"
+  }
+}

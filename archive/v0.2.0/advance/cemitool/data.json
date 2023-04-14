@@ -1,0 +1,54 @@
+{
+  "module": "advance",
+  "tool": "cemitool",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "",
+          "link": ""
+        },
+        "2-gmt": {
+          "value": "",
+          "link": ""
+        },
+        "3-int_df": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 9,
+          "height": 5
+        },
+        "cliMode": true,
+        "font": "Arial"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "1-expmat": {
+          "value": "public/demo/cemitool.csv",
+          "link": ""
+        },
+        "2-gmt": {
+          "value": "public/demo/cemitool_pathways.gmt",
+          "link": ""
+        },
+        "3-int_df": {
+          "value": "public/demo/cemitool_interactions.tsv",
+          "link": ""
+        }
+      }
+    }
+  }
+}

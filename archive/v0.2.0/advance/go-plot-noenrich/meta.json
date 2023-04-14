@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Shiny GO (非富集)",
+    "en": "Shiny GO (Noenrich)"
+  },
+  "alias": ["GOwithoutEnrichment"],
+  "intro": {
+    "zh_cn": "GO 分析 (非富集)",
+    "en": "GO analysis (Noenrich)"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/24-avaYGV-tuya.jpg",
+  "href": "/advance/go-plot-noenrich",
+  "tag": [
+    "shiny",
+    "geneset"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-12",
+    "updateDate": "2020-08-12"
+  }
+}

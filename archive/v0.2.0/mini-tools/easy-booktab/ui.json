@@ -1,0 +1,71 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": {
+          "en": "Vars",
+          "zh_cn": "变量名"
+        }
+      },
+      {
+        "label": {
+          "en": "Group",
+          "zh_cn": "分组"
+        },
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": false
+    }
+  },
+  "extra": {
+    "add_overall": {
+      "type": "switch",
+      "label": {
+        "en": "Add Overall",
+        "zh_cn": "添加整体列"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "add_p": {
+      "type": "switch",
+      "label": {
+        "en": "Add P",
+        "zh_cn": "添加 P 值"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "table_theme": {
+      "type": "autocomplete",
+      "label": {
+        "en": "Table Theme",
+        "zh_cn": "表格主题"
+      },
+      "items": [
+        "theme_gtsummary_compact",
+        "theme_gtsummary_journal_jama",
+        "theme_gtsummary_journal_lancet",
+        "theme_gtsummary_journal_nejm",
+        "theme_gtsummary_journal_qjecon",
+        "theme_gtsummary_continuous2",
+        "theme_gtsummary_printer",
+        "theme_gtsummary_language",
+        "theme_gtsummary_mean_sd",
+        "theme_gtsummary_mean_eda"
+      ],
+      "multiple": true,
+      "class": "col-12"
+    }
+  }
+}

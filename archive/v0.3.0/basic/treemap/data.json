@@ -1,0 +1,40 @@
+{
+  "module": "basic",
+  "tool": "treemap",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 6,
+          "height": 6
+        },
+        "theme": "theme_bw",
+        "palette": "npg",
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "labelsize": false,
+        "labelcol": "#000000"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": ""
+      }
+    },
+    "textarea": {
+      "datTable": "group\tvalue\nGroup1\t13\nGroup2\t34\nGroup3\t21\nGroup4\t43\n"
+    }
+  }
+}

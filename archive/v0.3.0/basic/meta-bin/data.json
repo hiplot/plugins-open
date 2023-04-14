@@ -1,0 +1,66 @@
+{
+  "module": "basic",
+  "tool": "meta-bin",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 12,
+          "height": 7
+        },
+        "font": "Arial"
+      },
+      "extra": {
+        "layout": "meta"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": "ev.exp"
+          },
+          {
+            "value": "n.exp"
+          },
+          {
+            "value": "ev.cont"
+          },
+          {
+            "value": "n.cont"
+          },
+          {
+            "value": "Study"
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "datTable": "Study\tev.exp\tn.exp\tev.cont\tn.cont\nFletcher\t1\t12\t4\t11\nDewar\t4\t21\t7\t21\nLippschutz\t6\t43\t7\t41\nEuropean_1\t20\t83\t15\t84\nEuropean_2\t69\t373\t94\t357\n"
+    }
+  }
+}

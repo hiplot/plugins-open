@@ -1,0 +1,46 @@
+{
+  "tool": "gistic2",
+  "module": "advance",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "input": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "taskname": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "cliMode": true
+      },
+      "extra": {
+        "refgenefile": "hg19.mat",
+        "rx": 0,
+        "genegistic": 1,
+        "broad": 1,
+        "brlen": 0.5,
+        "armpeel": 1,
+        "maxseg": 10,
+        "confidence": 0.99,
+        "preprocess": false,
+        "min_probes": 0
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "input": {
+          "value": "public/demo/gistic2/segmentationfile.txt",
+          "link": ""
+        }
+      }
+    }
+  }
+}

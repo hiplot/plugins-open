@@ -1,0 +1,53 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [{"label": "X"}, {"label": "Group"}]
+  },
+  "extra": {
+    "ncol": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "图片列数",
+        "en": "Ncol"
+      },
+      "class": "col-12",
+      "min": 1
+    },
+    "edges": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "边",
+        "en": "Edges"
+      },
+      "class": "col-12  col-md-6",
+      "min": 0,
+      "step": 1,
+      "max": 9999
+    },
+    "radius": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "半径",
+        "en": "Radius"
+      },
+      "class": "col-12 col-md-6",
+      "min": 0,
+      "step": 0.001,
+      "max": 1
+    },
+    "clockwise": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "顺时针",
+        "en": "Clockwise"
+      },
+      "class": "col-12"
+    }
+  }
+}

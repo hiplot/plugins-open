@@ -1,0 +1,28 @@
+{
+  "name": {
+    "zh_cn": "世界地图",
+    "en": "World Map"
+  },
+  "alias": ["World-Map"],
+  "intro": {
+    "zh_cn": "用于展示世界地图",
+    "en": "Display the map of the world"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/23/map-world-0.xj4r4142dl-1-tuya.jpg",
+  "href": "/basic/map-world",
+  "tag": [
+    "vue",
+    "map"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 3,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-04-12",
+    "updateDate": "2020-11-26",
+    "version": "v0.1.1"
+  }
+}

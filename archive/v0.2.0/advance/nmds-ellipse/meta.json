@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "NMDS Ellipse",
+    "en": "NMDS Ellipse"
+  },
+  "alias": ["Prettify-NMDS"],
+  "intro": {
+    "zh_cn": "非度量多维尺度分析",
+    "en": "Non-metric Multidimensional Scaling Visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/07/nmds-ellipse-tuya.jpg",
+  "href": "/advance/nmds-ellipse",
+  "tag": [
+    "shiny",
+    "general"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-09-07",
+    "updateDate": "2020-09-07"
+  }
+}

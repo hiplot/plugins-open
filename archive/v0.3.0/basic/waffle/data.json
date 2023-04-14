@@ -1,0 +1,50 @@
+{
+  "module": "basic",
+  "tool": "waffle",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 10,
+          "height": 4
+        },
+        "theme": "default",
+        "palette": "npg",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "size": 1,
+        "rows": 8
+      }
+    }
+  },
+  "exampleData": {
+    "textarea": {
+      "datTable": "label\tvalue\nUn-breached US Population\t230\nPremera\t11\nAnthem\t79\n"
+    },
+    "config": {
+      "general": {
+        "title": "Waffle Plot"
+      }
+    }
+  }
+}

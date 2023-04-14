@@ -1,0 +1,38 @@
+{
+  "module": "basic",
+  "tool": "map-africa",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 28,
+          "height": 30
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Africa Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "region\tvalue\nSudan\t258\nAngola\t911\nBenin\t318\nBotswana\t759\nBurkina Faso\t983\nCameroon\t618\nCape Verde\t477\nCentral African Republic\t698\nChad\t336\nComoros\t764\nCongo\t76\nCote d'Ivoire\t922\nDemocratic Republic of the Congo\t174\nDjibouti\t985\nSouth Sudan\t962\nEquatorial Guinea\t455\nEritrea\t730\nEthiopia\t393\nGabon\t648\nGambia\t525\nGhana\t608\nGuinea-Bissau\t69\nGuinea\t900\nKenya\t115\nLesotho\t577\nLiberia\t747\nMadagascar\t722\nMalawi\t68\nMali\t886\nMauritania\t826\nMauritius\t239\nMozambique\t102\nNamibia\t178\nNiger\t814\nNigeria\t308\nSenegal\t241\nSeychelles\t687\nSierra Leone\t144\nSomalia\t11\nSouth Africa\t775\nBurundi\t307\nSwaziland\t667\nTogo\t433\nUganda\t372\nUnited Republic of Tanzania\t118\nZambia\t237\nZimbabwe\t9\nAlgeria\t323\nAbyei\t76\nLibya\t871\nMorocco\t379\nRwanda\t570\nSao Tome and Principe\t381\nTunisia\t449\nWestern Sahara\t126\nHala'ib triangle\t768\nMa'tan al-Sarra\t782\nEgypt\t850\nIlemi triangle\t644\n"
+    }
+  }
+}

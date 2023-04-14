@@ -1,0 +1,49 @@
+{
+  "module": "mini-tools",
+  "tool": "bioextr-pdf",
+  "files": [],
+  "params": {
+    "textarea": {
+      "keywordsData": ""
+    },
+    "config": {
+      "data": {
+        "infile": {
+          "value": [],
+          "link": []
+        }
+      },
+      "general": {
+        "cmds": "",
+        "taskname": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "cliMode": true
+      },
+      "extra": {
+        "extract_url": true
+      }
+    }
+  },
+  "exampleData": {
+    "textarea": {
+      "keywordsData": "keywords_list\noutcome\nCD4\nCD8\nCD2\nIL7R\nsequencing\ncell development\nvirus\ndisease\nmicroenvironment"
+    },
+    "config": {
+      "data": {
+        "infile": {
+          "value": [
+            "/public/demo/bioextr-file/T-cell-outcome.pdf",
+            "/public/demo/bioextr-file/128323.3-20191023110239.pdf",
+            "/public/demo/bioextr-file/1-s2.0-S1471490614001938-main.pdf",
+            "/public/demo/bioextr-file/annurev-cellbio-111315-125324.pdf",
+            "/public/demo/bioextr-file/blood764357.pdf",
+            "/public/demo/bioextr-file/1-s2.0-S1074761318300852-main.pdf",
+            "/public/demo/bioextr-file/1-s2.0-S1535610818301168-main.pdf",
+            "/public/demo/bioextr-file/annurev.immunol.21.120601.141107.pdf"
+          ],
+          "link": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "金字塔图 2",
+    "en": "Pyramid Chart 2"
+  },
+  "alias": ["Pyramid-Chart2"],
+  "intro": {
+    "zh_cn": "展示数据值",
+    "en": "Display data values"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/pyramid-chart2-0.x5ep3v1jyoi-1.jpg",
+  "href": "/basic/pyramid-chart2",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-11-05",
+    "updateDate": "2021-11-05"
+  }
+}

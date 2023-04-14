@@ -1,0 +1,144 @@
+{
+  "data": {
+    "1-Seg": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Copy number segmentation file",
+        "zh_cn": "拷贝数分割文件"
+      },
+      "required": true
+    },
+    "2-Maf": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Mutation MAF file",
+        "zh_cn": "突变 MAF 文件"
+      },
+      "required": false
+    }
+  },
+  "dataArg": [],
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "sigma.p": {
+      "type": "slider",
+      "label": {
+        "en": "Provisional value",
+        "zh_cn": "临时值"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "class": "col-12 col-md-6"
+    },
+    "max.sigma.h": {
+      "type": "slider",
+      "label": {
+        "en": "Maximum variance",
+        "zh_cn": "超额样本水平方差最大值"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "class": "col-12 col-md-6"
+    },
+    "min.ploidy": {
+      "type": "slider",
+      "label": {
+        "en": "Minimum ploidy value",
+        "zh_cn": "最小倍性"
+      },
+      "min": 0,
+      "max": 5,
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    },
+    "max.ploidy": {
+      "type": "slider",
+      "label": {
+        "en": "Maximum ploidy value",
+        "zh_cn": "最大倍性"
+      },
+      "min": 0,
+      "max": 100,
+      "step": 0.5,
+      "class": "col-12 col-md-6"
+    },
+    "primary.disease": {
+      "type": "text-field",
+      "label": {
+        "en": "Primary disease",
+        "zh_cn": "原发病"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "platform": {
+      "type": "select",
+      "label": {
+        "en": "Platform",
+        "zh_cn": "数据生成平台"
+      },
+      "items": ["SNP_6.0", "Illumina_WES", "SNP_250K_STY"],
+      "class": "col-12 col-md-6"
+    },
+    "max.as.seg.count": {
+      "type": "slider",
+      "label": {
+        "en": "Maximum sample segments",
+        "zh_cn": "样本最大片段数目"
+      },
+      "min": 0,
+      "max": 10000,
+      "step": 1,
+      "class": "col-12"
+    },
+    "max.non.clonal": {
+      "type": "slider",
+      "label": {
+        "en": "Maximum non-clonal genome fraction",
+        "zh_cn": "最大非clonal基因组比例"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "class": "col-12"
+    },
+    "min.mut.af": {
+      "type": "slider",
+      "label": {
+        "en": "Minimum mutation allelic fraction",
+        "zh_cn": "最小VAF"
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "class": "col-12"
+    },
+    "min.no.mut": {
+      "type": "slider",
+      "label": {
+        "en": "Minimum sample mutation count",
+        "zh_cn": "样本最小突变数目"
+      },
+      "min": 0,
+      "max": 10000,
+      "step": 1,
+      "class": "col-12"
+    },
+    "nThread": {
+      "type": "slider",
+      "label": {
+        "en": "Number of cores",
+        "zh_cn": "计算核心数"
+      },
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "class": "col-12"
+    }
+  }
+}

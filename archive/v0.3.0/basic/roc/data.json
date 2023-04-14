@@ -1,0 +1,42 @@
+{
+  "module": "basic",
+  "tool": "roc",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 6,
+          "height": 5
+        },
+        "palette": "lancet",
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "smooth": false,
+        "interval": "none",
+        "evaluation": true,
+        "compare": true,
+        "grid": true
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "ROC Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "outcome\tvalue-Am\tvalue-GG\tvalue-EL\nGood\t3\t0.33\t17.3\nGood\t2\t0.11\t12.71\nGood\t4\t0.28\t9.44\nGood\t2\t0.07\t11.07\nGood\t1\t0.1\t19.46\nGood\t4\t0.32\t10.83\nPoor\t5\t0.22\t5.37\nGood\t1\t0.07\t11.97\nGood\t1\t0.05\t7.75\nGood\t5\t0.24\t9.83\nGood\t4\t0.38\t10.55\nGood\t2\t0.1\t28.49\nGood\t2\t0.15\t8.53\nGood\t1\t0.08\t12.57\nGood\t1\t0.14\t12.9\nGood\t1\t0.1\t46.83\nGood\t3\t0.07\t11.68\nGood\t1\t0.04\t12.67\nGood\t2\t0.19\t9.01\nPoor\t5\t0.56\t9.57\nPoor\t2\t0.14\t34.06\nPoor\t2\t0.58\t11.72\nPoor\t5\t0.32\t14.26\nPoor\t5\t0.82\t47.61\nPoor\t5\t0.74\t11.67\nGood\t2\t0.15\t24.58\nGood\t4\t0.47\t10.33\nGood\t4\t0.17\t13.87\nPoor\t5\t0.44\t15.89\nGood\t1\t0.15\t22.43\nGood\t1\t0.5\t6.79\nGood\t1\t0.48\t13.45"
+    }
+  }
+}

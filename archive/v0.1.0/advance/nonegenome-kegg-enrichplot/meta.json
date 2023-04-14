@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "无基因组 Shiny KEGG (富集)",
+    "en": "Nonegenome Shiny KEGG (Enrich)"
+  },
+  "alias": ["Denovo-KEGG"],
+  "intro": {
+    "zh_cn": "非参 KEGG 富集分析",
+    "en": "Nonegenome KEGG analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/25-avaZPP-tuya.jpg",
+  "href": "/advance/nonegenome-kegg-enrichplot",
+  "tag": [
+    "shiny",
+    "geneset"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-08-12",
+    "updateDate": "2020-08-12"
+  }
+}

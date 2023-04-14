@@ -1,0 +1,35 @@
+
+{
+  "name": {
+    "zh_cn": "自定义基因富集分析",
+    "en": "DIY GSEA"
+  },
+  "alias": ["Custom-GSEA"],
+  "intro": {
+    "zh_cn": "自定义基因集",
+    "en": "Make your geneset"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/02/22/diy-gsea-0.94ofm8ewpyq-tuya.jpg",
+  "href": "/basic/diy-gsea",
+  "tag": ["vue", "GSEA", "GeneSet"],
+  "meta": {
+    "score": 4.95,
+    "author": "Hiplot Team | Houshi Xu",
+    "email": "admin@hiplot.org",
+    "issues": "https://github.com/YuLab-SMU/clusterProfiler",
+    "releaseDate": "2021-02-22",
+    "updateDate": "2021-02-22",
+    "citation": "",
+    "version": "v0.1.0"
+  }
+}
+
+
+
+
+
+
+
+
+
+

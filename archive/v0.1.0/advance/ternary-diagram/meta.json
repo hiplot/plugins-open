@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "三元图",
+    "en": "Ternary Diagram"
+  },
+  "alias": ["Ternary-Diagram"],
+  "intro": {
+    "zh_cn": "描述三个变量之和为常数的质心图",
+    "en": "Describe the Three Variables"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/17/ternary-diagram-tuya.jpg",
+  "href": "/advance/ternary-diagram",
+  "tag": [
+    "shiny",
+    "ternary",
+    "correlation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-09-17",
+    "updateDate": "2020-09-17"
+  }
+}

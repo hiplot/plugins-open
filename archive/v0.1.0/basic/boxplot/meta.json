@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "箱式图",
+    "en": "Boxplot"
+  },
+  "alias": ["Box-Scatter"],
+  "intro": {
+    "zh_cn": "展示组间差异",
+    "en": "Display differences between groups"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/66-JC38XD-tuya.jpg",
+  "href": "/basic/boxplot",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.9,
+    "author": "Hiplot Team | Jack Wang & Jianfeng",
+    "releaseDate": "2019-09-12",
+    "updateDate": "2020-02-22"
+  }
+}

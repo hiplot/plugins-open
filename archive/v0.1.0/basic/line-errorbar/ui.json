@@ -1,0 +1,21 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "pval": {
+      "type": "select",
+      "label": "messages.basic.common.pval",
+      "items": ["value", "signif", "no"]
+    }
+  }
+}

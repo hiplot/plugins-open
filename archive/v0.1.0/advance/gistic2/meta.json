@@ -1,0 +1,31 @@
+{
+  "name": {
+    "zh_cn": "GISTIC2",
+    "en": "GISTIC2"
+  },
+  "alias": ["Custom-GISTIC"],
+  "intro": {
+    "zh_cn": "拷贝数变异分析",
+    "en": "Copy number data analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/26/GISTIC2.jpg",
+  "href": "/advance/gistic2",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "mutation",
+    "CNV"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Shixiang Wang",
+    "email": "wangshx@shanghaitech.edu.cn",
+    "issues": "https://github.com/ShixiangWang/install_GISTIC",
+    "citation": "Mermel CH, Schumacher SE, Hill B, Meyerson ML, Beroukhim R, Getz G. GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers. Genome Biol. 2011;12(4):R41. doi: 10.1186/gb-2011-12-4-r41. Epub 2011 Apr 28. PMID: 21527027; PMCID: PMC3218867",
+    "releaseDate": "2020-10-26",
+    "updateDate": "2020-10-26"
+  }
+}

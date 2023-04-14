@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "表格长数据转宽数据",
+    "en": "Table Cast"
+  },
+  "alias": ["Table-Cast"],
+  "intro": {
+    "zh_cn": "表格操作",
+    "en": "Table Operation"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/07/table-cast.png",
+  "href": "/advance/table-cast",
+  "tag": [
+    "shiny",
+    "table"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-10-06",
+    "updateDate": "2020-10-06"
+  }
+}

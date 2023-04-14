@@ -1,0 +1,32 @@
+{
+  "module": "basic",
+  "tool": "parliament",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 6,
+          "height": 4
+        },
+        "theme": "default",
+        "palette": "npg",
+        "title": "",
+        "alpha": 1,
+        "font": "Arial"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Parliament Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "group\tvalue\nG1\t200\nG2\t46\nG3\t92\nG4\t80\nG5\t150"
+    }
+  }
+}

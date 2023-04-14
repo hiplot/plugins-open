@@ -1,0 +1,30 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "messages.basic.common.group"
+      },
+      {
+        "label": "messages.basic.common.variable"
+      }
+    ]
+  },
+  "extra": {
+    "order_by_median": {
+      "type": "switch",
+      "label": "messages.basic.common.order_by_median"
+    }
+  }
+}

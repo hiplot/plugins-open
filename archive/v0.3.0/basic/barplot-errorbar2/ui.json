@@ -1,0 +1,77 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": {
+          "en": "Facet",
+          "zh_cn": "分面"
+        },
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "pval": {
+      "type": "select",
+      "label": "messages.basic.common.pval",
+      "items": [
+        "value",
+        "signif",
+        "no"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "stat_method": {
+      "type": "select",
+      "label": "messages.basic.common.statMethod",
+      "items": [
+        "t.test",
+        "wilcox.test",
+        "anova",
+        "kruskal.test"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "test_groups": {
+      "type": "select",
+      "label": "messages.basic.common.test_groups",
+      "items_func": "this.selectCols('datTable', 1)",
+      "multiple": true,
+      "class": "col-12",
+      "if_func": "this.tableHeader['datTable'].length === 2"
+    },
+    "errorbar_width": {
+      "type": "slider",
+      "label": {
+        "en": "Errorbar Width",
+        "zh_cn": "误差线宽度"
+      },
+      "class": "col-12 col-md-6",
+      "max": 3,
+      "step": 0.1
+    },
+    "jitter": {
+      "type": "slider",
+      "label": {
+        "en": "Scatter Jitter",
+        "zh_cn": "散点偏离"
+      },
+      "class": "col-12 col-md-6",
+      "max": 1,
+      "step": 0.01
+    }
+  }
+}

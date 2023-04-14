@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "滑珠图",
+    "en": "Dotchart"
+  },
+  "alias": ["Dot-Chart"],
+  "intro": {
+    "zh_cn": "常用数据展示方式",
+    "en": "Common way to show digital dramas"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/dotchart-0.oc6kqh8icwo-1-tuya2a2c066f9dfb218e.jpg",
+  "href": "/basic/dotchart",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 4.98,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-08-22",
+    "updateDate": "2020-02-16"
+  }
+}

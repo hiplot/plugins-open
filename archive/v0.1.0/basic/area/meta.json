@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "面积图",
+    "en": "Area"
+  },
+  "alias": ["Area-Chart"],
+  "intro": {
+    "zh_cn": "展示数据占比",
+    "en": "Display the data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/69-JC3Y0H-tuya.jpg",
+  "href": "/basic/area",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-09-01",
+    "updateDate": "2020-02-06"
+  }
+}

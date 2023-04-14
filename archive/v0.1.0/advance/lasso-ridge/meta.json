@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Lasso Ridge",
+    "en": "Lasso Ridge"
+  },
+  "alias": ["Lasso-Ridge"],
+  "intro": {
+    "zh_cn": "LASSO & 岭回归",
+    "en": "LASSO & RIDGE Regression"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/08/lasso-ridge-tuya.jpg",
+  "href": "/advance/lasso-ridge",
+  "tag": [
+    "shiny",
+    "model"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-09-08",
+    "updateDate": "2020-09-08"
+  }
+}

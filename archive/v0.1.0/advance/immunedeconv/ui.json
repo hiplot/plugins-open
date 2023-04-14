@@ -1,0 +1,96 @@
+{
+  "data": {
+    "expmat": {
+      "type": "cloud-file",
+      "required": true,
+      "label": "messages.common.dataTable",
+      "icon": "mdi-file",
+      "exts": [
+        "txt",
+        "csv",
+        "txt.gz",
+        "csv.gz",
+        "tsv",
+        "tsv.gz"
+      ],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "extra": {
+    "method": {
+      "type": "select",
+      "label": "messages.advance.immunedeconv.method",
+      "items": [
+        "quantiseq",
+        "timer",
+        "cibersort",
+        "cibersort_abs",
+        "mcp_counter",
+        "xcell",
+        "epic"
+      ],
+      "class": "col-12"
+    },
+    "timer_cancer_type": {
+      "type": "select",
+      "label": "messages.advance.immunedeconv.cancerType",
+      "items": [
+        "Adenocortical Carcinoma",
+        "Bladder Carcinoma",
+        "Breast Carcinoma",
+        "Cervical Squamous Carcinoma",
+        "Colon Carcinoma",
+        "Diffuse Large B-cell Lymphoma",
+        "Glioblastoma Multiforme",
+        "Head and Neck Carcinoma",
+        "Kidney Chromophobe",
+        "Kidney Renal Clear Cell Carcinoma",
+        "Kidney Renal Papillary Cell Carcinoma",
+        "Lower Grade Glioma",
+        "Liver Hepatocellular Carcinoma",
+        "Lung Adenocarcinoma",
+        "Lung Squamous Carcinoma",
+        "Ovarian Serous Cystadenocarcinoma",
+        "Prostate Adenocarcinoma",
+        "Rectum Adenocarcinoma",
+        "Skin Cutaneous Melanoma",
+        "Stomach Adenocarcinoma",
+        "Thyroid Carcinoma",
+        "Uterine Corpus Endometrial Carcinoma",
+        "Uterine Carsinosarcoma"
+      ],
+      "required": true,
+      "class": "col-12 col-md-4",
+      "if_func": "this.params.config.extra.method === 'timer'"
+    },
+    "arrays": {
+      "type": "switch",
+      "label": "messages.advance.immunedeconv.arrays",
+      "class": "col-12 col-md-4",
+      "if_func": "this.params.config.extra.method === 'quantiseq' || this.params.config.extra.method.indexOf('ciber') !== -1"
+    },
+    "scale_mrna": {
+      "type": "switch",
+      "label": "messages.advance.immunedeconv.scaleMrna",
+      "class": "col-12 col-md-4",
+      "if_func": "this.params.config.extra.method === 'quantiseq' || this.params.config.extra.method === 'epic'"
+    },
+    "tumor": {
+      "type": "switch",
+      "label": "messages.advance.immunedeconv.tumor",
+      "class": "col-12 col-md-4",
+      "if_func": "this.params.config.extra.method === 'quantiseq'"
+    },
+    "pointSize": {
+      "type": "slider",
+      "label": {
+        "en": "Point Size",
+        "zh_cn": "点大小"
+      },
+      "if_func": "this.params.config.extra.method !== 'quantiseq'",
+      "class": "col-12"
+    }
+  }
+}

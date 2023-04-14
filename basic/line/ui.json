@@ -1,0 +1,24 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "type": {
+      "type": "switch",
+      "label": "messages.basic.line.type"
+    },
+    "point": {
+      "type": "switch",
+      "label": "messages.basic.common.point"
+    }
+  }
+}

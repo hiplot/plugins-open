@@ -1,0 +1,14 @@
+{
+  "data": {
+    "code": {
+      "type": "codemirror",
+      "required": true,
+      "label": "messages.common.code"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  }
+}

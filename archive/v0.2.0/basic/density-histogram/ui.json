@@ -1,0 +1,73 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Y"
+      },
+      {
+        "label": {
+          "en": "Group",
+          "zh_cn": "分组"
+        },
+        "required": false
+      },
+      {
+        "label": {
+          "en": "Facet",
+          "zh_cn": "分面"
+        },
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "xintercept": {
+      "type": "combobox",
+      "label": {
+        "en": "X-Intercept",
+        "zh_cn": "X 轴指示线"
+      },
+      "items": ["mean", "median", "none"],
+      "class": "col-12"
+    },
+    "histogram": {
+      "type": "switch",
+      "label": {
+        "en": "Histogram",
+        "zh_cn": "直方图"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "binsize": {
+      "type": "slider",
+      "label": {
+        "en": "Size of Bins",
+        "zh_cn": "直方图等份"
+      },
+      "class": "col-12",
+      "if": "histogram"
+    },
+    "line_thick": {
+      "type": "slider",
+      "label": {
+        "en": "Line Thick",
+        "zh_cn": "线描边"
+      },
+      "class": "col-12",
+      "step": 0.1
+    }
+  }
+}

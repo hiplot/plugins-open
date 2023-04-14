@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "三维饼图",
+    "en": "3D Pie"
+  },
+  "alias": ["3D-Pie"],
+  "intro": {
+    "zh_cn": "用于展示数据占比",
+    "en": "Display the data ratio"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/pie-3d-0.6yb495w3xm-1.jpg",
+  "href": "/basic/pie-3d",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 4.8,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2020-03-26",
+    "updateDate": "2020-07-01"
+  }
+}

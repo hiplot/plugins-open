@@ -1,0 +1,42 @@
+{
+  "module": "basic",
+  "tool": "radar",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 5,
+          "height": 3.5
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Radar Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "observation\tS1\tS2\tS3\tS4\nvalue1\t6\t6\t4\t6\nvalue2\t160\t160\t108\t258\nvalue3\t110\t110\t93\t110\nvalue4\t3.9\t3.9\t3.85\t3.08\nvalue5\t2.62\t2.875\t2.32\t3.215"
+    }
+  }
+}

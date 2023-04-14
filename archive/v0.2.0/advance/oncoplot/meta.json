@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "突变全景图",
+    "en": "Oncoplot"
+  },
+  "alias": ["Oncoplot"],
+  "intro": {
+    "zh_cn": "癌症队列突变全景分析",
+    "en": "Mutation analysis of cancer cohort"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/03/31/oncoplot-0.vh9odhs7a6-1-tuya.jpg",
+  "href": "/advance/oncoplot",
+  "tag": [
+    "vue",
+    "mutation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfneg",
+    "email": "admin@hiplot.org",
+    "version": "v0.1.1",
+    "releaseDate": "2022-03-31",
+    "updateDate": "2022-03-31"
+  }
+}

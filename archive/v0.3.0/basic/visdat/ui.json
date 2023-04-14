@@ -1,0 +1,69 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "mode": {
+      "type": "select",
+      "label": {
+        "zh_cn": "绘制图形",
+        "en": "Type of Plots"
+      },
+      "class_func": "this.params.config.extra.mode.indexOf('vis_expect') !== -1?'col-12 col-md-6':'col-12'",
+      "items": [
+        "vis_dat",
+        "vis_guess",
+        "vis_miss",
+        "vis_expect",
+        "vis_cor",
+        "vis_value"
+      ],
+      "multiple": true,
+      "required": true,
+      "clearable": true
+    },
+    "expect": {
+      "type": "text-field",
+      "label": {
+        "en": "Expression of Expect Value",
+        "zh_cn": "期待值表达式"
+      },
+      "if_func": "this.params.config.extra.mode.indexOf('vis_expect') !== -1",
+      "class": "col-12 col-md-6"
+    },
+    "ncol": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "图片列数",
+        "en": "Ncol"
+      },
+      "class": "col-12 col-md-6",
+      "min": 1
+    },
+    "missingClust": {
+      "type": "switch",
+      "label": {
+        "en": "Missing Clust",
+        "zh_cn": "缺失值聚类"
+      },
+      "class": "col-12 col-md-3"
+    },
+    "missingSort": {
+      "type": "switch",
+      "label": {
+        "en": "Missing Sort",
+        "zh_cn": "缺失率排序"
+      },
+      "class": "col-12 col-md-3"
+    }
+  }
+}

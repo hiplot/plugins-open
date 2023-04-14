@@ -1,0 +1,94 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Time"
+      },
+      {
+        "label": "Event"
+      },
+      {
+        "label": "RiskScore"
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "size_points": {
+      "type": "slider",
+      "label": "messages.basic.common.pointSize",
+      "max": 20,
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    },
+    "size_dashline": {
+      "type": "slider",
+      "label": "messages.basic.common.dashlineSize",
+      "max": 20,
+      "step": 0.1,
+      "class": "col-12 col-md-6"
+    },
+    "cutoff": {
+      "type": "select",
+      "label": "messages.basic.common.cutoff",
+      "class": "col-12",
+      "items": ["median", "roc", "cutoff", "user_define"]
+    },
+    "user_define": {
+      "type": "slider",
+      "label": {
+        "en": "Cutoff Value",
+        "zh_ch": "阈值"
+      },
+      "max": 100,
+      "step": 0.01,
+      "min": -0,
+      "class": "col-12",
+      "if_func": "this.params.config.extra.cutoff === 'user_define'"
+    },
+    "low_color": {
+      "type": "color-picker",
+      "label": "messages.basic.common.low_risk_color",
+      "class": "col-12 col-md-4"
+    },
+    "high_color": {
+      "type": "color-picker",
+      "label": "messages.basic.common.high_risk_color",
+      "class": "col-12 col-md-4"
+    },
+    "show_heatmap": {
+      "type": "switch",
+      "label": "messages.basic.common.show_heatmap",
+      "class": "col-12 col-md-4"
+    },
+    "gene_low": {
+      "type": "color-picker",
+      "label": "messages.basic.common.gene_low_exp_color",
+      "class": "col-12 col-md-4",
+      "if": "show_heatmap"
+    },
+    "gene_middle": {
+      "type": "color-picker",
+      "label": "messages.basic.common.gene_middle_exp_color",
+      "class": "col-12 col-md-4",
+      "if": "show_heatmap"
+    },
+    "gene_high": {
+      "type": "color-picker",
+      "label": "messages.basic.common.gene_high_exp_color",
+      "class": "col-12 col-md-4",
+      "if": "show_heatmap"
+    }
+  }
+}

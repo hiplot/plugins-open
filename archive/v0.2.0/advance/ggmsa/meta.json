@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh_cn": "GGMSA",
+    "en": "GGMSA"
+  },
+  "alias": ["GGMSA"],
+  "intro": {
+    "zh_cn": "多重序列比对可视化",
+    "en": "Visualization of MSA"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/18/ggmsa-0.fx6bscts6wm-1.jpg",
+  "href": "/advance/ggmsa",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "msa"
+  ],
+  "meta": {
+    "score": 5,
+    "issues": "https://github.com/YuLab-SMU/ggmsa/issues",
+    "author": "YuLab-SMU && Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2022-04-18",
+    "updateDate": "2022-04-18"
+  }
+}

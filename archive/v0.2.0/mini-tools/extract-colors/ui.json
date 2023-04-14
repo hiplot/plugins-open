@@ -1,0 +1,34 @@
+{
+  "data": {
+    "images": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "zh_cn": "图像文件列表",
+        "en": "Image Files"
+      },
+      "icon": "mdi-file",
+      "exts": ["tiff", "tif", "png", "jpg", "jpeg", "webp"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "num_col" : {
+      "type": "slider",
+      "label": {
+        "zh_cn": "提取颜色数",
+        "en": "Number of Extracted Clolors"
+      },
+      "class": "col-12",
+      "min": 1,
+      "max": 9999
+    }
+  }
+}

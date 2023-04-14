@@ -1,0 +1,75 @@
+{
+  "module": "advance",
+  "tool": "ggtree-msa",
+  "params": {
+    "config": {
+      "data": {
+        "0-tree": {
+          "value": "",
+          "link": ""
+        },
+        "1-msa": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 12,
+          "height": 6
+        },
+        "palette": "default",
+
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "tree_read_func": "tree",
+        "circular": false,
+        "align": false,
+        "tree_label_size": 3,
+        "tree_offset": 0,
+        "msa_offset": 3,
+        "msa_width": 2
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "data": {
+          "0-tree": {
+            "value": "public/demo/ggtree-msa/tree.nwk",
+            "link": ""
+          },
+          "1-msa": {
+            "value": "public/demo/ggtree-msa/sequence.fa",
+            "link": ""
+          }
+        }
+      }
+    },
+    {
+      "config": {
+        "extra": {
+          "tree_read_func": "tree",
+          "circular": true,
+          "align": true,
+          "tree_label_size": 3,
+          "tree_offset": 4,
+          "msa_offset": 0,
+          "msa_width": 1
+        }
+      }
+    }
+  ]
+}

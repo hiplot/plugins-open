@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "等高线图 (XY)",
+    "en": "Contour (XY)"
+  },
+  "alias": ["Map-Contour"],
+  "intro": {
+    "zh_cn": "展示海拔等信息",
+    "en": "Display the altitude"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/64-JC311K-tuya.jpg",
+  "href": "/basic/contour-xy",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 3.5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-07-04",
+    "updateDate": "2020-02-22"
+  }
+}

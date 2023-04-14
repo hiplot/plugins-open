@@ -1,0 +1,33 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": {
+          "en": "Variables",
+          "zh_cn": "变量"
+        },
+        "multiple": true
+      }
+    ]
+  },
+  "extra": {
+    "mode": {
+      "type": "select",
+      "label": "messages.common.mode",
+      "items": [
+        "binary",
+        "gray",
+        "default"
+      ],
+      "class": "col-12",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "散点图",
+    "en": "Scatter"
+  },
+  "alias": ["Scatter-Chart"],
+  "intro": {
+    "zh_cn": "可用于展示变量之间的关系",
+    "en": "Display the variables"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/103-JVTySf-tuya.jpg",
+  "href": "/basic/scatter",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-10-13",
+    "updateDate": "2020-04-16"
+  }
+}

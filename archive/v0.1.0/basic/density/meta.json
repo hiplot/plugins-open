@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "密度图",
+    "en": "Density"
+  },
+  "alias": ["Density-Area"],
+  "intro": {
+    "zh_cn": "展示数据分布",
+    "en": "Display data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/54-dSfmjg-tuya.jpg",
+  "href": "/basic/density",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Hiplot Team | Jack Wang",
+    "releaseDate": "2019-09-13",
+    "updateDate": "2020-03-08"
+  }
+}

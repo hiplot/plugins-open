@@ -1,0 +1,19 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [{"label": "X"}, {"label": "Y", "required": false}]
+  },
+  "extra": {
+    "paired": {
+      "type": "switch",
+      "label": "messages.common.paried",
+      "class": "col-12"
+    }
+  }
+}

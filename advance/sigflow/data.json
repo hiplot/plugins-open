@@ -1,0 +1,37 @@
+{
+  "module": "advance",
+  "tool": "sigflow",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "input": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "cliMode": true
+      },
+      "extra": {
+        "command": "extract",
+        "mode": "SBS",
+        "max_sig_number": -1,
+        "nrun": 10,
+        "genome": "hg19"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "input": {
+          "value": ["public/demo/tcga_laml.maf.gz"],
+          "link": ""
+        }
+      }
+    }
+  }
+}

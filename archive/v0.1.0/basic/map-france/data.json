@@ -1,0 +1,39 @@
+{
+  "module": "basic",
+  "tool": "map-france",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 25,
+          "height": 34
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false,
+        "cliMode": true
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "France Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "name\tvalue\nBas-Rhin\t338\nHaut-Rhin\t353\nDordogne\t168\nGironde\t158\nLandes\t221\nLot-et-Garonne\t658\nPyrénées-Atlantiques\t615\nAllier\t587\nCantal\t975\nHaute-Loire\t98\nPuy-de-Dôme\t797\nEssonne\t814\nHauts-de-Seine\t304\nParis\t564\nSeine-et-Marne\t988\nSeine-Saint-Denis\t480\nVal-d'Oise\t320\nVal-de-Marne\t268\nYvelines\t199\nCalvados\t993\nManche\t994\nOrne\t915\nCôte-d'Or\t904\nNièvre\t11\nSaône-et-Loire\t446\nYonne\t856\nCôtes-d'Armor\t207\nFinistère\t165\nIlle-et-Vilaine\t433\nMorbihan\t838\nCher\t216\nEure-et-Loir\t203\nIndre-et-Loire\t326\nIndre\t184\nLoir-et-Cher\t351\nLoiret\t676\nArdennes\t703\nAube\t904\nHaute-Marne\t561\nMarne\t294\nCorse-du-Sud\t994\nHaute-Corse\t513\nDoubs\t242\nHaute-Saône\t939\nJura\t194\nTerritoire de Belfort\t418\nEure\t590\nSeine-Maritime\t983\nAude\t991\nGard\t40\nHérault\t579\nLozère\t257\nPyrénées-Orientales\t912\nCorrèze\t796\nCreuse\t216\nHaute-Vienne\t247\nMeurthe-et-Moselle\t370\nMeuse\t196\nMoselle\t153\nVosges\t278\nAriège\t744\nAveyron\t207\nGers\t618\nHaute-Garonne\t819\nHautes-Pyrénées\t143\nLot\t760\nTarn-et-Garonne\t660\nTarn\t313\nNord\t492\nPas-de-Calais\t594\nLoire-Atlantique\t244\nMaine-et-Loire\t589\nMayenne\t568\nSarthe\t662\nVendée\t161\nAisne\t528\nOise\t128\nSomme\t14\nCharente-Maritime\t524\nCharente\t455\nDeux-Sèvres\t804\nVienne\t222\nAlpes-de-Haute-Provence\t717\nAlpes-Maritimes\t950\nBouches-du-Rhône\t480\nHautes-Alpes\t183\nVar\t149\nVaucluse\t354\nAin\t265\nArdèche\t505\nDrôme\t445\nHaute-Savoie\t294\nIsère\t833\nLoire\t48\nRhône\t919\nSavoie\t914\n"
+    }
+  }
+}

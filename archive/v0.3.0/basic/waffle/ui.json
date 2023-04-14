@@ -1,0 +1,27 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "size": {
+      "type": "slider",
+      "label": {
+        "en": "Margin",
+        "zh_cn": "区块间隔"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "rows": {
+      "type": "slider",
+      "label": {
+        "en": "Rows",
+        "zh_cn": "区块行数"
+      },
+      "class": "col-12 col-md-6"
+    }
+  }
+}

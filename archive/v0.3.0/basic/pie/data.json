@@ -1,0 +1,37 @@
+{
+  "module": "basic",
+  "tool": "pie",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 5,
+          "height": 4.5
+        },
+        "theme": "theme_nothing",
+        "palette": "lancet",
+        "title": "",
+        "font": "Arial"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Pie Plot"
+      }
+    },
+    "textarea": {
+      "datTable": "group\tvalue\nGroup1\t13\nGroup2\t34\nGroup3\t21\nGroup4\t43"
+    }
+  }
+}

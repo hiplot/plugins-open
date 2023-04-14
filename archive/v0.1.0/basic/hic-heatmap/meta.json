@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "Hi-C 热图",
+    "en": "Hi-C Heatmap"
+  },
+  "alias": ["HiC-Heatmap"],
+  "intro": {
+    "zh_cn": "数值矩阵展示",
+    "en": "Numerical matrix display"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/10/08/hic-tuya.jpg",
+  "href": "/basic/hic-heatmap",
+  "tag": [
+    "vue",
+    "correlation",
+    "hi-c"
+  ],
+  "meta": {
+    "score": 4.8,
+    "author": "Hiplot Team | Wei Dong",
+    "releaseDate": "2020-09-28",
+    "updateDate": "2020-09-28"
+  }
+}

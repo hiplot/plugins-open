@@ -1,0 +1,43 @@
+{
+  "module": "basic",
+  "tool": "ggdag",
+  "params": {
+    "config": {
+      "data": {
+        "graph": ""
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 5,
+          "height": 5
+        },
+        "theme": "default",
+        "title": "",
+        "font": "Arial"
+      },
+      "extra": {
+        "exposure": "",
+        "outcome": ""
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "graph": "y ~ x + z2 + w2 + w1,\n      x ~ z1 + w1 + w2,\n      z1 ~ w1 + v,\n      z2 ~ w2 + v,\n      w1 ~~ w2"
+      },
+      "general": {
+        "title": ""
+      },
+      "extra": {
+        "exposure": "x",
+        "outcome": "y"
+      }
+    }
+  }
+}

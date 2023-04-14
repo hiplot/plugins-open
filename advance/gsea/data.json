@@ -46,7 +46,7 @@
         "plot_top_x": 20,
         "test_groups": [],
         "enable_versus_rest": false,
-        "cli_version": "4.2.3"
+        "cli_version": "4.3.2"
       }
     }
   },

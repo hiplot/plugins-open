@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "DiscoverMutTest",
+    "en": "DiscoverMutTest"
+  },
+  "alias": ["Discover-Mut-Test"],
+  "intro": {
+    "zh_cn": "基因突变共存互斥分析",
+    "en": "Co-occurrence and mutual exclusivity"
+  },
+  "src": "https://s1.imagehub.cc/images/2022/04/15/discover-mut-test-0.5shqg1k1wt9-1-tuya.jpg",
+  "href": "/advance/discover-mut-test",
+  "tag": [
+    "vue",
+    "mutation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "issues": "https://github.com/NKI-CCB/DISCOVER",
+    "citation":  "Canisius S, Martens JW, Wessels LF. A novel independence test for somatic alterations in cancer shows that biology drives mutual exclusivity but chance explains most co-occurrence. Genome Biol. 2016 Dec 16;17(1):261. doi: 10.1186/s13059-016-1114-x. PMID: 27986087; PMCID: PMC5162102.",
+    "releaseDate": "2021-11-03",
+    "updateDate": "2021-11-03"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "GGPubr 箱线图",
+    "en": "GGPubr Boxplot"
+  },
+  "alias": ["Box-Scatter"],
+  "intro": {
+    "zh_cn": "特性丰富的箱线图（GGPubr 接口）",
+    "en": "Feature-rich boxplot (GGPubr interface)"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/15/ggpubr-boxplot-0.i7cm9g6bc9-1-tuya.jpg",
+  "href": "/basic/ggpubr-boxplot",
+  "tag": ["vue", "boxplot", "comparison"],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot team | Shixiang Wang",
+    "email": "",
+    "issues": "https://github.com/kassambara/ggpubr/",
+    "releaseDate": "2021-03-07",
+    "updateDate": "2021-03-15",
+    "citation": "Alboukadel Kassambara (2020). ggpubr: 'ggplot2' Based Publication Ready Plots. R package version 0.4.0. https://CRAN.R-project.org/package=ggpubr"
+  }
+}

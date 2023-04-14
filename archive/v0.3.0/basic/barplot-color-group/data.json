@@ -1,0 +1,76 @@
+{
+  "module": "basic",
+  "tool": "barplot-color-group",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 8,
+          "height": 5
+        },
+        "theme": "theme_classic",
+        "title": "",
+        "palette": "npg",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "topnum": 7,
+        "coord_flip": true
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": "Term"
+          },
+          {
+            "value": "Count"
+          },
+          {
+            "value": "Type"
+          }
+        ]
+      },
+      "general": {
+        "title": "Barplot Color Group"
+      }
+    },
+    "textarea": {
+      "datTable": "Term\tCount\tType\nGO:0006955~immune response\t20\tBP\nGO:0042742~defense response to bacterium\t11\tBP\nGO:0060326~cell chemotaxis\t8\tBP\nGO:0007155~cell adhesion\t17\tBP\nGO:0006956~complement activation\t8\tBP\nGO:0019221~cytokine-mediated signaling pathway\t8\tMF\nGO:0006911~phagocytosis, engulfment\t5\tMF\nGO:0046426~negative regulation of JAK-STAT cascade\t5\tMF\nGO:0019373~epoxygenase P450 pathway\t4\tMF\nGO:0070098~chemokine-mediated signaling pathway\t6\tMF\nGO:2000107~negative regulation of leukocyte apoptotic process\t3\tMF\nGO:0050853~B cell receptor signaling pathway\t5\tMF\nGO:0071356~cellular response to tumor necrosis factor\t6\tCC\nGO:0050921~positive regulation of chemotaxis\t3\tCC\nGO:0045766~positive regulation of angiogenesis\t6\tCC\nGO:0030199~collagen fibril organization\t4\tCC\nGO:0034112~positive regulation of homotypic cell-cell adhesion\t20\tKEGG\nGO:0060491~regulation of cell projection assembly\t14\tKEGG\nGO:0060523~prostate epithelial cord elongation\t10\tKEGG\nGO:0030573~bile acid catabolic process\t8\tKEGG\nGO:0035690~cellular response to drug\t7\tKEGG\nGO:0030203~glycosaminoglycan metabolic process\t4\tKEGG"
+    }
+  }
+}

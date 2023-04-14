@@ -1,0 +1,189 @@
+{
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "type": {
+      "type": "autocomplete",
+      "label": {
+        "zh_cn": "统计分布",
+        "en": "Statistics Distribution"
+      },
+      "class": "col-12 col-md-6",
+      "items": ["normal", "binom", "f", "t", "chisquare"]
+    },
+    "plot": {
+      "type": "autocomplete",
+      "label": {
+        "zh_cn": "绘图类型",
+        "en": "Type of Plots"
+      },
+      "class": "col-12 col-md-6",
+      "items": ["plot", "perc", "prob"]
+    },
+    "mean": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "均值",
+        "en": "Mean"
+      },
+      "class": "col-12 col-md-6",
+      "if_func": "this.params.config.extra.type === 'normal'",
+      "max": 9999,
+      "min": -9999,
+      "step": 0.001
+    },
+    "sd": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "标准差",
+        "en": "SD"
+      },
+      "class": "col-12 col-md-6",
+      "if_func": "this.params.config.extra.type === 'normal'",
+      "max": 9999,
+      "step": 0.001
+    },
+    "df": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "自由度",
+        "en": "Degree of Freedom"
+      },
+      "class": "col-12",
+      "if_func": "['t', 'chisquare'].indexOf(this.params.config.extra.type) !== -1",
+      "max": 9999
+    },
+    "n": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "试验次数",
+        "en": "Number of Trials"
+      },
+      "class": "col-12 col-md-6",
+      "if_func": "this.params.config.extra.type === 'binom'",
+      "max": 9999
+    },
+    "p": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "聚集概率",
+        "en": "Aggregate Probability"
+      },
+      "class": "col-12 col-md-6",
+      "if_func": "this.params.config.extra.type === 'binom'",
+      "max": 1,
+      "step": 0.0001
+    },
+    "num_df": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "分子自由度",
+        "en": "Numerator Degrees of Freedom"
+      },
+      "class": "col-12",
+      "if_func": "this.params.config.extra.type === 'f'",
+      "max": 9999
+    },
+    "den_df": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "分母自由度",
+        "en": "Denominator Degrees of Freedom"
+      },
+      "class": "col-12",
+      "if_func": "this.params.config.extra.type === 'f'",
+      "max": 9999
+    },
+    "s": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "成功次数",
+        "en": "Number of Success"
+      },
+      "class": "col-12",
+      "if_func": "this.params.config.extra.plot === 'prob' && this.params.config.extra.type === 'binom'",
+      "max": 9999
+    },
+    "tp": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "成功概率",
+        "en": "Probability of Success"
+      },
+      "items": ["lower", "upper", "interval", "exact", "both"],
+      "class": "col-12",
+      "if_func": "this.params.config.extra.plot === 'perc' && this.params.config.extra.type === 'binom' ",
+      "step": 0.0001,
+      "max": 0.5
+    },
+    "probs": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "概率值",
+        "en": "Probability Value"
+      },
+      "class": "col-12",
+      "if_func": "this.params.config.extra.plot === 'perc' && this.params.config.extra.type !== 'binom'",
+      "max": 1,
+      "min": 0,
+      "step": 0.0001
+    },
+    "perc": {
+      "type": "slider",
+      "label": {
+        "zh_cn": "百分位数",
+        "en": "Quantile Value"
+      },
+      "class": "col-12",
+      "if_func": "this.params.config.extra.plot === 'prob' && this.params.config.extra.type !== 'binom' && this.params.config.extra.probsType !== 'both'",
+      "max": 9999,
+      "min": -9999,
+      "step": 0.0001
+    },
+    "percRange": {
+      "type": "range-slider",
+      "label": {
+        "zh_cn": "百分位数 (区间)",
+        "en": "Quantile Value (Range)"
+      },
+      "class": "col-12",
+      "if_func": "this.params.config.extra.plot === 'prob' && this.params.config.extra.type !== 'binom' && this.params.config.extra.probsType === 'both'",
+      "max": 9999,
+      "min": -9999,
+      "step": 0.1
+    },
+    "probsType": {
+      "type": "autocomplete",
+      "label": {
+        "zh_cn": "单侧或双侧概率",
+        "en": "Lower, Upper Tail or Both"
+      },
+      "items": ["lower", "upper", "both", "exact", "interval"],
+      "class": "col-12",
+      "if_func": "this.params.config.extra.plot !== 'plot'",
+      "max": 9999
+    },
+    "sRange": {
+      "type": "range-slider",
+      "label": {
+        "zh_cn": "成功次数 (区间)",
+        "en": "Quantile Value (Range)"
+      },
+      "class": "col-12",
+      "if_func": "this.params.config.extra.plot !== 'plot' && this.params.config.extra.type === 'binom' && this.params.config.extra.probsType === 'interval'",
+      "max": 9999
+    },
+    "normal": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "正太曲线",
+        "en": "Normal Curve"
+      },
+      "class": "col-12 col-md-6",
+      "if_func": "['f', 'chisquare'].indexOf(this.params.config.extra.type) !== -1"
+    }
+  }
+}

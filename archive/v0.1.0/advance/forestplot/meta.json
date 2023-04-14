@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "森林图",
+    "en": "Forestplot"
+  },
+  "alias": ["Risk-Forest"],
+  "intro": {
+    "zh_cn": "森林图可视化",
+    "en": "Forest Visualization"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/13/forestplot-tuya.jpg",
+  "href": "/advance/forestplot",
+  "tag": [
+    "shiny",
+    "forest"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-09-13",
+    "updateDate": "2020-09-13"
+  }
+}

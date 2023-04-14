@@ -1,0 +1,21 @@
+{
+  "name": {
+    "zh_cn": "流动图",
+    "en": "Streamgraph"
+  },
+  "alias": ["Stream-Chart"],
+  "intro": {
+    "zh_cn": "绘制量化波形图",
+    "en": "Drawing streamgraph"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/28/streamline.jpg",
+  "href": "/basic/streamgraph",
+  "tag": ["vue", "evolution"],
+  "meta": {
+    "score": 4,
+    "author": "Hiplot Team | Wei Dong",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2020-11-28",
+    "updateDate": "2020-11-28"
+  }
+}

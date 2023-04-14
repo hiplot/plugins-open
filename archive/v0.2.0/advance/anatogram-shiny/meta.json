@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "Anatogram Shiny",
+    "en": "Anatogram Shiny"
+  },
+  "alias": ["Anatomical-Map"],
+  "intro": {
+    "zh_cn": "解剖医学图绘制",
+    "en": "Anatogram"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/41-dbFiSf-tuya.jpg",
+  "href": "/advance/anatogram-shiny",
+  "tag": [
+    "shiny",
+    "medcine"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Houshi Xu",
+    "releaseDate": "2020-08-30",
+    "updateDate": "2020-08-30"
+  }
+}

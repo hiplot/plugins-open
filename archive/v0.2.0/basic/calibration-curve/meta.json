@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "校准曲线",
+    "en": "Calibration Curve"
+  },
+  "alias": ["Calibration-Curve"],
+  "intro": {
+    "zh_cn": "评价模型一致性/校准度",
+    "en": "calibration curve for models"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/11/01/calibration-curve-tuya.jpg",
+  "href": "/basic/calibration-curve",
+  "tag": [
+    "vue",
+    "flow"
+  ],
+  "meta": {
+    "score": 4.95,
+    "author": "Hiplot Team | benben-miao",
+    "email": "benben.miao@outlook.com",
+    "issues": "https://github.com/hiplot/gold",
+    "releaseDate": "2020-10-31",
+    "updateDate": "2020-10-31"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "金字塔图",
+    "en": "Pyramid Chart"
+  },
+  "alias": ["Pyramid-Chart"],
+  "intro": {
+    "zh_cn": "展示数据值",
+    "en": "Display data values"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/5-a84ZTA-tuya.jpg",
+  "href": "/basic/pyramid-chart",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 4.5,
+    "author": "Thomas Neitmann & Hiplot Team | Jianfeng",
+    "issues": "https://github.com/thomas-neitmann/ggcharts",
+    "releaseDate": "2020-08-01",
+    "updateDate": "2020-08-01"
+  }
+}

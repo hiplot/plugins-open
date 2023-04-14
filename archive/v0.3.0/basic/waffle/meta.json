@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "华夫饼图",
+    "en": "Waffle Plot"
+  },
+  "alias": ["Waffle-Graph"],
+  "intro": {
+    "zh_cn": "展示数据占比",
+    "en": "Display the data percent"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/02/10/waffle-0.togbd7f4eqc.jpg",
+  "href": "/basic/waffle",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 4.8,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-02-09",
+    "updateDate": "2021-02-09"
+  }
+}

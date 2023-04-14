@@ -1,0 +1,41 @@
+{
+  "module": "basic",
+  "tool": "chord",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {},
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 6,
+          "height": 6
+        },
+        "alpha": 0.5,
+        "palette": "null",
+        "font": "Arial"
+      },
+      "extra": {
+        "directional": 0,
+        "direction_type": "diffHeight",
+        "dist_name": 3,
+        "width_circle": 3,
+        "link_visible": true,
+        "scale": false,
+        "dist_label": 0.2,
+        "label_dir": "hor",
+        "data_stru": "matrix"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+      }
+    },
+    "textarea": {
+      "datTable": "id\tE1\tE2\tE3\tE4\tE5\nS1\t4\t16\t12\t18\t11\nS2\t7\t11\t2\t15\t10\nS3\t9\t2\t17\t16\t11\nS4\t14\t9\t12\t3\t17\nS5\t1\t1\t7\t1\t12\nS6\t10\t18\t9\t13\t9\nS7\t3\t8\t4\t15\t1\nS8\t15\t4\t9\t13\t11\nS9\t5\t4\t7\t3\t18\nS10\t7\t9\t1\t4\t6\nS11\t6\t7\t5\t8\t9\nS12\t11\t2\t2\t16\t18\nS13\t18\t13\t8\t14\t16\nS14\t1\t2\t2\t14\t3\nS15\t5\t13\t6\t16\t18\nS16\t12\t7\t15\t12\t2\nS17\t9\t2\t1\t10\t1\nS18\t5\t13\t13\t11\t8\nS19\t4\t12\t4\t14\t6\nS20\t15\t13\t14\t11\t5"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "extra": {
+    "correlation": {
+      "type": "select",
+      "label": "messages.basic.corHeatmap.correlation",
+      "items": [
+        "row", "col"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    
+    "order_method": {
+      "type": "select",
+      "label": {
+        "en": "Order Method",
+        "zh_cn": "排序方法"
+      },
+      "items": [
+        "original", "hclust", "AOE", "FPC", "alphabet"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "hc_method": {
+      "type": "select",
+      "label": "messages.basic.common.hc_method",
+      "items": [
+        "ward.D",
+        "ward.D2",
+        "single",
+        "complete",
+        "average",
+        "mcquitty",
+        "median",
+        "centroid"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "cor_method": {
+      "type": "select",
+      "label": {
+        "en": "Correlation Method",
+        "zh_cn": "相关计算方法"
+      },
+      "items": [
+        "pearson", "spearman", "kendall"
+      ],
+      "class": "col-12 col-md-4"
+    },
+    "color_low": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color Low",
+        "zh_cn": "小值颜色"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "color_mid": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color Middle",
+        "zh_cn": "中值颜色"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "color_high": {
+      "type": "color-picker",
+      "label": {
+        "en": "Color High",
+        "zh_cn": "大值颜色"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "diag": {
+      "type": "switch",
+      "label": {
+        "zh_cn": "对角线",
+        "en": "Diagonal"
+      },
+      "class": "col-12 col-md-3"
+    }
+  }
+}

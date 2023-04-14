@@ -1,0 +1,46 @@
+{
+  "module": "basic",
+  "tool": "survival",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 5,
+          "height": 7
+        },
+        "theme": "theme_bw",
+        "palette": "lancet",
+        "font": "Arial"
+      },
+      "extra": {
+        "risk_table": true,
+        "pval": true,
+        "intervals": true,
+        "risk_table_y_text": true,
+        "ncensor_plot": true,
+        "risk_table_height": 0.25,
+        "ncensor_plot_height": 0.25,
+        "line_size": 0.5,
+        "surv_median_line": "hv",
+        "conf_int_style": "ribbon",
+        "function": "pct",
+        "xlab": "Time",
+        "ylab": "Survival probability"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+      }
+    },
+    "textarea": {
+      "datTable": "time\tstatus\tgroup\n306\t1\tG1\n455\t1\tG1\n1010\t0\tG1\n210\t1\tG1\n883\t1\tG1\n1022\t0\tG1\n310\t1\tG2\n361\t1\tG2\n218\t1\tG1\n166\t1\tG1\n170\t1\tG1\n654\t1\tG2\n728\t1\tG2\n71\t1\tG1\n567\t1\tG1\n144\t1\tG1\n613\t1\tG1\n707\t1\tG1\n61\t1\tG2\n88\t1\tG1\n301\t1\tG1\n81\t1\tG2\n624\t1\tG1\n371\t1\tG1\n394\t1\tG1\n520\t1\tG2\n574\t1\tG1\n118\t1\tG1\n390\t1\tG1\n12\t1\tG1\n473\t1\tG2\n26\t1\tG1\n533\t1\tG1\n107\t1\tG2\n53\t1\tG1\n122\t1\tG2\n814\t1\tG1\n965\t0\tG2\n93\t1\tG1\n731\t1\tG2\n460\t1\tG1\n153\t1\tG2\n433\t1\tG2\n145\t1\tG2\n583\t1\tG1\n95\t1\tG2\n303\t1\tG1\n519\t1\tG1\n643\t1\tG1\n765\t1\tG2\n735\t1\tG2\n189\t1\tG1\n53\t1\tG1\n246\t1\tG1\n689\t1\tG1\n65\t1\tG1\n5\t1\tG2\n132\t1\tG1\n687\t1\tG2\n345\t1\tG2\n444\t1\tG2\n223\t1\tG1\n175\t1\tG1\n60\t1\tG2\n163\t1\tG1\n65\t1\tG1\n208\t1\tG2\n821\t0\tG2\n428\t1\tG1\n230\t1\tG1\n840\t0\tG1\n305\t1\tG2\n11\t1\tG1\n132\t1\tG1\n226\t1\tG2\n426\t1\tG2\n705\t1\tG2\n363\t1\tG2\n11\t1\tG1\n176\t1\tG1\n791\t1\tG1\n95\t1\tG1\n196\t0\tG1\n167\t1\tG2\n806\t0\tG1\n284\t1\tG1\n641\t1\tG2\n147\t1\tG1\n740\t0\tG2\n163\t1\tG1\n655\t1\tG1\n239\t1\tG1\n88\t1\tG1\n245\t1\tG2\n588\t0\tG2\n30\t1\tG1\n179\t1\tG1\n310\t1\tG1\n477\t1\tG1\n166\t1\tG2\n559\t0\tG2\n450\t1\tG2\n364\t1\tG1\n107\t1\tG1\n177\t1\tG1\n156\t1\tG1\n529\t0\tG2\n11\t1\tG1\n429\t1\tG1\n351\t1\tG2\n15\t1\tG1\n181\t1\tG1\n283\t1\tG1\n201\t1\tG2\n524\t1\tG2\n13\t1\tG1\n212\t1\tG1\n524\t1\tG1\n288\t1\tG1\n363\t1\tG1\n442\t1\tG1\n199\t1\tG2\n550\t1\tG2\n54\t1\tG1\n558\t1\tG1\n207\t1\tG1\n92\t1\tG1\n60\t1\tG1\n551\t0\tG2\n543\t0\tG2\n293\t1\tG2\n202\t1\tG1\n353\t1\tG1\n511\t0\tG2\n267\t1\tG1\n511\t0\tG2\n371\t1\tG2\n387\t1\tG1\n457\t1\tG1\n337\t1\tG1\n201\t1\tG2\n404\t0\tG1\n222\t1\tG1\n62\t1\tG2\n458\t0\tG1\n356\t0\tG2\n353\t1\tG1\n163\t1\tG1\n31\t1\tG1\n340\t1\tG2\n229\t1\tG1\n444\t0\tG1\n315\t0\tG2\n182\t1\tG2\n156\t1\tG1\n329\t1\tG1\n364\t0\tG2\n291\t1\tG1\n179\t1\tG1\n376\t0\tG2\n384\t0\tG2\n268\t1\tG2\n292\t0\tG1\n142\t1\tG1\n413\t0\tG1\n266\t0\tG2\n194\t1\tG2\n320\t1\tG1\n181\t1\tG1\n285\t1\tG1\n301\t0\tG1\n348\t1\tG2\n197\t1\tG1\n382\t0\tG2\n303\t0\tG1\n296\t0\tG2\n180\t1\tG1\n186\t1\tG2\n145\t1\tG2\n269\t0\tG2\n300\t0\tG1\n284\t0\tG1\n350\t1\tG2\n272\t0\tG2\n292\t0\tG2\n332\t0\tG2\n285\t1\tG2\n259\t0\tG1\n110\t1\tG1\n286\t1\tG1\n270\t1\tG1\n81\t1\tG1\n131\t1\tG1\n225\t0\tG1\n269\t1\tG1\n225\t0\tG1\n243\t0\tG2\n279\t0\tG1\n276\t0\tG2\n135\t1\tG1\n79\t1\tG2\n59\t1\tG1\n240\t0\tG2\n202\t0\tG2\n235\t0\tG2\n105\t1\tG1\n224\t0\tG2\n239\t1\tG2\n237\t0\tG1\n173\t0\tG2\n252\t0\tG2\n221\t0\tG1\n185\t0\tG1\n92\t0\tG2\n13\t1\tG1\n222\t0\tG1\n192\t0\tG2\n183\t1\tG1\n211\t0\tG2\n175\t0\tG2\n197\t0\tG1\n203\t0\tG2\n116\t1\tG1\n188\t0\tG1\n191\t0\tG1\n105\t0\tG2\n174\t0\tG1\n177\t0\tG2"
+    }
+  }
+}

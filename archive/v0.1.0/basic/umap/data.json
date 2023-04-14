@@ -1,0 +1,83 @@
+{
+  "module": "basic",
+  "tool": "umap",
+  "maxPlex": 1,
+  "params": {
+    "textarea": { "1-datTable": "", "2-sampleInfo": "" },
+    "config": {
+      "data": {
+        "1-datTable": {
+          "value": "",
+          "link": ""
+        },
+        "2-sampleInfo": {
+          "value": "",
+          "link": ""
+        }
+      },
+      "dataArg": {
+        "2-sampleInfo": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 4,
+          "height": 3
+        },
+        "theme": "theme_classic",
+        "palette": "aaas",
+        "title": "",
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "data": {
+        "1-datTable": {
+          "value": "public/demo/pca/datTable.txt",
+          "link": ""
+        },
+        "2-sampleInfo": {
+          "value": "public/demo/pca/sampleInfo.txt",
+          "link": ""
+        }
+      },
+      "dataArg": {
+        "2-sampleInfo": [
+          {
+            "value": "Species"
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "title": "UMAP Plot"
+      }
+    },
+    "textarea": {
+      "1-datTable": "Samples\tM1\tM2\tM3\tM4\tM5\tM6\tM7\tM8\tM9\tM10\tM11\tM12\tM13\tM14\tM15\tM16\tM17\tM18\tM19\tM20\tM21\tM22\tM23\tM24\tM25\tM26\tM27\tM28\tM29\tM30\tM31\tM32\tM33\tM34\tM35\tM36\tM37\tM38\tM39\tM40\tM41\tM42\tM43\tM44\tM45\tM46\tM47\tM48\tM49\tM50\tM51\tM52\tM53\tM54\tM55\tM56\tM57\tM58\tM59\tM60\tM61\tM62\tM63\tM64\tM65\tM66\tM67\tM68\tM69\tM70\tM71\tM72\tM73\tM74\tM75\tM76\tM77\tM78\tM79\tM80\tM81\tM82\tM83\tM84\tM85\tM86\tM87\tM88\tM89\tM90\tM91\tM92\tM93\tM94\tM95\tM96\tM97\tM98\tM99\tM100\tM101\tM102\tM103\tM104\tM105\tM106\tM107\tM108\tM109\tM110\tM111\tM112\tM113\tM114\tM115\tM116\tM117\tM118\tM119\tM120\tM121\tM122\tM123\tM124\tM125\tM126\tM127\tM128\tM129\tM130\tM131\tM132\tM133\tM134\tM135\tM136\tM137\tM138\tM139\tM140\tM141\tM142\tM143\tM144\tM145\tM146\tM147\tM148\tM149\tM150\nSepal.Length\t5.1\t4.9\t4.7\t4.6\t5\t5.4\t4.6\t5\t4.4\t4.9\t5.4\t4.8\t4.8\t4.3\t5.8\t5.7\t5.4\t5.1\t5.7\t5.1\t5.4\t5.1\t4.6\t5.1\t4.8\t5\t5\t5.2\t5.2\t4.7\t4.8\t5.4\t5.2\t5.5\t4.9\t5\t5.5\t4.9\t4.4\t5.1\t5\t4.5\t4.4\t5\t5.1\t4.8\t5.1\t4.6\t5.3\t5\t7\t6.4\t6.9\t5.5\t6.5\t5.7\t6.3\t4.9\t6.6\t5.2\t5\t5.9\t6\t6.1\t5.6\t6.7\t5.6\t5.8\t6.2\t5.6\t5.9\t6.1\t6.3\t6.1\t6.4\t6.6\t6.8\t6.7\t6\t5.7\t5.5\t5.5\t5.8\t6\t5.4\t6\t6.7\t6.3\t5.6\t5.5\t5.5\t6.1\t5.8\t5\t5.6\t5.7\t5.7\t6.2\t5.1\t5.7\t6.3\t5.8\t7.1\t6.3\t6.5\t7.6\t4.9\t7.3\t6.7\t7.2\t6.5\t6.4\t6.8\t5.7\t5.8\t6.4\t6.5\t7.7\t7.7\t6\t6.9\t5.6\t7.7\t6.3\t6.7\t7.2\t6.2\t6.1\t6.4\t7.2\t7.4\t7.9\t6.4\t6.3\t6.1\t7.7\t6.3\t6.4\t6\t6.9\t6.7\t6.9\t5.8\t6.8\t6.7\t6.7\t6.3\t6.5\t6.2\t5.9\nSepal.Width\t3.5\t3\t3.2\t3.1\t3.6\t3.9\t3.4\t3.4\t2.9\t3.1\t3.7\t3.4\t3\t3\t4\t4.4\t3.9\t3.5\t3.8\t3.8\t3.4\t3.7\t3.6\t3.3\t3.4\t3\t3.4\t3.5\t3.4\t3.2\t3.1\t3.4\t4.1\t4.2\t3.1\t3.2\t3.5\t3.6\t3\t3.4\t3.5\t2.3\t3.2\t3.5\t3.8\t3\t3.8\t3.2\t3.7\t3.3\t3.2\t3.2\t3.1\t2.3\t2.8\t2.8\t3.3\t2.4\t2.9\t2.7\t2\t3\t2.2\t2.9\t2.9\t3.1\t3\t2.7\t2.2\t2.5\t3.2\t2.8\t2.5\t2.8\t2.9\t3\t2.8\t3\t2.9\t2.6\t2.4\t2.4\t2.7\t2.7\t3\t3.4\t3.1\t2.3\t3\t2.5\t2.6\t3\t2.6\t2.3\t2.7\t3\t2.9\t2.9\t2.5\t2.8\t3.3\t2.7\t3\t2.9\t3\t3\t2.5\t2.9\t2.5\t3.6\t3.2\t2.7\t3\t2.5\t2.8\t3.2\t3\t3.8\t2.6\t2.2\t3.2\t2.8\t2.8\t2.7\t3.3\t3.2\t2.8\t3\t2.8\t3\t2.8\t3.8\t2.8\t2.8\t2.6\t3\t3.4\t3.1\t3\t3.1\t3.1\t3.1\t2.7\t3.2\t3.3\t3\t2.5\t3\t3.4\t3\nPetal.Length\t1.4\t1.4\t1.3\t1.5\t1.4\t1.7\t1.4\t1.5\t1.4\t1.5\t1.5\t1.6\t1.4\t1.1\t1.2\t1.5\t1.3\t1.4\t1.7\t1.5\t1.7\t1.5\t1\t1.7\t1.9\t1.6\t1.6\t1.5\t1.4\t1.6\t1.6\t1.5\t1.5\t1.4\t1.5\t1.2\t1.3\t1.4\t1.3\t1.5\t1.3\t1.3\t1.3\t1.6\t1.9\t1.4\t1.6\t1.4\t1.5\t1.4\t4.7\t4.5\t4.9\t4\t4.6\t4.5\t4.7\t3.3\t4.6\t3.9\t3.5\t4.2\t4\t4.7\t3.6\t4.4\t4.5\t4.1\t4.5\t3.9\t4.8\t4\t4.9\t4.7\t4.3\t4.4\t4.8\t5\t4.5\t3.5\t3.8\t3.7\t3.9\t5.1\t4.5\t4.5\t4.7\t4.4\t4.1\t4\t4.4\t4.6\t4\t3.3\t4.2\t4.2\t4.2\t4.3\t3\t4.1\t6\t5.1\t5.9\t5.6\t5.8\t6.6\t4.5\t6.3\t5.8\t6.1\t5.1\t5.3\t5.5\t5\t5.1\t5.3\t5.5\t6.7\t6.9\t5\t5.7\t4.9\t6.7\t4.9\t5.7\t6\t4.8\t4.9\t5.6\t5.8\t6.1\t6.4\t5.6\t5.1\t5.6\t6.1\t5.6\t5.5\t4.8\t5.4\t5.6\t5.1\t5.1\t5.9\t5.7\t5.2\t5\t5.2\t5.4\t5.1\nPetal.Width\t0.2\t0.2\t0.2\t0.2\t0.2\t0.4\t0.3\t0.2\t0.2\t0.1\t0.2\t0.2\t0.1\t0.1\t0.2\t0.4\t0.4\t0.3\t0.3\t0.3\t0.2\t0.4\t0.2\t0.5\t0.2\t0.2\t0.4\t0.2\t0.2\t0.2\t0.2\t0.4\t0.1\t0.2\t0.2\t0.2\t0.2\t0.1\t0.2\t0.2\t0.3\t0.3\t0.2\t0.6\t0.4\t0.3\t0.2\t0.2\t0.2\t0.2\t1.4\t1.5\t1.5\t1.3\t1.5\t1.3\t1.6\t1\t1.3\t1.4\t1\t1.5\t1\t1.4\t1.3\t1.4\t1.5\t1\t1.5\t1.1\t1.8\t1.3\t1.5\t1.2\t1.3\t1.4\t1.4\t1.7\t1.5\t1\t1.1\t1\t1.2\t1.6\t1.5\t1.6\t1.5\t1.3\t1.3\t1.3\t1.2\t1.4\t1.2\t1\t1.3\t1.2\t1.3\t1.3\t1.1\t1.3\t2.5\t1.9\t2.1\t1.8\t2.2\t2.1\t1.7\t1.8\t1.8\t2.5\t2\t1.9\t2.1\t2\t2.4\t2.3\t1.8\t2.2\t2.3\t1.5\t2.3\t2\t2\t1.8\t2.1\t1.8\t1.8\t1.8\t2.1\t1.6\t1.9\t2\t2.2\t1.5\t1.4\t2.3\t2.4\t1.8\t1.8\t2.1\t2.4\t2.3\t1.9\t2.3\t2.5\t2.3\t1.9\t2\t2.3\t1.8\n",
+      "2-sampleInfo": "Samples\tSpecies\nM1\tsetosa\nM2\tsetosa\nM3\tsetosa\nM4\tsetosa\nM5\tsetosa\nM6\tsetosa\nM7\tsetosa\nM8\tsetosa\nM9\tsetosa\nM10\tsetosa\nM11\tsetosa\nM12\tsetosa\nM13\tsetosa\nM14\tsetosa\nM15\tsetosa\nM16\tsetosa\nM17\tsetosa\nM18\tsetosa\nM19\tsetosa\nM20\tsetosa\nM21\tsetosa\nM22\tsetosa\nM23\tsetosa\nM24\tsetosa\nM25\tsetosa\nM26\tsetosa\nM27\tsetosa\nM28\tsetosa\nM29\tsetosa\nM30\tsetosa\nM31\tsetosa\nM32\tsetosa\nM33\tsetosa\nM34\tsetosa\nM35\tsetosa\nM36\tsetosa\nM37\tsetosa\nM38\tsetosa\nM39\tsetosa\nM40\tsetosa\nM41\tsetosa\nM42\tsetosa\nM43\tsetosa\nM44\tsetosa\nM45\tsetosa\nM46\tsetosa\nM47\tsetosa\nM48\tsetosa\nM49\tsetosa\nM50\tsetosa\nM51\tversicolor\nM52\tversicolor\nM53\tversicolor\nM54\tversicolor\nM55\tversicolor\nM56\tversicolor\nM57\tversicolor\nM58\tversicolor\nM59\tversicolor\nM60\tversicolor\nM61\tversicolor\nM62\tversicolor\nM63\tversicolor\nM64\tversicolor\nM65\tversicolor\nM66\tversicolor\nM67\tversicolor\nM68\tversicolor\nM69\tversicolor\nM70\tversicolor\nM71\tversicolor\nM72\tversicolor\nM73\tversicolor\nM74\tversicolor\nM75\tversicolor\nM76\tversicolor\nM77\tversicolor\nM78\tversicolor\nM79\tversicolor\nM80\tversicolor\nM81\tversicolor\nM82\tversicolor\nM83\tversicolor\nM84\tversicolor\nM85\tversicolor\nM86\tversicolor\nM87\tversicolor\nM88\tversicolor\nM89\tversicolor\nM90\tversicolor\nM91\tversicolor\nM92\tversicolor\nM93\tversicolor\nM94\tversicolor\nM95\tversicolor\nM96\tversicolor\nM97\tversicolor\nM98\tversicolor\nM99\tversicolor\nM100\tversicolor\nM101\tvirginica\nM102\tvirginica\nM103\tvirginica\nM104\tvirginica\nM105\tvirginica\nM106\tvirginica\nM107\tvirginica\nM108\tvirginica\nM109\tvirginica\nM110\tvirginica\nM111\tvirginica\nM112\tvirginica\nM113\tvirginica\nM114\tvirginica\nM115\tvirginica\nM116\tvirginica\nM117\tvirginica\nM118\tvirginica\nM119\tvirginica\nM120\tvirginica\nM121\tvirginica\nM122\tvirginica\nM123\tvirginica\nM124\tvirginica\nM125\tvirginica\nM126\tvirginica\nM127\tvirginica\nM128\tvirginica\nM129\tvirginica\nM130\tvirginica\nM131\tvirginica\nM132\tvirginica\nM133\tvirginica\nM134\tvirginica\nM135\tvirginica\nM136\tvirginica\nM137\tvirginica\nM138\tvirginica\nM139\tvirginica\nM140\tvirginica\nM141\tvirginica\nM142\tvirginica\nM143\tvirginica\nM144\tvirginica\nM145\tvirginica\nM146\tvirginica\nM147\tvirginica\nM148\tvirginica\nM149\tvirginica\nM150\tvirginica\n"
+    }
+  }
+}

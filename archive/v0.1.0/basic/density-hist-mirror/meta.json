@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "镜像密度图和直方图",
+    "en": "Mirror Density & Histogram"
+  },
+  "alias": ["Mirror-Density-Histogram"],
+  "intro": {
+    "zh_cn": "展示数据分布",
+    "en": "Display data distribution"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/05/17/density-hist-mirror-0.5dokt9ecv7e-1-tuya.jpg",
+  "href": "/basic/density-hist-mirror",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-05-17",
+    "updateDate": "2021-05-17"
+  }
+}

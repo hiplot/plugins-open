@@ -1,0 +1,110 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "Group variable",
+          "zh_cn": "分组变量"
+        },
+        "required": true,
+        "class": "col-12 col-md-6"
+      },
+      {
+        "label": {
+          "en": "Comparison variable",
+          "zh_cn": "比较变量"
+        },
+        "required": true,
+        "class": "col-12 col-md-6"
+      }
+    ]
+  },
+  "extra": {
+    "cross": {
+      "type": "switch",
+      "label": {
+        "en": "Cross the variable combination",
+        "zh_cn": "进行变量组合"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "add_text_annotation": {
+      "type": "switch",
+      "label": {
+        "en": "Add text annotation",
+        "zh_cn": "添加文本注释"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "fill_by_p_value": {
+      "type": "switch",
+      "label": {
+        "en": "Fill by P value",
+        "zh_cn": "用P值作为填充值"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "use_fdr": {
+      "type": "switch",
+      "label": {
+        "en": "Use FDR value",
+        "zh_cn": "使用矫正P值"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "cut_p_value": {
+      "type": "switch",
+      "label": {
+        "en": "Cut P values",
+        "zh_cn": "使用P值分组"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "cluster_row": {
+      "type": "switch",
+      "label": {
+        "en": "Cluster rows",
+        "zh_cn": "对亚组聚类"
+      },
+      "class": "col-12 col-md-4"
+    },
+    "co_method": {
+      "type": "select",
+      "label": {
+        "en": "Co",
+        "zh_cn": "点大小"
+      },
+      "items": ["t.test", "wilcox.test"],
+      "class": "col-12 col-md-6"
+    },
+    "scales": {
+      "type": "select",
+      "label": {
+        "en": "Scale",
+        "zh_cn": "标尺"
+      },
+      "items": ["free", "fixed"],
+      "class": "col-12 col-md-6"
+    },
+    "ref_group": {
+      "type": "combobox",
+      "label": {
+        "en": "Reference subgroup",
+        "zh_cn": "参考亚组"
+      },
+      "items_func": "this.selectCols('1-data', 0)",
+      "multiple": true,
+      "class": "col-12 col-md-12"
+    }
+  }
+}

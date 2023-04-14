@@ -1,0 +1,158 @@
+{
+  "data": {
+    "1-datTable": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    },
+    "2-sampleInfo": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Sample Info",
+        "zh_cn": "样本信息"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "2-sampleInfo": [
+      {
+        "label": {
+          "en": "Biplot Color By",
+          "zh_cn": "双标图颜色列"
+        },
+        "independent": true,
+        "class": "col-12 col-md-6"
+      },
+      {
+        "label": {
+          "en": "Biplot Shape By",
+          "zh_cn": "双标图形状列"
+        },
+        "independent": true,
+        "class": "col-12 col-md-6",
+        "required": false
+      },
+      {
+        "label": {
+          "en": "Eigencorplot Phenotype",
+          "zh_cn": "关联热图表型列"
+        },
+        "independent": true,
+        "class": "col-12",
+        "multiple": true,
+        "required": false
+      }
+    ]
+  },
+  "extra": {
+    "screeplotComponents": {
+      "type": "slider",
+      "label": {
+        "en": "Screeplot Components",
+        "zh_cn": "崖低碎石图主成分数目"
+      },
+      "min": 1,
+      "max": 999,
+      "step": 1,
+      "class": "col-12 col-md-6"
+    },
+    "pairsplotComponents": {
+      "type": "slider",
+      "label": {
+        "en": "Pairsplot Components",
+        "zh_cn": "散点矩阵图主成分数目"
+      },
+      "min": 1,
+      "max": 999,
+      "step": 1,
+      "class": "col-12 col-md-6"
+    },
+    "plotloadingsComponents": {
+      "type": "slider",
+      "label": {
+        "en": "Plotloadings Components",
+        "zh_cn": "载荷图主成分数目"
+      },
+      "min": 1,
+      "max": 999,
+      "step": 1,
+      "class": "col-12 col-md-6"
+    },
+    "eigencorplotComponents": {
+      "type": "slider",
+      "label": {
+        "en": "Eigencorplot Components",
+        "zh_cn": "关联热图主成分数目"
+      },
+      "min": 1,
+      "max": 999,
+      "step": 1,
+      "class": "col-12 col-md-6"
+    },
+    "top_var": {
+      "type": "slider",
+      "label": {
+        "en": "Top Variance",
+        "zh_cn": "Top 方差"
+      },
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "class": "col-12"
+    },
+    "corFUN": {
+      "type": "select",
+      "label": {
+        "en": "Corelation Method",
+        "zh_cn": "相关性计算方法"
+      },
+      "items": ["pearson", "spearman", "kendall"],
+      "class": "col-12 col-md-6"
+    },
+    "corUSE": {
+      "type": "select",
+      "label": {
+        "en": "Method for Missing Values",
+        "zh_cn": "相关性计算缺失值处理"
+      },
+      "items": ["everything", "all.obs", "complete.obs", "na.or.complete", "pairwise.complete.obs"],
+      "class": "col-12 col-md-6"
+    },
+    "screeplotColBar": {
+      "type": "color-picker",
+      "label": {
+        "en": "Screeplot Bar",
+        "zh_cn": "崖低碎石图颜色"
+      },
+      "class": "col-12 col-md-3"
+    },
+    "plotloadingsLowCol": {
+      "type": "color-picker",
+      "label": {
+        "en": "Loadings Low",
+        "zh_cn": "载荷图低颜色"
+      },
+      "class": "col-12 col-md-3"
+    },
+    "plotloadingsMidCol": {
+      "type": "color-picker",
+      "label": {
+        "en": "Loadings Mid",
+        "zh_cn": "载荷图中颜色"
+      },
+      "class": "col-12 col-md-3"
+    },
+    "plotloadingsHighCol": {
+      "type": "color-picker",
+      "label": {
+        "en": "Loadings High",
+        "zh_cn": "载荷图高颜色"
+      },
+      "class": "col-12 col-md-3"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "module": "basic",
+  "tool": "barplot-ggpubr",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 4,
+          "height": 5
+        },
+        "theme": "theme_pubr",
+        "palette": "lancent",
+        "title": ""
+      },
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "extra": {
+        "combine": false,
+        "merge": false,
+        "color": "black",
+        "fill": "white",
+        "size": "",
+        "bar_width": "",
+        "xlab": "",
+        "ylab": "",
+        "facet.by": "",
+        "panel.labs": "",
+        "short.panel.labs": true,
+        "select": "",
+        "remove": "",
+        "order": "",
+        "add": ["mean_se", "jitter"],
+        "add.params": [],
+        "error.plot": "errorbar",
+        "label": true,
+        "lab.col": "black",
+        "lab.size": 4,
+        "lab.pos": "out",
+        "lab.vjust": "",
+        "lab.hjust": "",
+        "lab.nb.digits": "",
+        "sort.val": ["none", "desc", "asc"],
+        "sort.by.groups": true,
+        "top": "infinity",
+        "position": "position_stack"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Barplot (general)"
+      },
+      "dataArg": {
+        "datTable": [
+          {
+            "value": "dose"
+          },
+          {
+            "value": "len"
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "datTable": "dose\tlen\nD0.5\t4.2\nD1\t10\nD2\t29.5"
+    }
+  }
+}

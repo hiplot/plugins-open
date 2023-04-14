@@ -1,0 +1,55 @@
+{
+  "data": {
+    "datmat": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "display": {
+      "type": "select",
+      "label": {
+        "en": "Display",
+        "zh_cn": "展示类型"
+      },
+      "items": [
+        "single",
+        "multiple"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "label_id": {
+      "type": "switch",
+      "label": {
+        "en": "Label ID",
+        "zh_cn": "是否展示标签ID"
+      },
+      "class": "col-12 col-md-3"
+    },
+    "table_legend": {
+      "type": "switch",
+      "label": {
+        "en": "Table Legend",
+        "zh_cn": "是否展示表格图例"
+      },
+      "if_func": "this.params.config.extra.display === 'single'",
+      "class": "col-12 col-md-3"
+    },
+    "label_thresold": {
+      "type": "slider",
+      "label": {
+        "en": "Label Thresold",
+        "zh_cn": "标签显示阈值"
+      },
+      "class": "col-12",
+      "max": 10,
+      "step": 0.1
+    }
+  }
+}

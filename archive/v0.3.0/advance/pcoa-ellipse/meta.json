@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "PCoA 椭圆 Shiny",
+    "en": "PCoA Ellipse Shiny"
+  },
+  "alias": ["Prettify-PCoA"],
+  "intro": {
+    "zh_cn": "PCoA 分析",
+    "en": "Interactive PCoA analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/09/06/pcoa-ellipse-tuya.jpg",
+  "href": "/advance/pcoa-ellipse",
+  "tag": [
+    "shiny",
+    "general"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | benben.miao",
+    "releaseDate": "2020-09-06",
+    "updateDate": "2020-09-06"
+  }
+}

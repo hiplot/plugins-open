@@ -1,0 +1,94 @@
+{
+  "module": "basic",
+  "tool": "barplot-errorbar2",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 6,
+          "height": 4
+        },
+        "theme": "default",
+        "palette": "npg",
+        "title": "",
+        "alpha": 1,
+        "xAxisTextAngle": 0,
+        "xAxisHjust": 0.5,
+        "xAxisVjust": 1,
+        "font": "Arial",
+        "legendPos": "right",
+        "legendDir": "vertical",
+        "titleSize": 12,
+        "axisTitleSize": 12,
+        "axisTextFontSize": 10,
+        "legendTitleSize": 10,
+        "legendTextSize": 10
+      },
+      "extra": {
+        "pval": "value",
+        "stat_method": "t.test",
+        "test_groups": [],
+        "errorbar_width": 0.2,
+        "jitter": 0.1
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "general": {
+          "title": "Barplot (errorbar)"
+        },
+        "extra": {
+          "test_groups": []
+        }
+      },
+      "textarea": {
+        "datTable": "score\tclass\n60\tmath\n62\tmath\n70\tchinese\n73\tchinese\n80\tenglish\n85\tenglish\n65\tmath\n67\tmath\n75\tchinese\n77\tchinese\n85\tenglish\n83\tenglish\n"
+      }
+    },
+    {
+      "textarea": {
+        "datTable": "score\tclass\tstudent\n60\tmath\tstuA\n62\tmath\tstuA\n70\tchinese\tstuA\n73\tchinese\tstuA\n80\tenglish\tstuA\n85\tenglish\tstuA\n65\tmath\tstuB\n67\tmath\tstuB\n75\tchinese\tstuB\n77\tchinese\tstuB\n85\tenglish\tstuB\n83\tenglish\tstuB"
+      }
+    },
+    {
+      "config": {
+        "general": {
+          "size": {
+            "width": 10,
+            "height": 6
+          }
+        },
+        "extra": {
+          "test_groups": []
+        },
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "facet"
+            }
+          ]
+        }
+      },
+      "textarea": {
+        "datTable": "score\tclass\tstudent\tfacet\n60\tmath\tstuA\tF1\n62\tmath\tstuA\tF1\n70\tchinese\tstuA\tF1\n73\tchinese\tstuA\tF1\n80\tenglish\tstuA\tF1\n85\tenglish\tstuA\tF1\n65\tmath\tstuB\tF1\n67\tmath\tstuB\tF1\n75\tchinese\tstuB\tF1\n77\tchinese\tstuB\tF1\n85\tenglish\tstuB\tF1\n83\tenglish\tstuB\tF1\n60\tmath\tstuA\tF2\n62\tmath\tstuA\tF2\n70\tchinese\tstuA\tF2\n73\tchinese\tstuA\tF2\n80\tenglish\tstuA\tF2\n85\tenglish\tstuA\tF2\n65\tmath\tstuB\tF2\n67\tmath\tstuB\tF2\n75\tchinese\tstuB\tF2\n77\tchinese\tstuB\tF2\n85\tenglish\tstuB\tF2\n83\tenglish\tstuB\tF2\n"
+      }
+    }
+  ]
+}

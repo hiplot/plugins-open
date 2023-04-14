@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "二分类变量 Meta 分析",
+    "en": "Meta-analysis of Binary Data"
+  },
+  "alias": ["Meta-Binary"],
+  "intro": {
+    "zh_cn": "Meta 分析",
+    "en": "Meta analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/01/02/meta-bin-tuyaa6ca05c9efb903bf.jpg",
+  "href": "/basic/meta-bin",
+  "tag": [
+    "vue",
+    "meta",
+    "forest"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Houshi Xu",
+    "email": "houshi@sjtu.edu.cn",
+    "releaseDate": "2020-12-29",
+    "updateDate": "2020-12-29"
+  }
+}

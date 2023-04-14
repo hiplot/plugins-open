@@ -1,0 +1,39 @@
+{
+  "module": "basic",
+  "tool": "map-germany",
+  "params": {
+    "textarea": { "datTable": "" },
+    "config": {
+      "dataArg": {
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": ["jpeg", "pdf"],
+        "size": {
+          "width": 25,
+          "height": 34
+        },
+        "title": "",
+        "paletteCont": "RdYlBu",
+        "legendTitle": "",
+        "font": "Arial",
+        "plumber": false,
+        "cliMode": true
+      },
+      "extra": {
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "general": {
+        "title": "Germany Map",
+        "legendTitle": "Color Key"
+      }
+    },
+    "textarea": {
+      "datTable": "name\tvalue\nBaden-Württemberg\t334\nBayern\t562\nBerlin\t980\nBrandenburg\t577\nBremen\t54\nHamburg\t528\nHessen\t427\nMecklenburg-Vorpommern\t678\nNiedersachsen\t198\nNordrhein-Westfalen\t396\nRheinland-Pfalz\t364\nSaarland\t603\nSachsen-Anhalt\t966\nSachsen\t780\nSchleswig-Holstein\t923\nThüringen\t345\n"
+    }
+  }
+}

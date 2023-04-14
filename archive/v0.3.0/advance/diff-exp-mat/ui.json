@@ -1,0 +1,29 @@
+{
+  "data": {
+    "1-expmat": {
+      "type": "cloud-file",
+      "required": true,
+      "label": "messages.common.dataTable",
+      "icon": "mdi-file",
+      "exts": ["txt", "gct"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    },
+    "2-sampleInfo": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "en": "Sample Groups",
+        "zh_cn": "样本分组"
+      },
+      "icon": "mdi-file",
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "extra": {
+    
+  }
+}

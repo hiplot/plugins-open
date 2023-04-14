@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "Histostats",
+    "en": "Histostats"
+  },
+  "alias": ["Stats-Histogram"],
+  "intro": {
+    "zh_cn": "展示数据分布及统计推断",
+    "en": "Display data distribution and inference"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/01/29/gghistostats-0.w0bhmphs72i-tuya.jpg",
+  "href": "/basic/gghistostats",
+  "tag": [
+    "vue",
+    "distribution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Indrajeet Patil & Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2021-01-29",
+    "updateDate": "2021-02-23",
+    "issues": "https://github.com/IndrajeetPatil/ggstatsplot",
+    "version": "v0.2.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "斜面图",
+    "en": "Slopegraph"
+  },
+  "alias": ["Basic-Slopegraph"],
+  "intro": {
+    "zh_cn": "用于展示数据变化",
+    "en": "Display the data change"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/05/15/slopegraph-0.nt2lfiz40hc-1-tuya.jpg",
+  "href": "/basic/slopegraph",
+  "tag": [
+    "vue",
+    "evolution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2021-05-15",
+    "updateDate": "2021-05-15"
+  }
+}

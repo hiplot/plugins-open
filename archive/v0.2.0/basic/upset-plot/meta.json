@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh_cn": "Upset 图",
+    "en": "Upset Plot"
+  },
+  "alias": ["UpSet-Topology"],
+  "intro": {
+    "zh_cn": "用于展示数据集间交叉关系",
+    "en": "Data sets cross-relationships"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/15/upset-plot-0.j9ki4krszb8-1-tuya.jpg",
+  "href": "/basic/upset-plot",
+  "tag": [
+    "vue",
+    "part-of-a-whole"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "email": "admin@hiplot.org",
+    "releaseDate": "2021-03-15",
+    "updateDate": "2021-03-15"
+  }
+}

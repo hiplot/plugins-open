@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh_cn": "德国地图 (镇)",
+    "en": "Germany Map (Town)"
+  },
+  "alias": ["Germany-Town"],
+  "intro": {
+    "zh_cn": "用于展示德国地图",
+    "en": "Display the map of Germany"
+  },
+  "src": "https://s1.imagehub.cc/images/2021/03/28/map-germany-town-0-tuya.jpg",
+  "href": "/basic/map-germany-town",
+  "tag": [
+    "vue",
+    "map"
+  ],
+  "usergroup": [
+    1,
+    2
+  ],
+  "meta": {
+    "score": 3,
+    "author": "Hiplot Team | Jianfeng",
+    "citation": "Shape downloaded from https://geodata.lib.berkeley.edu/catalog/stanford-kg232qj0676",
+    "releaseDate": "2021-03-28",
+    "updateDate": "2021-03-28",
+    "version": "v0.1.0"
+  }
+}

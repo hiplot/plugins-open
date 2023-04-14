@@ -1,0 +1,32 @@
+{
+  "name": {
+    "zh_cn": "Sigflow",
+    "en": "Sigflow"
+  },
+  "alias": ["Maf-Signature"],
+  "intro": {
+    "zh_cn": "突变 Signature 分析",
+    "en": "Mutation signature analysis"
+  },
+  "src": "https://s1.imagehub.cc/images/2020/08/31/3-a6RT9P-tuya.jpg",
+  "href": "/advance/sigflow",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "vue",
+    "mutation",
+    "signature",
+    "workflow"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Shixiang Wang",
+    "email": "wangshx@shanghaitech.edu.cn",
+    "issues": "https://github.com/ShixiangWang/sigflow",
+    "citation": "Shixiang Wang, Ziyu Tao, Tao Wu, Xue-Song Liu, Sigflow: an automated and comprehensive pipeline for cancer genome mutational signature analysis, Bioinformatics, 2020;, btaa895, https://doi.org/10.1093/bioinformatics/btaa895",
+    "releaseDate": "2020-08-05",
+    "updateDate": "2020-08-05"
+  }
+}
