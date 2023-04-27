@@ -1,0 +1,86 @@
+{
+  "module": "mini-tools",
+  "tool": "gtftools",
+  "files": [],
+  "params": {
+    "config": {
+      "data": {
+        "gtf": {
+          "value": [],
+          "link": []
+        }
+      },
+      "general": {
+        "cmds": "",
+        "taskname": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "cliMode": true,
+        "size": {
+          "width": 14,
+          "height": 7
+        }
+      },
+      "extra": {
+        "fun": [
+          ""
+        ]
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "data": {
+          "gtf": {
+            "value": [
+              "public/demo/gtftools/gencode.v43.annotation.top1000.gff3"
+            ],
+            "link": []
+          }
+        },
+        "extra": {
+          "fun": [
+            "gff3tobed_exon"
+          ]
+        }
+      }
+    },
+    {
+      "config": {
+        "data": {
+          "gtf": {
+            "value": [
+              "public/demo/gtftools/gencode.v43.annotation.top1000.gtf"
+            ],
+            "link": []
+          }
+        },
+        "extra": {
+          "fun": [
+            "gtftogff3"
+          ]
+        }
+      }
+    },
+    {
+      "config": {
+        "data": {
+          "gtf": {
+            "value": [
+              "public/demo/gtftools/gencode.v43.annotation.top1000.gtf"
+            ],
+            "link": []
+          }
+        },
+        "extra": {
+          "fun": [
+            "gtftobed_exon"
+          ]
+        }
+      }
+    }
+  ]
+}

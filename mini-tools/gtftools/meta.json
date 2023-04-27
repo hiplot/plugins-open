@@ -1,0 +1,27 @@
+{
+  "name": {
+    "zh_cn": "GTF小工具",
+    "en": "GTFtools"
+  },
+  "alias": ["GTF-Tools"],
+  "intro": {
+    "zh_cn": "GTF 相关文件",
+    "en": "GTF operations"
+  },
+  "href": "/mini-tools/gtftools",
+  "usergroup": [
+    1,
+    2
+  ],
+  "tag": [
+    "Vue",
+    "GTF"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Openbiox | Jianfeng",
+    "version": "v0.1.0",
+    "releaseDate": "2023-04-27",
+    "updateDate": "2023-04-27"
+  }
+}

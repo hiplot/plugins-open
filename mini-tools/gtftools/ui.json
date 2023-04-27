@@ -1,0 +1,35 @@
+{
+  "data": {
+    "gtf": {
+      "type": "cloud-file",
+      "required": true,
+      "label": {
+        "zh_cn": "GTF文件列表",
+        "en": "GTF Files"
+      },
+      "icon": "mdi-file",
+      "exts": ["gtf", "gtf.gz", "gff3", "gff3.gz"],
+      "enable-download": true,
+      "enable-preview": true,
+      "enable-upload": true
+    }
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "fun": {
+      "type": "autocomplete",
+      "required": true,
+      "label": {
+        "en": "Subfunction",
+        "zh_cn": "子函数"
+      },
+      "items": ["gff3tobed_exon", "gtftogff3", "gtftobed_exon"],
+      "class": "col-12 col-md-12",
+      "multiple": true
+    }
+  }
+}
