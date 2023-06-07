@@ -25,3 +25,9 @@
 [submodule "mini-tools/html-pkg/quiver"]
 	path = mini-tools/html-pkg/quiver
 	url = https://github.com/varkor/quiver
+[submodule "clinical-tools/mrt-ss-calculator"]
+	path = clinical-tools/mrt-ss-calculator
+	url = https://github.com/nickseewald/mrt-ss-calculator.git
+[submodule "clinical-tools/sample-size-shinyapp"]
+	path = clinical-tools/sample-size-shinyapp
+	url = https://github.com/solislemuslab/sample-size-shinyapp
