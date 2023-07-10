@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "偏差图",
+    "en": "Deviation Plot"
+  },
+  "alias": [
+    "deviation_plot"
+  ],
+  "intro": {
+    "zh_cn": "Display data differences",
+    "en": "展示数据差异"
+  },
+  "src": "",
+  "href": "//deviation_plot",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023/07/09",
+    "updateDate": "2023-07-10",
+    "citation": ""
+  }
+}

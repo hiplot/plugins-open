@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "Key",
+          "zh_cn": "键"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "Value",
+          "zh_cn": "值"
+        },
+        "required": false
+      }
+    ]
+  },
+  "extra": {
+    "sort_method": {
+      "type": "select",
+      "label": {
+        "en": "Sort Method",
+        "zh_cn": "排序方式"
+      },
+      "items": [
+        "desc",
+        "asc"
+      ],
+      "class": "col-12 col-md-4"
+    }
+  }
+}
