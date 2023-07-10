@@ -23,7 +23,7 @@
           "en": "Value",
           "zh_cn": "值"
         },
-        "required": false
+        "required": true
       }
     ]
   },
@@ -38,7 +38,8 @@
         "desc",
         "asc"
       ],
-      "class": "col-12 col-md-4"
+      "class": "col-12 col-md-4",
+      "required": true
     }
   }
 }
