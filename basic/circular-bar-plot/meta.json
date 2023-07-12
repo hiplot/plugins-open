@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "环状条形图",
+    "en": "Circular bar plot"
+  },
+  "alias": [
+    "circular_bar_plot"
+  ],
+  "intro": {
+    "zh_cn": "环状条形图",
+    "en": "Circular bar plot"
+  },
+  "src": "",
+  "href": "//circular_bar_plot",
+  "tag": ["vue", "bar plot"],
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-12",
+    "updateDate": "2023-07-12",
+    "citation": ""
+  }
+}
