@@ -1,0 +1,65 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "x",
+          "zh_cn": "x"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "y",
+          "zh_cn": "y"
+        },
+        "required": true
+      }
+    ]
+  },
+  "extra": {
+    "order": {
+      "type": "switch",
+      "label": {
+        "en": "sort",
+        "zh_cn": "排序"
+      },
+      "class": "col-6",
+      "required": true
+    },
+    "overflow": {
+      "type": "slider",
+      "label": {
+        "en": "overflow rate",
+        "zh_cn": "溢出比例"
+      },
+      "min": 1,
+      "max": 2,
+      "step": 0.01,
+      "class": "col-6",
+      "required": true
+    },
+    "x_size": {
+      "type": "slider",
+      "label": {
+        "en": "X-axis label font size",
+        "zh_cn": "x轴标签字体大小"
+      },
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "class": "col-12",
+      "required": true
+    }
+  }
+}
