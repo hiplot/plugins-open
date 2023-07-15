@@ -1,0 +1,55 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": [],
+  "extra": {
+    "low_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Low Color",
+        "zh_cn": "低值颜色"
+      }
+    },
+    "high_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "High Color",
+        "zh_cn": "高值颜色"
+      }
+    },
+    "text_size": {
+      "type": "slider",
+      "label": {
+        "en": "label text size",
+        "zh_cn": "标签字体大小"
+      },
+      "min": 1,
+      "max": 30,
+      "step": 0.1,
+      "class": "col-12",
+      "required": true
+    },
+    "circle_size": {
+      "type": "slider",
+      "label": {
+        "en": "circle size",
+        "zh_cn": "圆圈大小"
+      },
+      "min": 0,
+      "max": 30,
+      "step": 0.1,
+      "class": "col-12",
+      "required": true
+    }
+  }
+}

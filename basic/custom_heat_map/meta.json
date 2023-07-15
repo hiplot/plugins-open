@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "自定义热图",
+    "en": "Custom heat map"
+  },
+  "alias": [
+    "custom_heat_map"
+  ],
+  "intro": {
+    "zh_cn": "自定义热图",
+    "en": "custom heat map"
+  },
+  "src": "",
+  "href": "//custom_heat_map",
+  "tag": ["vue", "heatmap"],
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-14",
+    "updateDate": "2023-07-14",
+    "citation": ""
+  }
+}
