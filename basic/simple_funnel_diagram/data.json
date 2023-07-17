@@ -1,0 +1,28 @@
+{
+  "module": {},
+  "tool": "simple_funnel_diagram",
+  "params": {
+    "textarea": {
+      "1-data": ""
+    },
+    "config": {
+      "dataArg": [],
+      "general": {
+        "cmd": "",
+        "cliMode": true
+      },
+      "extra": {
+        "title": "Funnel",
+        "theme": "macarons"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": []
+    },
+    "textarea": {
+      "1-data": "key\tvalue\nview\t60\nclick\t30\npurchase\t20"
+    }
+  }
+}

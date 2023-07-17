@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "自定义热图",
+    "en": "Simple funnel diagram"
+  },
+  "alias": [
+    "simple_funnel_diagram"
+  ],
+  "intro": {
+    "zh_cn": "简单漏斗图",
+    "en": "simple funnel diagram"
+  },
+  "src": "",
+  "href": "//simple_funnel_diagram",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-15",
+    "updateDate": "2023-07-15",
+    "citation": ""
+  }
+}

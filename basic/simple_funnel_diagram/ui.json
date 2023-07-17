@@ -1,0 +1,74 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": [],
+  "extra": {
+    "title": {
+      "type": "text-field",
+      "label": {
+        "en": "Title",
+        "zh_cn": "标题"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "theme": {
+      "type": "select",
+      "label": {
+        "en": "theme",
+        "zh_cn": "主题"
+      },
+      "items": [
+        "default",
+        "dark",
+        "vintage",
+        "westeros",
+        "essos",
+        "wonderland",
+        "walden",
+        "chalk",
+        "infographic",
+        "macarons",
+        "roma",
+        "shine",
+        "purple-passion",
+        "halloween",
+        "azul",
+        "blue",
+        "caravan",
+        "carp",
+        "cool",
+        "dark-blue",
+        "dark-bold",
+        "dark-digerati",
+        "dark-fresh-cut",
+        "dark-mushroom",
+        "forest",
+        "fresh-cut",
+        "fruit",
+        "gray",
+        "green",
+        "helianthus",
+        "inspired",
+        "london",
+        "macarons",
+        "macarons2",
+        "mint",
+        "red",
+        "red-velvet",
+        "royal",
+        "sakura",
+        "tech-blue"
+      ],
+      "class": "col-12 col-md-6",
+      "required": true
+    }
+  }
+}
