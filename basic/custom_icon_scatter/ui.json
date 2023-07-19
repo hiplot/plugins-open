@@ -1,0 +1,195 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "x",
+          "zh_cn": "x"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "y",
+          "zh_cn": "y"
+        },
+        "required": false
+      },
+      {
+        "label": {
+          "en": "size",
+          "zh_cn": "size"
+        },
+        "required": true
+      }
+    ]
+  },
+  "extra": {
+    "label_name": {
+      "type": "text-field",
+      "label": {
+        "en": "Label name",
+        "zh_cn": "标签名"
+      },
+      "class": "col-12 col-md-6",
+      "required": true
+    },
+    "svg_path": {
+      "type": "text-field",
+      "label": {
+        "en": "svg path",
+        "zh_cn": "svg path"
+      },
+      "class": "col-12 col-md-6"
+    },
+    "theme": {
+      "type": "select",
+      "label": {
+        "en": "theme",
+        "zh_cn": "主题"
+      },
+      "items": [
+        "default",
+        "dark",
+        "vintage",
+        "westeros",
+        "essos",
+        "wonderland",
+        "walden",
+        "chalk",
+        "infographic",
+        "macarons",
+        "roma",
+        "shine",
+        "purple-passion",
+        "halloween",
+        "azul",
+        "blue",
+        "caravan",
+        "carp",
+        "cool",
+        "dark-blue",
+        "dark-bold",
+        "dark-digerati",
+        "dark-fresh-cut",
+        "dark-mushroom",
+        "forest",
+        "fresh-cut",
+        "fruit",
+        "gray",
+        "green",
+        "helianthus",
+        "inspired",
+        "london",
+        "macarons",
+        "macarons2",
+        "mint",
+        "red",
+        "red-velvet",
+        "royal",
+        "sakura",
+        "tech-blue"
+      ],
+      "class": "col-12 col-md-6",
+      "required": true
+    },
+    "symbol": {
+      "type": "select",
+      "label": {
+        "en": "symbol",
+        "zh_cn": "符号"
+      },
+      "items": [
+        "attachment",
+        "bar_graph",
+        "book",
+        "bookmark",
+        "briefcase",
+        "browser",
+        "calendar",
+        "camera",
+        "cancel",
+        "clock",
+        "comment_lines",
+        "comment",
+        "computer",
+        "controls",
+        "conversation",
+        "create_new",
+        "credit_card",
+        "crosshair",
+        "diary",
+        "document",
+        "down_arrow",
+        "email",
+        "folder",
+        "forward",
+        "heart",
+        "home",
+        "inbox",
+        "layers",
+        "left_arrow",
+        "link",
+        "list",
+        "location_marker",
+        "location",
+        "map",
+        "medal",
+        "menu",
+        "microphone",
+        "minus",
+        "more_details_(3)",
+        "more_details_(4)",
+        "music",
+        "no_volume",
+        "notification",
+        "padlock",
+        "phone",
+        "photo",
+        "pie_chart",
+        "pin",
+        "plus",
+        "printer",
+        "profile",
+        "rearrange",
+        "refresh",
+        "reply",
+        "right_arrow",
+        "save",
+        "search",
+        "settings",
+        "share",
+        "shopping",
+        "signal",
+        "signals",
+        "star",
+        "tablet",
+        "tag",
+        "tick",
+        "toggle",
+        "trash",
+        "typing_comment",
+        "up_arrow",
+        "user",
+        "users",
+        "video_camera",
+        "video",
+        "view",
+        "volume",
+        "warning"
+      ],
+      "class": "col-12 col-md-6",
+      "required": true
+    }
+  }
+}
