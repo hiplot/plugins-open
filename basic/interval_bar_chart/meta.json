@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "区间条形图",
+    "en": "Interval bar chart"
+  },
+  "alias": [
+    "interval_bar_chart"
+  ],
+  "intro": {
+    "zh_cn": "区间条形图",
+    "en": "interval bar chart"
+  },
+  "src": "",
+  "href": "//interval_bar_chart",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-19",
+    "updateDate": "2023-07-19",
+    "citation": ""
+  }
+}
