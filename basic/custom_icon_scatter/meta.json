@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "自定义图标散点图",
+    "en": "Custom icon scatter"
+  },
+  "alias": [
+    "custom_icon_scatter"
+  ],
+  "intro": {
+    "zh_cn": "自定义图标散点图",
+    "en": "custom icon scatter"
+  },
+  "src": "",
+  "href": "//custom_icon_scatter",
+  "tag": ["vue", "scatter"],
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-19",
+    "updateDate": "2023-07-19",
+    "citation": "https://echarts4r.john-coene.com/articles/pictorial.html"
+  }
+}
