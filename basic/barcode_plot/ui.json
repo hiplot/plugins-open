@@ -1,0 +1,86 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "x",
+          "zh_cn": "x"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "y",
+          "zh_cn": "y"
+        },
+        "required": false
+      }
+    ]
+  },
+  "extra": {
+    "width" : {
+      "type": "slider",
+      "label": {
+        "en": "Bar Width",
+        "zh_cn": "条带宽度"
+      },
+      "step": 0.01,
+      "min": 0,
+      "max": 1,
+      "class": "col-6"
+    },
+    "height" : {
+      "type": "slider",
+      "label": {
+        "en": "Bar Height",
+        "zh_cn": "条带高度"
+      },
+      "step": 0.01,
+      "min": 0,
+      "max": 1,
+      "class": "col-6"
+    },
+    "color " : {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Bar Color",
+        "zh_cn": "条带颜色"
+      }
+    },
+    "title " : {
+      "type": "text-field",
+      "label": {
+        "en": "Title",
+        "zh_cn": "标题"
+      },
+      "class": "col-6"
+    },
+    "x_label" : {
+      "type": "text-field",
+      "label": {
+        "en": "X Label",
+        "zh_cn": "X轴标签"
+      },
+      "class": "col-6"
+    },
+    "y_label" : {
+      "type": "text-field",
+      "label": {
+        "en": "Y Label",
+        "zh_cn": "Y轴标签"
+      },
+      "class": "col-6"
+    }
+  }
+}

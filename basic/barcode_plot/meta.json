@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "条码图",
+    "en": "Barcode plot"
+  },
+  "alias": [
+    "barcode_plot"
+  ],
+  "intro": {
+    "zh_cn": "条码图",
+    "en": "barcode plot"
+  },
+  "src": "",
+  "href": "//barcode_plot",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-20",
+    "updateDate": "2023-07-20",
+    "citation": ""
+  }
+}
