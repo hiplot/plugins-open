@@ -13,51 +13,14 @@
     "1-data": [
       {
         "label": {
-          "en": "x",
-          "zh_cn": "x"
-        },
-        "required": true
-      },
-      {
-        "label": {
           "en": "y",
           "zh_cn": "y"
         },
-        "required": false
+        "required": true
       }
     ]
   },
   "extra": {
-    "width" : {
-      "type": "slider",
-      "label": {
-        "en": "Bar Width",
-        "zh_cn": "条带宽度"
-      },
-      "step": 0.01,
-      "min": 0,
-      "max": 1,
-      "class": "col-6"
-    },
-    "height" : {
-      "type": "slider",
-      "label": {
-        "en": "Bar Height",
-        "zh_cn": "条带高度"
-      },
-      "step": 0.01,
-      "min": 0,
-      "max": 1,
-      "class": "col-6"
-    },
-    "color" : {
-      "type": "color-picker",
-      "class": "col-6",
-      "label": {
-        "en": "Bar Color",
-        "zh_cn": "条带颜色"
-      }
-    },
     "title" : {
       "type": "text-field",
       "label": {
@@ -81,6 +44,15 @@
         "zh_cn": "Y轴标签"
       },
       "class": "col-6"
+    },
+    "add_percent_label": {
+      "type": "switch",
+      "label": {
+        "en": "Add Percent Label",
+        "zh_cn": "添加百分比标签"
+      },
+      "class": "col-6",
+      "required": true
     }
   }
 }
