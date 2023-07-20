@@ -1,0 +1,58 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "y",
+          "zh_cn": "y"
+        },
+        "required": true
+      }
+    ]
+  },
+  "extra": {
+    "title" : {
+      "type": "text-field",
+      "label": {
+        "en": "Title",
+        "zh_cn": "标题"
+      },
+      "class": "col-6"
+    },
+    "x_label" : {
+      "type": "text-field",
+      "label": {
+        "en": "X Label",
+        "zh_cn": "X轴标签"
+      },
+      "class": "col-6"
+    },
+    "y_label" : {
+      "type": "text-field",
+      "label": {
+        "en": "Y Label",
+        "zh_cn": "Y轴标签"
+      },
+      "class": "col-6"
+    },
+    "add_percent_label": {
+      "type": "switch",
+      "label": {
+        "en": "Add Percent Label",
+        "zh_cn": "添加百分比标签"
+      },
+      "class": "col-6",
+      "required": true
+    }
+  }
+}

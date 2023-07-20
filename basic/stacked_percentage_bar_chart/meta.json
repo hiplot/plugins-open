@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "百分比堆叠条形图",
+    "en": "Percentsge stacked Bar Chart"
+  },
+  "alias": [
+    "percentsge_stacked_bar_chart"
+  ],
+  "intro": {
+    "zh_cn": "百分比堆叠条形图",
+    "en": "Percentsge Stacked Bar Chart"
+  },
+  "src": "",
+  "href": "//percentsge_stacked_bar_chart",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-20",
+    "updateDate": "2023-07-20",
+    "citation": ""
+  }
+}
