@@ -1,0 +1,48 @@
+{
+  "module": {},
+  "tool": "percentsge_stacked_bar_chart",
+  "params": {
+    "textarea": {
+      "1-data": ""
+    },
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": []
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "cliMode": true,
+        "imageExportType": "png",
+        "theme": "theme_bw",
+        "size": {
+          "width": 8,
+          "height": 4
+        }
+      },
+      "extra": {
+        "title": "Percentage Stacked Bar Chart",
+        "x_label": "Percentage",
+        "y_label": "Days",
+        "add_percent_label": true
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": "days"
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "1-data": "days\tgoods1\tgoods2\tgoods3\nMonday\t150\t300\t0\nTuesday\t200\t250\t0\nWednesday\t300\t100\t0\nThursday\t200\t300\t0\nFriday\t100\t300\t0\nSaturday\t50\t50\t400\nSunday\t300\t100\t0"
+    }
+  }
+}
