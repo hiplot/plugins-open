@@ -50,7 +50,7 @@
       "max": 1,
       "class": "col-6"
     },
-    "color " : {
+    "color" : {
       "type": "color-picker",
       "class": "col-6",
       "label": {
@@ -58,7 +58,7 @@
         "zh_cn": "条带颜色"
       }
     },
-    "title " : {
+    "title" : {
       "type": "text-field",
       "label": {
         "en": "Title",
