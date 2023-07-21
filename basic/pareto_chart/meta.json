@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "帕累托图",
+    "en": "Pareto chart"
+  },
+  "alias": [
+    "pareto_chart"
+  ],
+  "intro": {
+    "zh_cn": "帕累托图",
+    "en": "Pareto Chart"
+  },
+  "src": "",
+  "href": "//pareto_chart",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-21",
+    "updateDate": "2023-07-21",
+    "citation": ""
+  }
+}
