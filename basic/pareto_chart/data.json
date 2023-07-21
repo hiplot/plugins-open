@@ -1,0 +1,50 @@
+{
+  "module": {},
+  "tool": "pareto_chart",
+  "params": {
+    "textarea": {
+      "1-data": ""
+    },
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": []
+          },
+          {
+            "value": []
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "cliMode": true,
+        "imageExportType": "png",
+        "theme": "theme_bw",
+        "palette": "jco",
+        "size": {
+          "width": 8,
+          "height": 4
+        }
+      },
+      "extra": []
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": "channel"
+          },
+          {
+            "value": "sales"
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "1-data": "channel\tsales\nTaoBao\t100\nJD\t500\nAmazon\t230\nPinduoduo\t300\nTmall\t400\nShopee\t200\nSupermarket\t100\nOther\t50"
+    }
+  }
+}
