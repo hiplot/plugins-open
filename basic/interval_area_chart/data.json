@@ -1,0 +1,77 @@
+{
+  "module": {},
+  "tool": "interval_area_chart",
+  "params": {
+    "textarea": {
+      "1-data": ""
+    },
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": []
+          },
+          {
+            "value": []
+          },
+          {
+            "value": []
+          },
+          {
+            "value": []
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "cliMode": true,
+        "imageExportType": "png",
+        "theme": "theme_bw",
+        "size": {
+          "width": 6,
+          "height": 4
+        }
+      },
+      "extra": {
+        "need_mean_line": true,
+        "title": "Temperature",
+        "x_label": "Month",
+        "y_label": "Temperature",
+        "area_clor": "#f2f2f2",
+        "min_line_color": "#0000f5",
+        "max_line_color": "#ea3323",
+        "mean_line_color": "#bebebe",
+        "line_size": 1.2,
+        "alpha": 0.5,
+        "max_linetype": "solid",
+        "min_linetype": "solid",
+        "mean_linetype": "dashed",
+        "add_line_label": true,
+        "line_label_size": 2.5
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": "min_temperature"
+          },
+          {
+            "value": "max_temperature"
+          },
+          {
+            "value": "month"
+          },
+          {
+            "value": "mean"
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "1-data": "month\tmin_temperature\tmax_temperature\tmean\nJan\t15\t20\t16\nFeb\t17\t25\t20\nMar\t20\t26\t23\nApr\t25\t30\t27\nMay\t30\t35\t32\nJun\t32\t35\t34\nJul\t35\t38\t36\nAug\t33\t36\t34\nSep\t30\t33\t31\nOct\t25\t30\t27\nNov\t20\t25\t22\nDec\t18\t22\t20"
+    }
+  }
+}

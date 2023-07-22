@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "区间区域图",
+    "en": "Interval area chart"
+  },
+  "alias": [
+    "interval_area_chart"
+  ],
+  "intro": {
+    "zh_cn": "区间区域图",
+    "en": "interval area chart"
+  },
+  "src": "",
+  "href": "//interval_area_chart",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-23",
+    "updateDate": "2023-07-23",
+    "citation": ""
+  }
+}
