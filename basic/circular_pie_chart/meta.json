@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "环形饼图",
+    "en": "Circular Pie Chart"
+  },
+  "alias": [
+    "circular_pie_chart"
+  ],
+  "intro": {
+    "zh_cn": "环形饼图",
+    "en": "Circular Pie Chart"
+  },
+  "src": "",
+  "href": "//circular_pie_chart",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-23",
+    "updateDate": "2023-07-23",
+    "citation": ""
+  }
+}

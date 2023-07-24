@@ -1,0 +1,54 @@
+{
+  "module": {},
+  "tool": "circular_pie_chart",
+  "params": {
+    "textarea": {
+      "1-data": ""
+    },
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": []
+          },
+          {
+            "value": []
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "cliMode": true,
+        "imageExportType": "png",
+        "palette": "jco",
+        "size": {
+          "width": 6,
+          "height": 4
+        }
+      },
+      "extra": {
+        "show_label": true,
+        "width": 0.7,
+        "bottom_text": "Pie Chart",
+        "label_size": 3
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": "labels"
+          },
+          {
+            "value": "values"
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "1-data": "labels\tvalues\nA\t20\nB\t30\nC\t15\nD\t10\nE\t45"
+    }
+  }
+}
