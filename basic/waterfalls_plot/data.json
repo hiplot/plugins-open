@@ -1,0 +1,55 @@
+{
+  "module": {},
+  "tool": "waterfalls_plot",
+  "params": {
+    "textarea": {
+      "1-data": ""
+    },
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": []
+          },
+          {
+            "value": []
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "cliMode": true,
+        "imageExportType": "png",
+        "theme": "theme_bw",
+        "size": {
+          "width": 6,
+          "height": 4
+        }
+      },
+      "extra": {
+        "calc_total": true,
+        "width": 0.7,
+        "up_color": "#e05c35",
+        "down_color": "#8cb838",
+        "total_color": "black"
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": "name"
+          },
+          {
+            "value": "value"
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "1-data": "name\tvalue\nA\t100\nB\t-20\nC\t120\nD\t-40\nE\t-100\nF\t80\nG\t-60\nH\t-10\nI\t-30"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "name",
+          "zh_cn": "name"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "value",
+          "zh_cn": "value"
+        },
+        "required": true
+      }
+    ]
+  },
+  "extra": {
+    "calc_total": {
+      "type": "switch",
+      "label": {
+        "en": "Calculate Total",
+        "zh_cn": "计算总和"
+      },
+      "class": "col-6",
+      "required": true
+    },
+    "width": {
+      "type": "slider",
+      "label": {
+        "en": "Bar Width",
+        "zh_cn": "柱宽"
+      },
+      "step": 0.01,
+      "min": 0,
+      "max": 1,
+      "class": "col-6"
+    },
+    "up_color": {
+      "type": "color-picker",
+      "class": "col-4",
+      "label": {
+        "en": "Up Color",
+        "zh_cn": "上升颜色"
+      }
+    },
+    "down_color": {
+      "type": "color-picker",
+      "class": "col-4",
+      "label": {
+        "en": "Down Color",
+        "zh_cn": "下降颜色"
+      }
+    },
+    "total_color": {
+      "type": "color-picker",
+      "class": "col-4",
+      "label": {
+        "en": "Total Color",
+        "zh_cn": "总和颜色"
+      }
+    }
+  }
+}
