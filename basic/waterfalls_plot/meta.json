@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "瀑布图2",
+    "en": "Waterfalls Plot2"
+  },
+  "alias": [
+    "waterfalls_plot2"
+  ],
+  "intro": {
+    "zh_cn": "瀑布图2",
+    "en": "Waterfalls Plot2"
+  },
+  "src": "",
+  "href": "//waterfalls_plot",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-24",
+    "updateDate": "2023-07-24",
+    "citation": ""
+  }
+}
