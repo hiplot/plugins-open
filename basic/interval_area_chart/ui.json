@@ -1,0 +1,202 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "min",
+          "zh_cn": "min"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "max",
+          "zh_cn": "max"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "name",
+          "zh_cn": "name"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "mean_name",
+          "zh_cn": "均值列名"
+        },
+        "required": false
+      }
+    ]
+  },
+  "extra": {
+    "title": {
+      "type": "text-field",
+      "label": {
+        "en": "Title",
+        "zh_cn": "标题"
+      },
+      "class": "col-12"
+    },
+    "x_label": {
+      "type": "text-field",
+      "label": {
+        "en": "X Label",
+        "zh_cn": "X轴标签"
+      },
+      "class": "col-6"
+    },
+    "y_label": {
+      "type": "text-field",
+      "label": {
+        "en": "Y Label",
+        "zh_cn": "Y轴标签"
+      },
+      "class": "col-6"
+    },
+    "area_clor": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Area Color",
+        "zh_cn": "区域颜色"
+      }
+    },
+    "min_line_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Min Line Color",
+        "zh_cn": "最小值线颜色"
+      }
+    },
+    "max_line_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Max Line Color",
+        "zh_cn": "最大值线颜色"
+      }
+    },
+    "mean_line_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Mean Line Color",
+        "zh_cn": "均值线颜色"
+      }
+    },
+    "line_size": {
+      "type": "slider",
+      "label": {
+        "en": "Line Size",
+        "zh_cn": "线条大小"
+      },
+      "step": 0.1,
+      "min": 0,
+      "max": 5,
+      "class": "col-6"
+    },
+    "alpha": {
+      "type": "slider",
+      "label": {
+        "en": "Area Alpha",
+        "zh_cn": "区域透明度"
+      },
+      "step": 0.01,
+      "min": 0,
+      "max": 1,
+      "class": "col-6"
+    },
+    "line_label_size": {
+      "type": "slider",
+      "label": {
+        "en": "Line Label Size",
+        "zh_cn": "折线标签大小"
+      },
+      "step": 0.1,
+      "min": 0,
+      "max": 5,
+      "class": "col-6"
+    },
+    "max_linetype": {
+      "type": "select",
+      "label": {
+        "en": "Max Line Type",
+        "zh_cn": "最大值线类型"
+      },
+      "items": [
+        "solid",
+        "dashed",
+        "dotted",
+        "dotdash",
+        "longdash",
+        "twodash"
+      ],
+      "class": "col-6"
+    },
+    "min_linetype": {
+      "type": "select",
+      "label": {
+        "en": "Min Line Type",
+        "zh_cn": "最小值线类型"
+      },
+      "items": [
+        "solid",
+        "dashed",
+        "dotted",
+        "dotdash",
+        "longdash",
+        "twodash"
+      ],
+      "class": "col-6"
+    },
+    "mean_linetype": {
+      "type": "select",
+      "label": {
+        "en": "Mean Line Type",
+        "zh_cn": "均值线类型"
+      },
+      "items": [
+        "solid",
+        "dashed",
+        "dotted",
+        "dotdash",
+        "longdash",
+        "twodash"
+      ],
+      "class": "col-6"
+    },
+    "need_mean_line": {
+      "type": "switch",
+      "label": {
+        "en": "Draw Mean Line",
+        "zh_cn": "绘制均值线"
+      },
+      "class": "col-6",
+      "required": true
+    },
+    "add_line_label": {
+      "type": "switch",
+      "label": {
+        "en": "Add Line Label",
+        "zh_cn": "添加折线标签"
+      },
+      "class": "col-6",
+      "required": true
+    }
+  }
+}
+
