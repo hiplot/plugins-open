@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "圆堆图",
+    "en": "Circle Packing"
+  },
+  "alias": [
+    "circle_packing"
+  ],
+  "intro": {
+    "zh_cn": "圆堆图",
+    "en": "Circle Packing"
+  },
+  "src": "",
+  "href": "//circle_packing",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-25",
+    "updateDate": "2023-07-25",
+    "citation": ""
+  }
+}

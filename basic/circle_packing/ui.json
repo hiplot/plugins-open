@@ -1,0 +1,74 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "group",
+          "zh_cn": "group"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "value",
+          "zh_cn": "value"
+        },
+        "required": true
+      }
+    ]
+  },
+  "extra": {
+    "add_label": {
+      "type": "switch",
+      "label": {
+        "en": "Add Label",
+        "zh_cn": "添加标签"
+      },
+      "class": "col-6",
+      "required": true
+    },
+    "alpha": {
+      "type": "slider",
+      "label": {
+        "en": "Alpha",
+        "zh_cn": "透明度"
+      },
+      "step": 0.01,
+      "min": 0,
+      "max": 1,
+      "class": "col-6"
+    },
+    "min_text_size": {
+      "type": "slider",
+      "label": {
+        "en": "Min Text Size",
+        "zh_cn": "最小字体大小"
+      },
+      "step": 0.1,
+      "min": 1,
+      "max": 10,
+      "class": "col-6"
+    },
+    "max_text_size": {
+      "type": "slider",
+      "label": {
+        "en": "Max Text Size",
+        "zh_cn": "最大字体大小"
+      },
+      "step": 0.1,
+      "min": 1,
+      "max": 10,
+      "class": "col-6"
+    }
+  }
+}
