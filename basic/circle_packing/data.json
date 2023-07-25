@@ -1,0 +1,54 @@
+{
+  "module": {},
+  "tool": "circle_packing",
+  "params": {
+    "textarea": {
+      "1-data": ""
+    },
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": []
+          },
+          {
+            "value": []
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "cliMode": true,
+        "imageExportType": "png",
+        "palette": "random",
+        "size": {
+          "width": 4,
+          "height": 4
+        }
+      },
+      "extra": {
+        "add_label": true,
+        "alpha": 0.4,
+        "min_text_size": 2.3,
+        "max_text_size": 4.5
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": "g"
+          },
+          {
+            "value": "v"
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "1-data": "g\tv\nA\t100\nB\t120\nC\t80\nD\t10\nE\t60\nF\t30\nG\t40\nH\t50\nI\t70\nJ\t90\nK\t110\nL\t56\nM\t150\nN\t20\nO\t96\nP\t35\nQ\t30\nR\t250\nS\t200\nT\t150"
+    }
+  }
+}
