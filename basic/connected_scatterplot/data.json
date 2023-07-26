@@ -1,0 +1,60 @@
+{
+  "module": {},
+  "tool": "connected_scatterplot",
+  "params": {
+    "textarea": {
+      "1-data": ""
+    },
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": []
+          },
+          {
+            "value": []
+          },
+          {
+            "value": []
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "cliMode": true,
+        "imageExportType": "png",
+        "theme": "theme_bw",
+        "size": {
+          "width": 5,
+          "height": 4
+        }
+      },
+      "extra": {
+        "label_ratio": 0.5,
+        "line_color": "blue",
+        "arrow_size": 2,
+        "label_size": 2.5
+      }
+    }
+  },
+  "exampleData": {
+    "config": {
+      "dataArg": {
+        "1-data": [
+          {
+            "value": "Alice"
+          },
+          {
+            "value": "Anna"
+          },
+          {
+            "value": "year"
+          }
+        ]
+      }
+    },
+    "textarea": {
+      "1-data": "year\tAlice\tAnna\n1991\t724\t7118\n1992\t686\t6846\n1993\t684\t6808\n1994\t595\t7523\n1995\t579\t8564\n1996\t593\t8565\n1997\t579\t8337\n1998\t594\t8378\n1999\t651\t9098\n2000\t668\t10588\n2001\t631\t10574\n2002\t654\t10385\n2003\t699\t9443\n2004\t756\t9514\n2005\t753\t9101\n2006\t844\t8601\n2007\t950\t7888\n2008\t1025\t7265\n2009\t1275\t6800\n2010\t1778\t6326\n2011\t2192\t5658\n2012\t2500\t5615\n2013\t2935\t5378\n2014\t3052\t5679\n2015\t3414\t5125\n2016\t3678\t4775\n2017\t3804\t4520"
+    }
+  }
+}
