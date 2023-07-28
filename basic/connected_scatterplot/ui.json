@@ -1,0 +1,80 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "x",
+          "zh_cn": "x"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "y",
+          "zh_cn": "y"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "label",
+          "zh_cn": "label"
+        },
+        "required": true
+      }
+    ]
+  },
+  "extra": {
+    "label_ratio": {
+      "type": "slider",
+      "label": {
+        "en": "Label Ratio",
+        "zh_cn": "标签比例"
+      },
+      "step": 0.1,
+      "min": 0,
+      "max": 1,
+      "class": "col-6"
+    },
+    "arrow_size": {
+      "type": "slider",
+      "label": {
+        "en": "Arrow Size",
+        "zh_cn": "箭头大小"
+      },
+      "step": 1,
+      "min": 0,
+      "max": 10,
+      "class": "col-6"
+    },
+    "label_size": {
+      "type": "slider",
+      "label": {
+        "en": "Label Size",
+        "zh_cn": "标签大小"
+      },
+      "step": 0.1,
+      "min": 0,
+      "max": 10,
+      "class": "col-6"
+    },
+    "line_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Line Color",
+        "zh_cn": "线条颜色"
+      }
+    }
+  }
+}
