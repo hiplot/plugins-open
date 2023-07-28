@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "连接散点图",
+    "en": "connected scatterplot"
+  },
+  "alias": [
+    "connected_scatterplot"
+  ],
+  "intro": {
+    "zh_cn": "连接散点图",
+    "en": "connected scatterplot"
+  },
+  "src": "",
+  "href": "//connected_scatterplot",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-26",
+    "updateDate": "2023-07-26",
+    "citation": ""
+  }
+}
