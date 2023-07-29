@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "分组气泡图",
+    "en": "Group Bubble"
+  },
+  "alias": [
+    "group_bubble"
+  ],
+  "intro": {
+    "zh_cn": "分组气泡图",
+    "en": "Group Bubble"
+  },
+  "src": "",
+  "href": "//group_bubble",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-27",
+    "updateDate": "2023-07-27",
+    "citation": ""
+  }
+}
