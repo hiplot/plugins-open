@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "分组哑铃图",
+    "en": "Group Dumbbell"
+  },
+  "alias": [
+    "group_dumbbell"
+  ],
+  "intro": {
+    "zh_cn": "分组哑铃图",
+    "en": "Group Dumbbell"
+  },
+  "src": "",
+  "href": "//group_dumbbell",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-27",
+    "updateDate": "2023-07-27",
+    "citation": ""
+  }
+}
