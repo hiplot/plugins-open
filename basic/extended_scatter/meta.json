@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "扩展散点图",
+    "en": "Extended scatter"
+  },
+  "alias": [
+    "extended_scatter"
+  ],
+  "intro": {
+    "zh_cn": "扩展散点图",
+    "en": "extended scatter"
+  },
+  "src": "",
+  "href": "//extended_scatter",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-31",
+    "updateDate": "2023-07-31",
+    "citation": ""
+  }
+}
