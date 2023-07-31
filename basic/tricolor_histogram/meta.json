@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "三色直方图",
+    "en": "Tricolor histogram"
+  },
+  "alias": [
+    "tricolor_histogram"
+  ],
+  "intro": {
+    "zh_cn": "三色直方图",
+    "en": "tricolor histogram"
+  },
+  "src": "",
+  "href": "//tricolor_histogram",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-31",
+    "updateDate": "2023-07-31",
+    "citation": ""
+  }
+}

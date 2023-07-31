@@ -1,0 +1,93 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "value",
+          "zh_cn": "value"
+        },
+        "required": true
+      }
+    ]
+  },
+  "extra": {
+    "alpha": {
+      "type": "slider",
+      "label": {
+        "en": "Alpha",
+        "zh_cn": "透明度"
+      },
+      "step": 0.01,
+      "min": 0,
+      "max": 1,
+      "class": "col-6"
+    },
+    "binwidth": {
+      "type": "slider",
+      "label": {
+        "en": "Bin Width",
+        "zh_cn": "柱宽"
+      },
+      "step": 0.01,
+      "min": 0,
+      "max": 100,
+      "class": "col-6"
+    },
+    "low_value": {
+      "type": "slider",
+      "label": {
+        "en": "Low Value",
+        "zh_cn": "低值"
+      },
+      "step": 0.01,
+      "min": 0,
+      "max": 100,
+      "class": "col-6"
+    },
+    "high_value": {
+      "type": "slider",
+      "label": {
+        "en": "High Value",
+        "zh_cn": "高值"
+      },
+      "step": 0.01,
+      "min": 0,
+      "max": 100,
+      "class": "col-6"
+    },
+    "left_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Left Color",
+        "zh_cn": "左侧颜色"
+      }
+    },
+    "middle_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Middle Color",
+        "zh_cn": "中间颜色"
+      }
+    },
+    "right_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Right Color",
+        "zh_cn": "右侧颜色"
+      }
+    }
+  }
+}
