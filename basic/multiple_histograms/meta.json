@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "多直方图",
+    "en": "Multiple histograms"
+  },
+  "alias": [
+    "multiple_histograms"
+  ],
+  "intro": {
+    "zh_cn": "多直方图",
+    "en": "multiple histograms"
+  },
+  "src": "",
+  "href": "//multiple_histograms",
+  "tag": "vue",
+  "meta": {
+    "score": 3,
+    "author": "Xiaosheng",
+    "email": "",
+    "issues": "",
+    "releaseDate": "2023-07-31",
+    "updateDate": "2023-07-31",
+    "citation": ""
+  }
+}

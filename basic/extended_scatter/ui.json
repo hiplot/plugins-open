@@ -1,0 +1,138 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "x",
+          "zh_cn": "x"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "y",
+          "zh_cn": "y"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "size",
+          "zh_cn": "size"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "group",
+          "zh_cn": "group"
+        },
+        "required": true
+      }
+    ]
+  },
+  "extra": {
+    "add_rug": {
+      "type": "switch",
+      "label": {
+        "en": "Add rug",
+        "zh_cn": "添加rug"
+      },
+      "class": "col-6",
+      "required": true
+    },
+    "rug_alpha": {
+      "type": "slider",
+      "label": {
+        "en": "Rug alpha",
+        "zh_cn": "rug透明度"
+      },
+      "step": 0.01,
+      "min": 0,
+      "max": 1,
+      "class": "col-6"
+    },
+    "rug_size": {
+      "type": "slider",
+      "label": {
+        "en": "Rug size",
+        "zh_cn": "rug大小"
+      },
+      "step": 0.1,
+      "min": 0,
+      "max": 10,
+      "class": "col-6"
+    },
+    "marginal_size": {
+      "type": "slider",
+      "label": {
+        "en": "Marginal size",
+        "zh_cn": "边缘大小"
+      },
+      "step": 0.1,
+      "min": 0,
+      "max": 10,
+      "class": "col-6"
+    },
+    "marginal_bins": {
+      "type": "slider",
+      "label": {
+        "en": "Marginal bins",
+        "zh_cn": "边缘直方图柱数"
+      },
+      "step": 1,
+      "min": 0,
+      "max": 100,
+      "class": "col-6"
+    },
+    "marginal_type": {
+      "type": "select",
+      "label": {
+        "en": "Marginal type",
+        "zh_cn": "边缘类型"
+      },
+      "items": [
+        "density",
+        "histogram",
+        "boxplot",
+        "violin",
+        "densigram"
+      ],
+      "class": "col-6"
+    },
+    "rug_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Rug color",
+        "zh_cn": "rug颜色"
+      }
+    },
+    "marginal_fill": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Marginal fill",
+        "zh_cn": "边缘填充色"
+      }
+    },
+    "marginal_color": {
+      "type": "color-picker",
+      "class": "col-6",
+      "label": {
+        "en": "Marginal color",
+        "zh_cn": "边缘色"
+      }
+    }
+  }
+}
