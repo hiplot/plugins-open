@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1-data": {
+      "type": "hiplot-textarea",
+      "label": {
+        "en": "Data Table",
+        "zh_cn": "数据表"
+      },
+      "required": true
+    }
+  },
+  "dataArg": {
+    "1-data": [
+      {
+        "label": {
+          "en": "x",
+          "zh_cn": "x"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "y",
+          "zh_cn": "y"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "names",
+          "zh_cn": "names"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "groups",
+          "zh_cn": "groups"
+        },
+        "required": true
+      }
+    ]
+  },
+  "extra": []
+}
