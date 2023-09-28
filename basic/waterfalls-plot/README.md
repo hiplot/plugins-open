@@ -1,4 +1,4 @@
-# Waterfall Chart 2
+# [Waterfall Chart 2](/basic/waterfalls-plot)
 
 * Introduction
 

@@ -1,20 +1,20 @@
 {
   "name": {
     "zh_cn": "三色直方图",
-    "en": "Tricolor histogram"
+    "en": "Tricolor Histogram"
   },
   "alias": [
     "tricolor_histogram"
   ],
   "intro": {
     "zh_cn": "三色直方图",
-    "en": "tricolor histogram"
+    "en": "Tricolor histogram"
   },
   "src": "",
-  "href": "//tricolor_histogram",
-  "tag": "vue",
+  "href": "/basic/tricolor-histogram",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

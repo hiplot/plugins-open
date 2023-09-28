@@ -1,4 +1,4 @@
-# 分组哑铃图
+# [分组哑铃图](/basic/group-dumbbell)
 
 - 特殊参数
 

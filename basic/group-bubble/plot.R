@@ -55,7 +55,7 @@ p <- group_bubble(
   color = conf$dataArg[[1]][[4]]$value,
   min_size = conf$extra$min_size,
   max_size = conf$extra$max_size,
-  alpha = conf$extra$alpha
+  alpha = conf$general$alpha
 )
 
 p <- set_complex_general_theme(set_palette_theme(p, conf))

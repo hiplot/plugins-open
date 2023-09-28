@@ -40,7 +40,7 @@ p <- circle_packing(
   group = conf$dataArg[[1]][[1]]$value,
   value = conf$dataArg[[1]][[2]]$value,
   add_label = conf$extra$add_label,
-  alpha = conf$extra$alpha,
+  alpha = conf$general$alpha,
   min_text_size = conf$extra$min_text_size,
   max_text_size = conf$extra$max_text_size
 )

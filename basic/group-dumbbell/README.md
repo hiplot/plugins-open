@@ -1,4 +1,4 @@
-# Grouped Dumbbell Chart
+# [Grouped Dumbbell Chart](/basic/group-dumbbell)
 
 - Special Parameters:
 

@@ -11,10 +11,10 @@
     "en": "Group Dumbbell"
   },
   "src": "",
-  "href": "//group_dumbbell",
-  "tag": "vue",
+  "href": "/basic/group-dumbbell",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

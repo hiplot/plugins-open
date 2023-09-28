@@ -1,4 +1,4 @@
-# 环状条形图
+- [环状条形图](/basic/circular-bar-plot)
 
 简介
 

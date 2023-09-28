@@ -1,4 +1,4 @@
-# Grouped Line Chart
+# [Grouped Line Chart](/basic/group-line)
 
 - Input Data Analysis
 

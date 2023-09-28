@@ -1,4 +1,4 @@
-# 环形饼图
+# [环形饼图](/basic/circular-pie-chart)
 
 * 简介
 

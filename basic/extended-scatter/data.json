@@ -1,6 +1,6 @@
 {
-  "module": {},
-  "tool": "extended_scatter",
+  "module": "basic",
+  "tool": "extended-scatter",
   "params": {
     "textarea": {
       "1-data": ""
@@ -24,23 +24,24 @@
       },
       "general": {
         "cmd": "",
-        "cliMode": true,
-        "imageExportType": "png",
+        "imageExportType": ["pdf", "jpeg"],
         "size": {
           "width": 6,
           "height": 4
-        }
+        },
+        "font": "Arial",
+        "theme": "theme_bw"
       },
       "extra": {
-        "add_rug": true,
         "rug_alpha": 0.2,
         "rug_size": 1.5,
-        "rug_color": "steelblue",
-        "marginal_type": "densigram",
-        "marginal_fill": "slateblue",
-        "marginal_color": "purple",
         "marginal_size": 4,
-        "marginal_bins": 30
+        "marginal_bins": 30,
+        "marginal_type": "densigram",
+        "add_rug": true,
+        "rug_color": "steelblue",
+        "marginal_fill": "slateblue",
+        "marginal_color": "purple"
       }
     }
   },

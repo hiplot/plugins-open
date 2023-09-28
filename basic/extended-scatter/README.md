@@ -1,4 +1,4 @@
-# Extended Scatter Plot
+# [Extended Scatter Plot](/basic/extended-scatter)
 
 - Introduction
 

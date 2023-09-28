@@ -1,4 +1,4 @@
-# 区间条形图
+# [区间条形图](/basic/interval-bar-chart)
 
 - 案例数据分析
 

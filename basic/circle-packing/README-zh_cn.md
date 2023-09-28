@@ -1,4 +1,4 @@
-# 圆堆图
+# [圆堆图](/basic/circle-packing)
 
 * 简介
 

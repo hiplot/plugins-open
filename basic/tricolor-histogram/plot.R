@@ -54,7 +54,7 @@ p <- tricolor_histogram(
   left_color = conf$extra$left_color,
   middle_color = conf$extra$middle_color,
   right_color = conf$extra$right_color,
-  alpha = conf$extra$alpha,
+  alpha = conf$general$alpha,
   binwidth = conf$extra$binwidth,
   low_value = conf$extra$low_value,
   high_value = conf$extra$high_value

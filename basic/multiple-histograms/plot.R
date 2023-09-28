@@ -14,7 +14,7 @@ p <- multiple_histograms(
   data = if (exists("data") && is.data.frame(data)) data else "",
   value = conf$dataArg[[1]][[1]]$value,
   group = conf$dataArg[[1]][[2]]$value,
-  alpha = conf$extra$alpha,
+  alpha = conf$general$alpha,
   frame_color = conf$extra$frame_color,
   binwidth = conf$extra$binwidth
 )
