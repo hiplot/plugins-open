@@ -1,6 +1,6 @@
 {
-  "module": {},
-  "tool": "simple_funnel_diagram",
+  "module": "basic",
+  "tool": "simple-funnel-diagram",
   "params": {
     "textarea": {
       "1-data": ""
@@ -9,7 +9,7 @@
       "dataArg": [],
       "general": {
         "cmd": "",
-        "cliMode": true
+        "imageExportType": ["pdf", "png", "html"]
       },
       "extra": {
         "title": "Funnel",

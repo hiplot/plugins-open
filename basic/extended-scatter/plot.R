@@ -80,5 +80,4 @@ p <- extended_scatter(
   marginal_bins = conf$extra$marginal_bins
 )
 
-
 export_single(p)

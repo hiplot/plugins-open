@@ -21,21 +21,13 @@
     ]
   },
   "extra": {
-    "title" : {
-      "type": "text-field",
-      "label": {
-        "en": "Title",
-        "zh_cn": "标题"
-      },
-      "class": "col-6"
-    },
     "x_label" : {
       "type": "text-field",
       "label": {
         "en": "X Label",
         "zh_cn": "X轴标签"
       },
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "y_label" : {
       "type": "text-field",
@@ -43,7 +35,7 @@
         "en": "Y Label",
         "zh_cn": "Y轴标签"
       },
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "add_percent_label": {
       "type": "switch",
@@ -51,7 +43,7 @@
         "en": "Add Percent Label",
         "zh_cn": "添加百分比标签"
       },
-      "class": "col-6",
+      "class": "col-12 col-md-6",
       "required": true
     }
   }

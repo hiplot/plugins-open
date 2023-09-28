@@ -1,4 +1,4 @@
-# Interval Bar Chart
+# [Interval Bar Chart](/basic/interval-bar-chart)
 
 - Case Data Analysis
 

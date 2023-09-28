@@ -1,6 +1,6 @@
 {
-  "module": {},
-  "tool": "barcode_plot",
+  "module": "basic",
+  "tool": "barcode-plot",
   "params": {
     "textarea": {
       "1-data": ""
@@ -18,19 +18,19 @@
       },
       "general": {
         "cmd": "",
-        "cliMode": true,
-        "imageExportType": "png",
+        "imageExportType": ["pdf", "jpeg"],
         "theme": "theme_bw",
         "size": {
-          "width": 10,
+          "width": 8,
           "height": 4
-        }
+        },
+        "font": "Arial",
+        "title": ""
       },
       "extra": {
        "width" : 0.01,
        "height" : 0.9,
-       "color " : "blue",
-       "title " : "Sales report",
+       "color" : "#283593",
        "x_label" : "Sales",
        "y_label" : "Region"
       }
@@ -47,6 +47,9 @@
             "value": "region"
           }
         ]
+      },
+      "general": {
+        "title": "Sales report"
       }
     },
     "textarea": {

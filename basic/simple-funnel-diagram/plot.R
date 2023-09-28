@@ -18,4 +18,4 @@ p <- simple_funnel_diagram(
   theme = conf$extra$theme
 )
 
-export_htmlwidget(p)
+export_single(p)

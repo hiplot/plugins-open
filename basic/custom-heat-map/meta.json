@@ -1,7 +1,7 @@
 {
   "name": {
     "zh_cn": "自定义热图",
-    "en": "Custom heat map"
+    "en": "Custom Heatmap"
   },
   "alias": [
     "custom_heat_map"
@@ -11,10 +11,10 @@
     "en": "custom heat map"
   },
   "src": "",
-  "href": "//custom_heat_map",
-  "tag": ["vue", "heatmap"],
+  "href": "/basic/custom-heat-map",
+  "tag": ["vue", "heatmap", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

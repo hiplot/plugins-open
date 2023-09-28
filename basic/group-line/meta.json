@@ -1,7 +1,7 @@
 {
   "name": {
     "zh_cn": "分组折线图",
-    "en": "Group line"
+    "en": "Group Line"
   },
   "alias": [
     "group_line"
@@ -11,10 +11,10 @@
     "en": "group line"
   },
   "src": "",
-  "href": "//group_line",
-  "tag": "vue",
+  "href": "/basic/group-line",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

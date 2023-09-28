@@ -1,4 +1,4 @@
-# Barcode Plot
+# [Barcode Plot](/basic/barcode-plot)
 
 Introduction
 

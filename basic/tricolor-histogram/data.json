@@ -1,6 +1,6 @@
 {
-  "module": {},
-  "tool": "tricolor_histogram",
+  "module": "basic",
+  "tool": "tricolor-histogram",
   "params": {
     "textarea": {
       "1-data": ""
@@ -15,19 +15,19 @@
       },
       "general": {
         "cmd": "",
-        "cliMode": true,
-        "imageExportType": "png",
+        "imageExportType": ["pdf", "jpeg"],
         "theme": "theme_bw",
         "size": {
-          "width": 6,
+          "width": 8,
           "height": 4
-        }
+        },
+        "alpha": 0.5,
+        "font": "Arial"
       },
       "extra": {
-        "left_color": "red",
-        "middle_color": "yellow",
-        "right_color": "green",
-        "alpha": 0.5,
+        "left_color": "#3F51B5",
+        "middle_color": "#006064",
+        "right_color": "##F44336",
         "binwidth": 0.05,
         "low_value": 5,
         "high_value": 7

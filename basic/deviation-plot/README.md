@@ -1,4 +1,4 @@
-# Deviation plot
+# [Deviation plot](/basic/deviation-plot)
 
 Introduction
 

@@ -1,4 +1,4 @@
-# Custom Icon Scatter Plot
+# [Custom Icon Scatter Plot](/basic/custom-icon-scatter)
 
 Introduction
 

@@ -1,6 +1,6 @@
 {
-  "module": {},
-  "tool": "pareto_chart",
+  "module": "basic",
+  "tool": "pareto-chart",
   "params": {
     "textarea": {
       "1-data": ""
@@ -18,16 +18,15 @@
       },
       "general": {
         "cmd": "",
-        "cliMode": true,
-        "imageExportType": "png",
+        "imageExportType": ["pdf", "png"],
         "theme": "theme_bw",
-        "palette": "jco",
+        "palette": "nejm",
         "size": {
           "width": 8,
           "height": 4
-        }
-      },
-      "extra": []
+        },
+        "font": "Arial"
+      }
     }
   },
   "exampleData": {

@@ -1,4 +1,4 @@
-# 自定义图标散点图
+# [自定义图标散点图](/basic/custom-icon-scatter)
 
 简介
 

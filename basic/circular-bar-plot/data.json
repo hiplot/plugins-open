@@ -18,9 +18,8 @@
       },
       "general": {
         "cmd": "",
-        "cliMode": true,
         "palette": "jco",
-        "imageExportType": ["pdf", "png"],
+        "imageExportType": ["pdf", "jpeg"],
         "size": {
           "width": 4,
           "height": 4

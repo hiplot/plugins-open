@@ -1,20 +1,20 @@
 {
   "name": {
     "zh_cn": "多直方图",
-    "en": "Multiple histograms"
+    "en": "Multiple Histograms"
   },
   "alias": [
     "multiple_histograms"
   ],
   "intro": {
     "zh_cn": "多直方图",
-    "en": "multiple histograms"
+    "en": "Multiple histograms"
   },
   "src": "",
-  "href": "//multiple_histograms",
-  "tag": "vue",
+  "href": "/basic/multiple-histograms",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

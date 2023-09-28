@@ -11,10 +11,10 @@
     "en": "Waterfalls Plot2"
   },
   "src": "",
-  "href": "//waterfalls_plot",
-  "tag": "vue",
+  "href": "/basic/waterfalls-plot",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

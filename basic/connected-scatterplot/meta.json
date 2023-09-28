@@ -1,20 +1,20 @@
 {
   "name": {
     "zh_cn": "连接散点图",
-    "en": "connected scatterplot"
+    "en": "Connected Scatterplot"
   },
   "alias": [
     "connected_scatterplot"
   ],
   "intro": {
     "zh_cn": "连接散点图",
-    "en": "connected scatterplot"
+    "en": "Connected scatterplot"
   },
   "src": "",
-  "href": "//connected_scatterplot",
-  "tag": "vue",
+  "href": "/basic/connected-scatterplot",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

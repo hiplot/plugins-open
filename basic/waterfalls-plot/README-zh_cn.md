@@ -1,4 +1,4 @@
-# 瀑布图2
+# [瀑布图 2](/basic/waterfalls-plot)
 
 * 简介
 

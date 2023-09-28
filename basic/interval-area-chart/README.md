@@ -1,4 +1,4 @@
-# Interval Area Plot
+# [Interval Area Plot](/basic/interval-area-chart)
 
 - Case Data Analysis
 
