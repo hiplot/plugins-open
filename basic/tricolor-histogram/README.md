@@ -1,4 +1,4 @@
-# Tricolored Histogram
+# [Tricolored Histogram](/basic/tricolor-histogram)
 
 - Introduction
 

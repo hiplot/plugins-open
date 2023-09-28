@@ -51,7 +51,7 @@
       "step": 0.1,
       "min": 1,
       "max": 10,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "max_size": {
       "type": "slider",
@@ -62,18 +62,7 @@
       "step": 0.1,
       "min": 1,
       "max": 10,
-      "class": "col-6"
-    },
-    "alpha": {
-      "type": "slider",
-      "label": {
-        "en": "Alpha",
-        "zh_cn": "透明度"
-      },
-      "step": 0.1,
-      "min": 0,
-      "max": 1,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     }
   }
 }

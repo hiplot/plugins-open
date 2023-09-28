@@ -1,20 +1,20 @@
 {
   "name": {
     "zh_cn": "自定义热图",
-    "en": "Simple funnel diagram"
+    "en": "Simple Funnel Diagram"
   },
   "alias": [
     "simple_funnel_diagram"
   ],
   "intro": {
     "zh_cn": "简单漏斗图",
-    "en": "simple funnel diagram"
+    "en": "Simple funnel diagram"
   },
   "src": "",
-  "href": "//simple_funnel_diagram",
-  "tag": "vue",
+  "href": "/basic/simple-funnel-diagram",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 4,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

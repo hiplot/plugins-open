@@ -1,4 +1,4 @@
-# 百分比堆叠条形图
+# [百分比堆叠条形图](/basic/stacked-percentage-bar-chart)
 
 * 案例数据分析
 

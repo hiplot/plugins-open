@@ -1,4 +1,4 @@
-# 条码图
+# [条码图](/basic/barcode-plot)
 
 简介
 

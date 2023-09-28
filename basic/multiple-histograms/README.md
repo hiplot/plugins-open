@@ -1,4 +1,4 @@
-# Multiple Histograms
+# [Multiple Histograms](/basic/multiple-histograms)
 
 - Introduction
 

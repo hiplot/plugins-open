@@ -13,40 +13,21 @@
     "1-data": [
       {
         "label": {
-          "en": "value",
-          "zh_cn": "value"
+          "en": "Value",
+          "zh_cn": "数值列"
         },
         "required": true
       },
       {
         "label": {
-          "en": "group",
-          "zh_cn": "group"
+          "en": "Group",
+          "zh_cn": "分组"
         },
         "required": true
       }
     ]
   },
   "extra": {
-    "frame_color": {
-      "type": "color-picker",
-      "class": "col-6",
-      "label": {
-        "en": "Frame Color",
-        "zh_cn": "边框颜色"
-      }
-    },
-    "alpha": {
-      "type": "slider",
-      "label": {
-        "en": "Alpha",
-        "zh_cn": "透明度"
-      },
-      "step": 0.01,
-      "min": 0,
-      "max": 1,
-      "class": "col-6"
-    },
     "binwidth": {
       "type": "slider",
       "label": {
@@ -57,6 +38,14 @@
       "min": 0,
       "max": 100,
       "class": "col-12"
+    },
+    "frame_color": {
+      "type": "color-picker",
+      "class": "col-12",
+      "label": {
+        "en": "Frame Color",
+        "zh_cn": "边框颜色"
+      }
     }
   }
 }

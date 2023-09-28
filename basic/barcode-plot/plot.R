@@ -53,7 +53,7 @@ p <- barcode_plot(
   width = ifelse(conf$extra$width <= 0, 0.1, conf$extra$width),
   height = ifelse(conf$extra$height <= 0, 0.9, conf$extra$height),
   color = ifelse(conf$extra$color == "", "blue", conf$extra$color),
-  title = conf$extra$title,
+  title = conf$general$title,
   x_label = conf$extra$x_label,
   y_label = conf$extra$y_label
 )
