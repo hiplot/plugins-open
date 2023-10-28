@@ -6,14 +6,15 @@ pareto_chart <- function(data, x, y) {
 
   # calculate percentage number
   data$accumulating <- cumsum(data[[y]])
-  cal_num <- sum(data[[y]]) / max(data[[y]])
+  max_y <- max(data[[y]])
+  cal_num <- sum(data[[y]]) / max_y
   data$accumulating <- data$accumulating / cal_num
 
   p <- ggplot(data, aes_string(x = x, y = y, fill = x)) +
     geom_bar(stat = "identity") +
     geom_line(aes(y = accumulating), group = 1) +
     geom_point(aes(y = accumulating), show.legend = FALSE) +
-    scale_y_continuous(sec.axis = sec_axis(trans = ~ . / max(data$sales) * 100, name = "Percentage"))
+    scale_y_continuous(sec.axis = sec_axis(trans = ~ . / max_y * 100, name = "Percentage"))
 
   return(p)
 }
