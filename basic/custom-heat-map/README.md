@@ -1,4 +1,4 @@
-# Custom Heatmap
+# [Custom Heatmap](/basic/custom-heat-map)
 
 Introduction
 

@@ -24,7 +24,7 @@ pacman::p_load(pkgs, character.only = TRUE)
 {
   cmd <- sprintf(
     paste0(
-      "tidy_ggdag <- dagify(",
+      "tidy_ggdag <- ggdag::dagify(",
       "%s, exposure = conf$data$exposure,",
       "outcome = conf$data$outcome)"
     ),

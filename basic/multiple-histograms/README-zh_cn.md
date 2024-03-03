@@ -1,4 +1,4 @@
-# 多直方图
+# [多直方图](/basic/multiple-histograms)
 
 - 简介
 

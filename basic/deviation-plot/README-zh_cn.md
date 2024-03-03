@@ -1,4 +1,4 @@
-# 偏差图 
+# [偏差图](/basic/deviation-plot)
 
 简介
 

@@ -1,0 +1,4 @@
+Model1.ROC,Model2.ROC,Pvalue.Delong.test
+value.Am,value.GG,0.0271757822291882
+value.Am,value.EL,0.00514557970691098
+value.GG,value.EL,0.164295175223054

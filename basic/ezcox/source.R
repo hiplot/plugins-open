@@ -99,17 +99,17 @@ call_ezcox <- function(data,
   data$status <- as.integer(data$status) # Can only be 0 or 1 here
 
   # 协变量
-  if (covariates == "" || is.null(covariates)) {
+  if (any(covariates == "" | is.null(covariates))) {
     covariates <- setdiff(colnames(data), c("time", "status"))
   }
 
   # 控制变量
-  if (controls == "" || is.null(controls)) {
+  if (any(controls == "" | is.null(controls))) {
     controls <- NULL
   }
 
   # 结果图显示变量
-  if (vars_to_show == "" || is.null(vars_to_show)) {
+  if (any(vars_to_show == "" | is.null(vars_to_show))) {
     vars_to_show <- NULL
   }
 

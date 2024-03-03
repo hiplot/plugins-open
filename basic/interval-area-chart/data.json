@@ -1,6 +1,6 @@
 {
-  "module": {},
-  "tool": "interval_area_chart",
+  "module": "basic",
+  "tool": "interval-area-chart",
   "params": {
     "textarea": {
       "1-data": ""
@@ -24,25 +24,25 @@
       },
       "general": {
         "cmd": "",
-        "cliMode": true,
-        "imageExportType": "png",
+        "imageExportType": ["pdf", "jpeg"],
         "theme": "theme_bw",
         "size": {
           "width": 6,
           "height": 4
-        }
+        },
+        "title": "",
+        "font": "Arial"
       },
       "extra": {
         "need_mean_line": true,
-        "title": "Temperature",
         "x_label": "Month",
         "y_label": "Temperature",
+        "alpha": 0.5,
         "area_clor": "#f2f2f2",
         "min_line_color": "#0000f5",
         "max_line_color": "#ea3323",
         "mean_line_color": "#bebebe",
         "line_size": 1.2,
-        "alpha": 0.5,
         "max_linetype": "solid",
         "min_linetype": "solid",
         "mean_linetype": "dashed",
@@ -68,6 +68,9 @@
             "value": "mean"
           }
         ]
+      },
+      "general": {
+        "title": "Temperature"
       }
     },
     "textarea": {

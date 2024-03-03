@@ -1,6 +1,6 @@
 {
-  "module": {},
-  "tool": "circle_packing",
+  "module": "basic",
+  "tool": "circle-packing",
   "params": {
     "textarea": {
       "1-data": ""
@@ -18,17 +18,17 @@
       },
       "general": {
         "cmd": "",
-        "cliMode": true,
-        "imageExportType": "png",
+        "imageExportType": ["pdf", "jpeg"],
         "palette": "random",
+        "font": "Arial",
         "size": {
-          "width": 4,
+          "width": 8,
           "height": 4
-        }
+        },
+        "alpha": 0.4
       },
       "extra": {
         "add_label": true,
-        "alpha": 0.4,
         "min_text_size": 2.3,
         "max_text_size": 4.5
       }

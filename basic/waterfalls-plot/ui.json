@@ -34,7 +34,7 @@
         "en": "Calculate Total",
         "zh_cn": "计算总和"
       },
-      "class": "col-6",
+      "class": "col-12 col-md-6",
       "required": true
     },
     "width": {
@@ -46,11 +46,11 @@
       "step": 0.01,
       "min": 0,
       "max": 1,
-      "class": "col-6"
+      "class": "col-12"
     },
     "up_color": {
       "type": "color-picker",
-      "class": "col-4",
+      "class": "col-12 col-md-4",
       "label": {
         "en": "Up Color",
         "zh_cn": "上升颜色"
@@ -58,7 +58,7 @@
     },
     "down_color": {
       "type": "color-picker",
-      "class": "col-4",
+      "class": "col-12 col-md-4",
       "label": {
         "en": "Down Color",
         "zh_cn": "下降颜色"
@@ -66,7 +66,7 @@
     },
     "total_color": {
       "type": "color-picker",
-      "class": "col-4",
+      "class": "col-12 col-md-4",
       "label": {
         "en": "Total Color",
         "zh_cn": "总和颜色"

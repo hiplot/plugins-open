@@ -42,21 +42,13 @@
     ]
   },
   "extra": {
-    "title": {
-      "type": "text-field",
-      "label": {
-        "en": "Title",
-        "zh_cn": "标题"
-      },
-      "class": "col-12"
-    },
     "x_label": {
       "type": "text-field",
       "label": {
         "en": "X Label",
         "zh_cn": "X轴标签"
       },
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "y_label": {
       "type": "text-field",
@@ -64,39 +56,7 @@
         "en": "Y Label",
         "zh_cn": "Y轴标签"
       },
-      "class": "col-6"
-    },
-    "area_clor": {
-      "type": "color-picker",
-      "class": "col-6",
-      "label": {
-        "en": "Area Color",
-        "zh_cn": "区域颜色"
-      }
-    },
-    "min_line_color": {
-      "type": "color-picker",
-      "class": "col-6",
-      "label": {
-        "en": "Min Line Color",
-        "zh_cn": "最小值线颜色"
-      }
-    },
-    "max_line_color": {
-      "type": "color-picker",
-      "class": "col-6",
-      "label": {
-        "en": "Max Line Color",
-        "zh_cn": "最大值线颜色"
-      }
-    },
-    "mean_line_color": {
-      "type": "color-picker",
-      "class": "col-6",
-      "label": {
-        "en": "Mean Line Color",
-        "zh_cn": "均值线颜色"
-      }
+      "class": "col-12 col-md-6"
     },
     "line_size": {
       "type": "slider",
@@ -107,7 +67,7 @@
       "step": 0.1,
       "min": 0,
       "max": 5,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "alpha": {
       "type": "slider",
@@ -118,7 +78,7 @@
       "step": 0.01,
       "min": 0,
       "max": 1,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "line_label_size": {
       "type": "slider",
@@ -129,7 +89,7 @@
       "step": 0.1,
       "min": 0,
       "max": 5,
-      "class": "col-6"
+      "class": "col-12"
     },
     "max_linetype": {
       "type": "select",
@@ -145,7 +105,7 @@
         "longdash",
         "twodash"
       ],
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "min_linetype": {
       "type": "select",
@@ -161,7 +121,7 @@
         "longdash",
         "twodash"
       ],
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "mean_linetype": {
       "type": "select",
@@ -177,7 +137,7 @@
         "longdash",
         "twodash"
       ],
-      "class": "col-6"
+      "class": "col-12"
     },
     "need_mean_line": {
       "type": "switch",
@@ -185,7 +145,7 @@
         "en": "Draw Mean Line",
         "zh_cn": "绘制均值线"
       },
-      "class": "col-6",
+      "class": "col-12 col-md-6",
       "required": true
     },
     "add_line_label": {
@@ -194,8 +154,40 @@
         "en": "Add Line Label",
         "zh_cn": "添加折线标签"
       },
-      "class": "col-6",
+      "class": "col-12 col-md-6",
       "required": true
+    },
+    "area_clor": {
+      "type": "color-picker",
+      "class": "col-12 col-md-6",
+      "label": {
+        "en": "Area Color",
+        "zh_cn": "区域颜色"
+      }
+    },
+    "min_line_color": {
+      "type": "color-picker",
+      "class": "col-12 col-md-6",
+      "label": {
+        "en": "Min Line Color",
+        "zh_cn": "最小值线颜色"
+      }
+    },
+    "max_line_color": {
+      "type": "color-picker",
+      "class": "col-12 col-md-6",
+      "label": {
+        "en": "Max Line Color",
+        "zh_cn": "最大值线颜色"
+      }
+    },
+    "mean_line_color": {
+      "type": "color-picker",
+      "class": "col-12 col-md-6",
+      "label": {
+        "en": "Mean Line Color",
+        "zh_cn": "均值线颜色"
+      }
     }
   }
 }

@@ -27,78 +27,69 @@
       },
       {
         "label": {
-          "en": "size",
-          "zh_cn": "size"
+          "en": "Size",
+          "zh_cn": "大小"
         },
         "required": true
       },
       {
         "label": {
-          "en": "group",
-          "zh_cn": "group"
+          "en": "Group",
+          "zh_cn": "分组"
         },
         "required": true
       }
     ]
   },
   "extra": {
-    "add_rug": {
-      "type": "switch",
-      "label": {
-        "en": "Add rug",
-        "zh_cn": "添加rug"
-      },
-      "class": "col-6",
-      "required": true
-    },
     "rug_alpha": {
       "type": "slider",
       "label": {
-        "en": "Rug alpha",
-        "zh_cn": "rug透明度"
+        "en": "Rug Alpha",
+        "zh_cn": "Rug 透明度"
       },
       "step": 0.01,
       "min": 0,
       "max": 1,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "rug_size": {
       "type": "slider",
       "label": {
-        "en": "Rug size",
-        "zh_cn": "rug大小"
+        "en": "Rug Size",
+        "zh_cn": "Rug 大小"
       },
       "step": 0.1,
       "min": 0,
       "max": 10,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "marginal_size": {
       "type": "slider",
       "label": {
-        "en": "Marginal size",
+        "en": "Marginal Size",
         "zh_cn": "边缘大小"
       },
       "step": 0.1,
       "min": 0,
       "max": 10,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "marginal_bins": {
       "type": "slider",
       "label": {
-        "en": "Marginal bins",
+        "en": "Marginal Bins",
         "zh_cn": "边缘直方图柱数"
       },
       "step": 1,
       "min": 0,
       "max": 100,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "marginal_type": {
       "type": "select",
       "label": {
-        "en": "Marginal type",
+        "en": "Marginal Type",
         "zh_cn": "边缘类型"
       },
       "items": [
@@ -108,31 +99,40 @@
         "violin",
         "densigram"
       ],
-      "class": "col-6"
+      "class": "col-12"
     },
     "rug_color": {
       "type": "color-picker",
-      "class": "col-6",
+      "class": "col-12 col-md-4",
       "label": {
-        "en": "Rug color",
-        "zh_cn": "rug颜色"
+        "en": "Rug Color",
+        "zh_cn": "Rug 颜色"
       }
     },
     "marginal_fill": {
       "type": "color-picker",
-      "class": "col-6",
+      "class": "col-12 col-md-4",
       "label": {
-        "en": "Marginal fill",
+        "en": "Marginal Fill",
         "zh_cn": "边缘填充色"
       }
     },
     "marginal_color": {
       "type": "color-picker",
-      "class": "col-6",
+      "class": "col-12 col-md-4",
       "label": {
-        "en": "Marginal color",
+        "en": "Marginal Color",
         "zh_cn": "边缘色"
       }
+    },
+    "add_rug": {
+      "type": "switch",
+      "label": {
+        "en": "Add Rug",
+        "zh_cn": "添加 Rug"
+      },
+      "class": "col-12",
+      "required": true
     }
   }
 }

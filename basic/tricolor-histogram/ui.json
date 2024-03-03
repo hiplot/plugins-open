@@ -13,25 +13,14 @@
     "1-data": [
       {
         "label": {
-          "en": "value",
-          "zh_cn": "value"
+          "en": "Value",
+          "zh_cn": "值"
         },
         "required": true
       }
     ]
   },
   "extra": {
-    "alpha": {
-      "type": "slider",
-      "label": {
-        "en": "Alpha",
-        "zh_cn": "透明度"
-      },
-      "step": 0.01,
-      "min": 0,
-      "max": 1,
-      "class": "col-6"
-    },
     "binwidth": {
       "type": "slider",
       "label": {
@@ -41,7 +30,7 @@
       "step": 0.01,
       "min": 0,
       "max": 100,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "low_value": {
       "type": "slider",
@@ -52,7 +41,7 @@
       "step": 0.01,
       "min": 0,
       "max": 100,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "high_value": {
       "type": "slider",
@@ -63,11 +52,11 @@
       "step": 0.01,
       "min": 0,
       "max": 100,
-      "class": "col-6"
+      "class": "col-12"
     },
     "left_color": {
       "type": "color-picker",
-      "class": "col-6",
+      "class": "col-12 col-md-4",
       "label": {
         "en": "Left Color",
         "zh_cn": "左侧颜色"
@@ -75,7 +64,7 @@
     },
     "middle_color": {
       "type": "color-picker",
-      "class": "col-6",
+      "class": "col-12 col-md-4",
       "label": {
         "en": "Middle Color",
         "zh_cn": "中间颜色"
@@ -83,7 +72,7 @@
     },
     "right_color": {
       "type": "color-picker",
-      "class": "col-6",
+      "class": "col-12 col-md-4",
       "label": {
         "en": "Right Color",
         "zh_cn": "右侧颜色"

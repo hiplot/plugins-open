@@ -1,4 +1,4 @@
-# Pareto Chart
+# [Pareto Chart](/basic/pareto-chart)
 
 * Case Data Analysis
 

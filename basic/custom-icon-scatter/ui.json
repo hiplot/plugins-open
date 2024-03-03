@@ -38,7 +38,7 @@
     "label_name": {
       "type": "text-field",
       "label": {
-        "en": "Label name",
+        "en": "Label Name",
         "zh_cn": "标签名"
       },
       "class": "col-12 col-md-6",
@@ -47,8 +47,8 @@
     "svg_path": {
       "type": "text-field",
       "label": {
-        "en": "svg path",
-        "zh_cn": "svg path"
+        "en": "SVG Path",
+        "zh_cn": "Svg 路径"
       },
       "class": "col-12 col-md-6"
     },

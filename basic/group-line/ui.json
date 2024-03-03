@@ -27,19 +27,18 @@
       },
       {
         "label": {
-          "en": "names",
-          "zh_cn": "names"
+          "en": "Names",
+          "zh_cn": "Names"
         },
         "required": true
       },
       {
         "label": {
-          "en": "groups",
-          "zh_cn": "groups"
+          "en": "Groups",
+          "zh_cn": "Groups"
         },
         "required": true
       }
     ]
-  },
-  "extra": []
+  }
 }

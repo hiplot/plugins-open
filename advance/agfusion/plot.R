@@ -36,7 +36,7 @@
   for (i in 1:nrow(data)) {
     tmpOutDir <- paste0(outdir, '/', data[i,1], '-', data[i,1])
     cmds <- paste(
-      "source activate agfusion; unset DISPLAY;",
+      "conda activate agfusion; unset DISPLAY;",
       "agfusion annotate --type pdf",
       "-g5", data[i,1],
       "-g3", data[i,2],

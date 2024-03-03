@@ -75,14 +75,14 @@ p <- interval_bar_chart(
   name = conf$dataArg[[1]][[3]]$value,
   mean_name = conf$dataArg[[1]][[4]]$value,
   need_mean_line = ifelse(conf$extra$need_mean_line == "", TRUE, conf$extra$need_mean_line),
-  title = conf$extra$title,
+  title = conf$general$title,
   x_label = ifelse(conf$extra$x_label == "", "Undefined", conf$extra$x_label),
   y_label = ifelse(conf$extra$y_label == "", "Undefined", conf$extra$y_label),
   bar_color = ifelse(conf$extra$bar_color == "", "#e05c35", conf$extra$bar_color),
   line_color = ifelse(conf$extra$line_color == "", "#49a2e9", conf$extra$line_color),
   line_size = ifelse(conf$extra$line_size == 0, 1.2, conf$extra$line_size),
   bar_width = ifelse(conf$extra$bar_width == 0, 0.4, conf$extra$bar_width),
-  alpha = ifelse(conf$extra$alpha == 0, 1, conf$extra$alpha)
+  alpha = ifelse(conf$general$alpha == 0, 1, conf$general$alpha)
 )
 
 p <- set_complex_general_theme(set_palette_theme(p, conf))

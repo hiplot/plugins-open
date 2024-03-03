@@ -51,7 +51,7 @@
       "min": 0,
       "max": 10,
       "step": 0.1,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     },
     "dot_size": {
       "type": "slider",
@@ -62,7 +62,7 @@
       "min": 0,
       "max": 10,
       "step": 0.1,
-      "class": "col-6"
+      "class": "col-12 col-md-6"
     }
   }
 }

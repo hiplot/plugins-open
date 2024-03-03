@@ -7,14 +7,14 @@
     "deviation_plot"
   ],
   "intro": {
-    "zh_cn": "Display data differences",
-    "en": "展示数据差异"
+    "zh_cn": "展示数据差异",
+    "en": "Display data differences"
   },
   "src": "",
-  "href": "//deviation_plot",
-  "tag": "vue",
+  "href": "/basic/deviation-plot",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",
