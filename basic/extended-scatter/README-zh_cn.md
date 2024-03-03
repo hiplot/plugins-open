@@ -1,4 +1,4 @@
-# 拓展散点图
+# [拓展散点图](/basic/extended-scatter)
 
 - 简介
 

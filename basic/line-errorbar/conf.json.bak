@@ -1,0 +1,21 @@
+{
+	"_comment":"<datArg> controls the arguments for input data table and <plotArg> controls the arguments for the output plot",	
+	"dataArg":{
+		"_comment":""
+	},
+	"general":{
+		"_comment":"palette:配色,可以选择ggsci中的一个，包括：npg,aaas,nejm,lancet,jama,jco,ucscgb,d3,locuszoom,igv,uchicago,startrek,tron,futurama,rickandmorty,simpsons",
+		"size":{
+			"_comment":"控制图形大小，宽 * 高; theme是ggplot中的theme",
+			"width":6,
+			"height":6
+		},
+		"title":"Test Figure",
+		"theme":"theme_bw",
+		"palette":"lancet"
+	},
+	"extra":{
+        "_comment":"point:是否显示散点，yes/no；是否显示pvalue, 有三种值：value(显示P值), signif（显示*）, no（不显示）",
+        "pval":"signif"
+	}
+}

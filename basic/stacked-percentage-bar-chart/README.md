@@ -1,4 +1,4 @@
-# Stacked Percentage Bar Chart
+# [Stacked Percentage Bar Chart](/basic/stacked-percentage-bar-chart)
 
 * Case Data Analysis
 

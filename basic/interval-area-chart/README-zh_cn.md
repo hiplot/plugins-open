@@ -1,4 +1,4 @@
-# 区间区域图
+# [区间区域图](/basic/interval-area-chart)
 
 - 案例数据分析
 

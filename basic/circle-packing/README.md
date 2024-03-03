@@ -1,4 +1,4 @@
-- Circle Packing
+- [Circle Packing](/basic/circle-packing)
 
   * Introduction
 

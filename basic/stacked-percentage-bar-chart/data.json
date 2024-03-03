@@ -1,6 +1,6 @@
 {
-  "module": {},
-  "tool": "percentsge_stacked_bar_chart",
+  "module": "basic",
+  "tool": "stacked-percentage-bar-chart",
   "params": {
     "textarea": {
       "1-data": ""
@@ -15,16 +15,17 @@
       },
       "general": {
         "cmd": "",
-        "cliMode": true,
-        "imageExportType": "png",
+        "imageExportType": ["pdf", "jpeg"],
         "theme": "theme_bw",
         "size": {
           "width": 8,
           "height": 4
-        }
+        },
+        "title": "Percentage Stacked Bar Chart",
+        "font": "Arial",
+        "palette": "npg"
       },
       "extra": {
-        "title": "Percentage Stacked Bar Chart",
         "x_label": "Percentage",
         "y_label": "Days",
         "add_percent_label": true

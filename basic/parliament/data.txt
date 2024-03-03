@@ -1,0 +1,1 @@
+#group:分组，组别	#value:每组的频数	group	valueG1	200G2	46G3	92G4	80G5	150

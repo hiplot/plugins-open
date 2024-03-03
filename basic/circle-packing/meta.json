@@ -11,10 +11,10 @@
     "en": "Circle Packing"
   },
   "src": "",
-  "href": "//circle_packing",
-  "tag": "vue",
+  "href": "/basic/circle-packing",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

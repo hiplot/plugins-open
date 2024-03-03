@@ -120,7 +120,7 @@ check_encoding <- function (x) {
       gsea_out_dir <- file.path(outdir_tmp, outdir_tmp_sub)
       if (length(conf$general$imageExportType) > 0) {
         cmd <- paste(
-          "source activate gseapy;",
+          "conda activate gseapy;",
           sprintf(
             "gseapy replot -i '%s' -o '%s/GSEApy_reports'",
             gsea_out_dir, gsea_out_dir

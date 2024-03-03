@@ -1,4 +1,4 @@
-# 三色直方图
+# [三色直方图](/basic/tricolor-histogram)
 
 - 简介
 

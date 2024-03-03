@@ -1,20 +1,20 @@
 {
   "name": {
     "zh_cn": "区间区域图",
-    "en": "Interval area chart"
+    "en": "Interval Area Chart"
   },
   "alias": [
     "interval_area_chart"
   ],
   "intro": {
     "zh_cn": "区间区域图",
-    "en": "interval area chart"
+    "en": "Interval area chart"
   },
   "src": "",
-  "href": "//interval_area_chart",
-  "tag": "vue",
+  "href": "/basic/interval-area-chart",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

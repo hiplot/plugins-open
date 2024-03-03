@@ -1,20 +1,20 @@
 {
   "name": {
     "zh_cn": "扩展散点图",
-    "en": "Extended scatter"
+    "en": "Extended Scatter"
   },
   "alias": [
     "extended_scatter"
   ],
   "intro": {
     "zh_cn": "扩展散点图",
-    "en": "extended scatter"
+    "en": "Extended scatter"
   },
   "src": "",
-  "href": "//extended_scatter",
-  "tag": "vue",
+  "href": "/basic/extended-scatter",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 4,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

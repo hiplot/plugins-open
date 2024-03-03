@@ -1,6 +1,6 @@
 {
-  "module": {},
-  "tool": "interval_bar_chart",
+  "module": "basic",
+  "tool": "interval-bar-chart",
   "params": {
     "textarea": {
       "1-data": ""
@@ -24,24 +24,24 @@
       },
       "general": {
         "cmd": "",
-        "cliMode": true,
         "theme": "theme_bw",
-        "imageExportType": "png",
+        "imageExportType": ["pdf", "jpeg"],
         "size": {
-          "width": 4,
+          "width": 7,
           "height": 4
-        }
+        },
+        "title": "",
+        "alpha": 0.7,
+        "font": "Arial"
       },
       "extra": {
         "need_mean_line": true,
-        "title ": "",
         "x_label": "Month",
         "y_label ": "Temperature",
-        "bar_color": "#e05c35",
-        "line_color": "#49a2e9",
+        "bar_color": "#282726",
+        "line_color": "#006064",
         "line_size": 0.8,
-        "bar_width": 0.4,
-        "alpha": 0.7
+        "bar_width": 0.4
       }
     }
   },

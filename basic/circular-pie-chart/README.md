@@ -1,4 +1,4 @@
-# Circular Pie Chart
+# [Circular Pie Chart](/basic/circular-pie-chart)
 
 * Introduction
 

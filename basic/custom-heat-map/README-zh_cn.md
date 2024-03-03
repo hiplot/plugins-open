@@ -1,4 +1,4 @@
-# 自定义热图
+# [自定义热图](/basic/custom-heat-map)
 
 简介
 

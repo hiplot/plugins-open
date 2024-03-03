@@ -11,10 +11,10 @@
     "en": "Circular Pie Chart"
   },
   "src": "",
-  "href": "//circular_pie_chart",
-  "tag": "vue",
+  "href": "/basic/circular-pie-chart",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

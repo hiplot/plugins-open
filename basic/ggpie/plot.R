@@ -32,7 +32,7 @@ if (is.character(axis[2]) && axis[2] != "") {
       data = data[data[, axis[2]] == j,],
       group_key = axis[1], count_type = "full",
       label_type = "horizon", label_size = 8,
-      label_info = c("count", "ratio"),
+      label_info = "all",
       label_pos = "out") + ggtitle(j)
     if (is.null(p)) {p <- ptmp} else {p <- p + ptmp}
   }
@@ -41,7 +41,7 @@ if (is.character(axis[2]) && axis[2] != "") {
     data = data,
     group_key = axis[1], count_type = "full",
     label_type = "horizon", label_size = 8,
-    label_info = c("count", "ratio"),
+    label_info = "all",
     label_pos = "out")
 }
 

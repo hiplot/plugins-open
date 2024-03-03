@@ -1,7 +1,7 @@
 {
   "name": {
     "zh_cn": "百分比堆叠条形图",
-    "en": "Percentsge stacked Bar Chart"
+    "en": "Percentsge Stacked Bar Chart"
   },
   "alias": [
     "percentsge_stacked_bar_chart"
@@ -11,10 +11,10 @@
     "en": "Percentsge Stacked Bar Chart"
   },
   "src": "",
-  "href": "//percentsge_stacked_bar_chart",
-  "tag": "vue",
+  "href": "/basic/stacked-percentage-bar-chart",
+  "tag": ["vue", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

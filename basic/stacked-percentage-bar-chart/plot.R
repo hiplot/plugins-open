@@ -29,7 +29,7 @@ percentsge_stacked_bar_chart <- function(data, y, title, x_label, y_label, add_p
 p <- percentsge_stacked_bar_chart(
   data = if (exists("data") && is.data.frame(data)) data else "",
   y = conf$dataArg[[1]][[1]]$value,
-  title = conf$extra$title,
+  title = conf$general$title,
   x_label = conf$extra$x_label,
   y_label = conf$extra$y_label,
   add_percent_label = conf$extra$add_percent_label

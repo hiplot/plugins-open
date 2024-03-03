@@ -1,7 +1,7 @@
 {
   "name": {
     "zh_cn": "自定义图标散点图",
-    "en": "Custom icon scatter"
+    "en": "Custom Icon Scatter"
   },
   "alias": [
     "custom_icon_scatter"
@@ -11,10 +11,10 @@
     "en": "custom icon scatter"
   },
   "src": "",
-  "href": "//custom_icon_scatter",
-  "tag": ["vue", "scatter"],
+  "href": "/basic/custom-icon-scatter",
+  "tag": ["vue", "scatter", "lxs"],
   "meta": {
-    "score": 3,
+    "score": 4.5,
     "author": "Xiaosheng",
     "email": "",
     "issues": "",

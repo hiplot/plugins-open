@@ -1,4 +1,4 @@
-# Grouped Bubble Chart
+# [Grouped Bubble Chart](/basic/group-bubble)
 
 - Special Parameters:
 

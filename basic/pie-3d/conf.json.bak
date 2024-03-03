@@ -1,0 +1,21 @@
+{
+	"_comment":"<datArg> controls the arguments for input data table and <plotArg> controls the arguments for the output plot",	
+	"dataArg":{
+		"_comment":""
+	},
+	"general":{
+		"size":{
+			"_comment":"控制图形大小，宽 * 高; theme是ggplot中的theme",
+			"width":6,
+			"height":6
+		},
+		"title":"Test Figure"
+	},
+	"extra":{
+        "_comment":"radius:直径(0-1);height:厚度(0-1);theta:倾斜度(0-1);explode:离散度(0-1)。记得检查参数合法性",
+        "radius":0.8,
+        "height":0.05，
+        "theta":0.8,
+        "explode":0.1
+	}
+}

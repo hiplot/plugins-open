@@ -50,8 +50,6 @@ pacman::p_load(pkgs, character.only = TRUE)
     legendPosition = conf$extra$legendPosition,
     legendLabSize = 16,
     legendIconSize = 4.0,
-    drawConnectors = TRUE,
-    widthConnectors = 0.75,
     # encircle
       #encircle = celltype1,
       encircleCol = 'black',
