@@ -6,3 +6,7 @@ For the new parameters, they are not belong to GISTIC2 software and designed for
 
 - Clean Overlap Segments: enable the preprocessing.
 - Min Probe Number for Clean: if preprocessing is enabled, use this value to drop segments with probe number less than this value.
+
+---
+
+A comprehensive doc could be found at <https://www.genepattern.org/modules/docs/GISTIC_2.0>.
