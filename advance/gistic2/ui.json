@@ -82,8 +82,8 @@
     "genegistic": {
       "type": "switch",
       "label": {
-        "en": "Deletions Sig at Gene level",
-        "zh_cn": "基因水平计算缺失显著性"
+        "en": "Significance at Gene level",
+        "zh_cn": "计算基因水平显著性"
       },
       "class": "col-12 col-md-6"
     },
