@@ -1,4 +1,4 @@
-# Circular Bar Chart
+- [Circular Bar Chart](/basic/circular-bar-plot)
 
 ## Introduction
 

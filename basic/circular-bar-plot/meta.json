@@ -11,8 +11,8 @@
     "en": "Circular bar plot"
   },
   "src": "",
-  "href": "//circular_bar_plot",
-  "tag": ["vue", "bar plot"],
+  "href": "/basic/circular-bar-plot",
+  "tag": ["vue", "bar plot", "lxs"],
   "meta": {
     "score": 3,
     "author": "Xiaosheng",

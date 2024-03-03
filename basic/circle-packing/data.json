@@ -19,7 +19,7 @@
       "general": {
         "cmd": "",
         "imageExportType": ["pdf", "jpeg"],
-        "palette": "random",
+        "palette": "npg",
         "font": "Arial",
         "size": {
           "width": 8,
