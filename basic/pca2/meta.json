@@ -1,0 +1,23 @@
+{
+  "name": {
+    "zh_cn": "主成分分析2",
+    "en": "PCA2"
+  },
+  "alias": ["Basic-PCA2"],
+  "intro": {
+    "zh_cn": "常规降维",
+    "en": "Dimension reduction methods"
+  },
+  "href": "/basic/pca2",
+  "tag": [
+    "vue",
+    "correlation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Hiplot Team | Jianfeng",
+    "releaseDate": "2025-03-28",
+    "updateDate": "2025-03-28",
+    "version": "v0.1.0"
+  }
+}

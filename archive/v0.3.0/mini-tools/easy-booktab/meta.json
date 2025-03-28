@@ -16,7 +16,7 @@
   ],
   "meta": {
     "score": 5,
-    "author": "Hiplot Team | Jianfeng",
+    "author": "Jianfeng",
     "releaseDate": "2022-04-23",
     "updateDate": "2022-04-23",
     "citation": "Sjoberg DD, Whiting K, Curry M, Lavery JA, Larmarange J. Reproducible summary tables with the gtsummary package. The R Journal 2021;13:570–80. https://doi.org/10.32614/RJ-2021-053.",

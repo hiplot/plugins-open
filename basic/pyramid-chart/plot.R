@@ -40,9 +40,7 @@ pacman::p_load(pkgs, character.only = TRUE)
 
   p <- p + xlab(colnames(data)[1]) + ylab(colnames(data)[3])
 
-  theme <- conf$general$theme
-  p <- choose_ggplot_theme(p, theme)
-  p <- set_complex_general_theme(p)
+  p <- set_complex_general_theme(set_palette_theme(p, conf))
 }
 
 ############# Section 3 #############

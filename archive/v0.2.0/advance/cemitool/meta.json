@@ -21,7 +21,7 @@
   ],
   "meta": {
     "score": 4.5,
-    "author": "Helder I. Nakaya & Hiplot Team | Jianfeng",
+    "author": "Helder I. Nakaya & Jianfeng",
     "issues": "https://github.com/csbl-usp/CEMiTool",
     "citation": "Russo, P.S.T., Ferreira, G.R., Cardozo, L.E. et al. CEMiTool: a Bioconductor package for performing comprehensive modular co-expression analyses. BMC Bioinformatics 19, 56 (2018). https://doi.org/10.1186/s12859-018-2053-1",
     "releaseDate": "2020-03-06",

@@ -16,7 +16,7 @@
   ],
   "meta": {
     "score": 5,
-    "author": "Hiplot Team | Jianfeng",
+    "author": "Jianfeng",
     "releaseDate": "2022-04-02",
     "updateDate": "2022-04-02",
     "citation": "Shenoy, A. R. (2021) grafify: an R package for easy graphs, ANOVAs and post-hoc comparisons. Zenodo. http://doi.org/10.5281/zenodo.5136508",

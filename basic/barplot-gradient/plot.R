@@ -90,9 +90,7 @@
     p <- p + theme(axis.text.x = element_text(angle = 90, hjust = 1))
   }
   # theme
-  theme <- conf$general$theme
-  p <- choose_ggplot_theme(p, theme)
-  p <- set_complex_general_theme(p)
+  p <- set_complex_general_theme(set_palette_theme(p, conf))
 }
 
 ############# Section 3 #############

@@ -107,9 +107,7 @@ pacman::p_load(pkgs, character.only = TRUE)
     return_hiplot_palette(conf$general$palette,
       conf$general$paletteCustom)
 
-  theme <- conf$general$theme
-  p <- choose_ggplot_theme(p, theme)
-  p <- set_complex_general_theme(p)
+  p <- set_complex_general_theme(set_palette_theme(p, conf))
 
   if (pval != "none") {
     p <- p + scale_y_continuous(expand = expansion(mult = c(0, 0.2)))
