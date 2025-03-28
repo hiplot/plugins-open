@@ -59,9 +59,7 @@ pacman::p_load(pkgs, character.only = TRUE)
     p <- p + facet_wrap(facet)
   }
   ## add theme
-  theme <- conf$general$theme
-  p <- choose_ggplot_theme(p, theme)
-  p <- set_complex_general_theme(p)
+  p <- set_complex_general_theme(set_palette_theme(p, conf))
 }
 
 ############# Section 3 #############

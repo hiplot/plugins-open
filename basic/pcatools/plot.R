@@ -12,7 +12,7 @@ pacman::p_load(pkgs, character.only = TRUE)
 # 主成分分析 (PCAtools)
 # @target basic
 # @tag correlation dimension
-# @author Hiplot Team | Jianfeng
+# @author Jianfeng
 # @email admin@hiplot.org
 # @url https://github.com/kevinblighe/PCAtools
 # @version 0.1.0

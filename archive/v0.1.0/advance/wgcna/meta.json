@@ -20,7 +20,7 @@
   ],
   "meta": {
     "score": 4,
-    "author": "Peter Langfelder & Hiplot Team | Jianfeng, benben-miao",
+    "author": "Peter Langfelder & Jianfeng, benben-miao",
     "email": "Peter.Langfelder@gmail.com",
     "citation": "Langfelder, P., Horvath, S. WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics 9, 559 (2008). https://doi.org/10.1186/1471-2105-9-559",
     "releaseDate": "2020-03-06",

@@ -54,9 +54,7 @@ pacman::p_load(pkgs, character.only = TRUE)
     limits = c(0, max(data2[,colnames(data)[2]]) * 1.2)) +
     ggtitle(conf$general$title)
   ## set theme
-  theme <- conf$general$theme
-  p <- choose_ggplot_theme(p, theme)
-  p <- set_complex_general_theme(p) + labs(fill = colnames(data)[2])
+  p <- set_complex_general_theme(set_palette_theme(p, conf)) + labs(fill = colnames(data)[2])
 }
 
 ############# Section 3 #############

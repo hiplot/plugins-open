@@ -16,7 +16,7 @@
   ],
   "meta": {
     "score": 5,
-    "author": "Omar Wagih & Hiplot Team | Jianfeng",
+    "author": "Omar Wagih & Jianfeng",
     "email": "omarwagih@gmail.com",
     "issues": "https://github.com/omarwagih/ggseqlogo",
     "citation": "Wagih, Omar. ggseqlogo: a versatile R package for drawing sequence logos. Bioinformatics 33, no. 22 (2017): 3645-3647. https://doi.org/10.1093/bioinformatics/btx469 PMID: 29036507",

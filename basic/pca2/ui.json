@@ -1,0 +1,30 @@
+{
+  "data": {
+    "1-datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    },
+    "2-sampleInfo": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.sampleInfo"
+    }
+  },
+  "dataArg": {
+    "2-sampleInfo": [
+      {
+        "label": {
+          "en": "Color By",
+          "zh_cn": "颜色映射列"
+        },
+        "required": false
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  }
+}
