@@ -1,0 +1,41 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Age"
+      },
+      {
+        "label": "Group",
+        "required": false,
+        "independent": true
+      },
+      {
+        "label": "Facet",
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "fill": {
+      "type": "color-picker",
+      "class": "col-12 col-md-6",
+      "label": {
+        "en": "Fill Color",
+        "zh_cn": "填充颜色"
+      }
+    }
+  }
+}

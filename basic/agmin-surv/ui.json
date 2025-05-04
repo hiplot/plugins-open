@@ -1,0 +1,137 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Age"
+      },
+      {
+        "label": "Time"
+      },
+      {
+        "label": "Status"
+      },
+      {
+        "label": "Group",
+        "required": false,
+        "independent": true
+      },
+      {
+        "label": "Facet",
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "surv_median_line": {
+      "type": "select",
+      "label": "messages.basic.survival.surv_median_line",
+      "items": [
+        "none", "hv", "h", "v"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "func": {
+      "type": "select",
+      "label": "messages.basic.survival.function",
+      "items": [
+        "pct", "event", "cumhaz"
+      ],
+      "class": "col-12 col-md-6"
+    },
+    "xlab": {
+      "type": "combobox",
+      "label": {
+        "en": "Time Label",
+        "zh_cn": "横轴时间标签"
+      },
+      "items": ["Time in days"],
+      "class": "col-12 col-md-6"
+    },
+    "ylab": {
+      "type": "combobox",
+      "label": {
+        "en": "Surv Label",
+        "zh_cn": "纵轴生存标签"
+      },
+      "items": ["Survival probability"],
+      "class": "col-12 col-md-6"
+    },
+    "line_size": {
+      "type": "slider",
+      "label": {
+        "en": "Line Size",
+        "zh_cn": "线条粗细"
+      },
+      "class": "col-12 col-md-6",
+      "step": 0.01
+    },
+    "xlim_start": {
+      "type": "slider",
+      "label": {
+        "en": "X Start",
+        "zh_cn": "X轴起始刻度"
+      },
+      "class": "col-12 col-md-6",
+      "max": 9999,
+      "min": 0,
+      "step": 1
+    },
+    "xlim_end": {
+      "type": "slider",
+      "label": {
+        "en": "X End",
+        "zh_cn": "X轴结束刻度"
+      },
+      "class": "col-12 col-md-6",
+      "min": 0,
+      "max": 9999,
+      "step": 1
+    },
+    "ylim_start": {
+      "type": "slider",
+      "label": {
+        "en": "Y Start",
+        "zh_cn": "Y轴起始刻度"
+      },
+      "class": "col-12 col-md-6",
+      "max": 100,
+      "min": 0,
+      "step": 1
+    },
+    "ylim_end": {
+      "type": "slider",
+      "label": {
+        "en": "Y End",
+        "zh_cn": "Y轴结束刻度"
+      },
+      "class": "col-12 col-md-6",
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    "break_x": {
+      "type": "slider",
+      "label": {
+        "en": "X Break",
+        "zh_cn": "X轴单位刻度"
+      },
+      "class": "col-12 col-md-6",
+      "min": 0,
+      "max": 9999,
+      "step": 1
+    }
+  }
+}

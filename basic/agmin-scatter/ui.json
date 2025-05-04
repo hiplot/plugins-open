@@ -1,0 +1,47 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Age"
+      },
+      {
+        "label": "Y",
+        "required": false
+      },
+      {
+        "label": "Group",
+        "required": false,
+        "independent": true
+      },
+      {
+        "label": "Facet",
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "stat_method": {
+      "type": "select",
+      "label": "messages.basic.common.statMethod",
+      "items": [
+        "pearson",
+        "spearman"
+      ],
+      "class": "col-12",
+      "required": true
+    }
+  }
+}

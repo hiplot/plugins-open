@@ -1,0 +1,26 @@
+{
+  "name": {
+    "zh_cn": "Agmin-Maf-Stat",
+    "en": "Agmin-Maf-Stat"
+  },
+  "alias": ["agmin-maf-stat"],
+  "intro": {
+    "zh_cn": "癌症队列突变基础分析",
+    "en": "Basic analysis of cancer mutations"
+  },
+  "href": "/basic/agmin-maf-stat",
+  "tag": [
+    "vue",
+    "correlation",
+    "distribution",
+    "mutation"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Jianfneg",
+    "email": "admin@hiplot.org",
+    "version": "v0.1.0",
+    "releaseDate": "2024-03-09",
+    "updateDate": "2024-03-09"
+  }
+}

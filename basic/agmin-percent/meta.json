@@ -1,0 +1,25 @@
+{
+  "name": {
+    "zh_cn": "Agmin-Percent",
+    "en": "Agmin-Percent"
+  },
+  "alias": ["Agmin-Percent"],
+  "intro": {
+    "zh_cn": "年龄组与二分组变量的逻辑回归",
+    "en": "Logistic regression of age group and dichotomous variables"
+  },
+  "href": "/basic/agmin-percent",
+  "tag": [
+    "vue",
+    "correlation",
+    "distribution"
+  ],
+  "meta": {
+    "score": 5,
+    "author": "Jianfeng",
+    "releaseDate": "2024-03-05",
+    "updateDate": "2024-03-05",
+    "issues": "https://github.com/clindet/agmin",
+    "citation": "- Li JF, Cheng WY, Lin XJ, Wen LJ, Wang K, Zhu YM, Zhu HM, Chen XJ, Zhang YL, Yin W, Zhang JN, Yi X, Zhang F, Weng XQ, Wang SY, Jiang L, Wu HY, Ren JQ, Lin XJ, Qiao N, Dai YT, Fang H, Tan Y, Sun XJ, Lv G, Yan XY, Chen SN, Chen Z, Jin J, Wu DP, Ren RB, Chen SJ, Shen Y. Aging and comprehensive molecular profiling in acute myeloid leukemia. Proc Natl Acad Sci U S A. 2024 Mar 5;121(10):e2319366121. doi: 10.1073/pnas.2319366121. Epub 2024 Feb 29. PMID: 38422020.\n- agmin: a comprehensive tabular visualisation framework for data mining of aging features in clinical and omics assays. [in prepare]"
+  }
+}

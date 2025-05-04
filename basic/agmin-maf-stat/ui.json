@@ -1,0 +1,131 @@
+{
+  "data": {
+    "1-metaData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "Sample Data",
+        "zh_cn": "样本信息"
+      }
+    },
+    "2-mafData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "zh_cn": "MAF 突变文件",
+        "en": "Maf File"
+      },
+      "exts": [
+        "maf",
+        "maf.gz",
+        "txt",
+        "csv"
+      ]
+    },
+    "3-colorData": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": {
+        "en": "Color Data",
+        "zh_cn": "颜色数据"
+      }
+    }
+  },
+  "dataArg": {
+    "1-metaData": [
+      {
+        "label": "Age"
+      },
+      {
+        "label": "Group",
+        "required": false,
+        "independent": true
+      },
+      {
+        "label": "Facet",
+        "independent": true,
+        "required": false
+      }
+    ],
+    "2-mafData": [
+      {
+        "label": {
+          "en": "Gene Symbol Column",
+          "zh_cn": "基因列"
+        },
+        "required": true
+      },
+      {
+        "label": {
+          "en": "Classification Column",
+          "zh_cn": "类型列"
+        },
+        "required": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "ppt": false
+    }
+  },
+  "extra": {
+    "mode": {
+      "type": "combobox",
+      "label": {
+        "en": "Mode",
+        "zh_cn": "模式"
+      },
+      "class": "col-12",
+      "items": [
+        "bar_total",
+        "bar_by_group",
+        "scatter_age_cor_by_group",
+        "boxplot_mutc_by_group",
+        "percent_mutc_by_group",
+        "line_rate_by_group",
+        "show_group_distribution"
+      ]
+    },
+    "omit_type": {
+      "type": "combobox",
+      "label": {
+        "en": "Omit Classification",
+        "zh_cn": "排除类别"
+      },
+      "multiple": true,
+      "clearable": true,
+      "items": [
+        "3'Flank",
+        "3'UTR",
+        "5'Flank",
+        "5'UTR",
+        "Frame_Shift_Del",
+        "Frame_Shift_Ins",
+        "IGR",
+        "In_Frame_Del",
+        "In_Frame_Ins",
+        "Intron",
+        "Missense_Mutation",
+        "Nonsense_Mutation",
+        "RNA",
+        "Silent",
+        "Splice_Region",
+        "Splice_Site",
+        "Targeted_Region"
+      ],
+      "class": "col-12"
+    },
+    "logist_mutc": {
+      "type": "slider",
+      "label": {
+        "en": "Logist Count Class",
+        "zh_cn": "逻辑回归突变数类"
+      },
+      "class": "col-12",
+      "max": 9999,
+      "min": 0,
+      "step": 1
+    }
+  }
+}

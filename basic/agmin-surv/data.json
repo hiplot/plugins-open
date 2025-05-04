@@ -1,0 +1,147 @@
+{
+  "module": "basic",
+  "tool": "agmin-surv",
+  "params": {
+    "textarea": {
+      "datTable": ""
+    },
+    "config": {
+      "dataArg": {
+        "datTable": [
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      "general": {
+        "cmd": "",
+        "imageExportType": [
+          "jpeg",
+          "pdf"
+        ],
+        "size": {
+          "width": 6,
+          "height": 8
+        },
+        "font": "Arial",
+        "palette": "default",
+        "lowAgeBreaks": 19,
+        "highAgeBreaks": 70,
+        "ageInterval": 10,
+        "ageToChar": "-"
+      },
+      "extra": {
+        "xlim_start": 0,
+        "xlim_end": 2190,
+        "ylim_start": 0,
+        "ylim_end": 100,
+        "break_x": 365,
+        "break_y": 25,
+        "func": "pct",
+        "xlab": "Time in days",
+        "ylab": "Survival probability",
+        "line_size": 0.5,
+        "surv_median_line": "hv"
+      }
+    }
+  },
+  "exampleData": [
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "age"
+            },
+            {
+              "value": "os"
+            },
+            {
+              "value": "os_status"
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            }
+          ]
+        }
+      },
+      "textarea": {
+        "datTable": "age\tos\tos_status\trisk\tdataset\n78\t347\t1\t3-Adverse\tBeat\n78\t79\t1\t3-Adverse\tBeat\n77\t322\t0\t3-Adverse\tBeat\n52\t1237\t1\t3-Adverse\tBeat\n80\t34\t1\t3-Adverse\tBeat\n78\t372\t1\t3-Adverse\tBeat\n57\t245\t1\t3-Adverse\tBeat\n64\t822\t1\t2-Intermediate\tTCGA\n79\t135\t1\t3-Adverse\tBeat\n63\t27\t1\t3-Adverse\tBeat\n61\t51\t1\t3-Adverse\tBeat\n51\t486\t1\t3-Adverse\tBeat\n65\t541\t1\t3-Adverse\tBeat\n61\t104\t1\t3-Adverse\tBeat\n23\t570\t1\t2-Intermediate\tTCGA\n60\t414\t0\t2-Intermediate\tTCGA\n71\t462\t1\t2-Intermediate\tTCGA\n71\t548\t1\t3-Adverse\tBeat\n75\t69\t1\t2-Intermediate\tTCGA\n34\t321\t1\t2-Intermediate\tTCGA\n43\t245\t1\t3-Adverse\tBeat\n66\t2175\t0\t3-Adverse\tBeat\n21\t605\t0\t3-Adverse\tBeat\n54\t36\t1\t3-Adverse\tBeat\n69\t15\t1\t2-Intermediate\tTCGA\n76\t669\t1\t2-Intermediate\tTCGA\n88\t72\t1\t2-Intermediate\tTCGA\n58\t138\t1\t2-Intermediate\tTCGA\n58\t192\t0\t3-Adverse\tBeat\n56\t492\t1\t2-Intermediate\tTCGA\n10\t2143\t0\t1-Favorable\tBeat\n40\t2163\t0\t1-Favorable\tBeat\n35\t1064\t0\t1-Favorable\tBeat\n31\t153\t0\t3-Adverse\tBeat\n60\t57\t1\t3-Adverse\tTCGA\n51\t489\t1\t2-Intermediate\tTCGA\n59\t1056\t0\t3-Adverse\tTCGA\n47\t214\t0\t1-Favorable\tBeat\n60\t2769\t0\t1-Favorable\tBeat\n63\t36\t1\t3-Adverse\tTCGA\n61\t289\t1\t1-Favorable\tBeat\n46\t1950\t0\t1-Favorable\tBeat\n37\t279\t1\t2-Intermediate\tTCGA\n24\t615\t1\t2-Intermediate\tTCGA\n23\t3543\t0\t2-Intermediate\tTCGA\n43\t472\t1\t1-Favorable\tBeat\n35\t1662\t1\t2-Intermediate\tTCGA\n30\t1410\t0\t2-Intermediate\tTCGA\n25\t2031\t0\t2-Intermediate\tTCGA\n22\t810\t1\t2-Intermediate\tTCGA\n47\t582\t1\t1-Favorable\tBeat\n61\t2423\t0\t1-Favorable\tBeat\n66\t232\t1\t3-Adverse\tBeat\n72\t521\t0\t1-Favorable\tBeat\n61\t195\t0\t2-Intermediate\tBeat\n23\t1510\t0\t1-Favorable\tBeat\n54\t24\t1\t2-Intermediate\tBeat\n42\t645\t1\t3-Adverse\tTCGA\n82\t17\t1\t1-Favorable\tBeat\n72\t95\t0\t1-Favorable\tBeat\n75\t91\t1\t1-Favorable\tBeat\n84\t394\t1\t2-Intermediate\tBeat\n63\t1156\t0\t3-Adverse\tBeat\n55\t428\t0\t3-Adverse\tBeat\n65\t211\t0\t1-Favorable\tBeat\n71\t288\t1\t2-Intermediate\tBeat\n67\t230\t1\t3-Adverse\tBeat\n80\t364\t1\t2-Intermediate\tBeat\n63\t25\t1\t3-Adverse\tBeat\n76\t18\t1\t3-Adverse\tTCGA\n67\t249\t1\t2-Intermediate\tBeat\n72\t1640\t0\t3-Adverse\tBeat\n75\t2190\t0\t2-Intermediate\tTCGA\n85\t80\t1\t2-Intermediate\tBeat\n21\t316\t1\t3-Adverse\tBeat\n53\t1581\t1\t3-Adverse\tTCGA\n73\t330\t1\t3-Adverse\tTCGA\n71\t138\t1\t3-Adverse\tTCGA\n83\t47\t1\t2-Intermediate\tBeat\n61\t110\t1\t2-Intermediate\tBeat\n81\t42\t1\t3-Adverse\tTCGA\n76\t297\t1\t2-Intermediate\tTCGA\n67\t165\t1\t3-Adverse\tBeat\n51\t628\t1\t3-Adverse\tBeat\n72\t24\t1\t3-Adverse\tBeat\n71\t210\t1\t3-Adverse\tTCGA\n60\t200\t1\t3-Adverse\tBeat\n76\t9\t1\t3-Adverse\tTCGA\n47\t366\t1\t3-Adverse\tTCGA\n66\t48\t1\t3-Adverse\tTCGA\n70\t126\t1\t3-Adverse\tTCGA\n62\t424\t1\t3-Adverse\tBeat\n69\t238\t1\t3-Adverse\tBeat\n63\t250\t1\t3-Adverse\tBeat\n53\t65\t1\t3-Adverse\tBeat\n53\t900\t1\t2-Intermediate\tTCGA\n54\t804\t0\t2-Intermediate\tTCGA\n55\t272\t1\t2-Intermediate\tBeat\n50\t264\t1\t1-Favorable\tBeat\n65\t269\t1\t1-Favorable\tBeat\n42\t673\t0\t1-Favorable\tBeat\n22\t2729\t0\t2-Intermediate\tBeat\n76\t26\t1\t1-Favorable\tBeat\n83\t13\t0\t3-Adverse\tBeat\n65\t1962\t0\t2-Intermediate\tBeat\n61\t8\t1\t2-Intermediate\tBeat\n66\t1130\t0\t1-Favorable\tBeat\n53\t752\t1\t1-Favorable\tBeat\n60\t339\t1\t2-Intermediate\tTCGA\n61\t398\t0\t1-Favorable\tBeat\n64\t1112\t0\t1-Favorable\tBeat\n68\t233\t0\t1-Favorable\tBeat\n83\t28\t1\t2-Intermediate\tBeat\n38\t1586\t0\t1-Favorable\tBeat\n61\t1830\t0\t1-Favorable\tBeat\n76\t19\t0\t1-Favorable\tBeat\n44\t744\t1\t2-Intermediate\tTCGA\n60\t2801\t0\t1-Favorable\tBeat\n67\t864\t1\t1-Favorable\tBeat\n36\t370\t1\t1-Favorable\tBeat\n56\t323\t1\t1-Favorable\tBeat\n65\t439\t1\t2-Intermediate\tBeat\n51\t93\t1\t2-Intermediate\tTCGA\n31\t225\t1\t2-Intermediate\tTCGA\n64\t813\t0\t2-Intermediate\tTCGA\n41\t171\t1\t\tTCGA\n75\t3\t1\t2-Intermediate\tTCGA\n35\t1332\t0\t2-Intermediate\tTCGA\n67\t24\t1\t2-Intermediate\tTCGA\n57\t81\t1\t1-Favorable\tBeat\n73\t28\t1\t2-Intermediate\tBeat\n67\t34\t0\t1-Favorable\tBeat\n62\t306\t1\t2-Intermediate\tTCGA\n49\t1168\t0\t1-Favorable\tBeat\n66\t2756\t0\t1-Favorable\tBeat\n46\t1373\t1\t1-Favorable\tBeat\n59\t597\t1\t1-Favorable\tBeat\n75\t189\t1\t2-Intermediate\tTCGA\n53\t326\t1\t1-Favorable\tBeat\n40\t306\t1\t2-Intermediate\tTCGA\n21\t225\t1\t2-Intermediate\tTCGA\n59\t254\t1\t2-Intermediate\tBeat\n60\t1242\t0\t2-Intermediate\tTCGA\n73\t4\t1\t1-Favorable\tBeat\n27\t116\t0\t2-Intermediate\tBeat\n70\t1188\t0\t1-Favorable\tBeat\n62\t23\t1\t2-Intermediate\tBeat\n51\t1910\t0\t1-Favorable\tBeat\n76\t39\t1\t\tTCGA\n67\t615\t1\t2-Intermediate\tTCGA\n46\t1159\t0\t1-Favorable\tBeat\n65\t142\t1\t2-Intermediate\tBeat\n73\t22\t1\t2-Intermediate\tBeat\n44\t1856\t0\t1-Favorable\tBeat\n38\t2139\t0\t2-Intermediate\tTCGA\n51\t1263\t0\t2-Intermediate\tTCGA\n32\t1689\t1\t2-Intermediate\tTCGA\n21\t2457\t0\t2-Intermediate\tTCGA\n61\t784\t0\t1-Favorable\tBeat\n51\t678\t0\t2-Intermediate\tTCGA\n31\t198\t1\t2-Intermediate\tTCGA\n25\t345\t1\t2-Intermediate\tTCGA\n35\t510\t1\t3-Adverse\tTCGA\n61\t1578\t0\t2-Intermediate\tTCGA\n73\t15\t1\t3-Adverse\tTCGA\n68\t861\t1\t2-Intermediate\tBeat\n58\t803\t0\t2-Intermediate\tBeat\n62\t1263\t0\t2-Intermediate\tTCGA\n56\t1617\t1\t2-Intermediate\tTCGA\n53\t1833\t0\t1-Favorable\tBeat\n59\t780\t0\t2-Intermediate\tTCGA\n77\t16\t1\t1-Favorable\tBeat\n61\t1891\t0\t1-Favorable\tBeat\n48\t2319\t0\t2-Intermediate\tTCGA\n65\t198\t0\t2-Intermediate\tTCGA\n75\t14\t1\t3-Adverse\tBeat\n57\t852\t1\t2-Intermediate\tTCGA\n69\t1083\t0\t2-Intermediate\tTCGA\n65\t666\t0\t2-Intermediate\tBeat\n62\t1472\t1\t2-Intermediate\tBeat\n47\t263\t0\t1-Favorable\tBeat\n62\t52\t0\t2-Intermediate\tBeat\n43\t120\t1\t3-Adverse\tTCGA\n64\t243\t1\t2-Intermediate\tTCGA\n61\t177\t0\t3-Adverse\tBeat\n51\t981\t0\t2-Intermediate\tTCGA\n66\t156\t1\t2-Intermediate\tTCGA\n58\t978\t0\t3-Adverse\tTCGA\n58\t278\t1\t2-Intermediate\tBeat\n52\t181\t0\t2-Intermediate\tBeat\n53\t128\t1\t2-Intermediate\tBeat\n47\t432\t0\t1-Favorable\tBeat\n66\t231\t1\t2-Intermediate\tTCGA\n49\t1359\t0\t2-Intermediate\tTCGA\n76\t31\t0\t3-Adverse\tBeat\n71\t972\t1\t3-Adverse\tBeat\n48\t33\t1\t2-Intermediate\tBeat\n67\t165\t1\t2-Intermediate\tTCGA\n67\t543\t1\t2-Intermediate\tTCGA\n68\t1404\t1\t2-Intermediate\tTCGA\n55\t668\t0\t3-Adverse\tBeat\n65\t969\t1\t2-Intermediate\tTCGA\n60\t1801\t0\t1-Favorable\tBeat\n71\t162\t1\t3-Adverse\tBeat\n47\t1181\t0\t1-Favorable\tBeat\n75\t159\t1\t3-Adverse\tBeat\n45\t1770\t0\t3-Adverse\tTCGA\n76\t774\t1\t2-Intermediate\tTCGA\n63\t215\t0\t1-Favorable\tBeat\n51\t82\t0\t1-Favorable\tBeat\n65\t2426\t0\t3-Adverse\tBeat\n29\t2383\t0\t3-Adverse\tBeat\n47\t222\t1\t3-Adverse\tTCGA\n55\t243\t1\t2-Intermediate\tTCGA\n42\t878\t0\t3-Adverse\tBeat\n27\t1512\t0\t3-Adverse\tBeat\n62\t317\t1\t3-Adverse\tBeat\n55\t386\t1\t3-Adverse\tBeat\n39\t789\t1\t3-Adverse\tTCGA\n2\t1937\t0\t3-Adverse\tBeat\n22\t328\t1\t3-Adverse\tBeat\n66\t1580\t0\t3-Adverse\tBeat\n61\t0\t1\t3-Adverse\tTCGA\n75\t335\t1\t2-Intermediate\tBeat\n32\t1101\t0\t2-Intermediate\tBeat\n63\t8\t1\t3-Adverse\tBeat\n27\t1455\t0\t3-Adverse\tBeat\n41\t1719\t0\t3-Adverse\tTCGA\n72\t1107\t0\t3-Adverse\tTCGA\n39\t216\t1\t3-Adverse\tBeat\n54\t300\t1\t3-Adverse\tTCGA\n44\t354\t1\t3-Adverse\tTCGA\n41\t732\t0\t\tTCGA\n63\t2208\t0\t2-Intermediate\tTCGA\n47\t529\t0\t3-Adverse\tBeat\n51\t1263\t0\t2-Intermediate\tTCGA\n32\t1689\t1\t2-Intermediate\tTCGA\n21\t2457\t0\t2-Intermediate\tTCGA\n61\t784\t0\t1-Favorable\tBeat\n51\t678\t0\t2-Intermediate\tTCGA\n31\t198\t1\t2-Intermediate\tTCGA\n25\t345\t1\t2-Intermediate\tTCGA\n35\t510\t1\t3-Adverse\tTCGA\n61\t1578\t0\t2-Intermediate\tTCGA\n73\t15\t1\t3-Adverse\tTCGA\n68\t861\t1\t2-Intermediate\tBeat\n58\t803\t0\t2-Intermediate\tBeat\n62\t1263\t0\t2-Intermediate\tTCGA\n56\t1617\t1\t2-Intermediate\tTCGA\n53\t1833\t0\t1-Favorable\tBeat\n59\t780\t0\t2-Intermediate\tTCGA\n77\t16\t1\t1-Favorable\tBeat\n61\t1891\t0\t1-Favorable\tBeat\n48\t2319\t0\t2-Intermediate\tTCGA\n65\t198\t0\t2-Intermediate\tTCGA\n75\t14\t1\t3-Adverse\tBeat\n57\t852\t1\t2-Intermediate\tTCGA\n69\t1083\t0\t2-Intermediate\tTCGA\n65\t666\t0\t2-Intermediate\tBeat\n62\t1472\t1\t2-Intermediate\tBeat\n47\t263\t0\t1-Favorable\tBeat\n62\t52\t0\t2-Intermediate\tBeat\n43\t120\t1\t3-Adverse\tTCGA\n64\t243\t1\t2-Intermediate\tTCGA\n61\t177\t0\t3-Adverse\tBeat\n51\t981\t0\t2-Intermediate\tTCGA\n66\t156\t1\t2-Intermediate\tTCGA\n58\t978\t0\t3-Adverse\tTCGA\n58\t278\t1\t2-Intermediate\tBeat\n52\t181\t0\t2-Intermediate\tBeat\n53\t128\t1\t2-Intermediate\tBeat\n47\t432\t0\t1-Favorable\tBeat\n66\t231\t1\t2-Intermediate\tTCGA\n49\t1359\t0\t2-Intermediate\tTCGA\n76\t31\t0\t3-Adverse\tBeat\n71\t972\t1\t3-Adverse\tBeat\n48\t33\t1\t2-Intermediate\tBeat\n67\t165\t1\t2-Intermediate\tTCGA\n67\t543\t1\t2-Intermediate\tTCGA\n68\t1404\t1\t2-Intermediate\tTCGA\n55\t668\t0\t3-Adverse\tBeat\n65\t969\t1\t2-Intermediate\tTCGA\n60\t1801\t0\t1-Favorable\tBeat\n71\t162\t1\t3-Adverse\tBeat\n47\t1181\t0\t1-Favorable\tBeat\n75\t159\t1\t3-Adverse\tBeat\n45\t1770\t0\t3-Adverse\tTCGA\n76\t774\t1\t2-Intermediate\tTCGA\n63\t215\t0\t1-Favorable\tBeat\n51\t82\t0\t1-Favorable\tBeat\n65\t2426\t0\t3-Adverse\tBeat\n29\t2383\t0\t3-Adverse\tBeat\n47\t222\t1\t3-Adverse\tTCGA\n55\t243\t1\t2-Intermediate\tTCGA\n42\t878\t0\t3-Adverse\tBeat\n27\t1512\t0\t3-Adverse\tBeat\n62\t317\t1\t3-Adverse\tBeat\n55\t386\t1\t3-Adverse\tBeat\n39\t789\t1\t3-Adverse\tTCGA\n2\t1937\t0\t3-Adverse\tBeat\n22\t328\t1\t3-Adverse\tBeat\n66\t1580\t0\t3-Adverse\tBeat\n61\t0\t1\t3-Adverse\tTCGA\n75\t335\t1\t2-Intermediate\tBeat\n32\t1101\t0\t2-Intermediate\tBeat\n63\t8\t1\t3-Adverse\tBeat\n27\t1455\t0\t3-Adverse\tBeat\n41\t1719\t0\t3-Adverse\tTCGA\n72\t1107\t0\t3-Adverse\tTCGA\n39\t216\t1\t3-Adverse\tBeat\n54\t300\t1\t3-Adverse\tTCGA\n44\t354\t1\t3-Adverse\tTCGA\n41\t732\t0\t\tTCGA\n63\t2208\t0\t2-Intermediate\tTCGA\n47\t529\t0\t3-Adverse\tBeat\n"
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "age"
+            },
+            {
+              "value": "os"
+            },
+            {
+              "value": "os_status"
+            },
+            {
+              "value": "risk"
+            },
+            {
+              "value": ""
+            }
+          ]
+        },
+        "general": {
+          "palette": "npg",
+          "size": {
+            "width": 5,
+            "height": 7
+          }
+        }
+      }
+    },
+    {
+      "config": {
+        "dataArg": {
+          "datTable": [
+            {
+              "value": "age"
+            },
+            {
+              "value": "os"
+            },
+            {
+              "value": "os_status"
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": "dataset"
+            }
+          ]
+        },
+        "general": {
+          "size": {
+            "width": 14,
+            "height": 8
+          }
+        }
+      }
+    }
+  ]
+}

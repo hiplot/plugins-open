@@ -1,0 +1,63 @@
+{
+  "data": {
+    "datTable": {
+      "type": "hiplot-textarea",
+      "required": true,
+      "label": "messages.common.dataTable"
+    }
+  },
+  "dataArg": {
+    "datTable": [
+      {
+        "label": "Age"
+      },
+      {
+        "label": "Y",
+        "required": false
+      },
+      {
+        "label": "Group",
+        "required": false,
+        "independent": true
+      },
+      {
+        "label": "Facet",
+        "required": false,
+        "independent": true
+      }
+    ]
+  },
+  "general": {
+    "imageExportType": {
+      "plotly": true
+    }
+  },
+  "extra": {
+    "bar_val": {
+      "type": "combobox",
+      "label": {
+        "en": "Barplot Factor",
+        "zh_cn": "柱状图绘制因子"
+      },
+      "multiple": true,
+      "class": "col-12"
+    },
+    "negative_flag": {
+      "type": "combobox",
+      "label": {
+        "en": "Negative Flag",
+        "zh_cn": "阴性因子水平"
+      },
+      "class": "col-12",
+      "multiple": true
+    },
+    "convert_to_percent": {
+      "type": "switch",
+      "label": {
+        "en": "Percentage Bar",
+        "zh_cn": "百分比柱状图"
+      },
+      "class": "col-12"
+    }
+  }
+}
