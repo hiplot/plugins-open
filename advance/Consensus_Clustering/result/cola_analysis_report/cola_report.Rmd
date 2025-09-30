@@ -1,0 +1,527 @@
+cola Report for Consensus Partitioning
+==================
+
+**Date**: `r format(as.POSIXlt(Sys.time()), usetz = TRUE)`, **cola version**: `r installed.packages()["cola", "Version"]`
+
+----------------------------------------------------------------
+
+<style type='text/css'>
+
+body, td, th {
+   font-family: Arial,Helvetica,sans-serif;
+   background-color: white;
+   font-size: 13px;
+  max-width: 800px;
+  margin: auto;
+  margin-left:210px;
+  padding: 0px 10px 0px 10px;
+  border-left: 1px solid #EEEEEE;
+  line-height: 150%;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, 
+
+monospace;
+}
+
+h1 {
+   font-size:2.2em;
+   line-height:150%;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+   color: #0366d6;
+}
+
+pre, img {
+  max-width: 100%;
+}
+pre {
+  overflow-x: auto;
+}
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: 1px solid #ccc;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+```{r, echo = FALSE, message = NA}
+library(knitr)
+library(markdown)
+options(width = 100)
+options(digits = 3)
+opts_chunk$set(
+    comment = "#>",
+    fig.path = "figure_cola/",
+    warning = FALSE,
+    message = FALSE
+)
+suppressPackageStartupMessages(library(ComplexHeatmap))
+suppressPackageStartupMessages(library(genefilter))
+ht_opt$message = FALSE
+
+n_cores = cola:::get_nc(cores)
+```
+
+
+## Summary
+
+
+
+First the variable is renamed to `res_list`.
+
+```{r, eval = FALSE, echo = TRUE}
+res_list = rl
+```
+
+```{r, echo = FALSE}
+res_list = object
+```
+
+All available functions which can be applied to this `res_list` object:
+
+```{r}
+res_list
+```
+
+The call of `run_all_consensus_partition_methods()` was:
+
+```{r, echo = FALSE}
+cat(paste(deparse(res_list@call, width.cutoff = 80), collapse = "\n"), "\n")
+```
+
+Dimension of the input matrix:
+
+```{r}
+mat = get_matrix(res_list)
+dim(mat)
+```
+
+### Density distribution
+
+The density distribution for each sample is visualized as in one column in the
+following heatmap. The clustering is based on the distance which is the
+Kolmogorov-Smirnov statistic between two distributions.
+
+```{r, echo = FALSE, message = NA}
+t1 = Sys.time()
+message(qq("* making density heatmap of global distribution for each sample (@{ncol(mat)} samples)"), appendLF = FALSE)
+```
+
+```{r density-heatmap}
+library(ComplexHeatmap)
+densityHeatmap(mat, ylab = "value", cluster_columns = TRUE, show_column_names = FALSE,
+    mc.cores = 1)
+```
+
+```{r, echo = FALSE, message = NA}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1))))
+```
+
+```{r, echo = FALSE, message = NA}
+n_top_value_method = length(res_list@top_value_method)
+n_partition_method = length(res_list@partition_method)
+n_method = n_top_value_method * n_partition_method
+message(qq("* top rows are extracted by '@{paste(res_list@top_value_method, collapse = ', ')}' methods"))
+message(qq("* subgroups are detected by '@{paste(res_list@partition_method, collapse = ', ')}' methods"))
+message(qq("  - in total @{n_method} combinations of methods"))
+```
+
+### Suggest the best k
+
+```{r, echo = FALSE, message = NA}
+t1 = Sys.time()
+message("* Suggesting the best k for each method", appendLF = FALSE)
+```
+
+Folowing table shows the best `k` (number of partitions) for each combination
+of top-value methods and partitioning methods. Clicking on the method name in
+the table goes to the corresponding section for a single combination of methods.
+
+[The cola vignette](https://jokergoo.github.io/cola_vignettes/cola.html#toc_13)
+explains the definition of the metrics used for determining the best
+number of partitions.
+
+```{r, eval = FALSE}
+suggest_best_k(res_list)
+```
+
+```{r, echo = FALSE}
+tb = suggest_best_k(res_list)
+rownames(tb) = qq("[@{rownames(tb)}](#@{gsub(':', '-', tolower(rownames(tb)))})", collapse = FALSE)
+if(ncol(tb) == 5) {
+    colnames(tb) = c("The best k", "1-PAC", "Mean silhouette", "Concordance", "")
+} else {
+    colnames(tb) = c("The best k", "1-PAC", "Mean silhouette", "Concordance", "", "Optional k")
+}
+kable(tb)
+```
+
+\*\*: 1-PAC > 0.95, \*: 1-PAC > 0.9
+
+
+```{r, echo = FALSE}
+fs = min(c(3*n_top_value_method, 14))/n_partition_method
+```
+
+### CDF of consensus matrices
+
+Cumulative distribution function curves of consensus matrix for all methods.
+
+```{r, echo = FALSE, message = NA}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message(qq("* making empirical cumulative distribution curves for all methods"), appendLF = FALSE)
+```
+
+```{r collect-plots, fig.width = fs*n_partition_method, fig.height = fs*n_top_value_method, results = "hide"}
+collect_plots(res_list, fun = plot_ecdf)
+```
+
+```{r, echo = FALSE, message = NA}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message(qq("* making consensus heatmaps for all methods"), appendLF = FALSE)
+```
+
+### Consensus heatmap
+
+Consensus heatmaps for all methods. ([What is a consensus heatmap?](https://jokergoo.github.io/cola_vignettes/cola.html#toc_9))
+
+```{r, results = "asis", echo = FALSE, include = TRUE}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - consensus heamtaps for all methods (k = 2)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 2, fun = consensus_heatmap, cores = 1)', 'k = 2', opt = 'fig.width = 15, fig.height = 12, results = "hide"', prefix = 'collect-consensus-heatmap')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - consensus heamtaps for all methods (k = 3)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 3, fun = consensus_heatmap, cores = 1)', 'k = 3', opt = 'fig.width = 15, fig.height = 12, results = "hide"', prefix = 'collect-consensus-heatmap')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - consensus heamtaps for all methods (k = 4)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 4, fun = consensus_heatmap, cores = 1)', 'k = 4', opt = 'fig.width = 15, fig.height = 12, results = "hide"', prefix = 'collect-consensus-heatmap')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - consensus heamtaps for all methods (k = 5)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 5, fun = consensus_heatmap, cores = 1)', 'k = 5', opt = 'fig.width = 15, fig.height = 12, results = "hide"', prefix = 'collect-consensus-heatmap')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - consensus heamtaps for all methods (k = 6)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 6, fun = consensus_heatmap, cores = 1)', 'k = 6', opt = 'fig.width = 15, fig.height = 12, results = "hide"', prefix = 'collect-consensus-heatmap')
+knitr_insert_tabs('collect-consensus-heatmap')
+```
+
+```{r, echo = FALSE, message = NA}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message(qq("* making membership heatmaps for all methods"), appendLF = FALSE)
+```
+
+### Membership heatmap
+
+Membership heatmaps for all methods. ([What is a membership heatmap?](https://jokergoo.github.io/cola_vignettes/cola.html#toc_12))
+
+```{r, results = "asis", echo = FALSE, include = TRUE}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - membership heamtap for all methods (k = 2)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 2, fun = membership_heatmap, cores = 1)', 'k = 2', opt = 'fig.width =15, fig.height = 12, results = "hide"', prefix = 'collect-membership-heatmap')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - membership heamtap for all methods (k = 3)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 3, fun = membership_heatmap, cores = 1)', 'k = 3', opt = 'fig.width =15, fig.height = 12, results = "hide"', prefix = 'collect-membership-heatmap')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - membership heamtap for all methods (k = 4)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 4, fun = membership_heatmap, cores = 1)', 'k = 4', opt = 'fig.width =15, fig.height = 12, results = "hide"', prefix = 'collect-membership-heatmap')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - membership heamtap for all methods (k = 5)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 5, fun = membership_heatmap, cores = 1)', 'k = 5', opt = 'fig.width =15, fig.height = 12, results = "hide"', prefix = 'collect-membership-heatmap')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - membership heamtap for all methods (k = 6)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 6, fun = membership_heatmap, cores = 1)', 'k = 6', opt = 'fig.width =15, fig.height = 12, results = "hide"', prefix = 'collect-membership-heatmap')
+knitr_insert_tabs('collect-membership-heatmap')
+```
+
+```{r, echo = FALSE, message = NA}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message(qq("* making signature heatmaps for all methods"), appendLF = FALSE)
+```
+
+### Signature heatmap
+
+Signature heatmaps for all methods. ([What is a signature heatmap?](https://jokergoo.github.io/cola_vignettes/cola.html#toc_21))
+
+
+Note in following heatmaps, rows are scaled.
+
+
+```{r, results = "asis", echo = FALSE, include = TRUE}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - signature heamtap for all methods (k = 2)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 2, fun = get_signatures, cores = 1)', 'k = 2', opt = 'fig.width = 15, fig.height = 12, results = "hide"', prefix = 'collect-get-signatures')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - signature heamtap for all methods (k = 3)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 3, fun = get_signatures, cores = 1)', 'k = 3', opt = 'fig.width = 15, fig.height = 12, results = "hide"', prefix = 'collect-get-signatures')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - signature heamtap for all methods (k = 4)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 4, fun = get_signatures, cores = 1)', 'k = 4', opt = 'fig.width = 15, fig.height = 12, results = "hide"', prefix = 'collect-get-signatures')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - signature heamtap for all methods (k = 5)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 5, fun = get_signatures, cores = 1)', 'k = 5', opt = 'fig.width = 15, fig.height = 12, results = "hide"', prefix = 'collect-get-signatures')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - signature heamtap for all methods (k = 6)", appendLF = FALSE)
+knitr_add_tab_item('collect_plots(res_list, k = 6, fun = get_signatures, cores = 1)', 'k = 6', opt = 'fig.width = 15, fig.height = 12, results = "hide"', prefix = 'collect-get-signatures')
+knitr_insert_tabs('collect-get-signatures')
+```
+
+```{r, echo = FALSE, message = NA}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message(qq("* getting statistics for all methods"), appendLF = FALSE)
+```
+
+### Statistics table
+
+The statistics used for measuring the stability of consensus partitioning.
+([How are they
+defined?](https://jokergoo.github.io/cola_vignettes/cola.html#toc_13))
+
+```{r, results = "asis", echo = FALSE, include = TRUE}
+knitr_add_tab_item('get_stats(res_list, k = 2)', 'k = 2', prefix = 'get-stats-from-consensus-partition-list')
+knitr_add_tab_item('get_stats(res_list, k = 3)', 'k = 3', prefix = 'get-stats-from-consensus-partition-list')
+knitr_add_tab_item('get_stats(res_list, k = 4)', 'k = 4', prefix = 'get-stats-from-consensus-partition-list')
+knitr_add_tab_item('get_stats(res_list, k = 5)', 'k = 5', prefix = 'get-stats-from-consensus-partition-list')
+knitr_add_tab_item('get_stats(res_list, k = 6)', 'k = 6', prefix = 'get-stats-from-consensus-partition-list')
+knitr_insert_tabs('get-stats-from-consensus-partition-list')
+```
+
+Following heatmap plots the partition for each combination of methods and the
+lightness correspond to the silhouette scores for samples in each method. On
+top the consensus subgroup is inferred from all methods by taking the mean
+silhouette scores as weight.
+
+```{r, results = "asis", echo = FALSE, include = TRUE}
+knitr_add_tab_item('collect_stats(res_list, k = 2)', 'k = 2', opt = 'fig.width = 6, fig.width = 9', prefix = 'collect-stats-from-consensus-partition-list')
+knitr_add_tab_item('collect_stats(res_list, k = 3)', 'k = 3', opt = 'fig.width = 6, fig.width = 9', prefix = 'collect-stats-from-consensus-partition-list')
+knitr_add_tab_item('collect_stats(res_list, k = 4)', 'k = 4', opt = 'fig.width = 6, fig.width = 9', prefix = 'collect-stats-from-consensus-partition-list')
+knitr_add_tab_item('collect_stats(res_list, k = 5)', 'k = 5', opt = 'fig.width = 6, fig.width = 9', prefix = 'collect-stats-from-consensus-partition-list')
+knitr_add_tab_item('collect_stats(res_list, k = 6)', 'k = 6', opt = 'fig.width = 6, fig.width = 9', prefix = 'collect-stats-from-consensus-partition-list')
+knitr_insert_tabs('collect-stats-from-consensus-partition-list')
+```
+
+### Partition from all methods
+
+```{r, echo = FALSE, message = NA}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message(qq("* collecting classifications for all methods"), appendLF = FALSE)
+```
+
+Collect partitions from all methods:
+
+```{r, results = "asis", echo = FALSE, include = TRUE}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - classifications from all methods (k = 2)", appendLF = FALSE)
+knitr_add_tab_item('collect_classes(res_list, k = 2)', 'k = 2', opt = 'fig.width = 9, fig.height = 8', prefix = 'collect-classes-from-consensus-partition-list')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - classifications from all methods (k = 3)", appendLF = FALSE)
+knitr_add_tab_item('collect_classes(res_list, k = 3)', 'k = 3', opt = 'fig.width = 9, fig.height = 8', prefix = 'collect-classes-from-consensus-partition-list')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - classifications from all methods (k = 4)", appendLF = FALSE)
+knitr_add_tab_item('collect_classes(res_list, k = 4)', 'k = 4', opt = 'fig.width = 9, fig.height = 8', prefix = 'collect-classes-from-consensus-partition-list')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - classifications from all methods (k = 5)", appendLF = FALSE)
+knitr_add_tab_item('collect_classes(res_list, k = 5)', 'k = 5', opt = 'fig.width = 9, fig.height = 8', prefix = 'collect-classes-from-consensus-partition-list')
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - classifications from all methods (k = 6)", appendLF = FALSE)
+knitr_add_tab_item('collect_classes(res_list, k = 6)', 'k = 6', opt = 'fig.width = 9, fig.height = 8', prefix = 'collect-classes-from-consensus-partition-list')
+knitr_insert_tabs('collect-classes-from-consensus-partition-list')
+```
+
+```{r, echo = FALSE, message = NA}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message(qq("* overlaping top rows from different top-value methods"), appendLF = FALSE)
+```
+
+### Top rows overlap
+
+
+Overlap of top rows from different top-row methods:
+
+```{r, results = "asis", echo = FALSE, include = TRUE}
+knitr_add_tab_item('top_rows_overlap(res_list, top_n = 123, method = "euler")', 'top_n = 123', opt = 'fig.width = 5, fig.height = 5', prefix = 'top-rows-overlap-by-euler')
+knitr_insert_tabs('top-rows-overlap-by-euler')
+```
+
+Also visualize the correspondance of rankings between different top-row methods:
+
+```{r, results = "asis", echo = FALSE, include = TRUE}
+knitr_add_tab_item('top_rows_overlap(res_list, top_n = 123, method = "correspondance")', 'top_n = 123', opt = 'fig.width = 14, fig.height = 8', prefix = 'top-rows-overlap-by-correspondance')
+knitr_insert_tabs('top-rows-overlap-by-correspondance')
+```
+
+
+Heatmaps of the top rows:
+
+
+```{r, results = "asis", echo = FALSE, include = TRUE}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1)))); t1 = Sys.time()
+message("  - comparing top row methods by heatmap (top_n = 123)", appendLF = FALSE)
+knitr_add_tab_item('top_rows_heatmap(res_list, top_n = 123)', 'top_n = 123', opt = 'fig.width = 14, fig.height = 3.5', prefix = 'top-rows-heatmap')
+knitr_insert_tabs('top-rows-heatmap')
+```
+
+```{r, echo = FALSE, message = NA}
+t2 = Sys.time(); message(paste0(", ", gsub("^ +", "", format(t2 - t1))));
+```
+
+ 
+## Results for each method
+
+```{r, results = "asis", echo = FALSE, message = NA}
+fs = min(c(3*length(res_list@top_value_method), 14))/length(res_list@top_value_method)
+is_hc = FALSE
+single_report = FALSE
+node = NULL
+n_section = n_top_value_method * n_partition_method
+i_section = 0
+comb = expand.grid(res_list@partition_method, res_list@top_value_method, stringsAsFactors = FALSE)[, 2:1]
+.e = environment()
+md_list = lapply(seq_len(nrow(comb)), function(ind) {
+    i_section = ind
+    top_value_method = comb[ind, 1]
+    partition_method = comb[ind, 2]
+    
+    tmpfile = tempfile(tmpdir = .ENV$TEMP_DIR)
+    brew(file.path(TEMPLATE_DIR, "section_template.Rmd-template"), tmpfile)
+    rmd = paste(readLines(tmpfile), collapse = "\n")
+    file.remove(tmpfile)
+    ComplexHeatmap:::dev.null()
+    txt = knit(text = rmd, quiet = TRUE, envir = .e)
+    devlt = dev.list()
+    if(names(devlt)[1] == "quartz_off_screen") {
+        invisible(dev.off())
+    }
+    dev.off()
+    return(txt)
+})
+
+for(i in seq_along(md_list)) {
+    cat(md_list[[i]], "\n")
+}
+```
+
+## Session info
+
+```{r}
+sessionInfo()
+```
+
+```{r, echo = FALSE, message = NA}
+message("-----------------------------------------------------------------")
+```
+
+
+<script type="text/javascript">
+$(function() {
+    $("#TOC > ul > li > a").remove();
+}); 
+</script>
